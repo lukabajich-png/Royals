@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T22:19:17.510Z",
+  "updatedAt": "2026-08-03T23:35:58.046Z",
   "season": 2026,
   "levels": [
     {
@@ -724,6 +724,28 @@
           "hasStats": true
         },
         {
+          "id": 679922,
+          "name": "Carlos Duran",
+          "profileUrl": "https://www.mlb.com/player/carlos-duran-679922",
+          "pos": "P",
+          "jersey": "",
+          "status": "Not Yet Reported",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false
+        },
+        {
           "id": 608032,
           "name": "Carlos Estévez",
           "profileUrl": "https://www.mlb.com/player/carlos-estevez-608032",
@@ -810,28 +832,6 @@
           "ip": null,
           "so": null,
           "hasStats": false
-        },
-        {
-          "id": 663460,
-          "name": "Kris Bubic",
-          "profileUrl": "https://www.mlb.com/player/kris-bubic-663460",
-          "pos": "P",
-          "jersey": "50",
-          "status": "Injured 60-Day",
-          "team": "Kansas City Royals",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 9,
-          "w": 3,
-          "l": 2,
-          "sv": 0,
-          "era": "4.11",
-          "whip": "1.23",
-          "ip": "50.1",
-          "so": 51,
-          "hasStats": true
         },
         {
           "id": 679883,
