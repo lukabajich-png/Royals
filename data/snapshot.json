@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T13:25:42.283Z",
+  "updatedAt": "2026-08-03T16:02:44.563Z",
   "season": 2026,
   "levels": [
     {
@@ -2513,28 +2513,6 @@
           "hasStats": true
         },
         {
-          "id": 699321,
-          "name": "Diego Guzman",
-          "profileUrl": "https://www.mlb.com/player/diego-guzman-699321",
-          "pos": "3B",
-          "jersey": "25",
-          "status": "Active",
-          "team": "Quad Cities River Bandits",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 31,
-          "avg": ".154",
-          "obp": ".245",
-          "slg": ".209",
-          "ops": ".454",
-          "hr": 0,
-          "rbi": 10,
-          "sb": 4,
-          "hasStats": true
-        },
-        {
           "id": 805075,
           "name": "Erick Torres",
           "profileUrl": "https://www.mlb.com/player/erick-torres-805075",
@@ -3365,28 +3343,6 @@
           "hr": 5,
           "rbi": 34,
           "sb": 21,
-          "hasStats": true
-        },
-        {
-          "id": 800548,
-          "name": "Josi Novas",
-          "profileUrl": "https://www.mlb.com/player/josi-novas-800548",
-          "pos": "SS",
-          "jersey": "6",
-          "status": "Active",
-          "team": "Columbia Fireflies",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 25,
-          "avg": ".133",
-          "obp": ".197",
-          "slg": ".217",
-          "ops": ".414",
-          "hr": 1,
-          "rbi": 4,
-          "sb": 2,
           "hasStats": true
         },
         {
