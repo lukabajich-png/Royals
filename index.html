@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Royals Farm System Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<style>
+  html, body { margin: 0; padding: 0; background: #071a33; }
+  #root { min-height: 100vh; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" data-presets="react">
+const { useState, useEffect, useCallback, useMemo } = React;
+
+
+// ---------------------------------------------------------------------------
+// Data layer — reads the pre-fetched snapshot at ./data/snapshot.json instead
+// of calling MLB's Stats API directly from the browser. That file is written
+// by scripts/fetch-data.js, which a GitHub Actions workflow runs on a
+// schedule (see .github/workflows/update-data.yml) and commits back to the
+// repo. This keeps the page fast and avoids hitting MLB's API on every
+// visitor's browser — everyone just reads the same static JSON.
+// ---------------------------------------------------------------------------
+async function fetchSnapshot() {
+  // Cache-bust so the browser doesn't serve a stale cached copy of the JSON.
+  const res = await fetch(`./data/snapshot.json?t=${Date.now()}`);
+  if (!res.ok) throw new Error(`Couldn't load data/snapshot.json (${res.status})`);
+  return res.json();
+}
+
+
+// ---------------------------------------------------------------------------
+// Small utilities
+// ---------------------------------------------------------------------------
+function fmt(val, fallback = "—") {
+  return val === null || val === undefined || val === "" ? fallback : val;
+}
+
+function formatAgo(date) {
+  if (!date) return null;
+  const secs = Math.max(0, Math.floor((Date.now() - date.getTime()) / 1000));
+  if (secs < 5) return "just now";
+  if (secs < 60) return `${secs}s ago`;
+  const mins = Math.floor(secs / 60);
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.floor(mins / 60);
+  return `${hrs}h ago`;
+}
+
+function sortRows(rows, key, dir) {
+  const sorted = [...rows].sort((a, b) => {
+    const av = a[key];
+    const bv = b[key];
+    const aMissing = av === null || av === undefined || av === "";
+    const bMissing = bv === null || bv === undefined || bv === "";
+    if (aMissing && bMissing) return 0;
+    if (aMissing) return 1;
+    if (bMissing) return -1;
+    if (typeof av === "string" && typeof bv === "string") {
+      return dir === "asc" ? av.localeCompare(bv) : bv.localeCompare(av);
+    }
+    return dir === "asc" ? av - bv : bv - av;
+  });
+  return sorted;
+}
+
+// ---------------------------------------------------------------------------
+// UI
+// ---------------------------------------------------------------------------
+function SortHeader({ label, sortKey, active, onSort, align = "right" }) {
+  const isActive = active.key === sortKey;
+  return (
+    <th
+      onClick={() => onSort(sortKey)}
+      style={{
+        textAlign: align,
+        cursor: "pointer",
+        userSelect: "none",
+        padding: "8px 10px",
+        fontFamily: "'Oswald', sans-serif",
+        fontSize: 12,
+        letterSpacing: "0.06em",
+        textTransform: "uppercase",
+        color: isActive ? "#c8a04b" : "#8fa3c4",
+        whiteSpace: "nowrap",
+        borderBottom: "2px solid #1e3a63",
+      }}
+    >
+      {label}
+      {isActive ? (active.dir === "asc" ? " ▲" : " ▼") : ""}
+    </th>
+  );
+}
+
+function RankBadges({ orgRank, top100Rank }) {
+  if (!orgRank && !top100Rank) return null;
+  return (
+    <span style={{ display: "inline-flex", gap: 4, marginRight: 7 }}>
+      {orgRank && (
+        <span title={`Royals Top 30 — #${orgRank}`} style={orgBadgeStyle}>
+          #{orgRank}
+        </span>
+      )}
+      {top100Rank && (
+        <span title={`MLB Top 100 — #${top100Rank}`} style={top100BadgeStyle}>
+          #{top100Rank}
+        </span>
+      )}
+    </span>
+  );
+}
+
+const orgBadgeStyle = {
+  fontFamily: "'Oswald', sans-serif",
+  fontSize: 10,
+  fontWeight: 700,
+  color: "#08192f",
+  background: "#5ec8f2",
+  borderRadius: 3,
+  padding: "2px 5px",
+  letterSpacing: "0.02em",
+};
+
+const top100BadgeStyle = {
+  fontFamily: "'Oswald', sans-serif",
+  fontSize: 10,
+  fontWeight: 700,
+  color: "#08192f",
+  background: "#c8a04b",
+  borderRadius: 3,
+  padding: "2px 5px",
+  letterSpacing: "0.02em",
+};
+
+function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, showHandedness, showStatus }) {
+  const onSort = (key) =>
+    setSort((s) => ({ key, dir: s.key === key && s.dir === "desc" ? "asc" : "desc" }));
+  const sorted = useMemo(() => sortRows(rows, sort.key, sort.dir), [rows, sort]);
+  const sortedReserve = useMemo(() => sortRows(reserveRows, "name", "asc"), [reserveRows]);
+
+  if (rows.length === 0 && reserveRows.length === 0) return null;
+
+  return (
+    <div style={{ overflowX: "auto", marginBottom: 32 }}>
+      <div style={sectionLabelStyle}>Hitters</div>
+      {rows.length > 0 && (
+        <table style={tableStyle}>
+          <thead>
+            <tr>
+              <th style={{ ...thBase, textAlign: "left" }}>#</th>
+              <SortHeader label="Player" sortKey="name" active={sort} onSort={onSort} align="left" />
+              <th style={{ ...thBase, textAlign: "left" }}>Pos</th>
+              {showLevel && <SortHeader label="Level" sortKey="level" active={sort} onSort={onSort} align="left" />}
+              {showTeam && <SortHeader label="Team" sortKey="team" active={sort} onSort={onSort} align="left" />}
+              {showHandedness && <th style={{ ...thBase, textAlign: "left" }}>B/T</th>}
+              <SortHeader label="G" sortKey="g" active={sort} onSort={onSort} />
+              <SortHeader label="AVG" sortKey="avg" active={sort} onSort={onSort} />
+              <SortHeader label="OBP" sortKey="obp" active={sort} onSort={onSort} />
+              <SortHeader label="SLG" sortKey="slg" active={sort} onSort={onSort} />
+              <SortHeader label="OPS" sortKey="ops" active={sort} onSort={onSort} />
+              <SortHeader label="HR" sortKey="hr" active={sort} onSort={onSort} />
+              <SortHeader label="RBI" sortKey="rbi" active={sort} onSort={onSort} />
+              <SortHeader label="SB" sortKey="sb" active={sort} onSort={onSort} />
+              {showStatus && <th style={{ ...thBase, textAlign: "left" }}>Status</th>}
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((p, i) => (
+              <tr key={p.id} style={{ background: i % 2 ? "rgba(255,255,255,0.02)" : "transparent" }}>
+                <td style={{ ...tdBase, color: "#5f7ba3" }}>{fmt(p.jersey)}</td>
+                <td style={{ ...tdBase, textAlign: "left" }}>
+                  <RankBadges orgRank={p.orgRank} top100Rank={p.top100Rank} />
+                  <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
+                    {p.name}
+                  </a>
+                </td>
+                <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.pos}</td>
+                {showLevel && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.level}</td>}
+                {showTeam && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.team}</td>}
+                {showHandedness && (
+                  <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>
+                    {fmt(p.bats)}/{fmt(p.throws)}
+                  </td>
+                )}
+                <td style={tdStat}>{fmt(p.g)}</td>
+                <td style={tdStat}>{fmt(p.avg)}</td>
+                <td style={tdStat}>{fmt(p.obp)}</td>
+                <td style={tdStat}>{fmt(p.slg)}</td>
+                <td style={{ ...tdStat, color: "#c8a04b" }}>{fmt(p.ops)}</td>
+                <td style={tdStat}>{fmt(p.hr)}</td>
+                <td style={tdStat}>{fmt(p.rbi)}</td>
+                <td style={tdStat}>{fmt(p.sb)}</td>
+                {showStatus && <td style={{ ...tdBase, textAlign: "left", color: "#e6b8c2" }}>{p.status}</td>}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+
+      {reserveRows.length > 0 && (
+        <details style={{ marginTop: rows.length > 0 ? 14 : 0 }}>
+          <summary style={reserveSummaryStyle}>
+            Injured &amp; Reserve — Hitters{" "}
+            <span style={{ color: "#8fa3c4", fontWeight: 400 }}>({reserveRows.length})</span>
+          </summary>
+          <table style={{ ...tableStyle, marginTop: 10 }}>
+            <thead>
+              <tr>
+                <th style={{ ...thBase, textAlign: "left" }}>#</th>
+                <th style={{ ...thBase, textAlign: "left" }}>Player</th>
+                <th style={{ ...thBase, textAlign: "left" }}>Pos</th>
+                {showTeam && <th style={{ ...thBase, textAlign: "left" }}>Team</th>}
+                <th style={{ ...thBase, textAlign: "right" }}>G</th>
+                <th style={{ ...thBase, textAlign: "right" }}>AVG</th>
+                <th style={{ ...thBase, textAlign: "right" }}>OBP</th>
+                <th style={{ ...thBase, textAlign: "right" }}>SLG</th>
+                <th style={{ ...thBase, textAlign: "right" }}>OPS</th>
+                <th style={{ ...thBase, textAlign: "right" }}>HR</th>
+                <th style={{ ...thBase, textAlign: "right" }}>RBI</th>
+                <th style={{ ...thBase, textAlign: "right" }}>SB</th>
+                <th style={{ ...thBase, textAlign: "left" }}>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sortedReserve.map((p, i) => (
+                <tr key={p.id} style={{ background: i % 2 ? "rgba(255,255,255,0.02)" : "transparent" }}>
+                  <td style={{ ...tdBase, color: "#5f7ba3" }}>{fmt(p.jersey)}</td>
+                  <td style={{ ...tdBase, textAlign: "left" }}>
+                    <RankBadges orgRank={p.orgRank} top100Rank={p.top100Rank} />
+                    <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
+                      {p.name}
+                    </a>
+                  </td>
+                  <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.pos}</td>
+                  {showTeam && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.team}</td>}
+                  <td style={tdStat}>{fmt(p.g)}</td>
+                  <td style={tdStat}>{fmt(p.avg)}</td>
+                  <td style={tdStat}>{fmt(p.obp)}</td>
+                  <td style={tdStat}>{fmt(p.slg)}</td>
+                  <td style={{ ...tdStat, color: "#c8a04b" }}>{fmt(p.ops)}</td>
+                  <td style={tdStat}>{fmt(p.hr)}</td>
+                  <td style={tdStat}>{fmt(p.rbi)}</td>
+                  <td style={tdStat}>{fmt(p.sb)}</td>
+                  <td style={{ ...tdBase, textAlign: "left", color: "#e6b8c2" }}>{p.status}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </details>
+      )}
+    </div>
+  );
+}
+
+function PitchersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, showHandedness, showStatus }) {
+  const onSort = (key) =>
+    setSort((s) => ({ key, dir: s.key === key && s.dir === "asc" ? "desc" : "asc" }));
+  const sorted = useMemo(() => sortRows(rows, sort.key, sort.dir), [rows, sort]);
+  const sortedReserve = useMemo(() => sortRows(reserveRows, "name", "asc"), [reserveRows]);
+
+  if (rows.length === 0 && reserveRows.length === 0) return null;
+
+  return (
+    <div style={{ overflowX: "auto" }}>
+      <div style={sectionLabelStyle}>Pitchers</div>
+      {rows.length > 0 && (
+        <table style={tableStyle}>
+          <thead>
+            <tr>
+              <th style={{ ...thBase, textAlign: "left" }}>#</th>
+              <SortHeader label="Player" sortKey="name" active={sort} onSort={onSort} align="left" />
+              {showLevel && <SortHeader label="Level" sortKey="level" active={sort} onSort={onSort} align="left" />}
+              {showTeam && <SortHeader label="Team" sortKey="team" active={sort} onSort={onSort} align="left" />}
+              {showHandedness && <th style={{ ...thBase, textAlign: "left" }}>Throws</th>}
+              <SortHeader label="G" sortKey="g" active={sort} onSort={onSort} />
+              <SortHeader label="W" sortKey="w" active={sort} onSort={onSort} />
+              <SortHeader label="L" sortKey="l" active={sort} onSort={onSort} />
+              <SortHeader label="SV" sortKey="sv" active={sort} onSort={onSort} />
+              <SortHeader label="ERA" sortKey="era" active={sort} onSort={onSort} />
+              <SortHeader label="WHIP" sortKey="whip" active={sort} onSort={onSort} />
+              <SortHeader label="IP" sortKey="ip" active={sort} onSort={onSort} />
+              <SortHeader label="SO" sortKey="so" active={sort} onSort={onSort} />
+              {showStatus && <th style={{ ...thBase, textAlign: "left" }}>Status</th>}
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((p, i) => (
+              <tr key={p.id} style={{ background: i % 2 ? "rgba(255,255,255,0.02)" : "transparent" }}>
+                <td style={tdBase}>{fmt(p.jersey)}</td>
+                <td style={{ ...tdBase, textAlign: "left" }}>
+                  <RankBadges orgRank={p.orgRank} top100Rank={p.top100Rank} />
+                  <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
+                    {p.name}
+                  </a>
+                </td>
+                {showLevel && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.level}</td>}
+                {showTeam && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.team}</td>}
+                {showHandedness && (
+                  <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{fmt(p.throws)}</td>
+                )}
+                <td style={tdStat}>{fmt(p.g)}</td>
+                <td style={tdStat}>{fmt(p.w)}</td>
+                <td style={tdStat}>{fmt(p.l)}</td>
+                <td style={tdStat}>{fmt(p.sv)}</td>
+                <td style={{ ...tdStat, color: "#c8a04b" }}>{fmt(p.era)}</td>
+                <td style={tdStat}>{fmt(p.whip)}</td>
+                <td style={tdStat}>{fmt(p.ip)}</td>
+                <td style={tdStat}>{fmt(p.so)}</td>
+                {showStatus && <td style={{ ...tdBase, textAlign: "left", color: "#e6b8c2" }}>{p.status}</td>}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+
+      {reserveRows.length > 0 && (
+        <details style={{ marginTop: rows.length > 0 ? 14 : 0 }}>
+          <summary style={reserveSummaryStyle}>
+            Injured &amp; Reserve — Pitchers{" "}
+            <span style={{ color: "#8fa3c4", fontWeight: 400 }}>({reserveRows.length})</span>
+          </summary>
+          <table style={{ ...tableStyle, marginTop: 10 }}>
+            <thead>
+              <tr>
+                <th style={{ ...thBase, textAlign: "left" }}>#</th>
+                <th style={{ ...thBase, textAlign: "left" }}>Player</th>
+                {showTeam && <th style={{ ...thBase, textAlign: "left" }}>Team</th>}
+                <th style={{ ...thBase, textAlign: "right" }}>G</th>
+                <th style={{ ...thBase, textAlign: "right" }}>W</th>
+                <th style={{ ...thBase, textAlign: "right" }}>L</th>
+                <th style={{ ...thBase, textAlign: "right" }}>SV</th>
+                <th style={{ ...thBase, textAlign: "right" }}>ERA</th>
+                <th style={{ ...thBase, textAlign: "right" }}>WHIP</th>
+                <th style={{ ...thBase, textAlign: "right" }}>IP</th>
+                <th style={{ ...thBase, textAlign: "right" }}>SO</th>
+                <th style={{ ...thBase, textAlign: "left" }}>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sortedReserve.map((p, i) => (
+                <tr key={p.id} style={{ background: i % 2 ? "rgba(255,255,255,0.02)" : "transparent" }}>
+                  <td style={tdBase}>{fmt(p.jersey)}</td>
+                  <td style={{ ...tdBase, textAlign: "left" }}>
+                    <RankBadges orgRank={p.orgRank} top100Rank={p.top100Rank} />
+                    <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
+                      {p.name}
+                    </a>
+                  </td>
+                  {showTeam && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.team}</td>}
+                  <td style={tdStat}>{fmt(p.g)}</td>
+                  <td style={tdStat}>{fmt(p.w)}</td>
+                  <td style={tdStat}>{fmt(p.l)}</td>
+                  <td style={tdStat}>{fmt(p.sv)}</td>
+                  <td style={{ ...tdStat, color: "#c8a04b" }}>{fmt(p.era)}</td>
+                  <td style={tdStat}>{fmt(p.whip)}</td>
+                  <td style={tdStat}>{fmt(p.ip)}</td>
+                  <td style={tdStat}>{fmt(p.so)}</td>
+                  <td style={{ ...tdBase, textAlign: "left", color: "#e6b8c2" }}>{p.status}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </details>
+      )}
+    </div>
+  );
+}
+
+const reserveSummaryStyle = {
+  cursor: "pointer",
+  fontFamily: "'Oswald', sans-serif",
+  fontSize: 13,
+  letterSpacing: "0.1em",
+  textTransform: "uppercase",
+  color: "#e6b8c2",
+  userSelect: "none",
+  padding: "8px 0",
+};
+
+const playerLinkStyle = {
+  color: "#eef1f5",
+  fontWeight: 600,
+  textDecoration: "none",
+  borderBottom: "1px solid transparent",
+};
+
+const tableStyle = { width: "100%", borderCollapse: "collapse", fontFamily: "'IBM Plex Mono', monospace" };
+const thBase = {
+  padding: "8px 10px",
+  fontFamily: "'Oswald', sans-serif",
+  fontSize: 12,
+  letterSpacing: "0.06em",
+  textTransform: "uppercase",
+  color: "#8fa3c4",
+  borderBottom: "2px solid #1e3a63",
+};
+const tdBase = { padding: "9px 10px", fontSize: 13, borderBottom: "1px solid #16294a", color: "#c3d0e6" };
+const tdStat = { ...tdBase, textAlign: "right" };
+const sectionLabelStyle = {
+  fontFamily: "'Oswald', sans-serif",
+  fontSize: 13,
+  letterSpacing: "0.14em",
+  textTransform: "uppercase",
+  color: "#c8a04b",
+  borderLeft: "3px solid #c8a04b",
+  paddingLeft: 10,
+  marginBottom: 10,
+};
+
+function RoyalsFarmTracker() {
+  const [snapshot, setSnapshot] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [activeSportId, setActiveSportId] = useState(null);
+  const [viewMode, setViewMode] = useState("byLevel"); // "byLevel" | "top30"
+
+  const [search, setSearch] = useState("");
+  const [hitterSort, setHitterSort] = useState({ key: "ops", dir: "desc" });
+  const [pitcherSort, setPitcherSort] = useState({ key: "era", dir: "asc" });
+  const [prospectHitterSort, setProspectHitterSort] = useState({ key: "orgRank", dir: "asc" });
+  const [prospectPitcherSort, setProspectPitcherSort] = useState({ key: "orgRank", dir: "asc" });
+
+  const [autoRefresh, setAutoRefresh] = useState(true);
+  const [checkedAt, setCheckedAt] = useState(null); // when this browser last pulled the JSON
+  const [, forceTick] = useState(0); // re-renders just to keep the "checked Xs ago" text live
+
+  const loadSnapshot = useCallback(() => {
+    setLoading(true);
+    setError(null);
+    fetchSnapshot()
+      .then((data) => {
+        setSnapshot(data);
+        setActiveSportId((prev) => prev ?? data.levels[0]?.sportId ?? null);
+        setCheckedAt(new Date());
+      })
+      .catch((e) => setError(e.message))
+      .finally(() => setLoading(false));
+  }, []);
+
+  // Initial load
+  useEffect(() => {
+    loadSnapshot();
+  }, [loadSnapshot]);
+
+  // Auto-refresh: just re-pulls the (small, static) JSON file on an interval — cheap, since
+  // there's no live API call involved anymore, just a fetch of whatever the GitHub Actions
+  // workflow last committed. A 1s tick separately keeps the "checked Xs ago" text live.
+  const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
+  useEffect(() => {
+    if (!autoRefresh) return;
+    const id = setInterval(loadSnapshot, REFRESH_INTERVAL_MS);
+    return () => clearInterval(id);
+  }, [autoRefresh, loadSnapshot]);
+
+  useEffect(() => {
+    const id = setInterval(() => forceTick((t) => t + 1), 1000);
+    return () => clearInterval(id);
+  }, []);
+
+  const levels = snapshot?.levels || [];
+  const activeLevel = levels.find((l) => l.sportId === activeSportId) || null;
+
+  const filteredHitters = useMemo(() => {
+    if (!activeLevel) return [];
+    const q = search.trim().toLowerCase();
+    return q ? activeLevel.hitters.filter((p) => p.name.toLowerCase().includes(q)) : activeLevel.hitters;
+  }, [activeLevel, search]);
+
+  const filteredPitchers = useMemo(() => {
+    if (!activeLevel) return [];
+    const q = search.trim().toLowerCase();
+    return q ? activeLevel.pitchers.filter((p) => p.name.toLowerCase().includes(q)) : activeLevel.pitchers;
+  }, [activeLevel, search]);
+
+  const filteredReserveHitters = useMemo(() => {
+    if (!activeLevel) return [];
+    const q = search.trim().toLowerCase();
+    return q
+      ? activeLevel.reserveHitters.filter((p) => p.name.toLowerCase().includes(q))
+      : activeLevel.reserveHitters;
+  }, [activeLevel, search]);
+
+  const filteredReservePitchers = useMemo(() => {
+    if (!activeLevel) return [];
+    const q = search.trim().toLowerCase();
+    return q
+      ? activeLevel.reservePitchers.filter((p) => p.name.toLowerCase().includes(q))
+      : activeLevel.reservePitchers;
+  }, [activeLevel, search]);
+
+  const filteredProspectHitters = useMemo(() => {
+    if (!snapshot) return [];
+    const q = search.trim().toLowerCase();
+    return q
+      ? snapshot.prospects.hitters.filter((p) => p.name.toLowerCase().includes(q))
+      : snapshot.prospects.hitters;
+  }, [snapshot, search]);
+
+  const filteredProspectPitchers = useMemo(() => {
+    if (!snapshot) return [];
+    const q = search.trim().toLowerCase();
+    return q
+      ? snapshot.prospects.pitchers.filter((p) => p.name.toLowerCase().includes(q))
+      : snapshot.prospects.pitchers;
+  }, [snapshot, search]);
+
+  return (
+    <div
+      style={{
+        minHeight: "100%",
+        background: "linear-gradient(180deg, #071a33 0%, #0c2445 55%, #0a1f3d 100%)",
+        color: "#eef1f5",
+        fontFamily: "'IBM Plex Mono', monospace",
+        padding: "28px 20px 40px",
+      }}
+    >
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+        * { box-sizing: border-box; }
+        ::-webkit-scrollbar { height: 8px; width: 8px; }
+        ::-webkit-scrollbar-thumb { background: #1e3a63; border-radius: 4px; }
+        button:focus-visible, th:focus-visible { outline: 2px solid #c8a04b; outline-offset: 2px; }
+        a:hover { border-bottom-color: #c8a04b !important; color: #c8a04b !important; }
+      `}</style>
+
+      {/* Header */}
+      <div style={{ maxWidth: 980, margin: "0 auto 22px" }}>
+        <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
+          <div>
+            <div style={{ fontFamily: "'Oswald', sans-serif", fontSize: 12, letterSpacing: "0.3em", color: "#c8a04b", marginBottom: 4 }}>
+              KANSAS CITY ROYALS · ORGANIZATION REPORT
+            </div>
+            <h1 style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700, fontSize: 34, margin: 0, letterSpacing: "0.01em" }}>
+              Farm System Tracker
+            </h1>
+          </div>
+          {snapshot && (
+            <div style={{ fontFamily: "'Oswald', sans-serif", fontSize: 12, letterSpacing: "0.08em", color: "#8fa3c4" }}>
+              SEASON <span style={{ color: "#eef1f5" }}>{snapshot.season}</span>
+            </div>
+          )}
+        </div>
+
+        <div style={{ display: "flex", alignItems: "center", gap: 12, marginTop: 10, flexWrap: "wrap" }}>
+          <button
+            onClick={() => setAutoRefresh((v) => !v)}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+              background: "transparent",
+              border: "1px solid #1e3a63",
+              borderRadius: 4,
+              padding: "5px 10px",
+              cursor: "pointer",
+              fontFamily: "'Oswald', sans-serif",
+              fontSize: 11,
+              letterSpacing: "0.06em",
+              textTransform: "uppercase",
+              color: autoRefresh ? "#5ec8f2" : "#8fa3c4",
+            }}
+          >
+            <span
+              style={{
+                width: 8,
+                height: 8,
+                borderRadius: "50%",
+                background: autoRefresh ? "#5ec8f2" : "#3a4f70",
+                display: "inline-block",
+              }}
+            />
+            Auto-refresh {autoRefresh ? "on" : "off"} (5m)
+          </button>
+          <button
+            onClick={loadSnapshot}
+            style={{
+              background: "transparent",
+              border: "1px solid #1e3a63",
+              borderRadius: 4,
+              padding: "5px 10px",
+              cursor: "pointer",
+              fontFamily: "'Oswald', sans-serif",
+              fontSize: 11,
+              letterSpacing: "0.06em",
+              textTransform: "uppercase",
+              color: "#8fa3c4",
+            }}
+          >
+            Refresh now
+          </button>
+          {checkedAt && (
+            <span style={{ fontSize: 11, color: "#4d6690", fontFamily: "'IBM Plex Mono', monospace" }}>
+              Checked {formatAgo(checkedAt)}
+            </span>
+          )}
+          {snapshot?.updatedAt && (
+            <span style={{ fontSize: 11, color: "#4d6690", fontFamily: "'IBM Plex Mono', monospace" }}>
+              · Data as of {formatAgo(new Date(snapshot.updatedAt))}
+            </span>
+          )}
+        </div>
+      </div>
+
+      {/* View mode toggle */}
+      <div style={{ maxWidth: 980, margin: "0 auto 14px", display: "flex", gap: 2 }}>
+        {[
+          { id: "byLevel", label: "By Level" },
+          { id: "top30", label: "Royals Top 30" },
+        ].map((m) => {
+          const isActive = viewMode === m.id;
+          return (
+            <button
+              key={m.id}
+              onClick={() => setViewMode(m.id)}
+              style={{
+                padding: "7px 14px",
+                background: isActive ? "#5ec8f2" : "transparent",
+                color: isActive ? "#08192f" : "#8fa3c4",
+                border: `1px solid ${isActive ? "#5ec8f2" : "#1e3a63"}`,
+                borderRadius: 4,
+                fontFamily: "'Oswald', sans-serif",
+                fontWeight: 600,
+                fontSize: 12,
+                letterSpacing: "0.06em",
+                textTransform: "uppercase",
+                cursor: "pointer",
+              }}
+            >
+              {m.label}
+            </button>
+          );
+        })}
+      </div>
+
+      {loading && !snapshot ? (
+        <div style={{ maxWidth: 980, margin: "0 auto" }}>
+          <div style={pulseStyle}>LOADING SNAPSHOT…</div>
+        </div>
+      ) : error && !snapshot ? (
+        <div style={{ maxWidth: 980, margin: "0 auto" }}>
+          <ErrorBox message={error} onRetry={loadSnapshot} />
+        </div>
+      ) : (
+        <>
+          {/* Level tabs — scoreboard strip */}
+          {viewMode === "byLevel" && (
+            <div style={{ maxWidth: 980, margin: "0 auto 18px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  gap: 2,
+                  background: "#08192f",
+                  border: "1px solid #1e3a63",
+                  borderRadius: 6,
+                  padding: 4,
+                  overflowX: "auto",
+                }}
+              >
+                {levels.map((lv) => {
+                  const isActive = lv.sportId === activeSportId;
+                  return (
+                    <button
+                      key={lv.sportId}
+                      onClick={() => setActiveSportId(lv.sportId)}
+                      style={{
+                        flex: "1 1 auto",
+                        whiteSpace: "nowrap",
+                        padding: "10px 14px",
+                        background: isActive ? "#c8a04b" : "transparent",
+                        color: isActive ? "#08192f" : "#8fa3c4",
+                        border: "none",
+                        borderRadius: 4,
+                        fontFamily: "'Oswald', sans-serif",
+                        fontWeight: 600,
+                        fontSize: 13,
+                        letterSpacing: "0.05em",
+                        textTransform: "uppercase",
+                        cursor: "pointer",
+                      }}
+                    >
+                      {lv.shortName}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* Active level content */}
+          {viewMode === "byLevel" && activeLevel && (
+            <div style={{ maxWidth: 980, margin: "0 auto" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16, flexWrap: "wrap", gap: 10 }}>
+                <div>
+                  <div style={{ fontSize: 18, fontWeight: 600 }}>
+                    {activeLevel.teams.map((t) => t.teamName).join("  ·  ")}
+                  </div>
+                  <div style={{ fontSize: 12, color: "#8fa3c4" }}>{activeLevel.sportName}</div>
+                </div>
+                <input
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  placeholder="Search player…"
+                  style={{
+                    background: "#0f2a4d",
+                    color: "#eef1f5",
+                    border: "1px solid #1e3a63",
+                    borderRadius: 4,
+                    padding: "8px 12px",
+                    fontFamily: "'IBM Plex Mono', monospace",
+                    fontSize: 13,
+                    minWidth: 200,
+                  }}
+                />
+              </div>
+
+              {filteredHitters.length === 0 &&
+              filteredPitchers.length === 0 &&
+              filteredReserveHitters.length === 0 &&
+              filteredReservePitchers.length === 0 ? (
+                <div style={{ color: "#8fa3c4", fontSize: 13, padding: "20px 4px" }}>
+                  No players match "{search}".
+                </div>
+              ) : (
+                <>
+                  <HittersTable
+                    rows={filteredHitters}
+                    reserveRows={filteredReserveHitters}
+                    sort={hitterSort}
+                    setSort={setHitterSort}
+                    showTeam={activeLevel.teams.length > 1}
+                  />
+                  <PitchersTable
+                    rows={filteredPitchers}
+                    reserveRows={filteredReservePitchers}
+                    sort={pitcherSort}
+                    setSort={setPitcherSort}
+                    showTeam={activeLevel.teams.length > 1}
+                  />
+                </>
+              )}
+            </div>
+          )}
+
+          {/* Royals Top 30 — every ranked prospect across the whole org, one page */}
+          {viewMode === "top30" && snapshot && (
+            <div style={{ maxWidth: 980, margin: "0 auto" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16, flexWrap: "wrap", gap: 10 }}>
+                <div>
+                  <div style={{ fontSize: 18, fontWeight: 600 }}>Royals Top 30 Prospects</div>
+                  <div style={{ fontSize: 12, color: "#8fa3c4" }}>Across every level</div>
+                </div>
+                <input
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  placeholder="Search player…"
+                  style={{
+                    background: "#0f2a4d",
+                    color: "#eef1f5",
+                    border: "1px solid #1e3a63",
+                    borderRadius: 4,
+                    padding: "8px 12px",
+                    fontFamily: "'IBM Plex Mono', monospace",
+                    fontSize: 13,
+                    minWidth: 200,
+                  }}
+                />
+              </div>
+
+              {filteredProspectHitters.length === 0 && filteredProspectPitchers.length === 0 ? (
+                <div style={{ color: "#8fa3c4", fontSize: 13, padding: "20px 4px" }}>
+                  No players match "{search}".
+                </div>
+              ) : (
+                <>
+                  <HittersTable
+                    rows={filteredProspectHitters}
+                    reserveRows={[]}
+                    sort={prospectHitterSort}
+                    setSort={setProspectHitterSort}
+                    showLevel
+                    showHandedness
+                    showStatus
+                  />
+                  <PitchersTable
+                    rows={filteredProspectPitchers}
+                    reserveRows={[]}
+                    sort={prospectPitcherSort}
+                    setSort={setProspectPitcherSort}
+                    showLevel
+                    showHandedness
+                    showStatus
+                  />
+                </>
+              )}
+            </div>
+          )}
+        </>
+      )}
+
+      <div style={{ maxWidth: 980, margin: "26px auto 0", fontSize: 11, color: "#4d6690", lineHeight: 1.6 }}>
+        Data comes from a snapshot refreshed on a schedule by a GitHub Actions workflow, not a live
+        call to MLB's API from your browser — see "Data as of" above for how current it is.
+        Prospect rank badges (<span style={{ color: "#5ec8f2" }}>blue = Royals Top 30</span>,{" "}
+        <span style={{ color: "#c8a04b" }}>gold = MLB Top 100</span>) are a manually-maintained list
+        baked into the snapshot script — check{" "}
+        <a href="https://www.mlb.com/milb/prospects/royals" target="_blank" rel="noopener noreferrer" style={{ color: "#8fa3c4" }}>
+          mlb.com/milb/prospects/royals
+        </a>{" "}
+        for the current one and update scripts/fetch-data.js when it changes.
+      </div>
+    </div>
+  );
+}
+
+function ErrorBox({ message, onRetry }) {
+  return (
+    <div
+      style={{
+        border: "1px solid #4a2233",
+        background: "rgba(200,16,46,0.08)",
+        borderRadius: 6,
+        padding: "14px 16px",
+        fontSize: 13,
+        color: "#e6b8c2",
+      }}
+    >
+      Couldn't load the data snapshot ({message}).
+      <button
+        onClick={onRetry}
+        style={{
+          marginLeft: 12,
+          background: "#c8a04b",
+          color: "#08192f",
+          border: "none",
+          borderRadius: 4,
+          padding: "5px 12px",
+          fontFamily: "'Oswald', sans-serif",
+          fontWeight: 600,
+          fontSize: 12,
+          cursor: "pointer",
+        }}
+      >
+        RETRY
+      </button>
+    </div>
+  );
+}
+
+const pulseStyle = {
+  fontFamily: "'Oswald', sans-serif",
+  fontSize: 13,
+  letterSpacing: "0.1em",
+  color: "#c8a04b",
+  padding: "20px 4px",
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<RoyalsFarmTracker />);
+</script>
+</body>
+</html>
