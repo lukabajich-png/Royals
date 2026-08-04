@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T07:24:19.164Z",
+  "updatedAt": "2026-08-04T10:09:56.746Z",
   "season": 2026,
   "levels": [
     {
@@ -13,28 +13,6 @@
         }
       ],
       "hitters": [
-        {
-          "id": 623205,
-          "name": "Andrew Velazquez",
-          "profileUrl": "https://www.mlb.com/player/andrew-velazquez-623205",
-          "pos": "SS",
-          "jersey": "45",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "S",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 6,
-          "avg": ".067",
-          "obp": ".067",
-          "slg": ".067",
-          "ops": ".134",
-          "hr": 0,
-          "rbi": 0,
-          "sb": 1,
-          "hasStats": true
-        },
         {
           "id": 695600,
           "name": "Carter Jensen",
@@ -878,28 +856,6 @@
           "hasStats": true
         },
         {
-          "id": 676510,
-          "name": "Nolan Hoffman",
-          "profileUrl": "https://www.mlb.com/player/nolan-hoffman-676510",
-          "pos": "P",
-          "jersey": "",
-          "status": "Not Yet Reported",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 3,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "3.86",
-          "whip": "1.93",
-          "ip": "4.2",
-          "so": 2,
-          "hasStats": true
-        },
-        {
           "id": 663568,
           "name": "Stephen Kolek",
           "profileUrl": "https://www.mlb.com/player/stephen-kolek-663568",
@@ -1620,6 +1576,28 @@
           "whip": "1.33",
           "ip": "43.2",
           "so": 31,
+          "hasStats": true
+        },
+        {
+          "id": 676510,
+          "name": "Nolan Hoffman",
+          "profileUrl": "https://www.mlb.com/player/nolan-hoffman-676510",
+          "pos": "P",
+          "jersey": "",
+          "status": "Not Yet Reported",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 30,
+          "w": 1,
+          "l": 4,
+          "sv": 5,
+          "era": "4.72",
+          "whip": "1.63",
+          "ip": "34.1",
+          "so": 40,
           "hasStats": true
         },
         {
