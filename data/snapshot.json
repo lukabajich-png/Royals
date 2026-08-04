@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T04:30:53.759Z",
+  "updatedAt": "2026-08-04T07:24:19.164Z",
   "season": 2026,
   "levels": [
     {
@@ -3967,6 +3967,28 @@
           "hasStats": true
         },
         {
+          "id": 843800,
+          "name": "Franniel De Los Santos",
+          "profileUrl": "https://www.mlb.com/player/franniel-de-los-santos-843800",
+          "pos": "IF",
+          "jersey": "63",
+          "status": "Active",
+          "team": "DSL Royals Fortuna",
+          "bats": "S",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false
+        },
+        {
           "id": 836598,
           "name": "Jaider Suárez",
           "profileUrl": "https://www.mlb.com/player/jaider-suarez-836598",
@@ -4383,28 +4405,6 @@
           "rbi": 7,
           "sb": 1,
           "hasStats": true
-        },
-        {
-          "id": 843800,
-          "name": "Franniel De Los Santos",
-          "profileUrl": "https://www.mlb.com/player/franniel-de-los-santos-843800",
-          "pos": "IF",
-          "jersey": "63",
-          "status": "Active",
-          "team": "DSL Royals Ventura",
-          "bats": "S",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": null,
-          "avg": null,
-          "obp": null,
-          "slg": null,
-          "ops": null,
-          "hr": null,
-          "rbi": null,
-          "sb": null,
-          "hasStats": false
         },
         {
           "id": 829458,
@@ -5399,28 +5399,6 @@
           "hasStats": true
         },
         {
-          "id": 815776,
-          "name": "Samuel Carmona",
-          "profileUrl": "https://www.mlb.com/player/samuel-carmona-815776",
-          "pos": "P",
-          "jersey": "34",
-          "status": "Active",
-          "team": "DSL Royals Fortuna",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 10,
-          "w": 1,
-          "l": 1,
-          "sv": 0,
-          "era": "3.07",
-          "whip": "1.19",
-          "ip": "29.1",
-          "so": 33,
-          "hasStats": true
-        },
-        {
           "id": 842279,
           "name": "Yolber Mendez",
           "profileUrl": "https://www.mlb.com/player/yolber-mendez-842279",
@@ -5858,6 +5836,28 @@
           "whip": "1.53",
           "ip": "14.1",
           "so": 7,
+          "hasStats": true
+        },
+        {
+          "id": 815776,
+          "name": "Samuel Carmona",
+          "profileUrl": "https://www.mlb.com/player/samuel-carmona-815776",
+          "pos": "P",
+          "jersey": "34",
+          "status": "Active",
+          "team": "DSL Royals Ventura",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 10,
+          "w": 1,
+          "l": 1,
+          "sv": 0,
+          "era": "3.07",
+          "whip": "1.19",
+          "ip": "29.1",
+          "so": 33,
           "hasStats": true
         },
         {
