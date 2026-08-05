@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T13:14:30.415Z",
+  "updatedAt": "2026-08-05T15:31:03.143Z",
   "season": 2026,
   "levels": [
     {
@@ -1355,28 +1355,6 @@
           "hasStats": true
         },
         {
-          "id": 687765,
-          "name": "Mitch Spence",
-          "profileUrl": "https://www.mlb.com/player/mitch-spence-687765",
-          "pos": "P",
-          "jersey": "45",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 16,
-          "w": 2,
-          "l": 4,
-          "sv": 0,
-          "era": "5.35",
-          "whip": "1.41",
-          "ip": "74.0",
-          "so": 64,
-          "hasStats": true
-        },
-        {
           "id": 676510,
           "name": "Nolan Hoffman",
           "profileUrl": "https://www.mlb.com/player/nolan-hoffman-676510",
@@ -1599,6 +1577,28 @@
           "ip": null,
           "so": null,
           "hasStats": false
+        },
+        {
+          "id": 687765,
+          "name": "Mitch Spence",
+          "profileUrl": "https://www.mlb.com/player/mitch-spence-687765",
+          "pos": "P",
+          "jersey": "45",
+          "status": "Injured 7-Day",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 16,
+          "w": 2,
+          "l": 4,
+          "sv": 0,
+          "era": "5.35",
+          "whip": "1.41",
+          "ip": "74.0",
+          "so": 64,
+          "hasStats": true
         },
         {
           "id": 686701,
