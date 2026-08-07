@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T19:34:41.553Z",
+  "updatedAt": "2026-08-07T20:22:17.953Z",
   "season": 2026,
   "levels": [
     {
@@ -302,28 +302,6 @@
       ],
       "pitchers": [
         {
-          "id": 607481,
-          "name": "Aaron Bummer",
-          "profileUrl": "https://www.mlb.com/player/aaron-bummer-607481",
-          "pos": "P",
-          "jersey": "36",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 21,
-          "w": 1,
-          "l": 2,
-          "sv": 0,
-          "era": "10.26",
-          "whip": "2.10",
-          "ip": "16.2",
-          "so": 13,
-          "hasStats": true
-        },
-        {
           "id": 656638,
           "name": "Alex Lange",
           "profileUrl": "https://www.mlb.com/player/alex-lange-656638",
@@ -453,6 +431,28 @@
           "whip": "1.78",
           "ip": "41.0",
           "so": 29,
+          "hasStats": true
+        },
+        {
+          "id": 696131,
+          "name": "Mason Black",
+          "profileUrl": "https://www.mlb.com/player/mason-black-696131",
+          "pos": "P",
+          "jersey": "47",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 12,
+          "w": 0,
+          "l": 0,
+          "sv": 0,
+          "era": "3.57",
+          "whip": "1.70",
+          "ip": "17.2",
+          "so": 15,
           "hasStats": true
         },
         {
@@ -1131,28 +1131,6 @@
           "rbi": 18,
           "sb": 11,
           "hasStats": true
-        },
-        {
-          "id": 806212,
-          "name": "Stone Russell",
-          "profileUrl": "https://www.mlb.com/player/stone-russell-806212",
-          "pos": "3B",
-          "jersey": "25",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 2,
-          "avg": ".333",
-          "obp": ".500",
-          "slg": ".333",
-          "ops": ".833",
-          "hr": 0,
-          "rbi": 0,
-          "sb": 0,
-          "hasStats": true
         }
       ],
       "pitchers": [
@@ -1352,28 +1330,6 @@
           "whip": "1.33",
           "ip": "43.2",
           "so": 31,
-          "hasStats": true
-        },
-        {
-          "id": 696131,
-          "name": "Mason Black",
-          "profileUrl": "https://www.mlb.com/player/mason-black-696131",
-          "pos": "P",
-          "jersey": "37",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 21,
-          "w": 0,
-          "l": 2,
-          "sv": 3,
-          "era": "5.92",
-          "whip": "1.48",
-          "ip": "48.2",
-          "so": 40,
           "hasStats": true
         },
         {
@@ -1832,6 +1788,28 @@
           "rbi": 43,
           "sb": 14,
           "hasStats": true
+        },
+        {
+          "id": 805834,
+          "name": "Javi Vaz",
+          "profileUrl": "https://www.mlb.com/player/javi-vaz-805834",
+          "pos": "2B",
+          "jersey": "2",
+          "status": "Active",
+          "team": "Northwest Arkansas Naturals",
+          "bats": "L",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false
         },
         {
           "id": 595751,
@@ -2298,30 +2276,7 @@
           "hasStats": true
         }
       ],
-      "reserveHitters": [
-        {
-          "id": 805834,
-          "name": "Javi Vaz",
-          "profileUrl": "https://www.mlb.com/player/javi-vaz-805834",
-          "pos": "2B",
-          "jersey": "",
-          "status": "Injured 60-Day",
-          "team": "Northwest Arkansas Naturals",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": null,
-          "avg": null,
-          "obp": null,
-          "slg": null,
-          "ops": null,
-          "hr": null,
-          "rbi": null,
-          "sb": null,
-          "hasStats": false
-        }
-      ],
+      "reserveHitters": [],
       "reservePitchers": [
         {
           "id": 688474,
@@ -2687,6 +2642,28 @@
           "rbi": 1,
           "sb": 0,
           "hasStats": true
+        },
+        {
+          "id": 806212,
+          "name": "Stone Russell",
+          "profileUrl": "https://www.mlb.com/player/stone-russell-806212",
+          "pos": "3B",
+          "jersey": "19",
+          "status": "Active",
+          "team": "Quad Cities River Bandits",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false
         },
         {
           "id": 822743,
@@ -6512,15 +6489,15 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 2,
-          "avg": ".000",
-          "obp": ".250",
-          "slg": ".000",
-          "ops": ".250",
-          "hr": 0,
-          "rbi": 0,
-          "sb": 0,
-          "hasStats": true
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false
         }
       ],
       "reservePitchers": [
