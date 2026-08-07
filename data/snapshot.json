@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T20:22:17.953Z",
+  "updatedAt": "2026-08-07T21:10:28.368Z",
   "season": 2026,
   "levels": [
     {
@@ -1333,6 +1333,28 @@
           "hasStats": true
         },
         {
+          "id": 681432,
+          "name": "Luke Little",
+          "profileUrl": "https://www.mlb.com/player/luke-little-681432",
+          "pos": "P",
+          "jersey": "38",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 17,
+          "w": 5,
+          "l": 0,
+          "sv": 1,
+          "era": "5.70",
+          "whip": "1.77",
+          "ip": "23.2",
+          "so": 25,
+          "hasStats": true
+        },
+        {
           "id": 676510,
           "name": "Nolan Hoffman",
           "profileUrl": "https://www.mlb.com/player/nolan-hoffman-676510",
@@ -1555,28 +1577,6 @@
           "ip": null,
           "so": null,
           "hasStats": false
-        },
-        {
-          "id": 681432,
-          "name": "Luke Little",
-          "profileUrl": "https://www.mlb.com/player/luke-little-681432",
-          "pos": "P",
-          "jersey": "",
-          "status": "Not Yet Reported",
-          "team": "Omaha Storm Chasers",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 17,
-          "w": 5,
-          "l": 0,
-          "sv": 1,
-          "era": "5.70",
-          "whip": "1.77",
-          "ip": "23.2",
-          "so": 25,
-          "hasStats": true
         },
         {
           "id": 687765,
