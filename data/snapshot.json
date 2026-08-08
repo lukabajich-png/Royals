@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T21:45:41.492Z",
+  "updatedAt": "2026-08-08T22:28:18.843Z",
   "season": 2026,
   "levels": [
     {
@@ -1466,28 +1466,6 @@
         }
       ],
       "reserveHitters": [
-        {
-          "id": 623205,
-          "name": "Andrew Velazquez",
-          "profileUrl": "https://www.mlb.com/player/andrew-velazquez-623205",
-          "pos": "SS",
-          "jersey": "",
-          "status": "Not Yet Reported",
-          "team": "Omaha Storm Chasers",
-          "bats": "S",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 58,
-          "avg": ".270",
-          "obp": ".333",
-          "slg": ".370",
-          "ops": ".703",
-          "hr": 3,
-          "rbi": 30,
-          "sb": 13,
-          "hasStats": true
-        },
         {
           "id": 663731,
           "name": "Connor Kaiser",
