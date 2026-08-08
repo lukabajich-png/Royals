@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T21:00:58.647Z",
+  "updatedAt": "2026-08-08T21:45:41.492Z",
   "season": 2026,
   "levels": [
     {
@@ -2210,28 +2210,6 @@
           "hasStats": true
         },
         {
-          "id": 686632,
-          "name": "Steven Zobac",
-          "profileUrl": "https://www.mlb.com/player/steven-zobac-686632",
-          "pos": "P",
-          "jersey": "29",
-          "status": "Active",
-          "team": "Northwest Arkansas Naturals",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": 13,
-          "top100Rank": null,
-          "g": 10,
-          "w": 1,
-          "l": 6,
-          "sv": 0,
-          "era": "5.40",
-          "whip": "1.42",
-          "ip": "36.2",
-          "so": 32,
-          "hasStats": true
-        },
-        {
           "id": 694553,
           "name": "Tyson Guerrero",
           "profileUrl": "https://www.mlb.com/player/tyson-guerrero-694553",
@@ -2386,6 +2364,28 @@
           "whip": "0.92",
           "ip": "47.2",
           "so": 46,
+          "hasStats": true
+        },
+        {
+          "id": 686632,
+          "name": "Steven Zobac",
+          "profileUrl": "https://www.mlb.com/player/steven-zobac-686632",
+          "pos": "P",
+          "jersey": "29",
+          "status": "Injured 7-Day",
+          "team": "Northwest Arkansas Naturals",
+          "bats": "L",
+          "throws": "R",
+          "orgRank": 13,
+          "top100Rank": null,
+          "g": 10,
+          "w": 1,
+          "l": 6,
+          "sv": 0,
+          "era": "5.40",
+          "whip": "1.42",
+          "ip": "36.2",
+          "so": 32,
           "hasStats": true
         }
       ]
@@ -3589,28 +3589,6 @@
           "hasStats": true
         },
         {
-          "id": 692290,
-          "name": "Carter Holton",
-          "profileUrl": "https://www.mlb.com/player/carter-holton-692290",
-          "pos": "P",
-          "jersey": "36",
-          "status": "Active",
-          "team": "Columbia Fireflies",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 7,
-          "w": 2,
-          "l": 1,
-          "sv": 0,
-          "era": "5.08",
-          "whip": "1.37",
-          "ip": "33.2",
-          "so": 30,
-          "hasStats": true
-        },
-        {
           "id": 814537,
           "name": "Coleman Picard",
           "profileUrl": "https://www.mlb.com/player/coleman-picard-814537",
@@ -3900,6 +3878,28 @@
         }
       ],
       "reservePitchers": [
+        {
+          "id": 692290,
+          "name": "Carter Holton",
+          "profileUrl": "https://www.mlb.com/player/carter-holton-692290",
+          "pos": "P",
+          "jersey": "36",
+          "status": "Injured 7-Day",
+          "team": "Columbia Fireflies",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 7,
+          "w": 2,
+          "l": 1,
+          "sv": 0,
+          "era": "5.08",
+          "whip": "1.37",
+          "ip": "33.2",
+          "so": 30,
+          "hasStats": true
+        },
         {
           "id": 702965,
           "name": "Hiro Wyatt",
@@ -6489,15 +6489,15 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 2,
-          "avg": ".000",
-          "obp": ".250",
-          "slg": ".000",
-          "ops": ".250",
-          "hr": 0,
-          "rbi": 0,
-          "sb": 0,
-          "hasStats": true
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false
         }
       ],
       "reservePitchers": [
@@ -7127,7 +7127,7 @@
         "profileUrl": "https://www.mlb.com/player/steven-zobac-686632",
         "pos": "P",
         "jersey": "29",
-        "status": "Active",
+        "status": "Injured 7-Day",
         "team": "Northwest Arkansas Naturals",
         "bats": "L",
         "throws": "R",
