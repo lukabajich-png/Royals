@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T12:00:46.543Z",
+  "updatedAt": "2026-08-10T13:43:34.416Z",
   "season": 2026,
   "levels": [
     {
@@ -6467,15 +6467,15 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": null,
-          "avg": null,
-          "obp": null,
-          "slg": null,
-          "ops": null,
-          "hr": null,
-          "rbi": null,
-          "sb": null,
-          "hasStats": false
+          "g": 2,
+          "avg": ".000",
+          "obp": ".250",
+          "slg": ".000",
+          "ops": ".250",
+          "hr": 0,
+          "rbi": 0,
+          "sb": 0,
+          "hasStats": true
         }
       ],
       "reservePitchers": [
