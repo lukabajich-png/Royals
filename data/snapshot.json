@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T13:43:34.416Z",
+  "updatedAt": "2026-08-10T14:45:02.935Z",
   "season": 2026,
   "levels": [
     {
@@ -1289,28 +1289,6 @@
           "hasStats": true
         },
         {
-          "id": 623437,
-          "name": "Justin Topa",
-          "profileUrl": "https://www.mlb.com/player/justin-topa-623437",
-          "pos": "P",
-          "jersey": "47",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 20,
-          "w": 0,
-          "l": 2,
-          "sv": 4,
-          "era": "1.74",
-          "whip": "1.45",
-          "ip": "20.2",
-          "so": 13,
-          "hasStats": true
-        },
-        {
           "id": 814351,
           "name": "Lucas Braun",
           "profileUrl": "https://www.mlb.com/player/lucas-braun-814351",
@@ -1472,7 +1450,7 @@
           "profileUrl": "https://www.mlb.com/player/connor-kaiser-663731",
           "pos": "SS",
           "jersey": "",
-          "status": "Injured 7-Day",
+          "status": "Injured 60-Day",
           "team": "Omaha Storm Chasers",
           "bats": "R",
           "throws": "R",
