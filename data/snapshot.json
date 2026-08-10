@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T19:42:14.127Z",
+  "updatedAt": "2026-08-10T20:24:19.929Z",
   "season": 2026,
   "levels": [
     {
@@ -324,6 +324,28 @@
           "hasStats": true
         },
         {
+          "id": 518886,
+          "name": "Craig Kimbrel",
+          "profileUrl": "https://www.mlb.com/player/craig-kimbrel-518886",
+          "pos": "P",
+          "jersey": "26",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 33,
+          "w": 0,
+          "l": 2,
+          "sv": 0,
+          "era": "4.81",
+          "whip": "1.34",
+          "ip": "33.2",
+          "so": 32,
+          "hasStats": true
+        },
+        {
           "id": 663738,
           "name": "Daniel Lynch IV",
           "profileUrl": "https://www.mlb.com/player/daniel-lynch-iv-663738",
@@ -343,28 +365,6 @@
           "whip": "1.01",
           "ip": "47.2",
           "so": 37,
-          "hasStats": true
-        },
-        {
-          "id": 668834,
-          "name": "Easton McGee",
-          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
-          "pos": "P",
-          "jersey": "51",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 6,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "8.59",
-          "whip": "2.18",
-          "ip": "7.1",
-          "so": 7,
           "hasStats": true
         },
         {
@@ -1510,6 +1510,28 @@
           "whip": "1.88",
           "ip": "10.2",
           "so": 14,
+          "hasStats": true
+        },
+        {
+          "id": 668834,
+          "name": "Easton McGee",
+          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
+          "pos": "P",
+          "jersey": "",
+          "status": "Not Yet Reported",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 28,
+          "w": 5,
+          "l": 3,
+          "sv": 1,
+          "era": "6.04",
+          "whip": "1.62",
+          "ip": "47.2",
+          "so": 50,
           "hasStats": true
         },
         {
@@ -6445,15 +6467,15 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 2,
-          "avg": ".000",
-          "obp": ".250",
-          "slg": ".000",
-          "ops": ".250",
-          "hr": 0,
-          "rbi": 0,
-          "sb": 0,
-          "hasStats": true
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false
         }
       ],
       "reservePitchers": [
