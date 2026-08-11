@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T17:40:59.557Z",
+  "updatedAt": "2026-08-11T18:37:03.718Z",
   "season": 2026,
   "levels": [
     {
@@ -1131,6 +1131,28 @@
           "rbi": 22,
           "sb": 11,
           "hasStats": true
+        },
+        {
+          "id": 686469,
+          "name": "Vinnie Pasquantino",
+          "profileUrl": "https://www.mlb.com/player/vinnie-pasquantino-686469",
+          "pos": "1B",
+          "jersey": "60",
+          "status": "Rehab Assignment",
+          "team": "Omaha Storm Chasers",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 3,
+          "avg": ".364",
+          "obp": ".500",
+          "slg": ".364",
+          "ops": ".864",
+          "hr": 0,
+          "rbi": 1,
+          "sb": 0,
+          "hasStats": true
         }
       ],
       "pitchers": [
@@ -1220,6 +1242,28 @@
           "whip": "0.92",
           "ip": "29.1",
           "so": 20,
+          "hasStats": true
+        },
+        {
+          "id": 668834,
+          "name": "Easton McGee",
+          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
+          "pos": "P",
+          "jersey": "10",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 28,
+          "w": 5,
+          "l": 3,
+          "sv": 1,
+          "era": "6.04",
+          "whip": "1.62",
+          "ip": "47.2",
+          "so": 50,
           "hasStats": true
         },
         {
@@ -1330,6 +1374,28 @@
           "whip": "1.81",
           "ip": "24.1",
           "so": 26,
+          "hasStats": true
+        },
+        {
+          "id": 519043,
+          "name": "Matt Moore",
+          "profileUrl": "https://www.mlb.com/player/matt-moore-519043",
+          "pos": "P",
+          "jersey": "58",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 4,
+          "w": 0,
+          "l": 0,
+          "sv": 0,
+          "era": "4.91",
+          "whip": "1.91",
+          "ip": "3.2",
+          "so": 5,
           "hasStats": true
         },
         {
@@ -1510,28 +1576,6 @@
           "whip": "1.88",
           "ip": "10.2",
           "so": 14,
-          "hasStats": true
-        },
-        {
-          "id": 668834,
-          "name": "Easton McGee",
-          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
-          "pos": "P",
-          "jersey": "",
-          "status": "Not Yet Reported",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 28,
-          "w": 5,
-          "l": 3,
-          "sv": 1,
-          "era": "6.04",
-          "whip": "1.62",
-          "ip": "47.2",
-          "so": 50,
           "hasStats": true
         },
         {
