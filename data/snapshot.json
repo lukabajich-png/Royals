@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T05:59:52.400Z",
+  "updatedAt": "2026-08-12T07:44:47.583Z",
   "season": 2026,
   "levels": [
     {
@@ -4572,10 +4572,10 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 23,
-          "avg": ".246",
-          "obp": ".370",
-          "slg": ".279",
-          "ops": ".649",
+          "avg": ".250",
+          "obp": ".375",
+          "slg": ".283",
+          "ops": ".658",
           "hr": 0,
           "rbi": 8,
           "sb": 1,
@@ -5721,7 +5721,7 @@
           "w": 1,
           "l": 1,
           "sv": 0,
-          "era": "5.23",
+          "era": "4.35",
           "whip": "1.55",
           "ip": "10.1",
           "so": 7,
@@ -6511,15 +6511,15 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 2,
-          "avg": ".000",
-          "obp": ".250",
-          "slg": ".000",
-          "ops": ".250",
-          "hr": 0,
-          "rbi": 0,
-          "sb": 0,
-          "hasStats": true
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false
         }
       ],
       "reservePitchers": [
