@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T21:29:37.440Z",
+  "updatedAt": "2026-08-12T22:20:40.177Z",
   "season": 2026,
   "levels": [
     {
@@ -1897,6 +1897,28 @@
           "hr": 0,
           "rbi": 2,
           "sb": 2,
+          "hasStats": true
+        },
+        {
+          "id": 672580,
+          "name": "Maikel Garcia",
+          "profileUrl": "https://www.mlb.com/player/maikel-garcia-672580",
+          "pos": "3B",
+          "jersey": "4",
+          "status": "Rehab Assignment",
+          "team": "Northwest Arkansas Naturals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 1,
+          "avg": ".000",
+          "obp": ".000",
+          "slg": ".000",
+          "ops": ".000",
+          "hr": 0,
+          "rbi": 0,
+          "sb": 0,
           "hasStats": true
         },
         {
