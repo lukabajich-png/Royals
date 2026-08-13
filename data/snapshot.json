@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T23:02:23.575Z",
+  "updatedAt": "2026-08-13T23:58:33.292Z",
   "season": 2026,
   "levels": [
     {
@@ -3577,12 +3577,12 @@
           "orgRank": 8,
           "top100Rank": null,
           "g": 96,
-          "avg": ".207",
-          "obp": ".315",
-          "slg": ".313",
-          "ops": ".628",
+          "avg": ".204",
+          "obp": ".313",
+          "slg": ".310",
+          "ops": ".623",
           "hr": 6,
-          "rbi": 45,
+          "rbi": 44,
           "sb": 30,
           "hasStats": true
         },
@@ -6853,12 +6853,12 @@
         "orgRank": 8,
         "top100Rank": null,
         "g": 96,
-        "avg": ".207",
-        "obp": ".315",
-        "slg": ".313",
-        "ops": ".628",
+        "avg": ".204",
+        "obp": ".313",
+        "slg": ".310",
+        "ops": ".623",
         "hr": 6,
-        "rbi": 45,
+        "rbi": 44,
         "sb": 30,
         "hasStats": true,
         "level": "Single-A"
