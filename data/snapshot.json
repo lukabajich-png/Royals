@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T22:02:37.467Z",
+  "updatedAt": "2026-08-13T23:02:23.575Z",
   "season": 2026,
   "levels": [
     {
@@ -854,6 +854,28 @@
           "ip": "54.0",
           "so": 34,
           "hasStats": true
+        },
+        {
+          "id": 664062,
+          "name": "Tony Gonsolin",
+          "profileUrl": "https://www.mlb.com/player/tony-gonsolin-664062",
+          "pos": "P",
+          "jersey": "",
+          "status": "Injured 15-Day",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false
         }
       ]
     },
