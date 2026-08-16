@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T19:33:09.491Z",
+  "updatedAt": "2026-08-16T19:55:03.509Z",
   "season": 2026,
   "levels": [
     {
@@ -1023,28 +1023,6 @@
           "hasStats": true
         },
         {
-          "id": 688457,
-          "name": "Gavin Cross",
-          "profileUrl": "https://www.mlb.com/player/gavin-cross-688457",
-          "pos": "RF",
-          "jersey": "9",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": 26,
-          "top100Rank": null,
-          "g": 101,
-          "avg": ".253",
-          "obp": ".319",
-          "slg": ".435",
-          "ops": ".754",
-          "hr": 13,
-          "rbi": 46,
-          "sb": 23,
-          "hasStats": true
-        },
-        {
           "id": 801442,
           "name": "Jack Pineda",
           "profileUrl": "https://www.mlb.com/player/jack-pineda-801442",
@@ -1530,6 +1508,28 @@
           "hr": 0,
           "rbi": 4,
           "sb": 1,
+          "hasStats": true
+        },
+        {
+          "id": 688457,
+          "name": "Gavin Cross",
+          "profileUrl": "https://www.mlb.com/player/gavin-cross-688457",
+          "pos": "RF",
+          "jersey": "9",
+          "status": "Injured 7-Day",
+          "team": "Omaha Storm Chasers",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": 26,
+          "top100Rank": null,
+          "g": 101,
+          "avg": ".253",
+          "obp": ".319",
+          "slg": ".435",
+          "ops": ".754",
+          "hr": 13,
+          "rbi": 46,
+          "sb": 23,
           "hasStats": true
         }
       ],
@@ -7008,7 +7008,7 @@
         "profileUrl": "https://www.mlb.com/player/gavin-cross-688457",
         "pos": "RF",
         "jersey": "9",
-        "status": "Active",
+        "status": "Injured 7-Day",
         "team": "Omaha Storm Chasers",
         "bats": "L",
         "throws": "L",
