@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T16:25:58.635Z",
+  "updatedAt": "2026-08-17T16:56:19.303Z",
   "season": 2026,
   "levels": [
     {
@@ -1576,28 +1576,6 @@
           "whip": "1.88",
           "ip": "10.2",
           "so": 14,
-          "hasStats": true
-        },
-        {
-          "id": 669212,
-          "name": "Eli Morgan",
-          "profileUrl": "https://www.mlb.com/player/eli-morgan-669212",
-          "pos": "P",
-          "jersey": "",
-          "status": "Not Yet Reported",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 22,
-          "w": 4,
-          "l": 0,
-          "sv": 3,
-          "era": "1.40",
-          "whip": "1.29",
-          "ip": "25.2",
-          "so": 35,
           "hasStats": true
         },
         {
