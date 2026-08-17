@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T22:22:43.084Z",
+  "updatedAt": "2026-08-17T22:50:35.301Z",
   "season": 2026,
   "levels": [
     {
@@ -1227,7 +1227,7 @@
           "name": "Jose Cuas",
           "profileUrl": "https://www.mlb.com/player/jose-cuas-621016",
           "pos": "P",
-          "jersey": "",
+          "jersey": "33",
           "status": "Active",
           "team": "Omaha Storm Chasers",
           "bats": "R",
