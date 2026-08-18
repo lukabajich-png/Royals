@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T17:35:48.104Z",
+  "updatedAt": "2026-08-18T18:02:06.608Z",
   "season": 2026,
   "levels": [
     {
@@ -1658,6 +1658,28 @@
           "hasStats": true
         },
         {
+          "id": 808665,
+          "name": "Angel Acosta",
+          "profileUrl": "https://www.mlb.com/player/angel-acosta-808665",
+          "pos": "2B",
+          "jersey": "",
+          "status": "Active",
+          "team": "Northwest Arkansas Naturals",
+          "bats": "L",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false
+        },
+        {
           "id": 701401,
           "name": "Canyon Brown",
           "profileUrl": "https://www.mlb.com/player/canyon-brown-701401",
@@ -2402,28 +2424,6 @@
       ],
       "hitters": [
         {
-          "id": 808665,
-          "name": "Angel Acosta",
-          "profileUrl": "https://www.mlb.com/player/angel-acosta-808665",
-          "pos": "2B",
-          "jersey": "48",
-          "status": "Active",
-          "team": "Quad Cities River Bandits",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 59,
-          "avg": ".286",
-          "obp": ".371",
-          "slg": ".357",
-          "ops": ".728",
-          "hr": 1,
-          "rbi": 23,
-          "sb": 3,
-          "hasStats": true
-        },
-        {
           "id": 808706,
           "name": "Asbel Gonzalez",
           "profileUrl": "https://www.mlb.com/player/asbel-gonzalez-808706",
@@ -2443,6 +2443,28 @@
           "hr": 3,
           "rbi": 39,
           "sb": 55,
+          "hasStats": true
+        },
+        {
+          "id": 800051,
+          "name": "Austin Charles",
+          "profileUrl": "https://www.mlb.com/player/austin-charles-800051",
+          "pos": "3B",
+          "jersey": "9",
+          "status": "Active",
+          "team": "Quad Cities River Bandits",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 30,
+          "avg": ".306",
+          "obp": ".377",
+          "slg": ".491",
+          "ops": ".868",
+          "hr": 3,
+          "rbi": 19,
+          "sb": 8,
           "hasStats": true
         },
         {
@@ -3043,28 +3065,6 @@
         }
       ],
       "reserveHitters": [
-        {
-          "id": 800051,
-          "name": "Austin Charles",
-          "profileUrl": "https://www.mlb.com/player/austin-charles-800051",
-          "pos": "3B",
-          "jersey": "9",
-          "status": "Injured 60-Day",
-          "team": "Quad Cities River Bandits",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 30,
-          "avg": ".306",
-          "obp": ".377",
-          "slg": ".491",
-          "ops": ".868",
-          "hr": 3,
-          "rbi": 19,
-          "sb": 8,
-          "hasStats": true
-        },
         {
           "id": 815150,
           "name": "Carter Frederick",
