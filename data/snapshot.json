@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T20:49:57.194Z",
+  "updatedAt": "2026-08-18T21:23:02.081Z",
   "season": 2026,
   "levels": [
     {
@@ -1684,7 +1684,7 @@
           "name": "Angel Acosta",
           "profileUrl": "https://www.mlb.com/player/angel-acosta-808665",
           "pos": "2B",
-          "jersey": "",
+          "jersey": "7",
           "status": "Active",
           "team": "Northwest Arkansas Naturals",
           "bats": "L",
@@ -1990,6 +1990,28 @@
           "hasStats": true
         },
         {
+          "id": 694360,
+          "name": "Beck Way",
+          "profileUrl": "https://www.mlb.com/player/beck-way-694360",
+          "pos": "P",
+          "jersey": "47",
+          "status": "Rehab Assignment",
+          "team": "Northwest Arkansas Naturals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false
+        },
+        {
           "id": 699489,
           "name": "Brandon Johnson",
           "profileUrl": "https://www.mlb.com/player/brandon-johnson-699489",
@@ -2192,7 +2214,7 @@
           "name": "Shane Panzini",
           "profileUrl": "https://www.mlb.com/player/shane-panzini-695556",
           "pos": "P",
-          "jersey": "",
+          "jersey": "41",
           "status": "Active",
           "team": "Northwest Arkansas Naturals",
           "bats": "R",
