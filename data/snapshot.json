@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T19:24:02.295Z",
+  "updatedAt": "2026-08-19T19:49:31.752Z",
   "season": 2026,
   "levels": [
     {
@@ -5464,6 +5464,28 @@
           "hasStats": true
         },
         {
+          "id": 823013,
+          "name": "Nomar Jimenez",
+          "profileUrl": "https://www.mlb.com/player/nomar-jimenez-823013",
+          "pos": "P",
+          "jersey": "23",
+          "status": "Active",
+          "team": "DSL Royals Fortuna",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 1,
+          "w": 0,
+          "l": 0,
+          "sv": 0,
+          "era": "0.00",
+          "whip": "0.00",
+          "ip": "1.0",
+          "so": 1,
+          "hasStats": true
+        },
+        {
           "id": 821660,
           "name": "Oliver Del Rosario",
           "profileUrl": "https://www.mlb.com/player/oliver-del-rosario-821660",
@@ -6501,28 +6523,6 @@
         }
       ],
       "reservePitchers": [
-        {
-          "id": 823013,
-          "name": "Nomar Jimenez",
-          "profileUrl": "https://www.mlb.com/player/nomar-jimenez-823013",
-          "pos": "P",
-          "jersey": "23",
-          "status": "Injured 60-Day",
-          "team": "DSL Royals Fortuna",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 1,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "0.00",
-          "whip": "0.00",
-          "ip": "1.0",
-          "so": 1,
-          "hasStats": true
-        },
         {
           "id": 837329,
           "name": "Andy Sanchez",
