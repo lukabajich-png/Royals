@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T04:23:21.089Z",
+  "updatedAt": "2026-08-21T05:05:02.004Z",
   "season": 2026,
   "levels": [
     {
@@ -1440,28 +1440,6 @@
           "whip": "1.11",
           "ip": "6.1",
           "so": 6,
-          "hasStats": true
-        },
-        {
-          "id": 605130,
-          "name": "Scott Barlow",
-          "profileUrl": "https://www.mlb.com/player/scott-barlow-605130",
-          "pos": "P",
-          "jersey": "48",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 11,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "5.65",
-          "whip": "1.95",
-          "ip": "14.1",
-          "so": 14,
           "hasStats": true
         },
         {
