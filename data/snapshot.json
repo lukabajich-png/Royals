@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T22:48:24.847Z",
+  "updatedAt": "2026-08-22T23:19:37.010Z",
   "season": 2026,
   "levels": [
     {
@@ -47,7 +47,7 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 120,
+          "g": 121,
           "avg": ".221",
           "obp": ".304",
           "slg": ".407",
@@ -135,7 +135,7 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 71,
+          "g": 72,
           "avg": ".234",
           "obp": ".283",
           "slg": ".354",
@@ -467,13 +467,13 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 25,
+          "g": 26,
           "w": 6,
           "l": 8,
           "sv": 0,
-          "era": "3.58",
-          "whip": "1.15",
-          "ip": "155.2",
+          "era": "3.57",
+          "whip": "1.14",
+          "ip": "156.1",
           "so": 120,
           "hasStats": true
         },
