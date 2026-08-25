@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T16:54:59.679Z",
+  "updatedAt": "2026-08-25T17:30:47.153Z",
   "season": 2026,
   "levels": [
     {
@@ -3589,28 +3589,6 @@
           "hasStats": true
         },
         {
-          "id": 806776,
-          "name": "Brandon Herbold",
-          "profileUrl": "https://www.mlb.com/player/brandon-herbold-806776",
-          "pos": "P",
-          "jersey": "27",
-          "status": "Active",
-          "team": "Columbia Fireflies",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 28,
-          "w": 2,
-          "l": 3,
-          "sv": 2,
-          "era": "7.76",
-          "whip": "2.17",
-          "ip": "29.0",
-          "so": 36,
-          "hasStats": true
-        },
-        {
           "id": 814537,
           "name": "Coleman Picard",
           "profileUrl": "https://www.mlb.com/player/coleman-picard-814537",
@@ -3675,6 +3653,28 @@
           "ip": "109.1",
           "so": 105,
           "hasStats": true
+        },
+        {
+          "id": 701584,
+          "name": "Grant Fontenot",
+          "profileUrl": "https://www.mlb.com/player/grant-fontenot-701584",
+          "pos": "P",
+          "jersey": "38",
+          "status": "Active",
+          "team": "Columbia Fireflies",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false
         },
         {
           "id": 815777,
@@ -3944,6 +3944,28 @@
         }
       ],
       "reservePitchers": [
+        {
+          "id": 806776,
+          "name": "Brandon Herbold",
+          "profileUrl": "https://www.mlb.com/player/brandon-herbold-806776",
+          "pos": "P",
+          "jersey": "27",
+          "status": "Development List",
+          "team": "Columbia Fireflies",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 28,
+          "w": 2,
+          "l": 3,
+          "sv": 2,
+          "era": "7.76",
+          "whip": "2.17",
+          "ip": "29.0",
+          "so": 36,
+          "hasStats": true
+        },
         {
           "id": 692290,
           "name": "Carter Holton",
@@ -6122,28 +6144,6 @@
           "ip": "10.0",
           "so": 9,
           "hasStats": true
-        },
-        {
-          "id": 701584,
-          "name": "Grant Fontenot",
-          "profileUrl": "https://www.mlb.com/player/grant-fontenot-701584",
-          "pos": "P",
-          "jersey": "",
-          "status": "Active",
-          "team": "ACL Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": null,
-          "w": null,
-          "l": null,
-          "sv": null,
-          "era": null,
-          "whip": null,
-          "ip": null,
-          "so": null,
-          "hasStats": false
         },
         {
           "id": 816095,
