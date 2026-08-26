@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T13:54:00.089Z",
+  "updatedAt": "2026-08-26T14:42:54.863Z",
   "season": 2026,
   "levels": [
     {
@@ -1023,6 +1023,28 @@
           "hasStats": true
         },
         {
+          "id": 688457,
+          "name": "Gavin Cross",
+          "profileUrl": "https://www.mlb.com/player/gavin-cross-688457",
+          "pos": "RF",
+          "jersey": "9",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": 26,
+          "top100Rank": null,
+          "g": 101,
+          "avg": ".253",
+          "obp": ".319",
+          "slg": ".435",
+          "ops": ".754",
+          "hr": 13,
+          "rbi": 46,
+          "sb": 23,
+          "hasStats": true
+        },
+        {
           "id": 694351,
           "name": "Jacob Berry",
           "profileUrl": "https://www.mlb.com/player/jacob-berry-694351",
@@ -1443,6 +1465,28 @@
           "hasStats": true
         },
         {
+          "id": 664062,
+          "name": "Tony Gonsolin",
+          "profileUrl": "https://www.mlb.com/player/tony-gonsolin-664062",
+          "pos": "P",
+          "jersey": "26",
+          "status": "Rehab Assignment",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false
+        },
+        {
           "id": 592826,
           "name": "Vince Velasquez",
           "profileUrl": "https://www.mlb.com/player/vince-velasquez-592826",
@@ -1486,28 +1530,6 @@
           "hr": 0,
           "rbi": 4,
           "sb": 1,
-          "hasStats": true
-        },
-        {
-          "id": 688457,
-          "name": "Gavin Cross",
-          "profileUrl": "https://www.mlb.com/player/gavin-cross-688457",
-          "pos": "RF",
-          "jersey": "9",
-          "status": "Injured 7-Day",
-          "team": "Omaha Storm Chasers",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": 26,
-          "top100Rank": null,
-          "g": 101,
-          "avg": ".253",
-          "obp": ".319",
-          "slg": ".435",
-          "ops": ".754",
-          "hr": 13,
-          "rbi": 46,
-          "sb": 23,
           "hasStats": true
         },
         {
@@ -6942,7 +6964,7 @@
         "profileUrl": "https://www.mlb.com/player/gavin-cross-688457",
         "pos": "RF",
         "jersey": "9",
-        "status": "Injured 7-Day",
+        "status": "Active",
         "team": "Omaha Storm Chasers",
         "bats": "L",
         "throws": "L",
