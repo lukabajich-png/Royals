@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T14:42:54.863Z",
+  "updatedAt": "2026-08-26T16:05:43.563Z",
   "season": 2026,
   "levels": [
     {
@@ -2908,6 +2908,28 @@
           "ip": "5.0",
           "so": 4,
           "hasStats": true
+        },
+        {
+          "id": 607644,
+          "name": "John Means",
+          "profileUrl": "https://www.mlb.com/player/john-means-607644",
+          "pos": "P",
+          "jersey": "29",
+          "status": "Rehab Assignment",
+          "team": "Quad Cities River Bandits",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false
         },
         {
           "id": 806637,
