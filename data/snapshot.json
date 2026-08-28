@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T09:46:17.329Z",
+  "updatedAt": "2026-08-28T21:06:30.063Z",
   "season": 2026,
   "levels": [
     {
@@ -1111,6 +1111,28 @@
           "hasStats": true
         },
         {
+          "id": 681123,
+          "name": "Luca Tresh",
+          "profileUrl": "https://www.mlb.com/player/luca-tresh-681123",
+          "pos": "C",
+          "jersey": "11",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 84,
+          "avg": ".273",
+          "obp": ".321",
+          "slg": ".410",
+          "ops": ".731",
+          "hr": 9,
+          "rbi": 48,
+          "sb": 1,
+          "hasStats": true
+        },
+        {
           "id": 683427,
           "name": "Omar Hernandez",
           "profileUrl": "https://www.mlb.com/player/omar-hernandez-683427",
@@ -1355,6 +1377,28 @@
           "hasStats": true
         },
         {
+          "id": 696131,
+          "name": "Mason Black",
+          "profileUrl": "https://www.mlb.com/player/mason-black-696131",
+          "pos": "P",
+          "jersey": "37",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 21,
+          "w": 0,
+          "l": 2,
+          "sv": 3,
+          "era": "5.92",
+          "whip": "1.48",
+          "ip": "48.2",
+          "so": 40,
+          "hasStats": true
+        },
+        {
           "id": 519043,
           "name": "Matt Moore",
           "profileUrl": "https://www.mlb.com/player/matt-moore-519043",
@@ -1531,28 +1575,6 @@
           "rbi": 15,
           "sb": 2,
           "hasStats": true
-        },
-        {
-          "id": 681123,
-          "name": "Luca Tresh",
-          "profileUrl": "https://www.mlb.com/player/luca-tresh-681123",
-          "pos": "C",
-          "jersey": "11",
-          "status": "Temporary Inactive List",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 84,
-          "avg": ".273",
-          "obp": ".321",
-          "slg": ".410",
-          "ops": ".731",
-          "hr": 9,
-          "rbi": 48,
-          "sb": 1,
-          "hasStats": true
         }
       ],
       "reservePitchers": [
@@ -1621,28 +1643,6 @@
           "ip": null,
           "so": null,
           "hasStats": false
-        },
-        {
-          "id": 696131,
-          "name": "Mason Black",
-          "profileUrl": "https://www.mlb.com/player/mason-black-696131",
-          "pos": "P",
-          "jersey": "37",
-          "status": "Not Yet Reported",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 21,
-          "w": 0,
-          "l": 2,
-          "sv": 3,
-          "era": "5.92",
-          "whip": "1.48",
-          "ip": "48.2",
-          "so": 40,
-          "hasStats": true
         },
         {
           "id": 687765,
@@ -2225,7 +2225,7 @@
           "w": 0,
           "l": 0,
           "sv": 0,
-          "era": "12.00",
+          "era": "9.00",
           "whip": "2.67",
           "ip": "3.0",
           "so": 5,
