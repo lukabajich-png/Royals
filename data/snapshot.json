@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T14:26:46.548Z",
+  "updatedAt": "2026-08-31T20:16:55.915Z",
   "season": 2026,
   "levels": [
     {
@@ -409,28 +409,6 @@
           "whip": "1.05",
           "ip": "61.2",
           "so": 46,
-          "hasStats": true
-        },
-        {
-          "id": 670167,
-          "name": "John Schreiber",
-          "profileUrl": "https://www.mlb.com/player/john-schreiber-670167",
-          "pos": "P",
-          "jersey": "46",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 55,
-          "w": 1,
-          "l": 3,
-          "sv": 1,
-          "era": "3.65",
-          "whip": "1.28",
-          "ip": "49.1",
-          "so": 36,
           "hasStats": true
         },
         {
