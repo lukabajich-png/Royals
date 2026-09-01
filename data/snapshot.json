@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T14:32:06.150Z",
+  "updatedAt": "2026-09-01T17:57:38.546Z",
   "season": 2026,
   "levels": [
     {
@@ -1023,28 +1023,6 @@
           "hasStats": true
         },
         {
-          "id": 663503,
-          "name": "Elih Marrero",
-          "profileUrl": "https://www.mlb.com/player/elih-marrero-663503",
-          "pos": "C",
-          "jersey": "17",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "S",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 41,
-          "avg": ".240",
-          "obp": ".275",
-          "slg": ".376",
-          "ops": ".651",
-          "hr": 0,
-          "rbi": 13,
-          "sb": 3,
-          "hasStats": true
-        },
-        {
           "id": 688457,
           "name": "Gavin Cross",
           "profileUrl": "https://www.mlb.com/player/gavin-cross-688457",
@@ -1530,6 +1508,28 @@
           "hr": 0,
           "rbi": 4,
           "sb": 1,
+          "hasStats": true
+        },
+        {
+          "id": 663503,
+          "name": "Elih Marrero",
+          "profileUrl": "https://www.mlb.com/player/elih-marrero-663503",
+          "pos": "C",
+          "jersey": "17",
+          "status": "Injured 7-Day",
+          "team": "Omaha Storm Chasers",
+          "bats": "S",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 41,
+          "avg": ".240",
+          "obp": ".275",
+          "slg": ".376",
+          "ops": ".651",
+          "hr": 0,
+          "rbi": 13,
+          "sb": 3,
           "hasStats": true
         },
         {
@@ -3137,7 +3137,7 @@
           "profileUrl": "https://www.mlb.com/player/trevor-werner-687731",
           "pos": "3B",
           "jersey": "28",
-          "status": "Development List",
+          "status": "Injured - Full Season",
           "team": "Quad Cities River Bandits",
           "bats": "R",
           "throws": "R",
