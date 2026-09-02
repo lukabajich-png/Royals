@@ -440,7 +440,41 @@ async function fetchTransactionsForTeams(teams) {
 // ---------------------------------------------------------------------------
 const DRAFT_YEARS_BACK = 5;
 
-async function fetchDraftPicks(season) {
+// Defensive since the draft endpoint's "position" shape isn't something I can
+// verify live — tries the usual shapes MLB uses elsewhere (abbreviation/name/
+// code), and falls back to treating it as a plain string if that's what it is.
+function extractPosition(pos) {
+  if (!pos) return "";
+  if (typeof pos === "string") return pos;
+  return pos.abbreviation || pos.name || pos.code || "";
+}
+
+// Looks a person id up across every level's active + reserve rosters so a
+// draft pick can show where in the org they currently are.
+function buildOrgRosterIndex(levelsWithRosters) {
+  const index = new Map();
+  for (const lv of levelsWithRosters) {
+    for (const p of [...lv.hitters, ...lv.pitchers, ...lv.reserveHitters, ...lv.reservePitchers]) {
+      index.set(p.id, { level: lv.shortName, team: p.team });
+    }
+  }
+  return index;
+}
+
+// For a pick no longer in the Royals org (traded, released, retired, never
+// signed), look up their current team directly — this is a live per-player
+// call, only made for picks that don't show up in our own roster data.
+async function fetchCurrentOrgFor(personId) {
+  try {
+    const data = await getJSON(`https://statsapi.mlb.com/api/v1/people/${personId}?hydrate=currentTeam`);
+    const team = data.people?.[0]?.currentTeam;
+    return team?.name || null;
+  } catch {
+    return null;
+  }
+}
+
+async function fetchDraftPicks(season, orgIndex) {
   const years = Array.from({ length: DRAFT_YEARS_BACK }, (_, i) => season - i);
   const results = await Promise.all(
     years.map(async (year) => {
@@ -450,16 +484,24 @@ async function fetchDraftPicks(season) {
         for (const round of data.drafts?.rounds || []) {
           for (const pick of round.picks || []) {
             if (pick.team?.id !== ROYALS_ID) continue;
+            const personId = pick.person?.id;
             const rank = lookupProspectRank(pick.person?.fullName);
+            const inOrg = personId != null ? orgIndex.get(personId) : null;
             picks.push({
               year,
               round: pick.pickRound,
               overallPick: pick.pickNumber,
+              id: personId,
               name: pick.person?.fullName || "Unknown",
-              position: pick.position?.abbreviation || "",
+              profileUrl: personId
+                ? `https://www.mlb.com/player/${slugify(pick.person?.fullName, personId)}`
+                : null,
+              position: extractPosition(pick.position),
               school: pick.school?.name || null,
               signingBonus: pick.signingBonus || null,
               currentOrgRank: rank.orgRank,
+              currentLevel: inOrg?.level || null, // still with the Royals, and at this level
+              currentOrg: null, // filled in below only if they've left the org
             });
           }
         }
@@ -469,7 +511,17 @@ async function fetchDraftPicks(season) {
       }
     })
   );
-  return results.flat().sort((a, b) => b.year - a.year || a.overallPick - b.overallPick);
+  const allPicks = results.flat();
+
+  // For anyone not found in our own rosters, look up where they are now —
+  // capped so a bad year doesn't trigger hundreds of calls unexpectedly.
+  const needsLookup = allPicks.filter((p) => !p.currentLevel && p.id);
+  const lookups = await Promise.all(needsLookup.map((p) => fetchCurrentOrgFor(p.id)));
+  needsLookup.forEach((p, i) => {
+    p.currentOrg = lookups[i]; // null means: not currently on any MLB org's roster (unsigned, released, retired, etc.)
+  });
+
+  return allPicks.sort((a, b) => b.year - a.year || a.overallPick - b.overallPick);
 }
 
 async function main() {
@@ -495,7 +547,8 @@ async function main() {
   const prospects = await fetchAllProspects(levels, SEASON);
   const allTeams = levels.flatMap((lv) => lv.teams);
   const transactions = await fetchTransactionsForTeams(allTeams);
-  const draftPicks = await fetchDraftPicks(SEASON);
+  const orgIndex = buildOrgRosterIndex(levelsWithRosters);
+  const draftPicks = await fetchDraftPicks(SEASON, orgIndex);
 
   const snapshot = {
     updatedAt: new Date().toISOString(),
