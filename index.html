@@ -207,31 +207,7 @@ function WatchButton({ id, watchlist, onToggle }) {
   );
 }
 
-function ChartButton({ player, onOpen }) {
-  return (
-    <button
-      onClick={(e) => {
-        e.stopPropagation();
-        onOpen(player);
-      }}
-      title="Game-by-game trend"
-      style={{
-        background: "none",
-        border: "none",
-        cursor: "pointer",
-        padding: 0,
-        marginLeft: 6,
-        fontSize: 12,
-        color: "#5f7ba3",
-        lineHeight: 1,
-      }}
-    >
-      📈
-    </button>
-  );
-}
-
-function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, showHandedness, showStatus, watchlist = EMPTY_SET, onToggleWatch = noop, onOpenPlayer = noop }) {
+function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, showHandedness, showStatus, watchlist = EMPTY_SET, onToggleWatch = noop }) {
   const onSort = (key) =>
     setSort((s) => ({ key, dir: s.key === key && s.dir === "desc" ? "asc" : "desc" }));
   const sorted = useMemo(() => sortRows(rows, sort.key, sort.dir), [rows, sort]);
@@ -274,7 +250,6 @@ function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, s
                   <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
                     {p.name}
                   </a>
-                  <ChartButton player={p} onOpen={onOpenPlayer} />
                 </td>
                 <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.pos}</td>
                 {showLevel && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.level}</td>}
@@ -334,7 +309,6 @@ function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, s
                     <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
                       {p.name}
                     </a>
-                    <ChartButton player={p} onOpen={onOpenPlayer} />
                   </td>
                   <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.pos}</td>
                   {showTeam && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.team}</td>}
@@ -357,7 +331,7 @@ function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, s
   );
 }
 
-function PitchersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, showHandedness, showStatus, watchlist = EMPTY_SET, onToggleWatch = noop, onOpenPlayer = noop }) {
+function PitchersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, showHandedness, showStatus, watchlist = EMPTY_SET, onToggleWatch = noop }) {
   const onSort = (key) =>
     setSort((s) => ({ key, dir: s.key === key && s.dir === "asc" ? "desc" : "asc" }));
   const sorted = useMemo(() => sortRows(rows, sort.key, sort.dir), [rows, sort]);
@@ -399,7 +373,6 @@ function PitchersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, 
                   <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
                     {p.name}
                   </a>
-                  <ChartButton player={p} onOpen={onOpenPlayer} />
                 </td>
                 {showLevel && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.level}</td>}
                 {showTeam && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.team}</td>}
@@ -455,7 +428,6 @@ function PitchersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, 
                     <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
                       {p.name}
                     </a>
-                    <ChartButton player={p} onOpen={onOpenPlayer} />
                   </td>
                   {showTeam && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.team}</td>}
                   <td style={tdStat}>{fmt(p.g)}</td>
@@ -709,122 +681,6 @@ function TeamStandingsSchedule({ team }) {
   );
 }
 
-// Live, on-demand stat-trend chart — the one piece of this page that still
-// calls MLB's API directly from the browser instead of reading the snapshot,
-// since baking every player's full game log into the snapshot would bloat it
-// enormously for a feature most visitors won't open for most players.
-function PlayerModal({ player, season, onClose }) {
-  const [gameLog, setGameLog] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    if (!player) return;
-    setLoading(true);
-    setError(null);
-    setGameLog(null);
-    const group = player.pos === "P" ? "pitching" : "hitting";
-    fetch(`https://statsapi.mlb.com/api/v1/people/${player.id}/stats?stats=gameLog&season=${season}&group=${group}`)
-      .then((r) => {
-        if (!r.ok) throw new Error(`MLB API returned ${r.status}`);
-        return r.json();
-      })
-      .then((data) => {
-        const splits = data.stats?.[0]?.splits || [];
-        setGameLog(splits.map((s) => ({ date: s.date, stat: s.stat })).reverse());
-      })
-      .catch((e) => setError(e.message))
-      .finally(() => setLoading(false));
-  }, [player, season]);
-
-  if (!player) return null;
-  const isPitcher = player.pos === "P";
-  const metricKey = isPitcher ? "era" : "ops";
-  const metricLabel = isPitcher ? "ERA" : "OPS";
-
-  return (
-    <div
-      onClick={onClose}
-      style={{
-        position: "fixed",
-        inset: 0,
-        background: "rgba(4,12,26,0.75)",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        zIndex: 50,
-        padding: 20,
-      }}
-    >
-      <div
-        onClick={(e) => e.stopPropagation()}
-        style={{
-          background: "#0c2445",
-          border: "1px solid #1e3a63",
-          borderRadius: 8,
-          padding: 22,
-          maxWidth: 640,
-          width: "100%",
-          maxHeight: "80vh",
-          overflowY: "auto",
-        }}
-      >
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
-          <div style={{ fontSize: 17, fontWeight: 600 }}>{player.name} — game-by-game {metricLabel}</div>
-          <button
-            onClick={onClose}
-            style={{ background: "none", border: "none", color: "#8fa3c4", fontSize: 20, cursor: "pointer", lineHeight: 1 }}
-          >
-            ×
-          </button>
-        </div>
-        {loading ? (
-          <div style={pulseStyle}>LOADING GAME LOG…</div>
-        ) : error ? (
-          <div style={{ color: "#e6b8c2", fontSize: 13 }}>Couldn't load game log ({error}).</div>
-        ) : !gameLog || gameLog.length === 0 ? (
-          <div style={{ color: "#8fa3c4", fontSize: 13 }}>No games logged yet this season.</div>
-        ) : (
-          <GameLogChart gameLog={gameLog} metricKey={metricKey} />
-        )}
-      </div>
-    </div>
-  );
-}
-
-function GameLogChart({ gameLog, metricKey }) {
-  const width = 580;
-  const height = 200;
-  const padding = 30;
-  const values = gameLog.map((g) => parseFloat(g.stat?.[metricKey])).filter((v) => !isNaN(v));
-  if (values.length < 2) {
-    return <div style={{ color: "#8fa3c4", fontSize: 13 }}>Not enough games yet for a trend line.</div>;
-  }
-  const min = Math.min(...values);
-  const max = Math.max(...values);
-  const range = max - min || 1;
-  const points = values.map((v, i) => {
-    const x = padding + (i / (values.length - 1)) * (width - padding * 2);
-    const y = height - padding - ((v - min) / range) * (height - padding * 2);
-    return `${x},${y}`;
-  });
-  return (
-    <svg viewBox={`0 0 ${width} ${height}`} style={{ width: "100%", height: "auto" }}>
-      <polyline points={points.join(" ")} fill="none" stroke="#5ec8f2" strokeWidth="2" />
-      {values.map((v, i) => {
-        const [x, y] = points[i].split(",");
-        return <circle key={i} cx={x} cy={y} r="2.5" fill="#c8a04b" />;
-      })}
-      <text x={padding} y={14} fill="#8fa3c4" fontSize="10" fontFamily="IBM Plex Mono">
-        {max.toFixed(3)}
-      </text>
-      <text x={padding} y={height - padding + 14} fill="#8fa3c4" fontSize="10" fontFamily="IBM Plex Mono">
-        {min.toFixed(3)}
-      </text>
-    </svg>
-  );
-}
-
 function RoyalsFarmTracker() {
   const [snapshot, setSnapshot] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -850,8 +706,6 @@ function RoyalsFarmTracker() {
       return next;
     });
   }, []);
-
-  const [playerModal, setPlayerModal] = useState(null); // { id, name, pos } | null
 
   const [autoRefresh, setAutoRefresh] = useState(true);
   const [checkedAt, setCheckedAt] = useState(null); // when this browser last pulled the JSON
@@ -1224,7 +1078,6 @@ function RoyalsFarmTracker() {
                     showTeam={activeLevel.teams.length > 1}
                     watchlist={watchlist}
                     onToggleWatch={toggleWatch}
-                    onOpenPlayer={setPlayerModal}
                   />
                   <PitchersTable
                     rows={filteredPitchers}
@@ -1234,7 +1087,6 @@ function RoyalsFarmTracker() {
                     showTeam={activeLevel.teams.length > 1}
                     watchlist={watchlist}
                     onToggleWatch={toggleWatch}
-                    onOpenPlayer={setPlayerModal}
                   />
                 </>
               )}
@@ -1282,7 +1134,6 @@ function RoyalsFarmTracker() {
                     showStatus
                     watchlist={watchlist}
                     onToggleWatch={toggleWatch}
-                    onOpenPlayer={setPlayerModal}
                   />
                   <PitchersTable
                     rows={filteredProspectPitchers}
@@ -1294,7 +1145,6 @@ function RoyalsFarmTracker() {
                     showStatus
                     watchlist={watchlist}
                     onToggleWatch={toggleWatch}
-                    onOpenPlayer={setPlayerModal}
                   />
                 </>
               )}
@@ -1328,7 +1178,6 @@ function RoyalsFarmTracker() {
                     showStatus
                     watchlist={watchlist}
                     onToggleWatch={toggleWatch}
-                    onOpenPlayer={setPlayerModal}
                   />
                   <PitchersTable
                     rows={watchedPitchers}
@@ -1339,17 +1188,12 @@ function RoyalsFarmTracker() {
                     showStatus
                     watchlist={watchlist}
                     onToggleWatch={toggleWatch}
-                    onOpenPlayer={setPlayerModal}
                   />
                 </>
               )}
             </div>
           )}
         </>
-      )}
-
-      {playerModal && (
-        <PlayerModal player={playerModal} season={snapshot?.season} onClose={() => setPlayerModal(null)} />
       )}
 
       <div style={{ maxWidth: 980, margin: "26px auto 0", fontSize: 11, color: "#4d6690", lineHeight: 1.6 }}>
