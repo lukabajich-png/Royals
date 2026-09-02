@@ -11,6 +11,55 @@ const ROYALS_ID = 118;
 const SEASON = new Date().getFullYear();
 
 // ---------------------------------------------------------------------------
+// "Hot/cold" trend detection — compares each player's last-15-days rate stats
+// against their season rate stats. Thresholds are a judgment call (MLB doesn't
+// publish an official hot/cold definition), tune freely:
+//   - Hitters: OPS swing of 150+ points, on at least 15 recent plate appearances
+//   - Pitchers: ERA swing of 1.50+, on at least 5 recent innings pitched
+// Below the minimum sample size, a player just shows no trend badge at all
+// rather than a noisy one from a handful of games.
+// ---------------------------------------------------------------------------
+const TREND_WINDOW_DAYS = 15;
+const MIN_RECENT_PA = 15;
+const MIN_RECENT_IP = 5;
+const HOT_OPS_DELTA = 0.15;
+const HOT_ERA_DELTA = 1.5;
+
+function isoDateDaysAgo(days) {
+  const d = new Date();
+  d.setDate(d.getDate() - days);
+  return d.toISOString().slice(0, 10);
+}
+const TREND_START_DATE = isoDateDaysAgo(TREND_WINDOW_DAYS);
+const TREND_END_DATE = isoDateDaysAgo(0);
+
+function classifyHitterTrend(seasonStat, recentStat) {
+  if (!seasonStat || !recentStat) return null;
+  const recentPA = Number(recentStat.plateAppearances ?? 0);
+  if (!recentPA || recentPA < MIN_RECENT_PA) return null;
+  const seasonOps = parseFloat(seasonStat.ops);
+  const recentOps = parseFloat(recentStat.ops);
+  if (isNaN(seasonOps) || isNaN(recentOps)) return null;
+  const diff = recentOps - seasonOps;
+  if (diff >= HOT_OPS_DELTA) return "hot";
+  if (diff <= -HOT_OPS_DELTA) return "cold";
+  return null;
+}
+
+function classifyPitcherTrend(seasonStat, recentStat) {
+  if (!seasonStat || !recentStat) return null;
+  const recentIp = parseFloat(recentStat.inningsPitched ?? "0");
+  if (isNaN(recentIp) || recentIp < MIN_RECENT_IP) return null;
+  const seasonEra = parseFloat(seasonStat.era);
+  const recentEra = parseFloat(recentStat.era);
+  if (isNaN(seasonEra) || isNaN(recentEra)) return null;
+  const diff = seasonEra - recentEra; // positive = ERA improved recently
+  if (diff >= HOT_ERA_DELTA) return "hot";
+  if (diff <= -HOT_ERA_DELTA) return "cold";
+  return null;
+}
+
+// ---------------------------------------------------------------------------
 // Prospect rankings — same manually-maintained snapshot the app uses.
 // Update this whenever MLB Pipeline republishes rankings:
 //   https://www.mlb.com/milb/prospects/royals
@@ -129,8 +178,26 @@ function pushPlayerRow(entry, teamName, hittersOut, pitchersOut) {
   const person = entry.person || {};
   const posAbbr = entry.position?.abbreviation || "";
   const statsArr = person.stats || [];
-  const hittingStat = statsArr.find((s) => s.group?.displayName === "hitting")?.splits?.[0]?.stat;
-  const pitchingStat = statsArr.find((s) => s.group?.displayName === "pitching")?.splits?.[0]?.stat;
+
+  // Each group (hitting/pitching) can carry two split entries now — "season"
+  // and "byDateRange" (the trailing-15-days window) — so match on type too,
+  // not just group. Matched loosely (via includes) since exact type-name
+  // casing/wording isn't something we can verify without live-testing against
+  // MLB's API from here.
+  function pickStat(groupName, matcher) {
+    const entry = statsArr.find(
+      (s) =>
+        s.group?.displayName === groupName &&
+        matcher((s.type?.displayName || s.type?.type || "").toLowerCase())
+    );
+    return entry?.splits?.[0]?.stat || null;
+  }
+
+  const hittingStat = pickStat("hitting", (t) => t.includes("season"));
+  const hittingRecent = pickStat("hitting", (t) => t.includes("date") || t.includes("range"));
+  const pitchingStat = pickStat("pitching", (t) => t.includes("season"));
+  const pitchingRecent = pickStat("pitching", (t) => t.includes("date") || t.includes("range"));
+
   const { orgRank, top100Rank } = lookupProspectRank(person.fullName);
 
   const base = {
@@ -159,6 +226,7 @@ function pushPlayerRow(entry, teamName, hittersOut, pitchersOut) {
       ip: pitchingStat?.inningsPitched ?? null,
       so: pitchingStat?.strikeOuts ?? null,
       hasStats: !!pitchingStat,
+      trend: classifyPitcherTrend(pitchingStat, pitchingRecent),
     });
   } else {
     hittersOut.push({
@@ -172,12 +240,15 @@ function pushPlayerRow(entry, teamName, hittersOut, pitchersOut) {
       rbi: hittingStat?.rbi ?? null,
       sb: hittingStat?.stolenBases ?? null,
       hasStats: !!hittingStat,
+      trend: classifyHitterTrend(hittingStat, hittingRecent),
     });
   }
 }
 
 async function fetchOneTeamRoster(teamId, teamName, season, sportId) {
-  const hydrate = `hydrate=person(stats(type=season,season=${season},sportId=${sportId},group=[hitting,pitching]))`;
+  const hydrate =
+    `hydrate=person(stats(type=[season,byDateRange],season=${season},sportId=${sportId},` +
+    `group=[hitting,pitching],startDate=${TREND_START_DATE},endDate=${TREND_END_DATE}))`;
   const activeData = await getJSON(
     `https://statsapi.mlb.com/api/v1/teams/${teamId}/roster?rosterType=active&season=${season}&${hydrate}`
   );
