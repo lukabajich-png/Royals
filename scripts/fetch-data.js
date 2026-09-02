@@ -464,13 +464,55 @@ function buildOrgRosterIndex(levelsWithRosters) {
 // For a pick no longer in the Royals org (traded, released, retired, never
 // signed), look up their current team directly — this is a live per-player
 // call, only made for picks that don't show up in our own roster data.
-async function fetchCurrentOrgFor(personId) {
+// For a pick no longer in the Royals org, this resolves a richer status than
+// just a team name:
+//   - if they're rostered somewhere: which MLB organization, and which
+//     specific affiliate/level (the "currentTeam" a minor leaguer is on is
+//     the affiliate itself, e.g. "Syracuse Mets" — a second lookup on that
+//     team's own record is what finds "New York Mets" as the parent org and
+//     "AAA" as the level; this second-hop lookup is the part of this feature
+//     I'm least able to verify without live-testing it)
+//   - if they're not rostered anywhere: the most recent season they logged
+//     any game (hitting or pitching), so "not on a roster" can say since when
+async function fetchCurrentStatusFor(personId) {
   try {
     const data = await getJSON(`https://statsapi.mlb.com/api/v1/people/${personId}?hydrate=currentTeam`);
-    const team = data.people?.[0]?.currentTeam;
-    return team?.name || null;
+    const person = data.people?.[0];
+    const team = person?.currentTeam;
+
+    if (team?.id) {
+      let orgName = team.name;
+      let level = "MLB";
+      try {
+        const teamData = await getJSON(`https://statsapi.mlb.com/api/v1/teams/${team.id}`);
+        const teamInfo = teamData.teams?.[0];
+        if (teamInfo?.sport?.id && teamInfo.sport.id !== 1) {
+          orgName = teamInfo.parentOrgName || team.name;
+          level = shortLevelName(teamInfo.sport.name);
+        }
+      } catch {
+        // Fall back to just the roster team's own name/level="MLB" guess above.
+      }
+      return { rostered: true, orgName, teamName: team.name, level, lastPlayedYear: null };
+    }
+
+    // Not currently rostered anywhere — find the last season they played at all.
+    const statsData = await getJSON(
+      `https://statsapi.mlb.com/api/v1/people/${personId}/stats?stats=yearByYear&group=hitting,pitching`
+    );
+    let lastPlayedYear = null;
+    for (const group of statsData.stats || []) {
+      for (const split of group.splits || []) {
+        const gp = split.stat?.gamesPlayed ?? 0;
+        const year = parseInt(split.season, 10);
+        if (gp > 0 && !isNaN(year) && (lastPlayedYear === null || year > lastPlayedYear)) {
+          lastPlayedYear = year;
+        }
+      }
+    }
+    return { rostered: false, orgName: null, teamName: null, level: null, lastPlayedYear };
   } catch {
-    return null;
+    return { rostered: false, orgName: null, teamName: null, level: null, lastPlayedYear: null };
   }
 }
 
@@ -501,7 +543,11 @@ async function fetchDraftPicks(season, orgIndex) {
               signingBonus: pick.signingBonus || null,
               currentOrgRank: rank.orgRank,
               currentLevel: inOrg?.level || null, // still with the Royals, and at this level
-              currentOrg: null, // filled in below only if they've left the org
+              // Filled in below only for picks no longer with the Royals:
+              otherOrgName: null, // MLB parent org, if rostered elsewhere
+              otherTeamName: null, // the specific affiliate/MLB team, if rostered elsewhere
+              otherLevel: null, // level at that other org, if rostered elsewhere
+              lastPlayedYear: null, // most recent season with a game logged, if not rostered anywhere
             });
           }
         }
@@ -516,9 +562,16 @@ async function fetchDraftPicks(season, orgIndex) {
   // For anyone not found in our own rosters, look up where they are now —
   // capped so a bad year doesn't trigger hundreds of calls unexpectedly.
   const needsLookup = allPicks.filter((p) => !p.currentLevel && p.id);
-  const lookups = await Promise.all(needsLookup.map((p) => fetchCurrentOrgFor(p.id)));
+  const lookups = await Promise.all(needsLookup.map((p) => fetchCurrentStatusFor(p.id)));
   needsLookup.forEach((p, i) => {
-    p.currentOrg = lookups[i]; // null means: not currently on any MLB org's roster (unsigned, released, retired, etc.)
+    const status = lookups[i];
+    if (status.rostered) {
+      p.otherOrgName = status.orgName;
+      p.otherTeamName = status.teamName;
+      p.otherLevel = status.level;
+    } else {
+      p.lastPlayedYear = status.lastPlayedYear; // null here means never logged a game at all
+    }
   });
 
   return allPicks.sort((a, b) => b.year - a.year || a.overallPick - b.overallPick);
