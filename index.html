@@ -607,6 +607,7 @@ function DraftView({ draftPicks }) {
                   <th style={{ ...thBase, textAlign: "left" }}>Pos</th>
                   <th style={{ ...thBase, textAlign: "left" }}>School</th>
                   <th style={{ ...thBase, textAlign: "left" }}>Org Rank</th>
+                  <th style={{ ...thBase, textAlign: "left" }}>Where Now</th>
                 </tr>
               </thead>
               <tbody>
@@ -614,11 +615,26 @@ function DraftView({ draftPicks }) {
                   <tr key={`${p.year}-${p.overallPick}`} style={{ background: i % 2 ? "rgba(255,255,255,0.02)" : "transparent" }}>
                     <td style={{ ...tdBase, textAlign: "left" }}>{fmt(p.round)}</td>
                     <td style={{ ...tdBase, textAlign: "left" }}>{fmt(p.overallPick)}</td>
-                    <td style={{ ...tdBase, textAlign: "left", fontWeight: 600 }}>{p.name}</td>
+                    <td style={{ ...tdBase, textAlign: "left", fontWeight: 600 }}>
+                      {p.profileUrl ? (
+                        <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
+                          {p.name}
+                        </a>
+                      ) : (
+                        p.name
+                      )}
+                    </td>
                     <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{fmt(p.position)}</td>
                     <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{fmt(p.school)}</td>
                     <td style={{ ...tdBase, textAlign: "left" }}>
                       {p.currentOrgRank ? <span style={orgBadgeStyle}>#{p.currentOrgRank}</span> : "—"}
+                    </td>
+                    <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>
+                      {p.currentLevel
+                        ? `Royals — ${p.currentLevel}`
+                        : p.currentOrg
+                        ? p.currentOrg
+                        : "Not in organized baseball"}
                     </td>
                   </tr>
                 ))}
