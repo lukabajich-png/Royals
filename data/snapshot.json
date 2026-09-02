@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T13:42:41.090Z",
+  "updatedAt": "2026-09-02T13:53:49.718Z",
   "season": 2026,
   "levels": [
     {
@@ -9285,1041 +9285,1457 @@
       "year": 2026,
       "round": "1",
       "overallPick": 6,
+      "id": 805799,
       "name": "Zion Rose",
+      "profileUrl": "https://www.mlb.com/player/zion-rose-805799",
       "position": "",
       "school": "Louisville",
       "signingBonus": "5809575",
-      "currentOrgRank": 6
+      "currentOrgRank": 6,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "CB-A",
       "overallPick": 30,
+      "id": 815040,
       "name": "Taylor Rabe",
+      "profileUrl": "https://www.mlb.com/player/taylor-rabe-815040",
       "position": "",
       "school": "Mississippi",
       "signingBonus": "3197500",
-      "currentOrgRank": 9
+      "currentOrgRank": 9,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "2",
       "overallPick": 56,
+      "id": 840030,
       "name": "Jack Slightom",
+      "profileUrl": "https://www.mlb.com/player/jack-slightom-840030",
       "position": "",
       "school": "Lyons Township HS",
       "signingBonus": "2997500",
-      "currentOrgRank": 12
+      "currentOrgRank": 12,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "3",
       "overallPick": 91,
+      "id": 805258,
       "name": "Maxx Yehl",
+      "profileUrl": "https://www.mlb.com/player/maxx-yehl-805258",
       "position": "",
       "school": "West Virginia",
       "signingBonus": "870400",
-      "currentOrgRank": 22
+      "currentOrgRank": 22,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "4",
       "overallPick": 119,
+      "id": 840032,
       "name": "Dominic Battista",
+      "profileUrl": "https://www.mlb.com/player/dominic-battista-840032",
       "position": "",
       "school": "Oswego East HS",
       "signingBonus": "797500",
-      "currentOrgRank": 27
+      "currentOrgRank": 27,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "5",
       "overallPick": 151,
+      "id": 806155,
       "name": "Ethan McElvain",
+      "profileUrl": "https://www.mlb.com/player/ethan-mcelvain-806155",
       "position": "",
       "school": "Arkansas",
       "signingBonus": "474400",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "6",
       "overallPick": 180,
+      "id": 806141,
       "name": "Justin LeGuernic",
+      "profileUrl": "https://www.mlb.com/player/justin-leguernic-806141",
       "position": "",
       "school": "Clemson",
       "signingBonus": "365100",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "7",
       "overallPick": 209,
+      "id": 815068,
       "name": "Dylan Vigue",
+      "profileUrl": "https://www.mlb.com/player/dylan-vigue-815068",
       "position": "",
       "school": "Georgia",
       "signingBonus": "622500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "8",
       "overallPick": 239,
+      "id": 811011,
       "name": "Hunter Possehl",
+      "profileUrl": "https://www.mlb.com/player/hunter-possehl-811011",
       "position": "",
       "school": "Florida Gulf Coast",
       "signingBonus": "217500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "9",
       "overallPick": 269,
+      "id": 825128,
       "name": "Camden Johnson",
+      "profileUrl": "https://www.mlb.com/player/camden-johnson-825128",
       "position": "",
       "school": "Oklahoma",
       "signingBonus": "397500",
-      "currentOrgRank": 23
+      "currentOrgRank": 23,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "10",
       "overallPick": 299,
+      "id": 701584,
       "name": "Grant Fontenot",
+      "profileUrl": "https://www.mlb.com/player/grant-fontenot-701584",
       "position": "",
       "school": "LSU",
       "signingBonus": "72500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "11",
       "overallPick": 329,
+      "id": 824429,
       "name": "Tanner Griffith",
+      "profileUrl": "https://www.mlb.com/player/tanner-griffith-824429",
       "position": "",
       "school": "Saint Mary's",
       "signingBonus": "167500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "12",
       "overallPick": 359,
+      "id": 826156,
       "name": "Lance Hartley",
+      "profileUrl": "https://www.mlb.com/player/lance-hartley-826156",
       "position": "",
       "school": "College of Central Florida",
       "signingBonus": "157500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "13",
       "overallPick": 389,
+      "id": 842477,
       "name": "Dalton Hill",
+      "profileUrl": "https://www.mlb.com/player/dalton-hill-842477",
       "position": "",
       "school": "Nicholls St U",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "14",
       "overallPick": 419,
+      "id": 843416,
       "name": "Banks Wickersham",
+      "profileUrl": "https://www.mlb.com/player/banks-wickersham-843416",
       "position": "",
       "school": "Fort Dorchester HS",
       "signingBonus": "197500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "15",
       "overallPick": 449,
+      "id": 824011,
       "name": "Madden Clement",
+      "profileUrl": "https://www.mlb.com/player/madden-clement-824011",
       "position": "",
       "school": "Virginia Tech",
       "signingBonus": "172500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "16",
       "overallPick": 479,
+      "id": 834697,
       "name": "Dylan Alonso",
+      "profileUrl": "https://www.mlb.com/player/dylan-alonso-834697",
       "position": "",
       "school": "Troy",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "17",
       "overallPick": 509,
+      "id": 822866,
       "name": "Richie Roman",
+      "profileUrl": "https://www.mlb.com/player/richie-roman-822866",
       "position": "",
       "school": "Houston",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "18",
       "overallPick": 539,
+      "id": 840678,
       "name": "Cooper Corkrean",
+      "profileUrl": "https://www.mlb.com/player/cooper-corkrean-840678",
       "position": "",
       "school": "New Mexico",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "19",
       "overallPick": 569,
+      "id": 840026,
       "name": "Hudson DeVaughan",
+      "profileUrl": "https://www.mlb.com/player/hudson-devaughan-840026",
       "position": "",
       "school": "Mooresville HS",
       "signingBonus": null,
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": null
     },
     {
       "year": 2026,
       "round": "20",
       "overallPick": 599,
+      "id": 829216,
       "name": "Riley McDonald",
+      "profileUrl": "https://www.mlb.com/player/riley-mcdonald-829216",
       "position": "",
       "school": "State College of Florida, Manatee-Sarasota",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "1",
       "overallPick": 23,
+      "id": 815819,
       "name": "Sean Gamble",
+      "profileUrl": "https://www.mlb.com/player/sean-gamble-815819",
       "position": "",
       "school": "IMG Academy",
       "signingBonus": "3997500",
-      "currentOrgRank": 10
+      "currentOrgRank": 10,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "PPI",
       "overallPick": 28,
+      "id": 815843,
       "name": "Josh Hammond",
+      "profileUrl": "https://www.mlb.com/player/josh-hammond-815843",
       "position": "",
       "school": "Wesleyan Christian Academy",
       "signingBonus": "3197500",
-      "currentOrgRank": 2
+      "currentOrgRank": 2,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "2",
       "overallPick": 61,
+      "id": 813533,
       "name": "Michael Lombardi",
+      "profileUrl": "https://www.mlb.com/player/michael-lombardi-813533",
       "position": "",
       "school": "Tulane",
       "signingBonus": "1297500",
-      "currentOrgRank": 13
+      "currentOrgRank": 13,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "CB-B",
       "overallPick": 71,
+      "id": 703610,
       "name": "Justin Lamkin",
+      "profileUrl": "https://www.mlb.com/player/justin-lamkin-703610",
       "position": "",
       "school": "Texas A&M",
       "signingBonus": "1161200",
-      "currentOrgRank": 8
+      "currentOrgRank": 8,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "3",
       "overallPick": 97,
+      "id": 832698,
       "name": "Cameron Millar",
+      "profileUrl": "https://www.mlb.com/player/cameron-millar-832698",
       "position": "",
       "school": "Alhambra HS",
       "signingBonus": "1497500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "4",
       "overallPick": 128,
+      "id": 823073,
       "name": "Nolan Sailors",
+      "profileUrl": "https://www.mlb.com/player/nolan-sailors-823073",
       "position": "",
       "school": "Creighton",
       "signingBonus": "147500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "5",
       "overallPick": 158,
+      "id": 804525,
       "name": "Aiden Jimenez",
+      "profileUrl": "https://www.mlb.com/player/aiden-jimenez-804525",
       "position": "",
       "school": "Arkansas",
       "signingBonus": "431900",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "6",
       "overallPick": 188,
+      "id": 822743,
       "name": "Tyriq Kemp",
+      "profileUrl": "https://www.mlb.com/player/tyriq-kemp-822743",
       "position": "",
       "school": "Baylor",
       "signingBonus": "147500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "7",
       "overallPick": 218,
+      "id": 703657,
       "name": "Bryson Dudley",
+      "profileUrl": "https://www.mlb.com/player/bryson-dudley-703657",
       "position": "",
       "school": "Texas State",
       "signingBonus": "261000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "8",
       "overallPick": 248,
+      "id": 804871,
       "name": "Brooks Bryan",
+      "profileUrl": "https://www.mlb.com/player/brooks-bryan-804871",
       "position": "",
       "school": "Troy University",
       "signingBonus": "197500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "9",
       "overallPick": 278,
+      "id": 822461,
       "name": "Shane Van Dam",
+      "profileUrl": "https://www.mlb.com/player/shane-van-dam-822461",
       "position": "",
       "school": "NC State",
       "signingBonus": "196100",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "10",
       "overallPick": 308,
+      "id": 822317,
       "name": "Max Martin",
+      "profileUrl": "https://www.mlb.com/player/max-martin-822317",
       "position": "",
       "school": "University of California - Irvine",
       "signingBonus": "185800",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Asheville Tourists"
     },
     {
       "year": 2025,
       "round": "11",
       "overallPick": 338,
+      "id": 828043,
       "name": "Hunter Alberini",
+      "profileUrl": "https://www.mlb.com/player/hunter-alberini-828043",
       "position": "",
       "school": "Arizona",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Columbia Fireflies"
     },
     {
       "year": 2025,
       "round": "12",
       "overallPick": 368,
+      "id": 702614,
       "name": "Matthew Hoskins",
+      "profileUrl": "https://www.mlb.com/player/matthew-hoskins-702614",
       "position": "",
       "school": "Georgia",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "FCL Rays"
     },
     {
       "year": 2025,
       "round": "13",
       "overallPick": 398,
+      "id": 828903,
       "name": "Tyson Moran",
+      "profileUrl": "https://www.mlb.com/player/tyson-moran-828903",
       "position": "",
       "school": "No School",
       "signingBonus": "247500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "14",
       "overallPick": 428,
+      "id": 834408,
       "name": "JC Vanek",
+      "profileUrl": "https://www.mlb.com/player/jc-vanek-834408",
       "position": "",
       "school": "Chipola College",
       "signingBonus": "347500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "15",
       "overallPick": 458,
+      "id": 811278,
       "name": "Connor Rasmussen",
+      "profileUrl": "https://www.mlb.com/player/connor-rasmussen-811278",
       "position": "",
       "school": "Tulane",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "16",
       "overallPick": 488,
+      "id": 835609,
       "name": "Randy Ramnarace",
+      "profileUrl": "https://www.mlb.com/player/randy-ramnarace-835609",
       "position": "",
       "school": "University of New Haven",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "17",
       "overallPick": 518,
+      "id": 804114,
       "name": "Luke Pelzer",
+      "profileUrl": "https://www.mlb.com/player/luke-pelzer-804114",
       "position": "",
       "school": "University of Illinois at Chicago",
       "signingBonus": "100000",
-      "currentOrgRank": 28
+      "currentOrgRank": 28,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "18",
       "overallPick": 548,
+      "id": 816095,
       "name": "Grayson Boles",
+      "profileUrl": "https://www.mlb.com/player/grayson-boles-816095",
       "position": "",
       "school": "St. Augustine HS",
       "signingBonus": "500000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "19",
       "overallPick": 578,
+      "id": 828141,
       "name": "Dylan Wood",
+      "profileUrl": "https://www.mlb.com/player/dylan-wood-828141",
       "position": "",
       "school": "Franklin HS",
       "signingBonus": null,
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": null
     },
     {
       "year": 2025,
       "round": "20",
       "overallPick": 608,
+      "id": 833403,
       "name": "Kamden Edge",
+      "profileUrl": "https://www.mlb.com/player/kamden-edge-833403",
       "position": "",
       "school": "Northern Oklahoma JC",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "1",
       "overallPick": 6,
+      "id": 695506,
       "name": "Jac Caglianone",
+      "profileUrl": "https://www.mlb.com/player/jac-caglianone-695506",
       "position": "",
       "school": "Florida",
       "signingBonus": "7500000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "MLB",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "2",
       "overallPick": 41,
+      "id": 815789,
       "name": "David Shields",
+      "profileUrl": "https://www.mlb.com/player/david-shields-815789",
       "position": "",
       "school": "Mt. Lebanon HS",
       "signingBonus": "2300000",
-      "currentOrgRank": 4
+      "currentOrgRank": 4,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "3",
       "overallPick": 76,
+      "id": 701795,
       "name": "Drew Beam",
+      "profileUrl": "https://www.mlb.com/player/drew-beam-701795",
       "position": "",
       "school": "Tennessee",
       "signingBonus": "1097500",
-      "currentOrgRank": 20
+      "currentOrgRank": 20,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "4",
       "overallPick": 105,
+      "id": 692137,
       "name": "L.P. Langevin",
+      "profileUrl": "https://www.mlb.com/player/lp-langevin-692137",
       "position": "",
       "school": "University of Louisiana at Lafayette",
       "signingBonus": "597500",
-      "currentOrgRank": 30
+      "currentOrgRank": 30,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "5",
       "overallPick": 138,
+      "id": 822067,
       "name": "A.J. Causey",
+      "profileUrl": "https://www.mlb.com/player/aj-causey-822067",
       "position": "",
       "school": "Tennessee",
       "signingBonus": "477500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Midland RockHounds"
     },
     {
       "year": 2024,
       "round": "6",
       "overallPick": 167,
+      "id": 823017,
       "name": "Tanner Jones",
+      "profileUrl": "https://www.mlb.com/player/tanner-jones-823017",
       "position": "",
       "school": "Texas A&M",
       "signingBonus": "379600",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "7",
       "overallPick": 197,
+      "id": 701207,
       "name": "Dennis Colleran Jr.",
+      "profileUrl": "https://www.mlb.com/player/dennis-colleran-jr-701207",
       "position": "",
       "school": "Northeastern",
       "signingBonus": "247500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "8",
       "overallPick": 227,
+      "id": 694921,
       "name": "Nick Conte",
+      "profileUrl": "https://www.mlb.com/player/nick-conte-694921",
       "position": "",
       "school": "Duke",
       "signingBonus": "157500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "9",
       "overallPick": 257,
+      "id": 701401,
       "name": "Canyon Brown",
+      "profileUrl": "https://www.mlb.com/player/canyon-brown-701401",
       "position": "",
       "school": "North Carolina A&T",
       "signingBonus": "197500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "10",
       "overallPick": 287,
+      "id": 806004,
       "name": "Nate Ackenhausen",
+      "profileUrl": "https://www.mlb.com/player/nate-ackenhausen-806004",
       "position": "",
       "school": "LSU",
       "signingBonus": "47500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "11",
       "overallPick": 317,
+      "id": 815045,
       "name": "Zachary Cawyer",
+      "profileUrl": "https://www.mlb.com/player/zachary-cawyer-815045",
       "position": "",
       "school": "TCU",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "12",
       "overallPick": 347,
+      "id": 701695,
       "name": "Tommy Molsky",
+      "profileUrl": "https://www.mlb.com/player/tommy-molsky-701695",
       "position": "",
       "school": "Oklahoma State",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "13",
       "overallPick": 377,
+      "id": 814528,
       "name": "Sam Kulasingam",
+      "profileUrl": "https://www.mlb.com/player/sam-kulasingam-814528",
       "position": "",
       "school": "Air Force",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "14",
       "overallPick": 407,
+      "id": 826940,
       "name": "Kyle DeGroat",
+      "profileUrl": "https://www.mlb.com/player/kyle-degroat-826940",
       "position": "",
       "school": "Wallkill Senior HS",
       "signingBonus": "347500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "15",
       "overallPick": 437,
+      "id": 824623,
       "name": "Tyler Davis",
+      "profileUrl": "https://www.mlb.com/player/tyler-davis-824623",
       "position": "",
       "school": "Mississippi State",
       "signingBonus": "100000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Portland Sea Dogs"
     },
     {
       "year": 2024,
       "round": "16",
       "overallPick": 467,
+      "id": 688474,
       "name": "Andrew Morones",
+      "profileUrl": "https://www.mlb.com/player/andrew-morones-688474",
       "position": "",
       "school": "Cal State Fullerton",
       "signingBonus": "50000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "17",
       "overallPick": 497,
+      "id": 826045,
       "name": "Dane Burns",
+      "profileUrl": "https://www.mlb.com/player/dane-burns-826045",
       "position": "",
       "school": "No School",
       "signingBonus": null,
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "18",
       "overallPick": 527,
+      "id": 827474,
       "name": "Corey Cousin",
+      "profileUrl": "https://www.mlb.com/player/corey-cousin-827474",
       "position": "",
       "school": "Slidell HS",
       "signingBonus": "347500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Rookie",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "19",
       "overallPick": 557,
+      "id": 822836,
       "name": "Dash Albus",
+      "profileUrl": "https://www.mlb.com/player/dash-albus-822836",
       "position": "",
       "school": "Abilene Christian U",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2024,
       "round": "20",
       "overallPick": 587,
+      "id": 815150,
       "name": "Carter Frederick",
+      "profileUrl": "https://www.mlb.com/player/carter-frederick-815150",
       "position": "",
       "school": "Oklahoma",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "1",
       "overallPick": 8,
+      "id": 805810,
       "name": "Blake Mitchell",
+      "profileUrl": "https://www.mlb.com/player/blake-mitchell-805810",
       "position": "",
       "school": "Sinton HS",
       "signingBonus": "4897500",
-      "currentOrgRank": 5
+      "currentOrgRank": 5,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "2",
       "overallPick": 44,
+      "id": 806265,
       "name": "Blake Wolters",
+      "profileUrl": "https://www.mlb.com/player/blake-wolters-806265",
       "position": "",
       "school": "Mahomet-Seymour HS",
       "signingBonus": "2800000",
-      "currentOrgRank": 29
+      "currentOrgRank": 29,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "CB-B",
       "overallPick": 66,
+      "id": 811287,
       "name": "Carson Roccaforte",
+      "profileUrl": "https://www.mlb.com/player/carson-roccaforte-811287",
       "position": "",
       "school": "University of Louisiana at Lafayette",
       "signingBonus": "897500",
-      "currentOrgRank": 17
+      "currentOrgRank": 17,
+      "currentLevel": "AAA",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "3",
       "overallPick": 75,
+      "id": 702965,
       "name": "Hiro Wyatt",
+      "profileUrl": "https://www.mlb.com/player/hiro-wyatt-702965",
       "position": "",
       "school": "Staples HS",
       "signingBonus": "1497500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "4",
       "overallPick": 106,
+      "id": 694818,
       "name": "Hunter Owen",
+      "profileUrl": "https://www.mlb.com/player/hunter-owen-694818",
       "position": "",
       "school": "Vanderbilt",
       "signingBonus": "631700",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "5",
       "overallPick": 142,
+      "id": 811289,
       "name": "Spencer Nivens",
+      "profileUrl": "https://www.mlb.com/player/spencer-nivens-811289",
       "position": "",
       "school": "Missouri State",
       "signingBonus": "472500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "6",
       "overallPick": 169,
+      "id": 814537,
       "name": "Coleman Picard",
+      "profileUrl": "https://www.mlb.com/player/coleman-picard-814537",
       "position": "",
       "school": "Bryant University",
       "signingBonus": "343000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "Single-A",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "7",
       "overallPick": 199,
+      "id": 687731,
       "name": "Trevor Werner",
+      "profileUrl": "https://www.mlb.com/player/trevor-werner-687731",
       "position": "",
       "school": "Texas A&M",
       "signingBonus": "350000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "8",
       "overallPick": 229,
+      "id": 815039,
       "name": "Dustin Dickerson",
+      "profileUrl": "https://www.mlb.com/player/dustin-dickerson-815039",
       "position": "",
       "school": "Southern Mississippi",
       "signingBonus": "197500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Omaha Storm Chasers"
     },
     {
       "year": 2023,
       "round": "9",
       "overallPick": 259,
+      "id": 683179,
       "name": "Jacob Widener",
+      "profileUrl": "https://www.mlb.com/player/jacob-widener-683179",
       "position": "",
       "school": "Oral Roberts",
       "signingBonus": "137500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Quad Cities River Bandits"
     },
     {
       "year": 2023,
       "round": "10",
       "overallPick": 289,
+      "id": 813386,
       "name": "Justin Johnson",
+      "profileUrl": "https://www.mlb.com/player/justin-johnson-813386",
       "position": "",
       "school": "Wake Forest",
       "signingBonus": "57500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "11",
       "overallPick": 319,
+      "id": 801406,
       "name": "Jared Dickey",
+      "profileUrl": "https://www.mlb.com/player/jared-dickey-801406",
       "position": "",
       "school": "Tennessee",
       "signingBonus": "572500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Las Vegas Aviators"
     },
     {
       "year": 2023,
       "round": "12",
       "overallPick": 349,
+      "id": 814803,
       "name": "Logan Martin",
+      "profileUrl": "https://www.mlb.com/player/logan-martin-814803",
       "position": "",
       "school": "Kentucky",
       "signingBonus": "297500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Richmond Flying Squirrels"
     },
     {
       "year": 2023,
       "round": "13",
       "overallPick": 379,
+      "id": 815073,
       "name": "Ethan Bosacker",
+      "profileUrl": "https://www.mlb.com/player/ethan-bosacker-815073",
       "position": "",
       "school": "Xavier",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AAA",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "14",
       "overallPick": 409,
+      "id": 692223,
       "name": "Mason Miller",
+      "profileUrl": "https://www.mlb.com/player/mason-miller-692223",
       "position": "",
       "school": "Florida Gulf Coast University",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "15",
       "overallPick": 439,
+      "id": 800691,
       "name": "Chase Isbell",
+      "profileUrl": "https://www.mlb.com/player/chase-isbell-800691",
       "position": "",
       "school": "Auburn",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "16",
       "overallPick": 469,
+      "id": 700985,
       "name": "Josh Hansell",
+      "profileUrl": "https://www.mlb.com/player/josh-hansell-700985",
       "position": "",
       "school": "Arizona State",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "17",
       "overallPick": 499,
+      "id": 700179,
       "name": "Connor Oliver",
+      "profileUrl": "https://www.mlb.com/player/connor-oliver-700179",
       "position": "",
       "school": "Miami University",
       "signingBonus": "100000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Altoona Curve"
     },
     {
       "year": 2023,
       "round": "18",
       "overallPick": 529,
+      "id": 806212,
       "name": "Stone Russell",
+      "profileUrl": "https://www.mlb.com/player/stone-russell-806212",
       "position": "",
       "school": "IMG Academy",
       "signingBonus": "150000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "19",
       "overallPick": 559,
+      "id": 814144,
       "name": "Donovan LaSalle",
+      "profileUrl": "https://www.mlb.com/player/donovan-lasalle-814144",
       "position": "",
       "school": "Barbe HS",
       "signingBonus": null,
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": null
     },
     {
       "year": 2023,
       "round": "20",
       "overallPick": 589,
+      "id": 815321,
       "name": "Blake Wilson",
+      "profileUrl": "https://www.mlb.com/player/blake-wilson-815321",
       "position": "",
       "school": "Santa Margarita Catholic HS",
       "signingBonus": null,
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "1",
       "overallPick": 9,
+      "id": 688457,
       "name": "Gavin Cross",
+      "profileUrl": "https://www.mlb.com/player/gavin-cross-688457",
       "position": "",
       "school": "Virginia Tech",
       "signingBonus": "5202900",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AAA",
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "2",
       "overallPick": 49,
+      "id": 691024,
       "name": "Cayden Wallace",
+      "profileUrl": "https://www.mlb.com/player/cayden-wallace-691024",
       "position": "",
       "school": "Arkansas",
       "signingBonus": "1700000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Rochester Red Wings"
     },
     {
       "year": 2022,
       "round": "3",
       "overallPick": 87,
+      "id": 686930,
       "name": "Mason Barnett",
+      "profileUrl": "https://www.mlb.com/player/mason-barnett-686930",
       "position": "",
       "school": "Auburn",
       "signingBonus": "697500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Las Vegas Aviators"
     },
     {
       "year": 2022,
       "round": "4",
       "overallPick": 115,
+      "id": 686632,
       "name": "Steven Zobac",
+      "profileUrl": "https://www.mlb.com/player/steven-zobac-686632",
       "position": "",
       "school": "California",
       "signingBonus": "500000",
-      "currentOrgRank": 14
+      "currentOrgRank": 14,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "5",
       "overallPick": 145,
+      "id": 687593,
       "name": "Hunter Patteson",
+      "profileUrl": "https://www.mlb.com/player/hunter-patteson-687593",
       "position": "",
       "school": "Central Florida",
       "signingBonus": "394500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AAA",
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "6",
       "overallPick": 175,
+      "id": 683095,
       "name": "Hayden Dunhurst",
+      "profileUrl": "https://www.mlb.com/player/hayden-dunhurst-683095",
       "position": "",
       "school": "Ole Miss",
       "signingBonus": "300000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Columbia Fireflies"
     },
     {
       "year": 2022,
       "round": "7",
       "overallPick": 205,
+      "id": 683084,
       "name": "Mack Anglin",
+      "profileUrl": "https://www.mlb.com/player/mack-anglin-683084",
       "position": "",
       "school": "Clemson",
       "signingBonus": "231100",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Columbia Fireflies"
     },
     {
       "year": 2022,
       "round": "8",
       "overallPick": 235,
+      "id": 669417,
       "name": "Wesley Scott",
+      "profileUrl": "https://www.mlb.com/player/wesley-scott-669417",
       "position": "",
       "school": "Walters State CC",
       "signingBonus": "184000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Columbia Fireflies"
     },
     {
       "year": 2022,
       "round": "9",
       "overallPick": 265,
+      "id": 699489,
       "name": "Brandon Johnson",
+      "profileUrl": "https://www.mlb.com/player/brandon-johnson-699489",
       "position": "",
       "school": "Ole Miss",
       "signingBonus": "47500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "10",
       "overallPick": 295,
+      "id": 678023,
       "name": "Levi Usher",
+      "profileUrl": "https://www.mlb.com/player/levi-usher-678023",
       "position": "",
       "school": "Louisville",
       "signingBonus": "72500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Columbia Fireflies"
     },
     {
       "year": 2022,
       "round": "11",
       "overallPick": 325,
+      "id": 689818,
       "name": "David Sandlin",
+      "profileUrl": "https://www.mlb.com/player/david-sandlin-689818",
       "position": "",
       "school": "Oklahoma",
       "signingBonus": "400000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Charlotte Knights"
     },
     {
       "year": 2022,
       "round": "12",
       "overallPick": 355,
+      "id": 801442,
       "name": "Jack Pineda",
+      "profileUrl": "https://www.mlb.com/player/jack-pineda-801442",
       "position": "",
       "school": "Baylor",
       "signingBonus": "147500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AAA",
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "13",
       "overallPick": 385,
+      "id": 687547,
       "name": "Ryan Ramsey",
+      "profileUrl": "https://www.mlb.com/player/ryan-ramsey-687547",
       "position": "",
       "school": "Maryland",
       "signingBonus": "125000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AAA",
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "14",
       "overallPick": 415,
+      "id": 700786,
       "name": "Ben Sears",
+      "profileUrl": "https://www.mlb.com/player/ben-sears-700786",
       "position": "",
       "school": "Houston",
       "signingBonus": "125000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AAA",
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "15",
       "overallPick": 445,
+      "id": 805834,
       "name": "Javier Vaz",
+      "profileUrl": "https://www.mlb.com/player/javier-vaz-805834",
       "position": "",
       "school": "Vanderbilt",
       "signingBonus": "125000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AA",
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "16",
       "overallPick": 475,
+      "id": 801479,
       "name": "Cooper McKeehan",
+      "profileUrl": "https://www.mlb.com/player/cooper-mckeehan-801479",
       "position": "",
       "school": "BYU",
       "signingBonus": "125000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Aberdeen IronBirds"
     },
     {
       "year": 2022,
       "round": "17",
       "overallPick": 505,
+      "id": 681324,
       "name": "Chazz Martinez",
+      "profileUrl": "https://www.mlb.com/player/chazz-martinez-681324",
       "position": "",
       "school": "Oklahoma",
       "signingBonus": "125000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "AAA",
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "18",
       "overallPick": 535,
+      "id": 806299,
       "name": "Milo Rushford",
+      "profileUrl": "https://www.mlb.com/player/milo-rushford-806299",
       "position": "",
       "school": "Walden Grove HS",
       "signingBonus": "125000",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": "Columbia Fireflies"
     },
     {
       "year": 2022,
       "round": "19",
       "overallPick": 565,
+      "id": 804875,
       "name": "Tommy Szczepanski",
+      "profileUrl": "https://www.mlb.com/player/tommy-szczepanski-804875",
       "position": "",
       "school": "Garber HS",
       "signingBonus": null,
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": null,
+      "currentOrg": null
     },
     {
       "year": 2022,
       "round": "20",
       "overallPick": 595,
+      "id": 800051,
       "name": "Austin Charles",
+      "profileUrl": "https://www.mlb.com/player/austin-charles-800051",
       "position": "",
       "school": "Stockdale HS",
       "signingBonus": "429500",
-      "currentOrgRank": null
+      "currentOrgRank": null,
+      "currentLevel": "High-A",
+      "currentOrg": null
     }
   ]
 }
