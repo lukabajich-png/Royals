@@ -36,6 +36,9 @@ async function fetchSnapshot() {
 }
 
 
+const EMPTY_SET = new Set();
+function noop() {}
+
 // ---------------------------------------------------------------------------
 // Small utilities
 // ---------------------------------------------------------------------------
@@ -52,6 +55,30 @@ function formatAgo(date) {
   if (mins < 60) return `${mins}m ago`;
   const hrs = Math.floor(mins / 60);
   return `${hrs}h ago`;
+}
+
+// ---------------------------------------------------------------------------
+// Watchlist — just a set of player IDs saved in this browser's localStorage.
+// No server, no snapshot involvement; purely a client-side favorites list.
+// ---------------------------------------------------------------------------
+const WATCHLIST_KEY = "royals-tracker-watchlist";
+
+function loadWatchlist() {
+  try {
+    const raw = localStorage.getItem(WATCHLIST_KEY);
+    const ids = raw ? JSON.parse(raw) : [];
+    return new Set(Array.isArray(ids) ? ids : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveWatchlist(idSet) {
+  try {
+    localStorage.setItem(WATCHLIST_KEY, JSON.stringify([...idSet]));
+  } catch {
+    // If storage is unavailable (private browsing, etc.) the star just won't persist.
+  }
 }
 
 function sortRows(rows, key, dir) {
@@ -155,7 +182,56 @@ function TrendIcon({ trend }) {
   );
 }
 
-function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, showHandedness, showStatus }) {
+function WatchButton({ id, watchlist, onToggle }) {
+  const isWatched = watchlist.has(id);
+  return (
+    <button
+      onClick={(e) => {
+        e.stopPropagation();
+        onToggle(id);
+      }}
+      title={isWatched ? "Remove from watchlist" : "Add to watchlist"}
+      style={{
+        background: "none",
+        border: "none",
+        cursor: "pointer",
+        padding: 0,
+        marginRight: 6,
+        fontSize: 13,
+        color: isWatched ? "#c8a04b" : "#3a4f70",
+        lineHeight: 1,
+      }}
+    >
+      {isWatched ? "★" : "☆"}
+    </button>
+  );
+}
+
+function ChartButton({ player, onOpen }) {
+  return (
+    <button
+      onClick={(e) => {
+        e.stopPropagation();
+        onOpen(player);
+      }}
+      title="Game-by-game trend"
+      style={{
+        background: "none",
+        border: "none",
+        cursor: "pointer",
+        padding: 0,
+        marginLeft: 6,
+        fontSize: 12,
+        color: "#5f7ba3",
+        lineHeight: 1,
+      }}
+    >
+      📈
+    </button>
+  );
+}
+
+function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, showHandedness, showStatus, watchlist = EMPTY_SET, onToggleWatch = noop, onOpenPlayer = noop }) {
   const onSort = (key) =>
     setSort((s) => ({ key, dir: s.key === key && s.dir === "desc" ? "asc" : "desc" }));
   const sorted = useMemo(() => sortRows(rows, sort.key, sort.dir), [rows, sort]);
@@ -192,11 +268,13 @@ function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, s
               <tr key={p.id} style={{ background: i % 2 ? "rgba(255,255,255,0.02)" : "transparent" }}>
                 <td style={{ ...tdBase, color: "#5f7ba3" }}>{fmt(p.jersey)}</td>
                 <td style={{ ...tdBase, textAlign: "left" }}>
+                  <WatchButton id={p.id} watchlist={watchlist} onToggle={onToggleWatch} />
                   <TrendIcon trend={p.trend} />
                   <RankBadges orgRank={p.orgRank} top100Rank={p.top100Rank} />
                   <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
                     {p.name}
                   </a>
+                  <ChartButton player={p} onOpen={onOpenPlayer} />
                 </td>
                 <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.pos}</td>
                 {showLevel && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.level}</td>}
@@ -250,11 +328,13 @@ function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, s
                 <tr key={p.id} style={{ background: i % 2 ? "rgba(255,255,255,0.02)" : "transparent" }}>
                   <td style={{ ...tdBase, color: "#5f7ba3" }}>{fmt(p.jersey)}</td>
                   <td style={{ ...tdBase, textAlign: "left" }}>
+                    <WatchButton id={p.id} watchlist={watchlist} onToggle={onToggleWatch} />
                     <TrendIcon trend={p.trend} />
                     <RankBadges orgRank={p.orgRank} top100Rank={p.top100Rank} />
                     <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
                       {p.name}
                     </a>
+                    <ChartButton player={p} onOpen={onOpenPlayer} />
                   </td>
                   <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.pos}</td>
                   {showTeam && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.team}</td>}
@@ -277,7 +357,7 @@ function HittersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, s
   );
 }
 
-function PitchersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, showHandedness, showStatus }) {
+function PitchersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, showHandedness, showStatus, watchlist = EMPTY_SET, onToggleWatch = noop, onOpenPlayer = noop }) {
   const onSort = (key) =>
     setSort((s) => ({ key, dir: s.key === key && s.dir === "asc" ? "desc" : "asc" }));
   const sorted = useMemo(() => sortRows(rows, sort.key, sort.dir), [rows, sort]);
@@ -313,11 +393,13 @@ function PitchersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, 
               <tr key={p.id} style={{ background: i % 2 ? "rgba(255,255,255,0.02)" : "transparent" }}>
                 <td style={tdBase}>{fmt(p.jersey)}</td>
                 <td style={{ ...tdBase, textAlign: "left" }}>
+                  <WatchButton id={p.id} watchlist={watchlist} onToggle={onToggleWatch} />
                   <TrendIcon trend={p.trend} />
                   <RankBadges orgRank={p.orgRank} top100Rank={p.top100Rank} />
                   <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
                     {p.name}
                   </a>
+                  <ChartButton player={p} onOpen={onOpenPlayer} />
                 </td>
                 {showLevel && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.level}</td>}
                 {showTeam && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.team}</td>}
@@ -367,11 +449,13 @@ function PitchersTable({ rows, reserveRows, sort, setSort, showTeam, showLevel, 
                 <tr key={p.id} style={{ background: i % 2 ? "rgba(255,255,255,0.02)" : "transparent" }}>
                   <td style={tdBase}>{fmt(p.jersey)}</td>
                   <td style={{ ...tdBase, textAlign: "left" }}>
+                    <WatchButton id={p.id} watchlist={watchlist} onToggle={onToggleWatch} />
                     <TrendIcon trend={p.trend} />
                     <RankBadges orgRank={p.orgRank} top100Rank={p.top100Rank} />
                     <a href={p.profileUrl} target="_blank" rel="noopener noreferrer" style={playerLinkStyle}>
                       {p.name}
                     </a>
+                    <ChartButton player={p} onOpen={onOpenPlayer} />
                   </td>
                   {showTeam && <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{p.team}</td>}
                   <td style={tdStat}>{fmt(p.g)}</td>
@@ -434,18 +518,340 @@ const sectionLabelStyle = {
   marginBottom: 10,
 };
 
+function LeaderboardCard({ title, rows, valueKey, format }) {
+  if (!rows || rows.length === 0) return null;
+  return (
+    <div style={{ background: "#0c2445", border: "1px solid #1e3a63", borderRadius: 6, padding: 14, minWidth: 220 }}>
+      <div style={{ ...sectionLabelStyle, marginBottom: 10 }}>{title}</div>
+      {rows.map((p, i) => (
+        <div
+          key={p.id}
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            gap: 8,
+            padding: "5px 0",
+            borderBottom: i === rows.length - 1 ? "none" : "1px solid #16294a",
+            fontSize: 13,
+          }}
+        >
+          <span style={{ color: "#8fa3c4", width: 16 }}>{i + 1}</span>
+          <a
+            href={p.profileUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ ...playerLinkStyle, flex: 1, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
+          >
+            {p.name}
+          </a>
+          <span style={{ color: "#5f7ba3", fontSize: 11 }}>{p.level}</span>
+          <span style={{ color: "#c8a04b", fontFamily: "'IBM Plex Mono', monospace" }}>
+            {format ? format(p[valueKey]) : p[valueKey]}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function LeaderboardsView({ leaderboards }) {
+  if (!leaderboards) return null;
+  return (
+    <div style={{ maxWidth: 980, margin: "0 auto" }}>
+      <div style={{ fontSize: 18, fontWeight: 600, marginBottom: 4 }}>Org Leaderboards</div>
+      <div style={{ fontSize: 12, color: "#8fa3c4", marginBottom: 16 }}>
+        Across every level · rate stats require a minimum sample to qualify
+      </div>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 14 }}>
+        <LeaderboardCard title="AVG" rows={leaderboards.avg} valueKey="avg" />
+        <LeaderboardCard title="OPS" rows={leaderboards.ops} valueKey="ops" />
+        <LeaderboardCard title="HR" rows={leaderboards.hr} valueKey="hr" />
+        <LeaderboardCard title="RBI" rows={leaderboards.rbi} valueKey="rbi" />
+        <LeaderboardCard title="SB" rows={leaderboards.sb} valueKey="sb" />
+        <LeaderboardCard title="ERA" rows={leaderboards.era} valueKey="era" />
+        <LeaderboardCard title="WHIP" rows={leaderboards.whip} valueKey="whip" />
+        <LeaderboardCard title="Strikeouts" rows={leaderboards.so} valueKey="so" />
+        <LeaderboardCard title="Wins" rows={leaderboards.wins} valueKey="w" />
+      </div>
+    </div>
+  );
+}
+
+function TransactionsView({ transactions }) {
+  return (
+    <div style={{ maxWidth: 980, margin: "0 auto" }}>
+      <div style={{ fontSize: 18, fontWeight: 600, marginBottom: 4 }}>Recent Transactions</div>
+      <div style={{ fontSize: 12, color: "#8fa3c4", marginBottom: 16 }}>Last 30 days, across the whole org</div>
+      {(!transactions || transactions.length === 0) ? (
+        <div style={{ color: "#8fa3c4", fontSize: 13 }}>No transactions in this window.</div>
+      ) : (
+        <div>
+          {transactions.map((tx) => (
+            <div key={tx.id} style={{ padding: "10px 0", borderBottom: "1px solid #16294a" }}>
+              <div style={{ fontSize: 11, color: "#5f7ba3", fontFamily: "'IBM Plex Mono', monospace" }}>{tx.date}</div>
+              <div style={{ fontSize: 13, color: "#eef1f5" }}>
+                {tx.person && <span style={{ fontWeight: 600 }}>{tx.person}: </span>}
+                {tx.description}
+              </div>
+              {(tx.fromTeam || tx.toTeam) && (
+                <div style={{ fontSize: 12, color: "#8fa3c4" }}>
+                  {tx.fromTeam || "—"} → {tx.toTeam || "—"}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function DraftView({ draftPicks }) {
+  const byYear = useMemo(() => {
+    const map = new Map();
+    for (const pick of draftPicks || []) {
+      if (!map.has(pick.year)) map.set(pick.year, []);
+      map.get(pick.year).push(pick);
+    }
+    return [...map.entries()].sort((a, b) => b[0] - a[0]);
+  }, [draftPicks]);
+
+  return (
+    <div style={{ maxWidth: 980, margin: "0 auto" }}>
+      <div style={{ fontSize: 18, fontWeight: 600, marginBottom: 4 }}>Draft Tracker</div>
+      <div style={{ fontSize: 12, color: "#8fa3c4", marginBottom: 16 }}>Royals picks, last 5 drafts</div>
+      {byYear.length === 0 ? (
+        <div style={{ color: "#8fa3c4", fontSize: 13 }}>No draft data available.</div>
+      ) : (
+        byYear.map(([year, picks]) => (
+          <div key={year} style={{ marginBottom: 26 }}>
+            <div style={sectionLabelStyle}>{year} Draft</div>
+            <table style={tableStyle}>
+              <thead>
+                <tr>
+                  <th style={{ ...thBase, textAlign: "left" }}>Rd</th>
+                  <th style={{ ...thBase, textAlign: "left" }}>Pick</th>
+                  <th style={{ ...thBase, textAlign: "left" }}>Player</th>
+                  <th style={{ ...thBase, textAlign: "left" }}>Pos</th>
+                  <th style={{ ...thBase, textAlign: "left" }}>School</th>
+                  <th style={{ ...thBase, textAlign: "left" }}>Org Rank</th>
+                </tr>
+              </thead>
+              <tbody>
+                {picks.map((p, i) => (
+                  <tr key={`${p.year}-${p.overallPick}`} style={{ background: i % 2 ? "rgba(255,255,255,0.02)" : "transparent" }}>
+                    <td style={{ ...tdBase, textAlign: "left" }}>{fmt(p.round)}</td>
+                    <td style={{ ...tdBase, textAlign: "left" }}>{fmt(p.overallPick)}</td>
+                    <td style={{ ...tdBase, textAlign: "left", fontWeight: 600 }}>{p.name}</td>
+                    <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{fmt(p.position)}</td>
+                    <td style={{ ...tdBase, textAlign: "left", color: "#8fa3c4" }}>{fmt(p.school)}</td>
+                    <td style={{ ...tdBase, textAlign: "left" }}>
+                      {p.currentOrgRank ? <span style={orgBadgeStyle}>#{p.currentOrgRank}</span> : "—"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ))
+      )}
+    </div>
+  );
+}
+
+function TeamStandingsSchedule({ team }) {
+  const s = team.standings;
+  const sched = team.schedule;
+  const lastGame = sched?.recent?.[sched.recent.length - 1];
+  const nextGame = sched?.upcoming?.[0];
+  if (!s && !lastGame && !nextGame) return null;
+  return (
+    <div
+      style={{
+        display: "flex",
+        gap: 18,
+        flexWrap: "wrap",
+        background: "#0c2445",
+        border: "1px solid #1e3a63",
+        borderRadius: 6,
+        padding: "10px 14px",
+        marginBottom: 12,
+        fontSize: 12,
+      }}
+    >
+      <span style={{ color: "#8fa3c4", fontFamily: "'Oswald', sans-serif", letterSpacing: "0.05em" }}>
+        {team.teamName}
+      </span>
+      {s && (
+        <span style={{ color: "#eef1f5" }}>
+          {fmt(s.wins)}-{fmt(s.losses)}
+          {s.gamesBack != null && <span style={{ color: "#8fa3c4" }}> · {s.gamesBack === "-" ? "1st" : `${s.gamesBack} GB`}</span>}
+          {s.streak && <span style={{ color: "#8fa3c4" }}> · {s.streak}</span>}
+        </span>
+      )}
+      {lastGame && (
+        <span style={{ color: "#8fa3c4" }}>
+          Last: {lastGame.isHome ? "vs" : "@"} {lastGame.opponent}
+          {lastGame.finalScore && (
+            <span style={{ color: lastGame.finalScore.us > lastGame.finalScore.them ? "#5ec8f2" : "#e6b8c2" }}>
+              {" "}
+              {lastGame.finalScore.us}-{lastGame.finalScore.them}
+            </span>
+          )}
+        </span>
+      )}
+      {nextGame && (
+        <span style={{ color: "#8fa3c4" }}>
+          Next: {nextGame.isHome ? "vs" : "@"} {nextGame.opponent} ({nextGame.date})
+        </span>
+      )}
+    </div>
+  );
+}
+
+// Live, on-demand stat-trend chart — the one piece of this page that still
+// calls MLB's API directly from the browser instead of reading the snapshot,
+// since baking every player's full game log into the snapshot would bloat it
+// enormously for a feature most visitors won't open for most players.
+function PlayerModal({ player, season, onClose }) {
+  const [gameLog, setGameLog] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    if (!player) return;
+    setLoading(true);
+    setError(null);
+    setGameLog(null);
+    const group = player.pos === "P" ? "pitching" : "hitting";
+    fetch(`https://statsapi.mlb.com/api/v1/people/${player.id}/stats?stats=gameLog&season=${season}&group=${group}`)
+      .then((r) => {
+        if (!r.ok) throw new Error(`MLB API returned ${r.status}`);
+        return r.json();
+      })
+      .then((data) => {
+        const splits = data.stats?.[0]?.splits || [];
+        setGameLog(splits.map((s) => ({ date: s.date, stat: s.stat })).reverse());
+      })
+      .catch((e) => setError(e.message))
+      .finally(() => setLoading(false));
+  }, [player, season]);
+
+  if (!player) return null;
+  const isPitcher = player.pos === "P";
+  const metricKey = isPitcher ? "era" : "ops";
+  const metricLabel = isPitcher ? "ERA" : "OPS";
+
+  return (
+    <div
+      onClick={onClose}
+      style={{
+        position: "fixed",
+        inset: 0,
+        background: "rgba(4,12,26,0.75)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        zIndex: 50,
+        padding: 20,
+      }}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          background: "#0c2445",
+          border: "1px solid #1e3a63",
+          borderRadius: 8,
+          padding: 22,
+          maxWidth: 640,
+          width: "100%",
+          maxHeight: "80vh",
+          overflowY: "auto",
+        }}
+      >
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
+          <div style={{ fontSize: 17, fontWeight: 600 }}>{player.name} — game-by-game {metricLabel}</div>
+          <button
+            onClick={onClose}
+            style={{ background: "none", border: "none", color: "#8fa3c4", fontSize: 20, cursor: "pointer", lineHeight: 1 }}
+          >
+            ×
+          </button>
+        </div>
+        {loading ? (
+          <div style={pulseStyle}>LOADING GAME LOG…</div>
+        ) : error ? (
+          <div style={{ color: "#e6b8c2", fontSize: 13 }}>Couldn't load game log ({error}).</div>
+        ) : !gameLog || gameLog.length === 0 ? (
+          <div style={{ color: "#8fa3c4", fontSize: 13 }}>No games logged yet this season.</div>
+        ) : (
+          <GameLogChart gameLog={gameLog} metricKey={metricKey} />
+        )}
+      </div>
+    </div>
+  );
+}
+
+function GameLogChart({ gameLog, metricKey }) {
+  const width = 580;
+  const height = 200;
+  const padding = 30;
+  const values = gameLog.map((g) => parseFloat(g.stat?.[metricKey])).filter((v) => !isNaN(v));
+  if (values.length < 2) {
+    return <div style={{ color: "#8fa3c4", fontSize: 13 }}>Not enough games yet for a trend line.</div>;
+  }
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const range = max - min || 1;
+  const points = values.map((v, i) => {
+    const x = padding + (i / (values.length - 1)) * (width - padding * 2);
+    const y = height - padding - ((v - min) / range) * (height - padding * 2);
+    return `${x},${y}`;
+  });
+  return (
+    <svg viewBox={`0 0 ${width} ${height}`} style={{ width: "100%", height: "auto" }}>
+      <polyline points={points.join(" ")} fill="none" stroke="#5ec8f2" strokeWidth="2" />
+      {values.map((v, i) => {
+        const [x, y] = points[i].split(",");
+        return <circle key={i} cx={x} cy={y} r="2.5" fill="#c8a04b" />;
+      })}
+      <text x={padding} y={14} fill="#8fa3c4" fontSize="10" fontFamily="IBM Plex Mono">
+        {max.toFixed(3)}
+      </text>
+      <text x={padding} y={height - padding + 14} fill="#8fa3c4" fontSize="10" fontFamily="IBM Plex Mono">
+        {min.toFixed(3)}
+      </text>
+    </svg>
+  );
+}
+
 function RoyalsFarmTracker() {
   const [snapshot, setSnapshot] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [activeSportId, setActiveSportId] = useState(null);
-  const [viewMode, setViewMode] = useState("byLevel"); // "byLevel" | "top30"
+  const [viewMode, setViewMode] = useState("byLevel"); // "byLevel" | "top30" | "leaderboards" | "transactions" | "draft" | "watchlist"
 
   const [search, setSearch] = useState("");
   const [hitterSort, setHitterSort] = useState({ key: "ops", dir: "desc" });
   const [pitcherSort, setPitcherSort] = useState({ key: "era", dir: "asc" });
   const [prospectHitterSort, setProspectHitterSort] = useState({ key: "orgRank", dir: "asc" });
   const [prospectPitcherSort, setProspectPitcherSort] = useState({ key: "orgRank", dir: "asc" });
+  const [watchHitterSort, setWatchHitterSort] = useState({ key: "name", dir: "asc" });
+  const [watchPitcherSort, setWatchPitcherSort] = useState({ key: "name", dir: "asc" });
+
+  const [watchlist, setWatchlist] = useState(() => loadWatchlist());
+  const toggleWatch = useCallback((id) => {
+    setWatchlist((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      saveWatchlist(next);
+      return next;
+    });
+  }, []);
+
+  const [playerModal, setPlayerModal] = useState(null); // { id, name, pos } | null
 
   const [autoRefresh, setAutoRefresh] = useState(true);
   const [checkedAt, setCheckedAt] = useState(null); // when this browser last pulled the JSON
@@ -530,6 +936,59 @@ function RoyalsFarmTracker() {
       ? snapshot.prospects.pitchers.filter((p) => p.name.toLowerCase().includes(q))
       : snapshot.prospects.pitchers;
   }, [snapshot, search]);
+
+  // Every hitter/pitcher across every level and reserve list, each tagged with
+  // their level — the shared base for the watchlist and leaderboards views.
+  const allHitters = useMemo(() => {
+    if (!snapshot) return [];
+    return snapshot.levels.flatMap((lv) =>
+      [...lv.hitters, ...lv.reserveHitters].map((p) => ({ ...p, level: lv.shortName }))
+    );
+  }, [snapshot]);
+
+  const allPitchers = useMemo(() => {
+    if (!snapshot) return [];
+    return snapshot.levels.flatMap((lv) =>
+      [...lv.pitchers, ...lv.reservePitchers].map((p) => ({ ...p, level: lv.shortName }))
+    );
+  }, [snapshot]);
+
+  const watchedHitters = useMemo(
+    () => allHitters.filter((p) => watchlist.has(p.id)),
+    [allHitters, watchlist]
+  );
+  const watchedPitchers = useMemo(
+    () => allPitchers.filter((p) => watchlist.has(p.id)),
+    [allPitchers, watchlist]
+  );
+
+  // Leaderboards: minimum sample size gates rate stats (AVG/OPS/ERA/WHIP) so a
+  // player with 3 plate appearances can't top the list; counting stats
+  // (HR/RBI/SB/SO/W) aren't gated since they're naturally proportional to
+  // playing time already.
+  const LEADER_MIN_GAMES_HITTER = 10;
+  const LEADER_MIN_GAMES_PITCHER = 5;
+  const leaderboards = useMemo(() => {
+    if (!snapshot) return null;
+    const qualifiedHitters = allHitters.filter((p) => (p.g ?? 0) >= LEADER_MIN_GAMES_HITTER);
+    const qualifiedPitchers = allPitchers.filter((p) => (p.g ?? 0) >= LEADER_MIN_GAMES_PITCHER);
+    const top = (rows, key, dir = "desc", n = 10) =>
+      [...rows]
+        .filter((p) => p[key] !== null && p[key] !== undefined)
+        .sort((a, b) => (dir === "desc" ? b[key] - a[key] : a[key] - b[key]))
+        .slice(0, n);
+    return {
+      avg: top(qualifiedHitters, "avg"),
+      ops: top(qualifiedHitters, "ops"),
+      hr: top(allHitters, "hr"),
+      rbi: top(allHitters, "rbi"),
+      sb: top(allHitters, "sb"),
+      era: top(qualifiedPitchers, "era", "asc"),
+      whip: top(qualifiedPitchers, "whip", "asc"),
+      so: top(allPitchers, "so"),
+      wins: top(allPitchers, "w"),
+    };
+  }, [snapshot, allHitters, allPitchers]);
 
   return (
     <div
@@ -633,6 +1092,10 @@ function RoyalsFarmTracker() {
         {[
           { id: "byLevel", label: "By Level" },
           { id: "top30", label: "Royals Top 30" },
+          { id: "leaderboards", label: "Leaderboards" },
+          { id: "transactions", label: "Transactions" },
+          { id: "draft", label: "Draft Tracker" },
+          { id: "watchlist", label: "★ Watchlist" },
         ].map((m) => {
           const isActive = viewMode === m.id;
           return (
@@ -740,6 +1203,10 @@ function RoyalsFarmTracker() {
                 />
               </div>
 
+              {activeLevel.teams.map((t) => (
+                <TeamStandingsSchedule key={t.teamId} team={t} />
+              ))}
+
               {filteredHitters.length === 0 &&
               filteredPitchers.length === 0 &&
               filteredReserveHitters.length === 0 &&
@@ -755,6 +1222,9 @@ function RoyalsFarmTracker() {
                     sort={hitterSort}
                     setSort={setHitterSort}
                     showTeam={activeLevel.teams.length > 1}
+                    watchlist={watchlist}
+                    onToggleWatch={toggleWatch}
+                    onOpenPlayer={setPlayerModal}
                   />
                   <PitchersTable
                     rows={filteredPitchers}
@@ -762,6 +1232,9 @@ function RoyalsFarmTracker() {
                     sort={pitcherSort}
                     setSort={setPitcherSort}
                     showTeam={activeLevel.teams.length > 1}
+                    watchlist={watchlist}
+                    onToggleWatch={toggleWatch}
+                    onOpenPlayer={setPlayerModal}
                   />
                 </>
               )}
@@ -807,6 +1280,9 @@ function RoyalsFarmTracker() {
                     showLevel
                     showHandedness
                     showStatus
+                    watchlist={watchlist}
+                    onToggleWatch={toggleWatch}
+                    onOpenPlayer={setPlayerModal}
                   />
                   <PitchersTable
                     rows={filteredProspectPitchers}
@@ -816,12 +1292,64 @@ function RoyalsFarmTracker() {
                     showLevel
                     showHandedness
                     showStatus
+                    watchlist={watchlist}
+                    onToggleWatch={toggleWatch}
+                    onOpenPlayer={setPlayerModal}
+                  />
+                </>
+              )}
+            </div>
+          )}
+
+          {viewMode === "leaderboards" && <LeaderboardsView leaderboards={leaderboards} />}
+
+          {viewMode === "transactions" && snapshot && <TransactionsView transactions={snapshot.transactions} />}
+
+          {viewMode === "draft" && snapshot && <DraftView draftPicks={snapshot.draftPicks} />}
+
+          {viewMode === "watchlist" && (
+            <div style={{ maxWidth: 980, margin: "0 auto" }}>
+              <div style={{ fontSize: 18, fontWeight: 600, marginBottom: 4 }}>Your Watchlist</div>
+              <div style={{ fontSize: 12, color: "#8fa3c4", marginBottom: 16 }}>
+                Saved in this browser only — click the star on any player to add or remove them
+              </div>
+              {watchedHitters.length === 0 && watchedPitchers.length === 0 ? (
+                <div style={{ color: "#8fa3c4", fontSize: 13 }}>
+                  Nothing starred yet — click the ☆ next to any player's name anywhere on the site.
+                </div>
+              ) : (
+                <>
+                  <HittersTable
+                    rows={watchedHitters}
+                    reserveRows={[]}
+                    sort={watchHitterSort}
+                    setSort={setWatchHitterSort}
+                    showLevel
+                    showStatus
+                    watchlist={watchlist}
+                    onToggleWatch={toggleWatch}
+                    onOpenPlayer={setPlayerModal}
+                  />
+                  <PitchersTable
+                    rows={watchedPitchers}
+                    reserveRows={[]}
+                    sort={watchPitcherSort}
+                    setSort={setWatchPitcherSort}
+                    showLevel
+                    showStatus
+                    watchlist={watchlist}
+                    onToggleWatch={toggleWatch}
+                    onOpenPlayer={setPlayerModal}
                   />
                 </>
               )}
             </div>
           )}
         </>
+      )}
+
+      {playerModal && (
+        <PlayerModal player={playerModal} season={snapshot?.season} onClose={() => setPlayerModal(null)} />
       )}
 
       <div style={{ maxWidth: 980, margin: "26px auto 0", fontSize: 11, color: "#4d6690", lineHeight: 1.6 }}>
