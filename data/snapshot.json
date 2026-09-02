@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T13:53:49.718Z",
+  "updatedAt": "2026-09-02T14:13:03.351Z",
   "season": 2026,
   "levels": [
     {
@@ -8072,18 +8072,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 940485,
-      "date": "2026-09-01",
-      "person": "Drew Waters",
-      "description": "Kansas City Royals selected the contract of LF Drew Waters from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 940484,
       "date": "2026-09-01",
       "person": "Easton McGee",
       "description": "Kansas City Royals recalled RHP Easton McGee from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 940485,
+      "date": "2026-09-01",
+      "person": "Drew Waters",
+      "description": "Kansas City Royals selected the contract of LF Drew Waters from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -8120,18 +8120,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 939867,
-      "date": "2026-08-28",
-      "person": "Luca Tresh",
-      "description": "Omaha Storm Chasers placed C Luca Tresh on the temporarily inactive list.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 939868,
       "date": "2026-08-28",
       "person": "Mason Black",
       "description": "Omaha Storm Chasers activated RHP Mason Black.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 939867,
+      "date": "2026-08-28",
+      "person": "Luca Tresh",
+      "description": "Omaha Storm Chasers placed C Luca Tresh on the temporarily inactive list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8144,12 +8144,12 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 939665,
+      "id": 939666,
       "date": "2026-08-27",
-      "person": "Josh Rojas",
-      "description": "Kansas City Royals recalled 3B Josh Rojas from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
+      "person": "Mason Black",
+      "description": "Kansas City Royals optioned RHP Mason Black to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 939667,
@@ -8160,12 +8160,12 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 939666,
+      "id": 939665,
       "date": "2026-08-27",
-      "person": "Mason Black",
-      "description": "Kansas City Royals optioned RHP Mason Black to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
+      "person": "Josh Rojas",
+      "description": "Kansas City Royals recalled 3B Josh Rojas from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 939664,
@@ -8264,12 +8264,12 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 938807,
+      "id": 938805,
       "date": "2026-08-21",
-      "person": "Carlos Duran",
-      "description": "Kansas City Royals optioned RHP Carlos Duran to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
+      "person": "Jose Cuas",
+      "description": "Kansas City Royals recalled RHP Jose Cuas from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 938806,
@@ -8280,18 +8280,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 938805,
+      "id": 938807,
       "date": "2026-08-21",
-      "person": "Jose Cuas",
-      "description": "Kansas City Royals recalled RHP Jose Cuas from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 938802,
-      "date": "2026-08-21",
-      "person": "Beck Way",
-      "description": "Kansas City Royals sent RHP Beck Way on a rehab assignment to Omaha Storm Chasers.",
+      "person": "Carlos Duran",
+      "description": "Kansas City Royals optioned RHP Carlos Duran to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8312,18 +8304,26 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 938696,
-      "date": "2026-08-20",
-      "person": "Randy Ramnarace",
-      "description": "Columbia Fireflies placed RHP Randy Ramnarace on the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
+      "id": 938802,
+      "date": "2026-08-21",
+      "person": "Beck Way",
+      "description": "Kansas City Royals sent RHP Beck Way on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 938697,
       "date": "2026-08-20",
       "person": "Brandon Herbold",
       "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 938696,
+      "date": "2026-08-20",
+      "person": "Randy Ramnarace",
+      "description": "Columbia Fireflies placed RHP Randy Ramnarace on the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -8448,14 +8448,6 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 937936,
-      "date": "2026-08-17",
-      "person": "Vinnie Pasquantino",
-      "description": "Kansas City Royals activated 1B Vinnie Pasquantino from the 10-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 937938,
       "date": "2026-08-17",
       "person": "Maikel Garcia",
@@ -8468,6 +8460,14 @@
       "date": "2026-08-17",
       "person": "Starling Marte",
       "description": "Kansas City Royals designated RF Starling Marte for assignment.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 937936,
+      "date": "2026-08-17",
+      "person": "Vinnie Pasquantino",
+      "description": "Kansas City Royals activated 1B Vinnie Pasquantino from the 10-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8536,12 +8536,36 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 936749,
+      "id": 937000,
       "date": "2026-08-11",
-      "person": "Argenis Done",
-      "description": "RHP Argenis Done assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "person": "Omar Mejia",
+      "description": "SS Omar Mejia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
       "fromTeam": "DSL Royals Fortuna",
       "toTeam": "DSL Royals Ventura"
+    },
+    {
+      "id": 936999,
+      "date": "2026-08-11",
+      "person": "Juan Batista",
+      "description": "IF Juan Batista assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
+    },
+    {
+      "id": 936747,
+      "date": "2026-08-11",
+      "person": "Anderson Garcia",
+      "description": "SS Anderson Garcia assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 936997,
+      "date": "2026-08-11",
+      "person": "Carlos Beras",
+      "description": "RHP Carlos Beras assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
     },
     {
       "id": 936996,
@@ -8552,12 +8576,12 @@
       "toTeam": "DSL Royals Fortuna"
     },
     {
-      "id": 936747,
+      "id": 936749,
       "date": "2026-08-11",
-      "person": "Anderson Garcia",
-      "description": "SS Anderson Garcia assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
+      "person": "Argenis Done",
+      "description": "RHP Argenis Done assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
     },
     {
       "id": 936998,
@@ -8576,52 +8600,12 @@
       "toTeam": "DSL Royals Fortuna"
     },
     {
-      "id": 937000,
-      "date": "2026-08-11",
-      "person": "Omar Mejia",
-      "description": "SS Omar Mejia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
       "id": 936750,
       "date": "2026-08-11",
       "person": "Ernesto Mejia",
       "description": "RHP Ernesto Mejia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
       "fromTeam": "DSL Royals Fortuna",
       "toTeam": "DSL Royals Ventura"
-    },
-    {
-      "id": 936999,
-      "date": "2026-08-11",
-      "person": "Juan Batista",
-      "description": "IF Juan Batista assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
-      "id": 936997,
-      "date": "2026-08-11",
-      "person": "Carlos Beras",
-      "description": "RHP Carlos Beras assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
-      "id": 936919,
-      "date": "2026-08-11",
-      "person": "Justin LeGuernic",
-      "description": "LHP Justin LeGuernic assigned to Columbia Fireflies from ACL Royals.",
-      "fromTeam": "ACL Royals",
-      "toTeam": "Columbia Fireflies"
-    },
-    {
-      "id": 936914,
-      "date": "2026-08-11",
-      "person": "Jhonayker Ugarte",
-      "description": "SS Jhonayker Ugarte assigned to Columbia Fireflies from ACL Royals.",
-      "fromTeam": "ACL Royals",
-      "toTeam": "Columbia Fireflies"
     },
     {
       "id": 936913,
@@ -8636,6 +8620,22 @@
       "date": "2026-08-11",
       "person": "Dalton Hill",
       "description": "RHP Dalton Hill assigned to Columbia Fireflies from ACL Royals.",
+      "fromTeam": "ACL Royals",
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 936919,
+      "date": "2026-08-11",
+      "person": "Justin LeGuernic",
+      "description": "LHP Justin LeGuernic assigned to Columbia Fireflies from ACL Royals.",
+      "fromTeam": "ACL Royals",
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 936914,
+      "date": "2026-08-11",
+      "person": "Jhonayker Ugarte",
+      "description": "SS Jhonayker Ugarte assigned to Columbia Fireflies from ACL Royals.",
       "fromTeam": "ACL Royals",
       "toTeam": "Columbia Fireflies"
     },
@@ -8664,20 +8664,20 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 936788,
-      "date": "2026-08-11",
-      "person": "Pedro Roque",
-      "description": "2B Pedro Roque assigned to ACL Royals from Quad Cities River Bandits.",
-      "fromTeam": "Quad Cities River Bandits",
-      "toTeam": "ACL Royals"
-    },
-    {
       "id": 936786,
       "date": "2026-08-11",
       "person": "Jackson Cleveland",
       "description": "RHP Jackson Cleveland assigned to Quad Cities River Bandits from ACL Royals.",
       "fromTeam": "ACL Royals",
       "toTeam": "Quad Cities River Bandits"
+    },
+    {
+      "id": 936788,
+      "date": "2026-08-11",
+      "person": "Pedro Roque",
+      "description": "2B Pedro Roque assigned to ACL Royals from Quad Cities River Bandits.",
+      "fromTeam": "Quad Cities River Bandits",
+      "toTeam": "ACL Royals"
     },
     {
       "id": 936787,
@@ -8720,26 +8720,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 936602,
-      "date": "2026-08-10",
-      "person": "Juan Batista",
-      "description": "IF Juan Batista assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 936604,
       "date": "2026-08-10",
       "person": "Anderson Garcia",
       "description": "SS Anderson Garcia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
-      "id": 936603,
-      "date": "2026-08-10",
-      "person": "Alejandro Beltran",
-      "description": "RHP Alejandro Beltran assigned to DSL Royals Ventura from DSL Royals Fortuna.",
       "fromTeam": "DSL Royals Fortuna",
       "toTeam": "DSL Royals Ventura"
     },
@@ -8760,6 +8744,22 @@
       "toTeam": "DSL Royals Fortuna"
     },
     {
+      "id": 936603,
+      "date": "2026-08-10",
+      "person": "Alejandro Beltran",
+      "description": "RHP Alejandro Beltran assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
+    },
+    {
+      "id": 936602,
+      "date": "2026-08-10",
+      "person": "Juan Batista",
+      "description": "IF Juan Batista assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
       "id": 936601,
       "date": "2026-08-10",
       "person": "Juan Rivera",
@@ -8776,18 +8776,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 936692,
-      "date": "2026-08-10",
-      "person": "Craig Kimbrel",
-      "description": "Kansas City Royals signed free agent RHP Craig Kimbrel.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 936693,
       "date": "2026-08-10",
       "person": "Craig Kimbrel",
       "description": "Kansas City Royals activated RHP Craig Kimbrel.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 936692,
+      "date": "2026-08-10",
+      "person": "Craig Kimbrel",
+      "description": "Kansas City Royals signed free agent RHP Craig Kimbrel.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8800,14 +8800,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 936283,
-      "date": "2026-08-08",
-      "person": "Samuel Carmona",
-      "description": "RHP Samuel Carmona assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 936286,
       "date": "2026-08-08",
       "person": "Juan Batista",
@@ -8816,12 +8808,12 @@
       "toTeam": "DSL Royals Ventura"
     },
     {
-      "id": 936285,
+      "id": 936283,
       "date": "2026-08-08",
-      "person": "Junior Suarez",
-      "description": "LHP Junior Suarez assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
+      "person": "Samuel Carmona",
+      "description": "RHP Samuel Carmona assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
     },
     {
       "id": 936284,
@@ -8830,6 +8822,14 @@
       "description": "SS Omar Mejia assigned to DSL Royals Fortuna from DSL Royals Ventura.",
       "fromTeam": "DSL Royals Ventura",
       "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 936285,
+      "date": "2026-08-08",
+      "person": "Junior Suarez",
+      "description": "LHP Junior Suarez assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
     },
     {
       "id": 936421,
@@ -8848,20 +8848,20 @@
       "toTeam": "ACL Royals"
     },
     {
-      "id": 935963,
-      "date": "2026-08-07",
-      "person": "Jesus Garcia",
-      "description": "RHP Jesus Garcia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
       "id": 935962,
       "date": "2026-08-07",
       "person": "Ernesto Mejia",
       "description": "RHP Ernesto Mejia assigned to DSL Royals Fortuna from DSL Royals Ventura.",
       "fromTeam": "DSL Royals Ventura",
       "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 935963,
+      "date": "2026-08-07",
+      "person": "Jesus Garcia",
+      "description": "RHP Jesus Garcia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
     },
     {
       "id": 936404,
@@ -8904,14 +8904,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 936420,
-      "date": "2026-08-07",
-      "person": "Andrew Velazquez",
-      "description": "SS Andrew Velazquez elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 936063,
       "date": "2026-08-07",
       "person": "Aaron Bummer",
@@ -8924,6 +8916,14 @@
       "date": "2026-08-07",
       "person": "Connor Kaiser",
       "description": "Omaha Storm Chasers transferred SS Connor Kaiser from the 7-day injured list to the 60-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 936420,
+      "date": "2026-08-07",
+      "person": "Andrew Velazquez",
+      "description": "SS Andrew Velazquez elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8968,6 +8968,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 936840,
+      "date": "2026-08-06",
+      "person": "Matt Moore",
+      "description": "Kansas City Royals signed free agent LHP Matt Moore to a minor league contract.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 935820,
       "date": "2026-08-06",
       "person": "Luinder Avila",
@@ -8976,12 +8984,12 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 936840,
-      "date": "2026-08-06",
-      "person": "Matt Moore",
-      "description": "Kansas City Royals signed free agent LHP Matt Moore to a minor league contract.",
+      "id": 935741,
+      "date": "2026-08-05",
+      "person": "Jacob Berry",
+      "description": "1B Jacob Berry assigned to Omaha Storm Chasers.",
       "fromTeam": null,
-      "toTeam": "Kansas City Royals"
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 935590,
@@ -8992,11 +9000,11 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 935741,
+      "id": 935671,
       "date": "2026-08-05",
-      "person": "Jacob Berry",
-      "description": "1B Jacob Berry assigned to Omaha Storm Chasers.",
-      "fromTeam": null,
+      "person": "Andrew Velazquez",
+      "description": "Kansas City Royals sent SS Andrew Velazquez outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
     {
@@ -9008,20 +9016,12 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 935671,
-      "date": "2026-08-05",
-      "person": "Andrew Velazquez",
-      "description": "Kansas City Royals sent SS Andrew Velazquez outright to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 934328,
+      "id": 934326,
       "date": "2026-08-04",
-      "person": "Alejandro Beltran",
-      "description": "RHP Alejandro Beltran assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
+      "person": "Adrian Rumardo",
+      "description": "RHP Adrian Rumardo assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
     },
     {
       "id": 934504,
@@ -9040,20 +9040,20 @@
       "toTeam": "DSL Royals Fortuna"
     },
     {
-      "id": 934326,
-      "date": "2026-08-04",
-      "person": "Adrian Rumardo",
-      "description": "RHP Adrian Rumardo assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
       "id": 934327,
       "date": "2026-08-04",
       "person": "Angel Garcia",
       "description": "RHP Angel Garcia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
       "fromTeam": "DSL Royals Fortuna",
       "toTeam": "DSL Royals Ventura"
+    },
+    {
+      "id": 934328,
+      "date": "2026-08-04",
+      "person": "Alejandro Beltran",
+      "description": "RHP Alejandro Beltran assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
     },
     {
       "id": 934503,
@@ -9064,12 +9064,12 @@
       "toTeam": "DSL Royals Fortuna"
     },
     {
-      "id": 934959,
+      "id": 934958,
       "date": "2026-08-04",
-      "person": "Angel Ramirez",
-      "description": "OF Angel Ramirez assigned to ACL Royals from Columbia Fireflies.",
-      "fromTeam": "Columbia Fireflies",
-      "toTeam": "ACL Royals"
+      "person": "Daniel Lopez",
+      "description": "OF Daniel Lopez assigned to Columbia Fireflies from ACL Royals.",
+      "fromTeam": "ACL Royals",
+      "toTeam": "Columbia Fireflies"
     },
     {
       "id": 934957,
@@ -9080,12 +9080,12 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 934958,
+      "id": 934959,
       "date": "2026-08-04",
-      "person": "Daniel Lopez",
-      "description": "OF Daniel Lopez assigned to Columbia Fireflies from ACL Royals.",
-      "fromTeam": "ACL Royals",
-      "toTeam": "Columbia Fireflies"
+      "person": "Angel Ramirez",
+      "description": "OF Angel Ramirez assigned to ACL Royals from Columbia Fireflies.",
+      "fromTeam": "Columbia Fireflies",
+      "toTeam": "ACL Royals"
     },
     {
       "id": 934956,
@@ -9136,10 +9136,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 935066,
+      "id": 935589,
       "date": "2026-08-04",
-      "person": "Nolan Hoffman",
-      "description": "Omaha Storm Chasers activated RHP Nolan Hoffman.",
+      "person": "Dan Altavilla",
+      "description": "Omaha Storm Chasers released RHP Dan Altavilla.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -9152,10 +9152,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 935589,
+      "id": 935066,
       "date": "2026-08-04",
-      "person": "Dan Altavilla",
-      "description": "Omaha Storm Chasers released RHP Dan Altavilla.",
+      "person": "Nolan Hoffman",
+      "description": "Omaha Storm Chasers activated RHP Nolan Hoffman.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -9168,36 +9168,12 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 934533,
-      "date": "2026-08-04",
-      "person": "Nolan Hoffman",
-      "description": "Kansas City Royals optioned RHP Nolan Hoffman to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 934977,
       "date": "2026-08-04",
       "person": "Connor Thomas",
       "description": "Kansas City Royals optioned LHP Connor Thomas to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 934962,
-      "date": "2026-08-04",
-      "person": "Jose Cuas",
-      "description": "Kansas City Royals recalled RHP Jose Cuas from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 934976,
-      "date": "2026-08-04",
-      "person": "Connor Thomas",
-      "description": "Kansas City Royals claimed LHP Connor Thomas off waivers from Athletics.",
-      "fromTeam": "Athletics",
-      "toTeam": "Kansas City Royals"
     },
     {
       "id": 935046,
@@ -9208,11 +9184,27 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 934963,
+      "id": 934533,
       "date": "2026-08-04",
-      "person": "Matt Strahm",
-      "description": "Kansas City Royals designated LHP Matt Strahm for assignment.",
-      "fromTeam": null,
+      "person": "Nolan Hoffman",
+      "description": "Kansas City Royals optioned RHP Nolan Hoffman to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 934976,
+      "date": "2026-08-04",
+      "person": "Connor Thomas",
+      "description": "Kansas City Royals claimed LHP Connor Thomas off waivers from Athletics.",
+      "fromTeam": "Athletics",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 934962,
+      "date": "2026-08-04",
+      "person": "Jose Cuas",
+      "description": "Kansas City Royals recalled RHP Jose Cuas from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
     {
@@ -9220,6 +9212,14 @@
       "date": "2026-08-04",
       "person": "Bobby Witt Jr.",
       "description": "Kansas City Royals activated SS Bobby Witt Jr. from the 10-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 934963,
+      "date": "2026-08-04",
+      "person": "Matt Strahm",
+      "description": "Kansas City Royals designated LHP Matt Strahm for assignment.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -9248,20 +9248,20 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 934315,
-      "date": "2026-08-03",
-      "person": "Nolan Hoffman",
-      "description": "Philadelphia Phillies traded RHP Nolan Hoffman to Kansas City Royals for RHP Manuel Colon.",
-      "fromTeam": "Philadelphia Phillies",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 934377,
       "date": "2026-08-03",
-      "person": "Carlos Duran",
+      "person": "Kris Bubic",
       "description": "Kansas City Royals traded LHP Kris Bubic to Los Angeles Dodgers for RHP Carlos Duran.",
-      "fromTeam": "Los Angeles Dodgers",
-      "toTeam": "Kansas City Royals"
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Los Angeles Dodgers"
+    },
+    {
+      "id": 934315,
+      "date": "2026-08-03",
+      "person": "Manuel Colon",
+      "description": "Philadelphia Phillies traded RHP Nolan Hoffman to Kansas City Royals for RHP Manuel Colon.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Philadelphia Phillies"
     },
     {
       "id": 934532,
@@ -9293,7 +9293,10 @@
       "signingBonus": "5809575",
       "currentOrgRank": 6,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9307,7 +9310,10 @@
       "signingBonus": "3197500",
       "currentOrgRank": 9,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9321,7 +9327,10 @@
       "signingBonus": "2997500",
       "currentOrgRank": 12,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9335,7 +9344,10 @@
       "signingBonus": "870400",
       "currentOrgRank": 22,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9349,7 +9361,10 @@
       "signingBonus": "797500",
       "currentOrgRank": 27,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9363,7 +9378,10 @@
       "signingBonus": "474400",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9377,7 +9395,10 @@
       "signingBonus": "365100",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9391,7 +9412,10 @@
       "signingBonus": "622500",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9405,7 +9429,10 @@
       "signingBonus": "217500",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9419,7 +9446,10 @@
       "signingBonus": "397500",
       "currentOrgRank": 23,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9433,7 +9463,10 @@
       "signingBonus": "72500",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9447,7 +9480,10 @@
       "signingBonus": "167500",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9461,7 +9497,10 @@
       "signingBonus": "157500",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9475,7 +9514,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9489,7 +9531,10 @@
       "signingBonus": "197500",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9503,7 +9548,10 @@
       "signingBonus": "172500",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9517,7 +9565,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9531,7 +9582,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9545,7 +9599,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9559,7 +9616,10 @@
       "signingBonus": null,
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2026,
@@ -9573,7 +9633,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9587,7 +9650,10 @@
       "signingBonus": "3997500",
       "currentOrgRank": 10,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9601,7 +9667,10 @@
       "signingBonus": "3197500",
       "currentOrgRank": 2,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9615,7 +9684,10 @@
       "signingBonus": "1297500",
       "currentOrgRank": 13,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9629,7 +9701,10 @@
       "signingBonus": "1161200",
       "currentOrgRank": 8,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9643,7 +9718,10 @@
       "signingBonus": "1497500",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9657,7 +9735,10 @@
       "signingBonus": "147500",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9671,7 +9752,10 @@
       "signingBonus": "431900",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9685,7 +9769,10 @@
       "signingBonus": "147500",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9699,7 +9786,10 @@
       "signingBonus": "261000",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9713,7 +9803,10 @@
       "signingBonus": "197500",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9727,7 +9820,10 @@
       "signingBonus": "196100",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9741,7 +9837,10 @@
       "signingBonus": "185800",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Asheville Tourists"
+      "otherOrgName": "Houston Astros",
+      "otherTeamName": "Asheville Tourists",
+      "otherLevel": "High-A",
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9755,7 +9854,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Columbia Fireflies"
+      "otherOrgName": "Kansas City Royals",
+      "otherTeamName": "Columbia Fireflies",
+      "otherLevel": "Single-A",
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9769,7 +9871,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "FCL Rays"
+      "otherOrgName": "Tampa Bay Rays",
+      "otherTeamName": "FCL Rays",
+      "otherLevel": "Rookie",
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9783,7 +9888,10 @@
       "signingBonus": "247500",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9797,7 +9905,10 @@
       "signingBonus": "347500",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9811,7 +9922,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9825,7 +9939,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9839,7 +9956,10 @@
       "signingBonus": "100000",
       "currentOrgRank": 28,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9853,7 +9973,10 @@
       "signingBonus": "500000",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9867,7 +9990,10 @@
       "signingBonus": null,
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2025,
@@ -9881,7 +10007,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -9895,7 +10024,10 @@
       "signingBonus": "7500000",
       "currentOrgRank": null,
       "currentLevel": "MLB",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -9909,7 +10041,10 @@
       "signingBonus": "2300000",
       "currentOrgRank": 4,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -9923,7 +10058,10 @@
       "signingBonus": "1097500",
       "currentOrgRank": 20,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -9937,7 +10075,10 @@
       "signingBonus": "597500",
       "currentOrgRank": 30,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -9951,7 +10092,10 @@
       "signingBonus": "477500",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Midland RockHounds"
+      "otherOrgName": "Athletics",
+      "otherTeamName": "Midland RockHounds",
+      "otherLevel": "AA",
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -9965,7 +10109,10 @@
       "signingBonus": "379600",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -9979,7 +10126,10 @@
       "signingBonus": "247500",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -9993,7 +10143,10 @@
       "signingBonus": "157500",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10007,7 +10160,10 @@
       "signingBonus": "197500",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10021,7 +10177,10 @@
       "signingBonus": "47500",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10035,7 +10194,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10049,7 +10211,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10063,7 +10228,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10077,7 +10245,10 @@
       "signingBonus": "347500",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10091,7 +10262,10 @@
       "signingBonus": "100000",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Portland Sea Dogs"
+      "otherOrgName": "Boston Red Sox",
+      "otherTeamName": "Portland Sea Dogs",
+      "otherLevel": "AA",
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10105,7 +10279,10 @@
       "signingBonus": "50000",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10119,7 +10296,10 @@
       "signingBonus": null,
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10133,7 +10313,10 @@
       "signingBonus": "347500",
       "currentOrgRank": null,
       "currentLevel": "Rookie",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10147,7 +10330,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2024,
@@ -10161,7 +10347,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10175,7 +10364,10 @@
       "signingBonus": "4897500",
       "currentOrgRank": 5,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10189,7 +10381,10 @@
       "signingBonus": "2800000",
       "currentOrgRank": 29,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10203,7 +10398,10 @@
       "signingBonus": "897500",
       "currentOrgRank": 17,
       "currentLevel": "AAA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10217,7 +10415,10 @@
       "signingBonus": "1497500",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10231,7 +10432,10 @@
       "signingBonus": "631700",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10245,7 +10449,10 @@
       "signingBonus": "472500",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10259,7 +10466,10 @@
       "signingBonus": "343000",
       "currentOrgRank": null,
       "currentLevel": "Single-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10273,7 +10483,10 @@
       "signingBonus": "350000",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10287,7 +10500,10 @@
       "signingBonus": "197500",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Omaha Storm Chasers"
+      "otherOrgName": "Kansas City Royals",
+      "otherTeamName": "Omaha Storm Chasers",
+      "otherLevel": "AAA",
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10301,7 +10517,10 @@
       "signingBonus": "137500",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Quad Cities River Bandits"
+      "otherOrgName": "Kansas City Royals",
+      "otherTeamName": "Quad Cities River Bandits",
+      "otherLevel": "High-A",
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10315,7 +10534,10 @@
       "signingBonus": "57500",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10329,7 +10551,10 @@
       "signingBonus": "572500",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Las Vegas Aviators"
+      "otherOrgName": "Athletics",
+      "otherTeamName": "Las Vegas Aviators",
+      "otherLevel": "AAA",
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10343,7 +10568,10 @@
       "signingBonus": "297500",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Richmond Flying Squirrels"
+      "otherOrgName": "San Francisco Giants",
+      "otherTeamName": "Richmond Flying Squirrels",
+      "otherLevel": "AA",
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10357,7 +10585,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "AAA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10371,7 +10602,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10385,7 +10619,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10399,7 +10636,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10413,7 +10653,10 @@
       "signingBonus": "100000",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Altoona Curve"
+      "otherOrgName": "Pittsburgh Pirates",
+      "otherTeamName": "Altoona Curve",
+      "otherLevel": "AA",
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10427,7 +10670,10 @@
       "signingBonus": "150000",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10441,7 +10687,10 @@
       "signingBonus": null,
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2023,
@@ -10455,7 +10704,10 @@
       "signingBonus": null,
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10469,7 +10721,10 @@
       "signingBonus": "5202900",
       "currentOrgRank": null,
       "currentLevel": "AAA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10483,7 +10738,10 @@
       "signingBonus": "1700000",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Rochester Red Wings"
+      "otherOrgName": "Washington Nationals",
+      "otherTeamName": "Rochester Red Wings",
+      "otherLevel": "AAA",
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10497,7 +10755,10 @@
       "signingBonus": "697500",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Las Vegas Aviators"
+      "otherOrgName": "Athletics",
+      "otherTeamName": "Las Vegas Aviators",
+      "otherLevel": "AAA",
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10511,7 +10772,10 @@
       "signingBonus": "500000",
       "currentOrgRank": 14,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10525,7 +10789,10 @@
       "signingBonus": "394500",
       "currentOrgRank": null,
       "currentLevel": "AAA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10539,7 +10806,10 @@
       "signingBonus": "300000",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Columbia Fireflies"
+      "otherOrgName": "Kansas City Royals",
+      "otherTeamName": "Columbia Fireflies",
+      "otherLevel": "Single-A",
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10553,7 +10823,10 @@
       "signingBonus": "231100",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Columbia Fireflies"
+      "otherOrgName": "Kansas City Royals",
+      "otherTeamName": "Columbia Fireflies",
+      "otherLevel": "Single-A",
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10567,7 +10840,10 @@
       "signingBonus": "184000",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Columbia Fireflies"
+      "otherOrgName": "Kansas City Royals",
+      "otherTeamName": "Columbia Fireflies",
+      "otherLevel": "Single-A",
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10581,7 +10857,10 @@
       "signingBonus": "47500",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10595,7 +10874,10 @@
       "signingBonus": "72500",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Columbia Fireflies"
+      "otherOrgName": "Kansas City Royals",
+      "otherTeamName": "Columbia Fireflies",
+      "otherLevel": "Single-A",
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10609,7 +10891,10 @@
       "signingBonus": "400000",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Charlotte Knights"
+      "otherOrgName": "Chicago White Sox",
+      "otherTeamName": "Charlotte Knights",
+      "otherLevel": "AAA",
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10623,7 +10908,10 @@
       "signingBonus": "147500",
       "currentOrgRank": null,
       "currentLevel": "AAA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10637,7 +10925,10 @@
       "signingBonus": "125000",
       "currentOrgRank": null,
       "currentLevel": "AAA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10651,7 +10942,10 @@
       "signingBonus": "125000",
       "currentOrgRank": null,
       "currentLevel": "AAA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10665,7 +10959,10 @@
       "signingBonus": "125000",
       "currentOrgRank": null,
       "currentLevel": "AA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10679,7 +10976,10 @@
       "signingBonus": "125000",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Aberdeen IronBirds"
+      "otherOrgName": "Office of the Commissioner",
+      "otherTeamName": "Aberdeen IronBirds",
+      "otherLevel": "College Baseball",
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10693,7 +10993,10 @@
       "signingBonus": "125000",
       "currentOrgRank": null,
       "currentLevel": "AAA",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10707,7 +11010,10 @@
       "signingBonus": "125000",
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": "Columbia Fireflies"
+      "otherOrgName": "Kansas City Royals",
+      "otherTeamName": "Columbia Fireflies",
+      "otherLevel": "Single-A",
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10721,7 +11027,10 @@
       "signingBonus": null,
       "currentOrgRank": null,
       "currentLevel": null,
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     },
     {
       "year": 2022,
@@ -10735,7 +11044,10 @@
       "signingBonus": "429500",
       "currentOrgRank": null,
       "currentLevel": "High-A",
-      "currentOrg": null
+      "otherOrgName": null,
+      "otherTeamName": null,
+      "otherLevel": null,
+      "lastPlayedYear": null
     }
   ]
 }
