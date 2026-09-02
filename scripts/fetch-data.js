@@ -155,7 +155,13 @@ async function fetchLevels(season) {
     sportId: 1,
     sportName: "Major League Baseball",
     shortName: "MLB",
-    teams: [{ teamId: ROYALS_ID, teamName: mlbTeam?.name || "Kansas City Royals" }],
+    teams: [
+      {
+        teamId: ROYALS_ID,
+        teamName: mlbTeam?.name || "Kansas City Royals",
+        leagueId: mlbTeam?.league?.id ?? null,
+      },
+    ],
   });
   for (const t of affiliates) {
     const sportId = t.sport?.id ?? 999;
@@ -167,7 +173,7 @@ async function fetchLevels(season) {
         teams: [],
       });
     }
-    bySport.get(sportId).teams.push({ teamId: t.id, teamName: t.name });
+    bySport.get(sportId).teams.push({ teamId: t.id, teamName: t.name, leagueId: t.league?.id ?? null });
   }
   const levels = [...bySport.values()];
   levels.sort((a, b) => a.sportId - b.sportId);
@@ -310,6 +316,162 @@ async function fetchAllProspects(levels, season) {
   return { hitters, pitchers };
 }
 
+// ---------------------------------------------------------------------------
+// Standings — one call per team via the /standings endpoint, matched back to
+// our team by id. NOTE: this relies on each team's leagueId being correct
+// (captured in fetchLevels from the affiliates/team API response) and on the
+// standings response actually containing every level's teams the way it does
+// for the majors. This is the part of this batch I'm least able to verify
+// without live-testing — if a level's standings come back empty/null, that's
+// the first place to look.
+// ---------------------------------------------------------------------------
+async function fetchStandingsForTeam(teamId, leagueId, sportId, season) {
+  if (!leagueId) return null;
+  try {
+    const data = await getJSON(
+      `https://statsapi.mlb.com/api/v1/standings?leagueId=${leagueId}&season=${season}&sportId=${sportId}&hydrate=team`
+    );
+    for (const record of data.records || []) {
+      const teamRecord = (record.teamRecords || []).find((tr) => tr.team?.id === teamId);
+      if (teamRecord) {
+        return {
+          wins: teamRecord.wins ?? null,
+          losses: teamRecord.losses ?? null,
+          winningPct: teamRecord.winningPercentage ?? null,
+          gamesBack: teamRecord.gamesBack ?? null,
+          divisionRank: teamRecord.divisionRank ?? null,
+          streak: teamRecord.streak?.streakCode ?? null,
+        };
+      }
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Schedule — recent result + upcoming games for one team, small window either
+// side of today.
+// ---------------------------------------------------------------------------
+const SCHEDULE_DAYS_BACK = 3;
+const SCHEDULE_DAYS_FORWARD = 5;
+
+async function fetchScheduleForTeam(teamId, sportId, season) {
+  const startDate = isoDateDaysAgo(SCHEDULE_DAYS_BACK);
+  const endDate = isoDateDaysAgo(-SCHEDULE_DAYS_FORWARD);
+  try {
+    const data = await getJSON(
+      `https://statsapi.mlb.com/api/v1/schedule?teamId=${teamId}&sportId=${sportId}` +
+        `&startDate=${startDate}&endDate=${endDate}&season=${season}&hydrate=team,linescore`
+    );
+    const games = [];
+    for (const date of data.dates || []) {
+      for (const g of date.games || []) {
+        const isHome = g.teams?.home?.team?.id === teamId;
+        const us = isHome ? g.teams?.home : g.teams?.away;
+        const them = isHome ? g.teams?.away : g.teams?.home;
+        games.push({
+          date: date.date,
+          opponent: them?.team?.name || "Unknown",
+          isHome,
+          status: g.status?.detailedState || "",
+          finalScore:
+            g.status?.abstractGameState === "Final"
+              ? { us: us?.score ?? null, them: them?.score ?? null }
+              : null,
+        });
+      }
+    }
+    games.sort((a, b) => a.date.localeCompare(b.date));
+    return {
+      recent: games.filter((g) => g.date < isoDateDaysAgo(0)),
+      upcoming: games.filter((g) => g.date >= isoDateDaysAgo(0)),
+    };
+  } catch {
+    return { recent: [], upcoming: [] };
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Transactions — recent org-wide moves (promotions, IL, trades, releases),
+// one call per team so affiliate-level moves aren't missed (the transactions
+// endpoint's teamId filter matches the specific team involved, not the whole
+// org under one parent id).
+// ---------------------------------------------------------------------------
+const TRANSACTIONS_DAYS_BACK = 30;
+
+async function fetchTransactionsForTeams(teams) {
+  const startDate = isoDateDaysAgo(TRANSACTIONS_DAYS_BACK);
+  const endDate = isoDateDaysAgo(0);
+  const results = await Promise.all(
+    teams.map(async (t) => {
+      try {
+        const data = await getJSON(
+          `https://statsapi.mlb.com/api/v1/transactions?startDate=${startDate}&endDate=${endDate}&teamId=${t.teamId}`
+        );
+        return data.transactions || [];
+      } catch {
+        return [];
+      }
+    })
+  );
+  const seen = new Set();
+  const merged = [];
+  for (const tx of results.flat()) {
+    if (seen.has(tx.id)) continue;
+    seen.add(tx.id);
+    merged.push({
+      id: tx.id,
+      date: tx.date,
+      person: tx.person?.fullName || null,
+      description: tx.description || tx.typeDesc || "",
+      fromTeam: tx.fromTeam?.name || null,
+      toTeam: tx.toTeam?.name || null,
+    });
+  }
+  merged.sort((a, b) => (a.date < b.date ? 1 : -1)); // newest first
+  return merged;
+}
+
+// ---------------------------------------------------------------------------
+// Draft tracker — Royals picks from recent draft years, cross-referenced
+// against PROSPECT_RANKS so a pick still in the org shows its current rank.
+// ---------------------------------------------------------------------------
+const DRAFT_YEARS_BACK = 5;
+
+async function fetchDraftPicks(season) {
+  const years = Array.from({ length: DRAFT_YEARS_BACK }, (_, i) => season - i);
+  const results = await Promise.all(
+    years.map(async (year) => {
+      try {
+        const data = await getJSON(`https://statsapi.mlb.com/api/v1/draft/${year}`);
+        const picks = [];
+        for (const round of data.drafts?.rounds || []) {
+          for (const pick of round.picks || []) {
+            if (pick.team?.id !== ROYALS_ID) continue;
+            const rank = lookupProspectRank(pick.person?.fullName);
+            picks.push({
+              year,
+              round: pick.pickRound,
+              overallPick: pick.pickNumber,
+              name: pick.person?.fullName || "Unknown",
+              position: pick.position?.abbreviation || "",
+              school: pick.school?.name || null,
+              signingBonus: pick.signingBonus || null,
+              currentOrgRank: rank.orgRank,
+            });
+          }
+        }
+        return picks;
+      } catch {
+        return [];
+      }
+    })
+  );
+  return results.flat().sort((a, b) => b.year - a.year || a.overallPick - b.overallPick);
+}
+
 async function main() {
   console.log(`Fetching Royals org data for ${SEASON} season…`);
   const levels = await fetchLevels(SEASON);
@@ -317,23 +479,40 @@ async function main() {
   const levelsWithRosters = await Promise.all(
     levels.map(async (lv) => {
       const roster = await fetchRoster(lv.teams, SEASON, lv.sportId);
-      return { ...lv, ...roster };
+      const teamsWithExtras = await Promise.all(
+        lv.teams.map(async (t) => {
+          const [standings, schedule] = await Promise.all([
+            fetchStandingsForTeam(t.teamId, t.leagueId, lv.sportId, SEASON),
+            fetchScheduleForTeam(t.teamId, lv.sportId, SEASON),
+          ]);
+          return { ...t, standings, schedule };
+        })
+      );
+      return { ...lv, teams: teamsWithExtras, ...roster };
     })
   );
 
   const prospects = await fetchAllProspects(levels, SEASON);
+  const allTeams = levels.flatMap((lv) => lv.teams);
+  const transactions = await fetchTransactionsForTeams(allTeams);
+  const draftPicks = await fetchDraftPicks(SEASON);
 
   const snapshot = {
     updatedAt: new Date().toISOString(),
     season: SEASON,
     levels: levelsWithRosters,
     prospects,
+    transactions,
+    draftPicks,
   };
 
   const outPath = path.join(__dirname, "..", "data", "snapshot.json");
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(snapshot, null, 2));
-  console.log(`Wrote ${outPath} (${levelsWithRosters.length} levels, ${prospects.hitters.length + prospects.pitchers.length} ranked prospects)`);
+  console.log(
+    `Wrote ${outPath} (${levelsWithRosters.length} levels, ${prospects.hitters.length + prospects.pitchers.length} ranked prospects, ` +
+      `${transactions.length} transactions, ${draftPicks.length} draft picks)`
+  );
 }
 
 main().catch((err) => {
