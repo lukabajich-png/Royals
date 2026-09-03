@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T18:38:36.450Z",
+  "updatedAt": "2026-09-03T21:20:54.917Z",
   "season": 2026,
   "levels": [
     {
@@ -15,7 +15,7 @@
             "wins": 62,
             "losses": 78,
             "winningPct": ".443",
-            "gamesBack": "11.5",
+            "gamesBack": "11.0",
             "divisionRank": "5",
             "streak": "L3"
           },
@@ -47,7 +47,7 @@
                 "date": "2026-09-03",
                 "opponent": "Miami Marlins",
                 "isHome": true,
-                "status": "Scheduled",
+                "status": "Pre-Game",
                 "finalScore": null
               },
               {
@@ -3645,7 +3645,7 @@
                 "date": "2026-09-03",
                 "opponent": "Myrtle Beach Pelicans",
                 "isHome": false,
-                "status": "Scheduled",
+                "status": "Pre-Game",
                 "finalScore": null
               },
               {
@@ -4022,6 +4022,29 @@
           "trend": null
         },
         {
+          "id": 828703,
+          "name": "Alberto Toribio",
+          "profileUrl": "https://www.mlb.com/player/alberto-toribio-828703",
+          "pos": "P",
+          "jersey": "36",
+          "status": "Active",
+          "team": "Columbia Fireflies",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false,
+          "trend": null
+        },
+        {
           "id": 800576,
           "name": "Andy Basora",
           "profileUrl": "https://www.mlb.com/player/andy-basora-800576",
@@ -4275,29 +4298,6 @@
           "trend": null
         },
         {
-          "id": 813533,
-          "name": "Michael Lombardi",
-          "profileUrl": "https://www.mlb.com/player/michael-lombardi-813533",
-          "pos": "P",
-          "jersey": "22",
-          "status": "Active",
-          "team": "Columbia Fireflies",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": 13,
-          "top100Rank": null,
-          "g": 23,
-          "w": 2,
-          "l": 4,
-          "sv": 0,
-          "era": "3.68",
-          "whip": "1.42",
-          "ip": "88.0",
-          "so": 124,
-          "hasStats": true,
-          "trend": "cold"
-        },
-        {
           "id": 808668,
           "name": "Moises Amezquita",
           "profileUrl": "https://www.mlb.com/player/moises-amezquita-808668",
@@ -4461,6 +4461,29 @@
           "so": 24,
           "hasStats": true,
           "trend": null
+        },
+        {
+          "id": 813533,
+          "name": "Michael Lombardi",
+          "profileUrl": "https://www.mlb.com/player/michael-lombardi-813533",
+          "pos": "P",
+          "jersey": "22",
+          "status": "Development List",
+          "team": "Columbia Fireflies",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": 13,
+          "top100Rank": null,
+          "g": 23,
+          "w": 2,
+          "l": 4,
+          "sv": 0,
+          "era": "3.68",
+          "whip": "1.42",
+          "ip": "88.0",
+          "so": 124,
+          "hasStats": true,
+          "trend": "cold"
         },
         {
           "id": 835609,
@@ -6572,29 +6595,6 @@
           "trend": null
         },
         {
-          "id": 828703,
-          "name": "Alberto Toribio",
-          "profileUrl": "https://www.mlb.com/player/alberto-toribio-828703",
-          "pos": "P",
-          "jersey": "67",
-          "status": "Active",
-          "team": "ACL Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 8,
-          "w": 0,
-          "l": 2,
-          "sv": 0,
-          "era": "4.56",
-          "whip": "1.75",
-          "ip": "25.2",
-          "so": 28,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 832698,
           "name": "Cameron Millar",
           "profileUrl": "https://www.mlb.com/player/cameron-millar-832698",
@@ -7781,7 +7781,7 @@
         "profileUrl": "https://www.mlb.com/player/michael-lombardi-813533",
         "pos": "P",
         "jersey": "22",
-        "status": "Active",
+        "status": "Development List",
         "team": "Columbia Fireflies",
         "bats": "R",
         "throws": "R",
@@ -7995,10 +7995,18 @@
   },
   "transactions": [
     {
-      "id": 940877,
-      "date": "2026-09-02",
-      "person": "Brandon Herbold",
-      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
+      "id": 941107,
+      "date": "2026-09-03",
+      "person": "Alberto Toribio",
+      "description": "RHP Alberto Toribio assigned to Columbia Fireflies from ACL Royals.",
+      "fromTeam": "ACL Royals",
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 941106,
+      "date": "2026-09-03",
+      "person": "Michael Lombardi",
+      "description": "Columbia Fireflies transferred RHP Michael Lombardi to the Development List.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -8007,6 +8015,14 @@
       "date": "2026-09-02",
       "person": "Shane Van Dam",
       "description": "Columbia Fireflies transferred RHP Shane Van Dam to the Development List.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 940877,
+      "date": "2026-09-02",
+      "person": "Brandon Herbold",
+      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -8315,18 +8331,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 938696,
-      "date": "2026-08-20",
-      "person": "Randy Ramnarace",
-      "description": "Columbia Fireflies placed RHP Randy Ramnarace on the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
       "id": 938697,
       "date": "2026-08-20",
       "person": "Brandon Herbold",
       "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 938696,
+      "date": "2026-08-20",
+      "person": "Randy Ramnarace",
+      "description": "Columbia Fireflies placed RHP Randy Ramnarace on the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -8611,6 +8627,14 @@
       "toTeam": "DSL Royals Fortuna"
     },
     {
+      "id": 936919,
+      "date": "2026-08-11",
+      "person": "Justin LeGuernic",
+      "description": "LHP Justin LeGuernic assigned to Columbia Fireflies from ACL Royals.",
+      "fromTeam": "ACL Royals",
+      "toTeam": "Columbia Fireflies"
+    },
+    {
       "id": 936913,
       "date": "2026-08-11",
       "person": "Tyson Moran",
@@ -8623,14 +8647,6 @@
       "date": "2026-08-11",
       "person": "Jhonayker Ugarte",
       "description": "SS Jhonayker Ugarte assigned to Columbia Fireflies from ACL Royals.",
-      "fromTeam": "ACL Royals",
-      "toTeam": "Columbia Fireflies"
-    },
-    {
-      "id": 936919,
-      "date": "2026-08-11",
-      "person": "Justin LeGuernic",
-      "description": "LHP Justin LeGuernic assigned to Columbia Fireflies from ACL Royals.",
       "fromTeam": "ACL Royals",
       "toTeam": "Columbia Fireflies"
     },
@@ -9067,14 +9083,6 @@
       "toTeam": "DSL Royals Fortuna"
     },
     {
-      "id": 934959,
-      "date": "2026-08-04",
-      "person": "Angel Ramirez",
-      "description": "OF Angel Ramirez assigned to ACL Royals from Columbia Fireflies.",
-      "fromTeam": "Columbia Fireflies",
-      "toTeam": "ACL Royals"
-    },
-    {
       "id": 934958,
       "date": "2026-08-04",
       "person": "Daniel Lopez",
@@ -9089,6 +9097,14 @@
       "description": "SS Camden Johnson assigned to Columbia Fireflies from ACL Royals.",
       "fromTeam": "ACL Royals",
       "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 934959,
+      "date": "2026-08-04",
+      "person": "Angel Ramirez",
+      "description": "OF Angel Ramirez assigned to ACL Royals from Columbia Fireflies.",
+      "fromTeam": "Columbia Fireflies",
+      "toTeam": "ACL Royals"
     },
     {
       "id": 934956,
