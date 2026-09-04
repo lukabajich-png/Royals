@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T17:49:09.278Z",
+  "updatedAt": "2026-09-04T20:19:47.281Z",
   "season": 2026,
   "levels": [
     {
@@ -57,7 +57,7 @@
                 "date": "2026-09-04",
                 "opponent": "Toronto Blue Jays",
                 "isHome": true,
-                "status": "Scheduled",
+                "status": "Pre-Game",
                 "finalScore": null
               },
               {
