@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T04:49:24.463Z",
+  "updatedAt": "2026-09-05T08:49:42.882Z",
   "season": 2026,
   "levels": [
     {
@@ -2820,6 +2820,20 @@
               {
                 "date": "2026-09-06",
                 "opponent": "Peoria Chiefs",
+                "isHome": false,
+                "status": "Scheduled",
+                "finalScore": null
+              },
+              {
+                "date": "2026-09-08",
+                "opponent": "South Bend Cubs",
+                "isHome": true,
+                "status": "Scheduled",
+                "finalScore": null
+              },
+              {
+                "date": "2026-09-10",
+                "opponent": "South Bend Cubs",
                 "isHome": false,
                 "status": "Scheduled",
                 "finalScore": null
