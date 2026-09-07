@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T00:42:06.286Z",
+  "updatedAt": "2026-09-07T05:15:17.031Z",
   "season": 2026,
   "levels": [
     {
@@ -15,7 +15,7 @@
             "wins": 64,
             "losses": 80,
             "winningPct": ".444",
-            "gamesBack": "11.0",
+            "gamesBack": "11.5",
             "divisionRank": "5",
             "streak": "W1"
           },
@@ -1935,12 +1935,12 @@
           "teamName": "Northwest Arkansas Naturals",
           "leagueId": 109,
           "standings": {
-            "wins": 55,
+            "wins": 56,
             "losses": 74,
-            "winningPct": ".426",
-            "gamesBack": "27.0",
+            "winningPct": ".431",
+            "gamesBack": "26.0",
             "divisionRank": "4",
-            "streak": "W1"
+            "streak": "W2"
           },
           "schedule": {
             "recent": [
@@ -1968,8 +1968,11 @@
                 "date": "2026-09-06",
                 "opponent": "Arkansas Travelers",
                 "isHome": false,
-                "status": "In Progress",
-                "finalScore": null
+                "status": "Final",
+                "finalScore": {
+                  "us": 24,
+                  "them": 4
+                }
               }
             ],
             "upcoming": [
@@ -2048,13 +2051,13 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 11,
-          "avg": ".154",
-          "obp": ".233",
-          "slg": ".154",
-          "ops": ".387",
+          "g": 12,
+          "avg": ".159",
+          "obp": ".224",
+          "slg": ".159",
+          "ops": ".383",
           "hr": 0,
-          "rbi": 2,
+          "rbi": 3,
           "sb": 2,
           "hasStats": true,
           "trend": null
@@ -2094,13 +2097,13 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 81,
-          "avg": ".223",
-          "obp": ".284",
-          "slg": ".375",
-          "ops": ".659",
-          "hr": 10,
-          "rbi": 44,
+          "g": 82,
+          "avg": ".228",
+          "obp": ".287",
+          "slg": ".389",
+          "ops": ".676",
+          "hr": 11,
+          "rbi": 48,
           "sb": 8,
           "hasStats": true,
           "trend": "hot"
@@ -2117,13 +2120,13 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 114,
-          "avg": ".245",
-          "obp": ".311",
-          "slg": ".322",
-          "ops": ".633",
+          "g": 115,
+          "avg": ".248",
+          "obp": ".316",
+          "slg": ".326",
+          "ops": ".642",
           "hr": 4,
-          "rbi": 54,
+          "rbi": 55,
           "sb": 16,
           "hasStats": true,
           "trend": null
@@ -2140,13 +2143,13 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 5,
-          "avg": ".250",
-          "obp": ".333",
-          "slg": ".375",
-          "ops": ".708",
+          "g": 6,
+          "avg": ".304",
+          "obp": ".360",
+          "slg": ".435",
+          "ops": ".795",
           "hr": 0,
-          "rbi": 1,
+          "rbi": 2,
           "sb": 0,
           "hasStats": true,
           "trend": null
@@ -2163,13 +2166,13 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 17,
-          "avg": ".190",
-          "obp": ".329",
-          "slg": ".365",
-          "ops": ".694",
+          "g": 18,
+          "avg": ".206",
+          "obp": ".349",
+          "slg": ".382",
+          "ops": ".731",
           "hr": 1,
-          "rbi": 8,
+          "rbi": 9,
           "sb": 6,
           "hasStats": true,
           "trend": null
@@ -2186,13 +2189,13 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 90,
-          "avg": ".190",
-          "obp": ".283",
-          "slg": ".369",
-          "ops": ".652",
-          "hr": 12,
-          "rbi": 39,
+          "g": 91,
+          "avg": ".203",
+          "obp": ".292",
+          "slg": ".392",
+          "ops": ".684",
+          "hr": 13,
+          "rbi": 44,
           "sb": 11,
           "hasStats": true,
           "trend": "hot"
@@ -2209,14 +2212,14 @@
           "throws": "L",
           "orgRank": 28,
           "top100Rank": null,
-          "g": 37,
-          "avg": ".322",
-          "obp": ".405",
-          "slg": ".378",
-          "ops": ".783",
+          "g": 38,
+          "avg": ".336",
+          "obp": ".412",
+          "slg": ".396",
+          "ops": ".808",
           "hr": 0,
-          "rbi": 9,
-          "sb": 12,
+          "rbi": 10,
+          "sb": 13,
           "hasStats": true,
           "trend": null
         },
@@ -2232,16 +2235,16 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 120,
-          "avg": ".242",
-          "obp": ".369",
-          "slg": ".383",
-          "ops": ".752",
-          "hr": 10,
-          "rbi": 60,
+          "g": 121,
+          "avg": ".252",
+          "obp": ".376",
+          "slg": ".405",
+          "ops": ".781",
+          "hr": 12,
+          "rbi": 68,
           "sb": 29,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 811289,
@@ -2255,13 +2258,13 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 97,
-          "avg": ".274",
-          "obp": ".358",
-          "slg": ".436",
-          "ops": ".794",
+          "g": 98,
+          "avg": ".277",
+          "obp": ".362",
+          "slg": ".440",
+          "ops": ".802",
           "hr": 8,
-          "rbi": 54,
+          "rbi": 55,
           "sb": 16,
           "hasStats": true,
           "trend": null
@@ -2441,14 +2444,14 @@
           "throws": "R",
           "orgRank": 21,
           "top100Rank": null,
-          "g": 22,
-          "w": 5,
+          "g": 23,
+          "w": 6,
           "l": 6,
           "sv": 0,
-          "era": "6.07",
-          "whip": "1.59",
-          "ip": "96.1",
-          "so": 82,
+          "era": "6.13",
+          "whip": "1.61",
+          "ip": "101.1",
+          "so": 86,
           "hasStats": true,
           "trend": "cold"
         },
@@ -2556,14 +2559,14 @@
           "throws": "R",
           "orgRank": 14,
           "top100Rank": null,
-          "g": 11,
+          "g": 12,
           "w": 1,
           "l": 6,
           "sv": 0,
-          "era": "5.26",
-          "whip": "1.38",
-          "ip": "37.2",
-          "so": 35,
+          "era": "4.99",
+          "whip": "1.31",
+          "ip": "39.2",
+          "so": 39,
           "hasStats": true,
           "trend": null
         },
@@ -2602,16 +2605,16 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 11,
+          "g": 12,
           "w": 0,
           "l": 0,
           "sv": 0,
-          "era": "7.04",
-          "whip": "1.43",
-          "ip": "15.1",
-          "so": 17,
+          "era": "6.23",
+          "whip": "1.33",
+          "ip": "17.1",
+          "so": 19,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 815045,
@@ -7668,14 +7671,14 @@
         "throws": "L",
         "orgRank": 28,
         "top100Rank": null,
-        "g": 37,
-        "avg": ".322",
-        "obp": ".405",
-        "slg": ".378",
-        "ops": ".783",
+        "g": 38,
+        "avg": ".336",
+        "obp": ".412",
+        "slg": ".396",
+        "ops": ".808",
         "hr": 0,
-        "rbi": 9,
-        "sb": 12,
+        "rbi": 10,
+        "sb": 13,
         "hasStats": true,
         "trend": null,
         "level": "AA"
@@ -7838,14 +7841,14 @@
         "throws": "R",
         "orgRank": 14,
         "top100Rank": null,
-        "g": 11,
+        "g": 12,
         "w": 1,
         "l": 6,
         "sv": 0,
-        "era": "5.26",
-        "whip": "1.38",
-        "ip": "37.2",
-        "so": 35,
+        "era": "4.99",
+        "whip": "1.31",
+        "ip": "39.2",
+        "so": 39,
         "hasStats": true,
         "trend": null,
         "level": "AA"
@@ -7934,14 +7937,14 @@
         "throws": "R",
         "orgRank": 21,
         "top100Rank": null,
-        "g": 22,
-        "w": 5,
+        "g": 23,
+        "w": 6,
         "l": 6,
         "sv": 0,
-        "era": "6.07",
-        "whip": "1.59",
-        "ip": "96.1",
-        "so": 82,
+        "era": "6.13",
+        "whip": "1.61",
+        "ip": "101.1",
+        "so": 86,
         "hasStats": true,
         "trend": "cold",
         "level": "AA"
@@ -8054,14 +8057,6 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 940877,
-      "date": "2026-09-02",
-      "person": "Brandon Herbold",
-      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
       "id": 940894,
       "date": "2026-09-02",
       "person": "Brandon Herbold",
@@ -8070,18 +8065,26 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 940867,
+      "id": 940877,
       "date": "2026-09-02",
-      "person": "Michael Massey",
-      "description": "Kansas City Royals activated 2B Michael Massey from the 7-day injured list.",
+      "person": "Brandon Herbold",
+      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
       "fromTeam": null,
-      "toTeam": "Kansas City Royals"
+      "toTeam": "Columbia Fireflies"
     },
     {
       "id": 940866,
       "date": "2026-09-02",
       "person": "Drew Waters",
       "description": "Kansas City Royals designated LF Drew Waters for assignment.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 940867,
+      "date": "2026-09-02",
+      "person": "Michael Massey",
+      "description": "Kansas City Royals activated 2B Michael Massey from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8118,6 +8121,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 940485,
+      "date": "2026-09-01",
+      "person": "Drew Waters",
+      "description": "Kansas City Royals selected the contract of LF Drew Waters from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 940483,
       "date": "2026-09-01",
       "person": "Nolan Hoffman",
@@ -8130,14 +8141,6 @@
       "date": "2026-09-01",
       "person": "Easton McGee",
       "description": "Kansas City Royals recalled RHP Easton McGee from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 940485,
-      "date": "2026-09-01",
-      "person": "Drew Waters",
-      "description": "Kansas City Royals selected the contract of LF Drew Waters from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -8206,18 +8209,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 939667,
-      "date": "2026-08-27",
-      "person": "Anthony Gose",
-      "description": "Kansas City Royals selected the contract of LHP Anthony Gose from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 939665,
       "date": "2026-08-27",
       "person": "Josh Rojas",
       "description": "Kansas City Royals recalled 3B Josh Rojas from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 939667,
+      "date": "2026-08-27",
+      "person": "Anthony Gose",
+      "description": "Kansas City Royals selected the contract of LHP Anthony Gose from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -8230,20 +8233,20 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 939495,
-      "date": "2026-08-26",
-      "person": "John Means",
-      "description": "Omaha Storm Chasers sent LHP John Means on a rehab assignment to Quad Cities River Bandits.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
       "id": 939475,
       "date": "2026-08-26",
       "person": "Gavin Cross",
       "description": "Omaha Storm Chasers activated OF Gavin Cross from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 939495,
+      "date": "2026-08-26",
+      "person": "John Means",
+      "description": "Omaha Storm Chasers sent LHP John Means on a rehab assignment to Quad Cities River Bandits.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Quad Cities River Bandits"
     },
     {
       "id": 939479,
@@ -8318,14 +8321,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 938806,
-      "date": "2026-08-21",
-      "person": "Matthew Lugo",
-      "description": "Kansas City Royals recalled LF Matthew Lugo from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 938807,
       "date": "2026-08-21",
       "person": "Carlos Duran",
@@ -8342,12 +8337,12 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 938802,
+      "id": 938806,
       "date": "2026-08-21",
-      "person": "Beck Way",
-      "description": "Kansas City Royals sent RHP Beck Way on a rehab assignment to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
+      "person": "Matthew Lugo",
+      "description": "Kansas City Royals recalled LF Matthew Lugo from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 938808,
@@ -8358,6 +8353,14 @@
       "toTeam": "Kansas City Royals"
     },
     {
+      "id": 938802,
+      "date": "2026-08-21",
+      "person": "Beck Way",
+      "description": "Kansas City Royals sent RHP Beck Way on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 939669,
       "date": "2026-08-21",
       "person": "Beck Way",
@@ -8366,18 +8369,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 938697,
-      "date": "2026-08-20",
-      "person": "Brandon Herbold",
-      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
       "id": 938696,
       "date": "2026-08-20",
       "person": "Randy Ramnarace",
       "description": "Columbia Fireflies placed RHP Randy Ramnarace on the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 938697,
+      "date": "2026-08-20",
+      "person": "Brandon Herbold",
+      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -8422,20 +8425,20 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 938162,
-      "date": "2026-08-18",
-      "person": "Hunter Patteson",
-      "description": "LHP Hunter Patteson assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
-      "fromTeam": "Northwest Arkansas Naturals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 938157,
       "date": "2026-08-18",
       "person": "Shane Panzini",
       "description": "RHP Shane Panzini assigned to Northwest Arkansas Naturals from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 938162,
+      "date": "2026-08-18",
+      "person": "Hunter Patteson",
+      "description": "LHP Hunter Patteson assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
+      "fromTeam": "Northwest Arkansas Naturals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 938161,
@@ -8478,14 +8481,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 937941,
-      "date": "2026-08-17",
-      "person": "Jose Cuas",
-      "description": "Kansas City Royals optioned RHP Jose Cuas to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 937939,
       "date": "2026-08-17",
       "person": "Connor Thomas",
@@ -8502,6 +8497,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 937941,
+      "date": "2026-08-17",
+      "person": "Jose Cuas",
+      "description": "Kansas City Royals optioned RHP Jose Cuas to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 937938,
       "date": "2026-08-17",
       "person": "Maikel Garcia",
@@ -8510,18 +8513,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 937936,
-      "date": "2026-08-17",
-      "person": "Vinnie Pasquantino",
-      "description": "Kansas City Royals activated 1B Vinnie Pasquantino from the 10-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 937942,
       "date": "2026-08-17",
       "person": "Starling Marte",
       "description": "Kansas City Royals designated RF Starling Marte for assignment.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 937936,
+      "date": "2026-08-17",
+      "person": "Vinnie Pasquantino",
+      "description": "Kansas City Royals activated 1B Vinnie Pasquantino from the 10-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8590,12 +8593,36 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 936749,
+      "id": 937000,
       "date": "2026-08-11",
-      "person": "Argenis Done",
-      "description": "RHP Argenis Done assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "person": "Omar Mejia",
+      "description": "SS Omar Mejia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
       "fromTeam": "DSL Royals Fortuna",
       "toTeam": "DSL Royals Ventura"
+    },
+    {
+      "id": 936999,
+      "date": "2026-08-11",
+      "person": "Juan Batista",
+      "description": "IF Juan Batista assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
+    },
+    {
+      "id": 936747,
+      "date": "2026-08-11",
+      "person": "Anderson Garcia",
+      "description": "SS Anderson Garcia assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 936997,
+      "date": "2026-08-11",
+      "person": "Carlos Beras",
+      "description": "RHP Carlos Beras assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
     },
     {
       "id": 936996,
@@ -8606,12 +8633,12 @@
       "toTeam": "DSL Royals Fortuna"
     },
     {
-      "id": 936747,
+      "id": 936749,
       "date": "2026-08-11",
-      "person": "Anderson Garcia",
-      "description": "SS Anderson Garcia assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
+      "person": "Argenis Done",
+      "description": "RHP Argenis Done assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
     },
     {
       "id": 936998,
@@ -8630,14 +8657,6 @@
       "toTeam": "DSL Royals Fortuna"
     },
     {
-      "id": 937000,
-      "date": "2026-08-11",
-      "person": "Omar Mejia",
-      "description": "SS Omar Mejia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
       "id": 936750,
       "date": "2026-08-11",
       "person": "Ernesto Mejia",
@@ -8646,26 +8665,18 @@
       "toTeam": "DSL Royals Ventura"
     },
     {
-      "id": 936999,
-      "date": "2026-08-11",
-      "person": "Juan Batista",
-      "description": "IF Juan Batista assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
-      "id": 936997,
-      "date": "2026-08-11",
-      "person": "Carlos Beras",
-      "description": "RHP Carlos Beras assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 936919,
       "date": "2026-08-11",
       "person": "Justin LeGuernic",
       "description": "LHP Justin LeGuernic assigned to Columbia Fireflies from ACL Royals.",
+      "fromTeam": "ACL Royals",
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 936915,
+      "date": "2026-08-11",
+      "person": "Dalton Hill",
+      "description": "RHP Dalton Hill assigned to Columbia Fireflies from ACL Royals.",
       "fromTeam": "ACL Royals",
       "toTeam": "Columbia Fireflies"
     },
@@ -8686,11 +8697,11 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 936915,
+      "id": 936920,
       "date": "2026-08-11",
-      "person": "Dalton Hill",
-      "description": "RHP Dalton Hill assigned to Columbia Fireflies from ACL Royals.",
-      "fromTeam": "ACL Royals",
+      "person": "Brandon Herbold",
+      "description": "Columbia Fireflies transferred LHP Brandon Herbold to the Development List.",
+      "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
     {
@@ -8698,14 +8709,6 @@
       "date": "2026-08-11",
       "person": "Ivan Sosa",
       "description": "Columbia Fireflies transferred SS Ivan Sosa to the Development List.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
-      "id": 936920,
-      "date": "2026-08-11",
-      "person": "Brandon Herbold",
-      "description": "Columbia Fireflies transferred LHP Brandon Herbold to the Development List.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -8718,20 +8721,20 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 936788,
-      "date": "2026-08-11",
-      "person": "Pedro Roque",
-      "description": "2B Pedro Roque assigned to ACL Royals from Quad Cities River Bandits.",
-      "fromTeam": "Quad Cities River Bandits",
-      "toTeam": "ACL Royals"
-    },
-    {
       "id": 936786,
       "date": "2026-08-11",
       "person": "Jackson Cleveland",
       "description": "RHP Jackson Cleveland assigned to Quad Cities River Bandits from ACL Royals.",
       "fromTeam": "ACL Royals",
       "toTeam": "Quad Cities River Bandits"
+    },
+    {
+      "id": 936788,
+      "date": "2026-08-11",
+      "person": "Pedro Roque",
+      "description": "2B Pedro Roque assigned to ACL Royals from Quad Cities River Bandits.",
+      "fromTeam": "Quad Cities River Bandits",
+      "toTeam": "ACL Royals"
     },
     {
       "id": 936787,
@@ -8758,14 +8761,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 937935,
-      "date": "2026-08-11",
-      "person": "Vinnie Pasquantino",
-      "description": "Kansas City Royals sent 1B Vinnie Pasquantino on a rehab assignment to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 936843,
       "date": "2026-08-11",
       "person": "Vinnie Pasquantino",
@@ -8774,26 +8769,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 936602,
-      "date": "2026-08-10",
-      "person": "Juan Batista",
-      "description": "IF Juan Batista assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
+      "id": 937935,
+      "date": "2026-08-11",
+      "person": "Vinnie Pasquantino",
+      "description": "Kansas City Royals sent 1B Vinnie Pasquantino on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 936604,
       "date": "2026-08-10",
       "person": "Anderson Garcia",
       "description": "SS Anderson Garcia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
-      "id": 936603,
-      "date": "2026-08-10",
-      "person": "Alejandro Beltran",
-      "description": "RHP Alejandro Beltran assigned to DSL Royals Ventura from DSL Royals Fortuna.",
       "fromTeam": "DSL Royals Fortuna",
       "toTeam": "DSL Royals Ventura"
     },
@@ -8814,6 +8801,22 @@
       "toTeam": "DSL Royals Fortuna"
     },
     {
+      "id": 936603,
+      "date": "2026-08-10",
+      "person": "Alejandro Beltran",
+      "description": "RHP Alejandro Beltran assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
+    },
+    {
+      "id": 936602,
+      "date": "2026-08-10",
+      "person": "Juan Batista",
+      "description": "IF Juan Batista assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
       "id": 936601,
       "date": "2026-08-10",
       "person": "Juan Rivera",
@@ -8830,18 +8833,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 936693,
-      "date": "2026-08-10",
-      "person": "Craig Kimbrel",
-      "description": "Kansas City Royals activated RHP Craig Kimbrel.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 936692,
       "date": "2026-08-10",
       "person": "Craig Kimbrel",
       "description": "Kansas City Royals signed free agent RHP Craig Kimbrel.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 936693,
+      "date": "2026-08-10",
+      "person": "Craig Kimbrel",
+      "description": "Kansas City Royals activated RHP Craig Kimbrel.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8854,14 +8857,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 936283,
-      "date": "2026-08-08",
-      "person": "Samuel Carmona",
-      "description": "RHP Samuel Carmona assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 936286,
       "date": "2026-08-08",
       "person": "Juan Batista",
@@ -8870,12 +8865,12 @@
       "toTeam": "DSL Royals Ventura"
     },
     {
-      "id": 936285,
+      "id": 936283,
       "date": "2026-08-08",
-      "person": "Junior Suarez",
-      "description": "LHP Junior Suarez assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
+      "person": "Samuel Carmona",
+      "description": "RHP Samuel Carmona assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
     },
     {
       "id": 936284,
@@ -8884,6 +8879,14 @@
       "description": "SS Omar Mejia assigned to DSL Royals Fortuna from DSL Royals Ventura.",
       "fromTeam": "DSL Royals Ventura",
       "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 936285,
+      "date": "2026-08-08",
+      "person": "Junior Suarez",
+      "description": "LHP Junior Suarez assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
     },
     {
       "id": 936421,
