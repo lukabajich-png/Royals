@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T09:56:55.581Z",
+  "updatedAt": "2026-09-08T14:15:40.559Z",
   "season": 2026,
   "levels": [
     {
@@ -1152,29 +1152,6 @@
           "hr": 4,
           "rbi": 26,
           "sb": 6,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 592273,
-          "name": "Brandon Drury",
-          "profileUrl": "https://www.mlb.com/player/brandon-drury-592273",
-          "pos": "2B",
-          "jersey": "24",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 53,
-          "avg": ".226",
-          "obp": ".354",
-          "slg": ".362",
-          "ops": ".716",
-          "hr": 5,
-          "rbi": 29,
-          "sb": 0,
           "hasStats": true,
           "trend": null
         },
@@ -7999,6 +7976,14 @@
   },
   "transactions": [
     {
+      "id": 941572,
+      "date": "2026-09-07",
+      "person": "Brandon Drury",
+      "description": "Omaha Storm Chasers released 3B Brandon Drury.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 941314,
       "date": "2026-09-04",
       "person": "Drew Waters",
@@ -8151,18 +8136,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 939868,
-      "date": "2026-08-28",
-      "person": "Mason Black",
-      "description": "Omaha Storm Chasers activated RHP Mason Black.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 939867,
       "date": "2026-08-28",
       "person": "Luca Tresh",
       "description": "Omaha Storm Chasers placed C Luca Tresh on the temporarily inactive list.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 939868,
+      "date": "2026-08-28",
+      "person": "Mason Black",
+      "description": "Omaha Storm Chasers activated RHP Mason Black.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8207,20 +8192,20 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 939495,
-      "date": "2026-08-26",
-      "person": "John Means",
-      "description": "Omaha Storm Chasers sent LHP John Means on a rehab assignment to Quad Cities River Bandits.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
       "id": 939475,
       "date": "2026-08-26",
       "person": "Gavin Cross",
       "description": "Omaha Storm Chasers activated OF Gavin Cross from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 939495,
+      "date": "2026-08-26",
+      "person": "John Means",
+      "description": "Omaha Storm Chasers sent LHP John Means on a rehab assignment to Quad Cities River Bandits.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Quad Cities River Bandits"
     },
     {
       "id": 939479,
@@ -8399,6 +8384,14 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
+      "id": 938161,
+      "date": "2026-08-18",
+      "person": "Carson Roccaforte",
+      "description": "OF Carson Roccaforte assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
+      "fromTeam": "Northwest Arkansas Naturals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 938162,
       "date": "2026-08-18",
       "person": "Hunter Patteson",
@@ -8413,14 +8406,6 @@
       "description": "RHP Shane Panzini assigned to Northwest Arkansas Naturals from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 938161,
-      "date": "2026-08-18",
-      "person": "Carson Roccaforte",
-      "description": "OF Carson Roccaforte assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
-      "fromTeam": "Northwest Arkansas Naturals",
-      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 938148,
