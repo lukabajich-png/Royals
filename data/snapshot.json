@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T05:17:39.320Z",
+  "updatedAt": "2026-09-08T09:56:55.581Z",
   "season": 2026,
   "levels": [
     {
@@ -8567,52 +8567,12 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 936749,
-      "date": "2026-08-11",
-      "person": "Argenis Done",
-      "description": "RHP Argenis Done assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
-      "id": 936996,
-      "date": "2026-08-11",
-      "person": "Garvell Pinales",
-      "description": "RHP Garvell Pinales assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 936747,
       "date": "2026-08-11",
       "person": "Anderson Garcia",
       "description": "SS Anderson Garcia assigned to DSL Royals Fortuna from DSL Royals Ventura.",
       "fromTeam": "DSL Royals Ventura",
       "toTeam": "DSL Royals Fortuna"
-    },
-    {
-      "id": 936998,
-      "date": "2026-08-11",
-      "person": "Ricardo Montilla",
-      "description": "RHP Ricardo Montilla assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
-      "id": 936748,
-      "date": "2026-08-11",
-      "person": "Luis Ramon King",
-      "description": "OF Luis Ramon King assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
-      "id": 937000,
-      "date": "2026-08-11",
-      "person": "Omar Mejia",
-      "description": "SS Omar Mejia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
     },
     {
       "id": 936750,
@@ -8635,6 +8595,46 @@
       "date": "2026-08-11",
       "person": "Carlos Beras",
       "description": "RHP Carlos Beras assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 936748,
+      "date": "2026-08-11",
+      "person": "Luis Ramon King",
+      "description": "OF Luis Ramon King assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 937000,
+      "date": "2026-08-11",
+      "person": "Omar Mejia",
+      "description": "SS Omar Mejia assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
+    },
+    {
+      "id": 936996,
+      "date": "2026-08-11",
+      "person": "Garvell Pinales",
+      "description": "RHP Garvell Pinales assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 936749,
+      "date": "2026-08-11",
+      "person": "Argenis Done",
+      "description": "RHP Argenis Done assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
+    },
+    {
+      "id": 936998,
+      "date": "2026-08-11",
+      "person": "Ricardo Montilla",
+      "description": "RHP Ricardo Montilla assigned to DSL Royals Fortuna from DSL Royals Ventura.",
       "fromTeam": "DSL Royals Ventura",
       "toTeam": "DSL Royals Fortuna"
     },
@@ -8687,20 +8687,20 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 936785,
-      "date": "2026-08-11",
-      "person": "Ethan McElvain",
-      "description": "LHP Ethan McElvain assigned to Quad Cities River Bandits from ACL Royals.",
-      "fromTeam": "ACL Royals",
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
       "id": 936788,
       "date": "2026-08-11",
       "person": "Pedro Roque",
       "description": "2B Pedro Roque assigned to ACL Royals from Quad Cities River Bandits.",
       "fromTeam": "Quad Cities River Bandits",
       "toTeam": "ACL Royals"
+    },
+    {
+      "id": 936785,
+      "date": "2026-08-11",
+      "person": "Ethan McElvain",
+      "description": "LHP Ethan McElvain assigned to Quad Cities River Bandits from ACL Royals.",
+      "fromTeam": "ACL Royals",
+      "toTeam": "Quad Cities River Bandits"
     },
     {
       "id": 936786,
@@ -8751,12 +8751,12 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 936602,
+      "id": 936603,
       "date": "2026-08-10",
-      "person": "Juan Batista",
-      "description": "IF Juan Batista assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
+      "person": "Alejandro Beltran",
+      "description": "RHP Alejandro Beltran assigned to DSL Royals Ventura from DSL Royals Fortuna.",
+      "fromTeam": "DSL Royals Fortuna",
+      "toTeam": "DSL Royals Ventura"
     },
     {
       "id": 936604,
@@ -8767,12 +8767,20 @@
       "toTeam": "DSL Royals Ventura"
     },
     {
-      "id": 936603,
+      "id": 936601,
       "date": "2026-08-10",
-      "person": "Alejandro Beltran",
-      "description": "RHP Alejandro Beltran assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
+      "person": "Juan Rivera",
+      "description": "RHP Juan Rivera assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 936602,
+      "date": "2026-08-10",
+      "person": "Juan Batista",
+      "description": "IF Juan Batista assigned to DSL Royals Fortuna from DSL Royals Ventura.",
+      "fromTeam": "DSL Royals Ventura",
+      "toTeam": "DSL Royals Fortuna"
     },
     {
       "id": 936605,
@@ -8787,14 +8795,6 @@
       "date": "2026-08-10",
       "person": "Argenis Done",
       "description": "RHP Argenis Done assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
-      "id": 936601,
-      "date": "2026-08-10",
-      "person": "Juan Rivera",
-      "description": "RHP Juan Rivera assigned to DSL Royals Fortuna from DSL Royals Ventura.",
       "fromTeam": "DSL Royals Ventura",
       "toTeam": "DSL Royals Fortuna"
     },
