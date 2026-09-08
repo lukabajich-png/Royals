@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T22:41:10.030Z",
+  "updatedAt": "2026-09-08T00:41:18.090Z",
   "season": 2026,
   "levels": [
     {
@@ -22,16 +22,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-04",
-                "opponent": "Toronto Blue Jays",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 2,
-                  "them": 9
-                }
-              },
-              {
                 "date": "2026-09-05",
                 "opponent": "Toronto Blue Jays",
                 "isHome": true,
@@ -50,9 +40,7 @@
                   "us": 6,
                   "them": 1
                 }
-              }
-            ],
-            "upcoming": [
+              },
               {
                 "date": "2026-09-07",
                 "opponent": "Arizona Diamondbacks",
@@ -62,7 +50,9 @@
                   "us": 4,
                   "them": 5
                 }
-              },
+              }
+            ],
+            "upcoming": [
               {
                 "date": "2026-09-08",
                 "opponent": "Arizona Diamondbacks",
@@ -86,6 +76,13 @@
               },
               {
                 "date": "2026-09-12",
+                "opponent": "Boston Red Sox",
+                "isHome": false,
+                "status": "Scheduled",
+                "finalScore": null
+              },
+              {
+                "date": "2026-09-13",
                 "opponent": "Boston Red Sox",
                 "isHome": false,
                 "status": "Scheduled",
@@ -1044,16 +1041,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-04",
-                "opponent": "St. Paul Saints",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 3,
-                  "them": 2
-                }
-              },
-              {
                 "date": "2026-09-05",
                 "opponent": "St. Paul Saints",
                 "isHome": true,
@@ -1109,6 +1096,13 @@
                 "isHome": false,
                 "status": "Scheduled",
                 "finalScore": null
+              },
+              {
+                "date": "2026-09-13",
+                "opponent": "Indianapolis Indians",
+                "isHome": false,
+                "status": "Scheduled",
+                "finalScore": null
               }
             ]
           }
@@ -1159,7 +1153,7 @@
           "rbi": 26,
           "sb": 6,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 592273,
@@ -1807,7 +1801,7 @@
           "rbi": 13,
           "sb": 3,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 801442,
@@ -1948,16 +1942,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-04",
-                "opponent": "Arkansas Travelers",
-                "isHome": false,
-                "status": "Final",
-                "finalScore": {
-                  "us": 5,
-                  "them": 13
-                }
-              },
-              {
                 "date": "2026-09-05",
                 "opponent": "Arkansas Travelers",
                 "isHome": false,
@@ -2009,6 +1993,13 @@
               },
               {
                 "date": "2026-09-12",
+                "opponent": "Tulsa Drillers",
+                "isHome": true,
+                "status": "Scheduled",
+                "finalScore": null
+              },
+              {
+                "date": "2026-09-13",
                 "opponent": "Tulsa Drillers",
                 "isHome": true,
                 "status": "Scheduled",
@@ -2502,7 +2493,7 @@
           "ip": "34.2",
           "so": 34,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 694818,
@@ -2782,16 +2773,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-04",
-                "opponent": "Peoria Chiefs",
-                "isHome": false,
-                "status": "Final",
-                "finalScore": {
-                  "us": 6,
-                  "them": 4
-                }
-              },
-              {
                 "date": "2026-09-05",
                 "opponent": "Peoria Chiefs",
                 "isHome": false,
@@ -2860,7 +2841,7 @@
           "rbi": 41,
           "sb": 67,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 800051,
@@ -3672,16 +3653,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-04",
-                "opponent": "Myrtle Beach Pelicans",
-                "isHome": false,
-                "status": "Final",
-                "finalScore": {
-                  "us": 2,
-                  "them": 7
-                }
-              },
-              {
                 "date": "2026-09-05",
                 "opponent": "Myrtle Beach Pelicans",
                 "isHome": false,
@@ -3820,7 +3791,7 @@
           "rbi": 41,
           "sb": 20,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 800526,
@@ -3912,7 +3883,7 @@
           "rbi": 35,
           "sb": 14,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 815843,
@@ -3935,7 +3906,7 @@
           "rbi": 39,
           "sb": 25,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 805692,
@@ -7347,7 +7318,7 @@
         "rbi": 39,
         "sb": 25,
         "hasStats": true,
-        "trend": "cold",
+        "trend": null,
         "level": "Single-A"
       },
       {
@@ -7515,7 +7486,7 @@
         "rbi": 41,
         "sb": 67,
         "hasStats": true,
-        "trend": null,
+        "trend": "cold",
         "level": "High-A"
       },
       {
@@ -8858,46 +8829,6 @@
       "description": "Omaha Storm Chasers released RHP Justin Topa.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 936286,
-      "date": "2026-08-08",
-      "person": "Juan Batista",
-      "description": "IF Juan Batista assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
-      "id": 936283,
-      "date": "2026-08-08",
-      "person": "Samuel Carmona",
-      "description": "RHP Samuel Carmona assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
-      "id": 936284,
-      "date": "2026-08-08",
-      "person": "Omar Mejia",
-      "description": "SS Omar Mejia assigned to DSL Royals Fortuna from DSL Royals Ventura.",
-      "fromTeam": "DSL Royals Ventura",
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
-      "id": 936285,
-      "date": "2026-08-08",
-      "person": "Junior Suarez",
-      "description": "LHP Junior Suarez assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
-      "id": 936421,
-      "date": "2026-08-08",
-      "person": "Matt Strahm",
-      "description": "Kansas City Royals released LHP Matt Strahm.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
     }
   ],
   "draftPicks": [
