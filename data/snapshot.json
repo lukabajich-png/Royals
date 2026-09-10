@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T21:29:56.423Z",
+  "updatedAt": "2026-09-10T23:21:24.617Z",
   "season": 2026,
   "levels": [
     {
@@ -1059,7 +1059,7 @@
                 "date": "2026-09-10",
                 "opponent": "Indianapolis Indians",
                 "isHome": false,
-                "status": "Scheduled",
+                "status": "Delayed Start",
                 "finalScore": null
               },
               {
@@ -1349,6 +1349,29 @@
           "trend": "cold"
         },
         {
+          "id": 672580,
+          "name": "Maikel Garcia",
+          "profileUrl": "https://www.mlb.com/player/maikel-garcia-672580",
+          "pos": "3B",
+          "jersey": "4",
+          "status": "Rehab Assignment",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false,
+          "trend": null
+        },
+        {
           "id": 683427,
           "name": "Omar Hernandez",
           "profileUrl": "https://www.mlb.com/player/omar-hernandez-683427",
@@ -1443,25 +1466,25 @@
           "trend": null
         },
         {
-          "id": 815073,
-          "name": "Ethan Bosacker",
-          "profileUrl": "https://www.mlb.com/player/ethan-bosacker-815073",
+          "id": 657756,
+          "name": "Connor Seabold",
+          "profileUrl": "https://www.mlb.com/player/connor-seabold-657756",
           "pos": "P",
-          "jersey": "55",
-          "status": "Active",
+          "jersey": "32",
+          "status": "Rehab Assignment",
           "team": "Omaha Storm Chasers",
           "bats": "R",
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 26,
-          "w": 4,
-          "l": 1,
+          "g": 1,
+          "w": 0,
+          "l": 0,
           "sv": 0,
-          "era": "6.04",
-          "whip": "1.62",
-          "ip": "50.2",
-          "so": 40,
+          "era": "0.00",
+          "whip": "2.00",
+          "ip": "1.0",
+          "so": 0,
           "hasStats": true,
           "trend": null
         },
@@ -1976,7 +1999,7 @@
                 "date": "2026-09-10",
                 "opponent": "Tulsa Drillers",
                 "isHome": true,
-                "status": "Scheduled",
+                "status": "Pre-Game",
                 "finalScore": null
               },
               {
@@ -2445,27 +2468,27 @@
           "trend": "hot"
         },
         {
-          "id": 701795,
-          "name": "Drew Beam",
-          "profileUrl": "https://www.mlb.com/player/drew-beam-701795",
+          "id": 815073,
+          "name": "Ethan Bosacker",
+          "profileUrl": "https://www.mlb.com/player/ethan-bosacker-815073",
           "pos": "P",
-          "jersey": "11",
+          "jersey": "55",
           "status": "Active",
           "team": "Northwest Arkansas Naturals",
           "bats": "R",
           "throws": "R",
-          "orgRank": 20,
+          "orgRank": null,
           "top100Rank": null,
-          "g": 26,
-          "w": 9,
-          "l": 11,
+          "g": 2,
+          "w": 0,
+          "l": 1,
           "sv": 0,
-          "era": "6.49",
-          "whip": "1.45",
-          "ip": "129.0",
-          "so": 99,
+          "era": "2.00",
+          "whip": "1.33",
+          "ip": "9.0",
+          "so": 5,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 702373,
@@ -2724,6 +2747,29 @@
           "trend": null
         },
         {
+          "id": 701795,
+          "name": "Drew Beam",
+          "profileUrl": "https://www.mlb.com/player/drew-beam-701795",
+          "pos": "P",
+          "jersey": "11",
+          "status": "Development List",
+          "team": "Northwest Arkansas Naturals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": 20,
+          "top100Rank": null,
+          "g": 26,
+          "w": 9,
+          "l": 11,
+          "sv": 0,
+          "era": "6.49",
+          "whip": "1.45",
+          "ip": "129.0",
+          "so": 99,
+          "hasStats": true,
+          "trend": "hot"
+        },
+        {
           "id": 703610,
           "name": "Justin Lamkin",
           "profileUrl": "https://www.mlb.com/player/justin-lamkin-703610",
@@ -2829,7 +2875,7 @@
                 "date": "2026-09-10",
                 "opponent": "South Bend Cubs",
                 "isHome": false,
-                "status": "Scheduled",
+                "status": "In Progress",
                 "finalScore": null
               },
               {
@@ -7815,7 +7861,7 @@
         "profileUrl": "https://www.mlb.com/player/drew-beam-701795",
         "pos": "P",
         "jersey": "11",
-        "status": "Active",
+        "status": "Development List",
         "team": "Northwest Arkansas Naturals",
         "bats": "R",
         "throws": "R",
@@ -7933,6 +7979,38 @@
   },
   "transactions": [
     {
+      "id": 941985,
+      "date": "2026-09-10",
+      "person": "Drew Beam",
+      "description": "Northwest Arkansas Naturals transferred RHP Drew Beam to the Development List.",
+      "fromTeam": null,
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 941969,
+      "date": "2026-09-10",
+      "person": "Ethan Bosacker",
+      "description": "RHP Ethan Bosacker assigned to Northwest Arkansas Naturals from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 941967,
+      "date": "2026-09-10",
+      "person": "Maikel Garcia",
+      "description": "Kansas City Royals sent 3B Maikel Garcia on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 941968,
+      "date": "2026-09-10",
+      "person": "Connor Seabold",
+      "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 941863,
       "date": "2026-09-09",
       "person": "James McArthur",
@@ -7957,10 +8035,10 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 941698,
+      "id": 941696,
       "date": "2026-09-08",
-      "person": "Connor Rasmussen",
-      "description": "2B Connor Rasmussen assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
+      "person": "Coleman Picard",
+      "description": "RHP Coleman Picard assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
       "fromTeam": "Columbia Fireflies",
       "toTeam": "Northwest Arkansas Naturals"
     },
@@ -7973,10 +8051,10 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 941696,
+      "id": 941698,
       "date": "2026-09-08",
-      "person": "Coleman Picard",
-      "description": "RHP Coleman Picard assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
+      "person": "Connor Rasmussen",
+      "description": "2B Connor Rasmussen assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
       "fromTeam": "Columbia Fireflies",
       "toTeam": "Northwest Arkansas Naturals"
     },
@@ -8165,18 +8243,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 939867,
-      "date": "2026-08-28",
-      "person": "Luca Tresh",
-      "description": "Omaha Storm Chasers placed C Luca Tresh on the temporarily inactive list.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 939868,
       "date": "2026-08-28",
       "person": "Mason Black",
       "description": "Omaha Storm Chasers activated RHP Mason Black.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 939867,
+      "date": "2026-08-28",
+      "person": "Luca Tresh",
+      "description": "Omaha Storm Chasers placed C Luca Tresh on the temporarily inactive list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8413,6 +8491,14 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
+      "id": 938157,
+      "date": "2026-08-18",
+      "person": "Shane Panzini",
+      "description": "RHP Shane Panzini assigned to Northwest Arkansas Naturals from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
       "id": 938162,
       "date": "2026-08-18",
       "person": "Hunter Patteson",
@@ -8427,14 +8513,6 @@
       "description": "OF Carson Roccaforte assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
       "fromTeam": "Northwest Arkansas Naturals",
       "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 938157,
-      "date": "2026-08-18",
-      "person": "Shane Panzini",
-      "description": "RHP Shane Panzini assigned to Northwest Arkansas Naturals from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Northwest Arkansas Naturals"
     },
     {
       "id": 938149,
@@ -10069,7 +10147,7 @@
       "school": "Xavier",
       "signingBonus": "150000",
       "currentOrgRank": null,
-      "currentLevel": "AAA",
+      "currentLevel": "AA",
       "otherOrgName": null,
       "otherTeamName": null,
       "otherLevel": null,
