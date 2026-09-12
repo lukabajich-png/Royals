@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T23:28:29.392Z",
+  "updatedAt": "2026-09-12T01:27:01.674Z",
   "season": 2026,
   "levels": [
     {
@@ -22,16 +22,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-08",
-                "opponent": "Arizona Diamondbacks",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 3,
-                  "them": 5
-                }
-              },
-              {
                 "date": "2026-09-09",
                 "opponent": "Arizona Diamondbacks",
                 "isHome": true,
@@ -40,16 +30,16 @@
                   "us": 5,
                   "them": 2
                 }
-              }
-            ],
-            "upcoming": [
+              },
               {
                 "date": "2026-09-11",
                 "opponent": "Boston Red Sox",
                 "isHome": false,
                 "status": "In Progress",
                 "finalScore": null
-              },
+              }
+            ],
+            "upcoming": [
               {
                 "date": "2026-09-12",
                 "opponent": "Boston Red Sox",
@@ -77,6 +67,13 @@
                 "isHome": false,
                 "status": "Scheduled",
                 "finalScore": null
+              },
+              {
+                "date": "2026-09-17",
+                "opponent": "Houston Astros",
+                "isHome": false,
+                "status": "Scheduled",
+                "finalScore": null
               }
             ]
           }
@@ -96,10 +93,10 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 129,
-          "avg": ".281",
+          "avg": ".280",
           "obp": ".359",
-          "slg": ".453",
-          "ops": ".812",
+          "slg": ".451",
+          "ops": ".810",
           "hr": 18,
           "rbi": 54,
           "sb": 39,
@@ -121,10 +118,10 @@
           "g": 137,
           "avg": ".231",
           "obp": ".319",
-          "slg": ".447",
-          "ops": ".766",
+          "slg": ".448",
+          "ops": ".767",
           "hr": 23,
-          "rbi": 69,
+          "rbi": 70,
           "sb": 2,
           "hasStats": true,
           "trend": "hot"
@@ -142,15 +139,15 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 133,
-          "avg": ".221",
-          "obp": ".323",
-          "slg": ".336",
-          "ops": ".659",
+          "avg": ".223",
+          "obp": ".324",
+          "slg": ".339",
+          "ops": ".663",
           "hr": 6,
           "rbi": 40,
           "sb": 6,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 695506,
@@ -173,7 +170,7 @@
           "rbi": 70,
           "sb": 6,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 670231,
@@ -188,15 +185,15 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 40,
-          "avg": ".233",
-          "obp": ".307",
-          "slg": ".456",
-          "ops": ".763",
+          "avg": ".229",
+          "obp": ".314",
+          "slg": ".448",
+          "ops": ".762",
           "hr": 5,
           "rbi": 11,
-          "sb": 6,
+          "sb": 7,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 668942,
@@ -236,8 +233,8 @@
           "g": 88,
           "avg": ".226",
           "obp": ".274",
-          "slg": ".337",
-          "ops": ".611",
+          "slg": ".336",
+          "ops": ".610",
           "hr": 6,
           "rbi": 24,
           "sb": 6,
@@ -303,10 +300,10 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 118,
-          "avg": ".277",
-          "obp": ".312",
-          "slg": ".438",
-          "ops": ".750",
+          "avg": ".280",
+          "obp": ".315",
+          "slg": ".439",
+          "ops": ".754",
           "hr": 11,
           "rbi": 45,
           "sb": 3,
@@ -327,8 +324,8 @@
           "top100Rank": null,
           "g": 108,
           "avg": ".235",
-          "obp": ".322",
-          "slg": ".381",
+          "obp": ".321",
+          "slg": ".382",
           "ops": ".703",
           "hr": 7,
           "rbi": 42,
@@ -371,7 +368,7 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 72,
+          "g": 73,
           "avg": ".302",
           "obp": ".369",
           "slg": ".422",
@@ -395,12 +392,12 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 101,
-          "avg": ".239",
+          "avg": ".240",
           "obp": ".329",
           "slg": ".384",
           "ops": ".713",
           "hr": 11,
-          "rbi": 47,
+          "rbi": 48,
           "sb": 5,
           "hasStats": true,
           "trend": null
@@ -465,13 +462,13 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 11,
+          "g": 12,
           "w": 1,
           "l": 1,
           "sv": 0,
-          "era": "10.34",
-          "whip": "1.98",
-          "ip": "15.2",
+          "era": "9.72",
+          "whip": "1.86",
+          "ip": "16.2",
           "so": 11,
           "hasStats": true,
           "trend": "hot"
@@ -649,14 +646,14 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 7,
+          "g": 8,
           "w": 0,
           "l": 0,
           "sv": 0,
-          "era": "5.00",
-          "whip": "1.56",
-          "ip": "9.0",
-          "so": 5,
+          "era": "4.50",
+          "whip": "1.40",
+          "ip": "10.0",
+          "so": 6,
           "hasStats": true,
           "trend": null
         },
@@ -699,10 +696,10 @@
           "w": 6,
           "l": 8,
           "sv": 0,
-          "era": "5.02",
+          "era": "4.99",
           "whip": "1.45",
-          "ip": "159.2",
-          "so": 120,
+          "ip": "164.0",
+          "so": 126,
           "hasStats": true,
           "trend": "cold"
         },
@@ -1022,24 +1019,14 @@
           "leagueId": 117,
           "standings": {
             "wins": 64,
-            "losses": 74,
-            "winningPct": ".464",
-            "gamesBack": "13.0",
+            "losses": 75,
+            "winningPct": ".460",
+            "gamesBack": "13.5",
             "divisionRank": "8",
-            "streak": "W1"
+            "streak": "L1"
           },
           "schedule": {
             "recent": [
-              {
-                "date": "2026-09-08",
-                "opponent": "Indianapolis Indians",
-                "isHome": false,
-                "status": "Final",
-                "finalScore": {
-                  "us": 6,
-                  "them": 1
-                }
-              },
               {
                 "date": "2026-09-09",
                 "opponent": "Indianapolis Indians",
@@ -1059,16 +1046,19 @@
                   "us": 8,
                   "them": 0
                 }
-              }
-            ],
-            "upcoming": [
+              },
               {
                 "date": "2026-09-11",
                 "opponent": "Indianapolis Indians",
                 "isHome": false,
-                "status": "In Progress",
-                "finalScore": null
-              },
+                "status": "Final",
+                "finalScore": {
+                  "us": 1,
+                  "them": 3
+                }
+              }
+            ],
+            "upcoming": [
               {
                 "date": "2026-09-12",
                 "opponent": "Indianapolis Indians",
@@ -1096,6 +1086,13 @@
                 "isHome": true,
                 "status": "Scheduled",
                 "finalScore": null
+              },
+              {
+                "date": "2026-09-17",
+                "opponent": "Iowa Cubs",
+                "isHome": true,
+                "status": "Scheduled",
+                "finalScore": null
               }
             ]
           }
@@ -1114,11 +1111,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 119,
-          "avg": ".272",
-          "obp": ".353",
-          "slg": ".482",
-          "ops": ".835",
+          "g": 120,
+          "avg": ".269",
+          "obp": ".350",
+          "slg": ".478",
+          "ops": ".828",
           "hr": 19,
           "rbi": 70,
           "sb": 2,
@@ -1160,11 +1157,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 92,
-          "avg": ".275",
-          "obp": ".340",
-          "slg": ".576",
-          "ops": ".916",
+          "g": 93,
+          "avg": ".272",
+          "obp": ".337",
+          "slg": ".569",
+          "ops": ".906",
           "hr": 25,
           "rbi": 71,
           "sb": 13,
@@ -1183,16 +1180,16 @@
           "throws": "L",
           "orgRank": 17,
           "top100Rank": null,
-          "g": 20,
-          "avg": ".288",
-          "obp": ".369",
-          "slg": ".575",
-          "ops": ".944",
+          "g": 21,
+          "avg": ".286",
+          "obp": ".371",
+          "slg": ".558",
+          "ops": ".929",
           "hr": 5,
           "rbi": 12,
           "sb": 8,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 813851,
@@ -1206,14 +1203,14 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 16,
-          "avg": ".133",
-          "obp": ".204",
-          "slg": ".133",
-          "ops": ".337",
+          "g": 17,
+          "avg": ".125",
+          "obp": ".208",
+          "slg": ".125",
+          "ops": ".333",
           "hr": 0,
           "rbi": 3,
-          "sb": 3,
+          "sb": 4,
           "hasStats": true,
           "trend": null
         },
@@ -1229,14 +1226,14 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 103,
-          "avg": ".253",
-          "obp": ".313",
-          "slg": ".429",
-          "ops": ".742",
+          "g": 104,
+          "avg": ".259",
+          "obp": ".319",
+          "slg": ".436",
+          "ops": ".755",
           "hr": 13,
           "rbi": 51,
-          "sb": 17,
+          "sb": 18,
           "hasStats": true,
           "trend": "hot"
         },
@@ -1321,11 +1318,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 5,
-          "avg": ".263",
-          "obp": ".333",
-          "slg": ".474",
-          "ops": ".807",
+          "g": 6,
+          "avg": ".261",
+          "obp": ".320",
+          "slg": ".478",
+          "ops": ".798",
           "hr": 1,
           "rbi": 3,
           "sb": 0,
@@ -1367,13 +1364,13 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 1,
-          "avg": ".250",
-          "obp": ".250",
-          "slg": ".500",
-          "ops": ".750",
+          "g": 2,
+          "avg": ".222",
+          "obp": ".222",
+          "slg": ".333",
+          "ops": ".555",
           "hr": 0,
-          "rbi": 1,
+          "rbi": 2,
           "sb": 0,
           "hasStats": true,
           "trend": null
@@ -1390,11 +1387,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 7,
-          "avg": ".222",
-          "obp": ".222",
-          "slg": ".222",
-          "ops": ".444",
+          "g": 8,
+          "avg": ".258",
+          "obp": ".258",
+          "slg": ".258",
+          "ops": ".516",
           "hr": 0,
           "rbi": 0,
           "sb": 0,
@@ -1413,11 +1410,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 82,
-          "avg": ".282",
-          "obp": ".361",
-          "slg": ".425",
-          "ops": ".786",
+          "g": 83,
+          "avg": ".280",
+          "obp": ".360",
+          "slg": ".421",
+          "ops": ".781",
           "hr": 5,
           "rbi": 31,
           "sb": 17,
@@ -1668,14 +1665,14 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 24,
+          "g": 25,
           "w": 0,
-          "l": 2,
+          "l": 3,
           "sv": 3,
-          "era": "5.90",
-          "whip": "1.48",
-          "ip": "58.0",
-          "so": 45,
+          "era": "6.15",
+          "whip": "1.50",
+          "ip": "60.0",
+          "so": 47,
           "hasStats": true,
           "trend": null
         },
@@ -1783,16 +1780,16 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 20,
+          "g": 21,
           "w": 3,
           "l": 2,
           "sv": 0,
-          "era": "6.48",
-          "whip": "1.56",
-          "ip": "75.0",
-          "so": 77,
+          "era": "6.00",
+          "whip": "1.48",
+          "ip": "81.0",
+          "so": 83,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         }
       ],
       "reserveHitters": [
@@ -1981,16 +1978,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-08",
-                "opponent": "Tulsa Drillers",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 5,
-                  "them": 7
-                }
-              },
-              {
                 "date": "2026-09-09",
                 "opponent": "Tulsa Drillers",
                 "isHome": true,
@@ -2009,16 +1996,16 @@
                   "us": 2,
                   "them": 3
                 }
-              }
-            ],
-            "upcoming": [
+              },
               {
                 "date": "2026-09-11",
                 "opponent": "Tulsa Drillers",
                 "isHome": true,
-                "status": "Pre-Game",
+                "status": "In Progress",
                 "finalScore": null
-              },
+              }
+            ],
+            "upcoming": [
               {
                 "date": "2026-09-12",
                 "opponent": "Tulsa Drillers",
@@ -2243,7 +2230,7 @@
           "rbi": 10,
           "sb": 14,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 805692,
@@ -2870,16 +2857,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-08",
-                "opponent": "South Bend Cubs",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 8,
-                  "them": 3
-                }
-              },
-              {
                 "date": "2026-09-10",
                 "opponent": "South Bend Cubs",
                 "isHome": false,
@@ -3145,7 +3122,7 @@
           "rbi": 54,
           "sb": 19,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 823073,
@@ -3168,7 +3145,7 @@
           "rbi": 36,
           "sb": 35,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 808675,
@@ -3237,7 +3214,7 @@
           "rbi": 55,
           "sb": 33,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 805799,
@@ -3331,7 +3308,7 @@
           "ip": "29.1",
           "so": 32,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 815789,
@@ -3377,7 +3354,7 @@
           "ip": "112.0",
           "so": 100,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 806155,
@@ -4005,7 +3982,7 @@
           "rbi": 46,
           "sb": 38,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 828903,
@@ -4028,7 +4005,7 @@
           "rbi": 6,
           "sb": 2,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         }
       ],
       "pitchers": [
@@ -4352,7 +4329,7 @@
           "ip": "46.0",
           "so": 46,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 805615,
@@ -7445,7 +7422,7 @@
         "rbi": 46,
         "sb": 38,
         "hasStats": true,
-        "trend": null,
+        "trend": "cold",
         "level": "Single-A"
       },
       {
@@ -7508,16 +7485,16 @@
         "throws": "L",
         "orgRank": 17,
         "top100Rank": null,
-        "g": 20,
-        "avg": ".288",
-        "obp": ".369",
-        "slg": ".575",
-        "ops": ".944",
+        "g": 21,
+        "avg": ".286",
+        "obp": ".371",
+        "slg": ".558",
+        "ops": ".929",
         "hr": 5,
         "rbi": 12,
         "sb": 8,
         "hasStats": true,
-        "trend": null,
+        "trend": "hot",
         "level": "AAA"
       },
       {
@@ -7661,7 +7638,7 @@
         "rbi": 10,
         "sb": 14,
         "hasStats": true,
-        "trend": null,
+        "trend": "hot",
         "level": "AA"
       }
     ],
@@ -8660,30 +8637,6 @@
       "description": "Kansas City Royals designated RHP Eli Morgan for assignment.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 936995,
-      "date": "2026-08-12",
-      "person": "Alberto Aguilar",
-      "description": "C Alberto Aguilar assigned to DSL Royals Ventura from DSL Royals Fortuna.",
-      "fromTeam": "DSL Royals Fortuna",
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
-      "id": 937241,
-      "date": "2026-08-12",
-      "person": "Maikel Garcia",
-      "description": "Kansas City Royals sent 3B Maikel Garcia on a rehab assignment to Northwest Arkansas Naturals.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 937937,
-      "date": "2026-08-12",
-      "person": "Maikel Garcia",
-      "description": "Kansas City Royals sent 3B Maikel Garcia on a rehab assignment to Northwest Arkansas Naturals.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Northwest Arkansas Naturals"
     }
   ],
   "draftPicks": [
