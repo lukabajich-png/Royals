@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T23:23:08.297Z",
+  "updatedAt": "2026-09-13T01:17:40.157Z",
   "season": 2026,
   "levels": [
     {
@@ -22,16 +22,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-09",
-                "opponent": "Arizona Diamondbacks",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 5,
-                  "them": 2
-                }
-              },
-              {
                 "date": "2026-09-11",
                 "opponent": "Boston Red Sox",
                 "isHome": false,
@@ -40,9 +30,7 @@
                   "us": 3,
                   "them": 2
                 }
-              }
-            ],
-            "upcoming": [
+              },
               {
                 "date": "2026-09-12",
                 "opponent": "Boston Red Sox",
@@ -52,7 +40,9 @@
                   "us": 1,
                   "them": 5
                 }
-              },
+              }
+            ],
+            "upcoming": [
               {
                 "date": "2026-09-13",
                 "opponent": "Boston Red Sox",
@@ -77,6 +67,13 @@
               {
                 "date": "2026-09-17",
                 "opponent": "Houston Astros",
+                "isHome": false,
+                "status": "Scheduled",
+                "finalScore": null
+              },
+              {
+                "date": "2026-09-18",
+                "opponent": "Pittsburgh Pirates",
                 "isHome": false,
                 "status": "Scheduled",
                 "finalScore": null
@@ -153,7 +150,7 @@
           "rbi": 40,
           "sb": 7,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 695506,
@@ -176,7 +173,7 @@
           "rbi": 70,
           "sb": 6,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 670231,
@@ -222,7 +219,7 @@
           "rbi": 13,
           "sb": 1,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 664728,
@@ -592,7 +589,7 @@
           "ip": "182.2",
           "so": 147,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 663878,
@@ -730,7 +727,7 @@
           "ip": "55.2",
           "so": 59,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         }
       ],
       "reserveHitters": [
@@ -1025,24 +1022,14 @@
           "leagueId": 117,
           "standings": {
             "wins": 64,
-            "losses": 75,
-            "winningPct": ".460",
-            "gamesBack": "13.0",
+            "losses": 76,
+            "winningPct": ".457",
+            "gamesBack": "13.5",
             "divisionRank": "8",
-            "streak": "L1"
+            "streak": "L2"
           },
           "schedule": {
             "recent": [
-              {
-                "date": "2026-09-09",
-                "opponent": "Indianapolis Indians",
-                "isHome": false,
-                "status": "Final",
-                "finalScore": {
-                  "us": 1,
-                  "them": 9
-                }
-              },
               {
                 "date": "2026-09-10",
                 "opponent": "Indianapolis Indians",
@@ -1062,16 +1049,19 @@
                   "us": 1,
                   "them": 3
                 }
-              }
-            ],
-            "upcoming": [
+              },
               {
                 "date": "2026-09-12",
                 "opponent": "Indianapolis Indians",
                 "isHome": false,
-                "status": "In Progress",
-                "finalScore": null
-              },
+                "status": "Final",
+                "finalScore": {
+                  "us": 1,
+                  "them": 5
+                }
+              }
+            ],
+            "upcoming": [
               {
                 "date": "2026-09-13",
                 "opponent": "Indianapolis Indians",
@@ -1099,6 +1089,13 @@
                 "isHome": true,
                 "status": "Scheduled",
                 "finalScore": null
+              },
+              {
+                "date": "2026-09-18",
+                "opponent": "Iowa Cubs",
+                "isHome": true,
+                "status": "Scheduled",
+                "finalScore": null
               }
             ]
           }
@@ -1117,11 +1114,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 120,
+          "g": 121,
           "avg": ".269",
-          "obp": ".350",
-          "slg": ".478",
-          "ops": ".828",
+          "obp": ".349",
+          "slg": ".476",
+          "ops": ".825",
           "hr": 19,
           "rbi": 70,
           "sb": 2,
@@ -1140,11 +1137,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 76,
-          "avg": ".306",
-          "obp": ".375",
-          "slg": ".419",
-          "ops": ".794",
+          "g": 77,
+          "avg": ".310",
+          "obp": ".378",
+          "slg": ".422",
+          "ops": ".800",
           "hr": 4,
           "rbi": 27,
           "sb": 8,
@@ -1163,13 +1160,13 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 93,
-          "avg": ".272",
-          "obp": ".337",
-          "slg": ".569",
-          "ops": ".906",
+          "g": 94,
+          "avg": ".271",
+          "obp": ".336",
+          "slg": ".566",
+          "ops": ".902",
           "hr": 25,
-          "rbi": 71,
+          "rbi": 72,
           "sb": 13,
           "hasStats": true,
           "trend": null
@@ -1186,16 +1183,16 @@
           "throws": "L",
           "orgRank": 17,
           "top100Rank": null,
-          "g": 21,
-          "avg": ".286",
-          "obp": ".371",
-          "slg": ".558",
-          "ops": ".929",
+          "g": 22,
+          "avg": ".284",
+          "obp": ".366",
+          "slg": ".543",
+          "ops": ".909",
           "hr": 5,
           "rbi": 12,
           "sb": 8,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 813851,
@@ -1209,11 +1206,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 17,
-          "avg": ".125",
-          "obp": ".208",
-          "slg": ".125",
-          "ops": ".333",
+          "g": 18,
+          "avg": ".120",
+          "obp": ".200",
+          "slg": ".120",
+          "ops": ".320",
           "hr": 0,
           "rbi": 3,
           "sb": 4,
@@ -1255,16 +1252,16 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 112,
+          "g": 113,
           "avg": ".249",
-          "obp": ".309",
-          "slg": ".441",
-          "ops": ".750",
+          "obp": ".308",
+          "slg": ".440",
+          "ops": ".748",
           "hr": 17,
           "rbi": 52,
           "sb": 25,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 694351,
@@ -1278,11 +1275,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 95,
-          "avg": ".252",
-          "obp": ".354",
-          "slg": ".400",
-          "ops": ".754",
+          "g": 96,
+          "avg": ".249",
+          "obp": ".352",
+          "slg": ".396",
+          "ops": ".748",
           "hr": 9,
           "rbi": 45,
           "sb": 19,
@@ -1301,11 +1298,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 3,
-          "avg": ".091",
-          "obp": ".286",
-          "slg": ".091",
-          "ops": ".377",
+          "g": 4,
+          "avg": ".077",
+          "obp": ".250",
+          "slg": ".077",
+          "ops": ".327",
           "hr": 0,
           "rbi": 0,
           "sb": 2,
@@ -1347,10 +1344,10 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 91,
-          "avg": ".268",
-          "obp": ".317",
-          "slg": ".403",
+          "g": 92,
+          "avg": ".267",
+          "obp": ".316",
+          "slg": ".404",
           "ops": ".720",
           "hr": 10,
           "rbi": 51,
@@ -1416,16 +1413,16 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 83,
-          "avg": ".280",
-          "obp": ".360",
-          "slg": ".421",
-          "ops": ".781",
+          "g": 84,
+          "avg": ".279",
+          "obp": ".358",
+          "slg": ".419",
+          "ops": ".777",
           "hr": 5,
           "rbi": 31,
           "sb": 17,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         }
       ],
       "pitchers": [
@@ -1450,7 +1447,7 @@
           "ip": "68.0",
           "so": 56,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 679922,
@@ -1533,14 +1530,14 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 1,
+          "g": 2,
           "w": 0,
           "l": 0,
           "sv": 0,
           "era": "0.00",
-          "whip": "1.50",
-          "ip": "1.1",
-          "so": 1,
+          "whip": "1.33",
+          "ip": "3.0",
+          "so": 4,
           "hasStats": true,
           "trend": null
         },
@@ -1565,7 +1562,7 @@
           "ip": "16.1",
           "so": 13,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 607644,
@@ -1602,14 +1599,14 @@
           "throws": "R",
           "orgRank": 16,
           "top100Rank": null,
-          "g": 16,
+          "g": 17,
           "w": 8,
-          "l": 4,
+          "l": 5,
           "sv": 0,
-          "era": "4.60",
-          "whip": "1.38",
-          "ip": "72.1",
-          "so": 54,
+          "era": "4.83",
+          "whip": "1.41",
+          "ip": "76.1",
+          "so": 61,
           "hasStats": true,
           "trend": "cold"
         },
@@ -1625,14 +1622,14 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 8,
+          "g": 9,
           "w": 1,
           "l": 1,
           "sv": 0,
-          "era": "2.00",
-          "whip": "1.44",
-          "ip": "9.0",
-          "so": 11,
+          "era": "1.74",
+          "whip": "1.26",
+          "ip": "10.1",
+          "so": 13,
           "hasStats": true,
           "trend": null
         },
@@ -1657,7 +1654,7 @@
           "ip": "34.0",
           "so": 38,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 696131,
@@ -1694,14 +1691,14 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 13,
+          "g": 14,
           "w": 0,
           "l": 2,
           "sv": 0,
-          "era": "5.65",
-          "whip": "1.74",
-          "ip": "14.1",
-          "so": 19,
+          "era": "5.28",
+          "whip": "1.63",
+          "ip": "15.1",
+          "so": 21,
           "hasStats": true,
           "trend": "hot"
         },
@@ -2007,16 +2004,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-09",
-                "opponent": "Tulsa Drillers",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 1,
-                  "them": 10
-                }
-              },
-              {
                 "date": "2026-09-10",
                 "opponent": "Tulsa Drillers",
                 "isHome": true,
@@ -2035,16 +2022,16 @@
                   "us": 2,
                   "them": 3
                 }
-              }
-            ],
-            "upcoming": [
+              },
               {
                 "date": "2026-09-12",
                 "opponent": "Tulsa Drillers",
                 "isHome": true,
                 "status": "In Progress",
                 "finalScore": null
-              },
+              }
+            ],
+            "upcoming": [
               {
                 "date": "2026-09-13",
                 "opponent": "Tulsa Drillers",
@@ -2078,7 +2065,7 @@
           "rbi": 22,
           "sb": 1,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 808665,
@@ -2308,7 +2295,7 @@
           "rbi": 69,
           "sb": 30,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 811289,
@@ -3085,7 +3072,7 @@
           "rbi": 89,
           "sb": 18,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 805075,
@@ -3177,7 +3164,7 @@
           "rbi": 36,
           "sb": 35,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 808675,
@@ -3501,7 +3488,7 @@
           "ip": "42.2",
           "so": 47,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 692137,
@@ -3570,7 +3557,7 @@
           "ip": "21.0",
           "so": 18,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 823017,
@@ -4014,7 +4001,7 @@
           "rbi": 46,
           "sb": 38,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 828903,
@@ -7454,7 +7441,7 @@
         "rbi": 46,
         "sb": 38,
         "hasStats": true,
-        "trend": "cold",
+        "trend": null,
         "level": "Single-A"
       },
       {
@@ -7517,16 +7504,16 @@
         "throws": "L",
         "orgRank": 17,
         "top100Rank": null,
-        "g": 21,
-        "avg": ".286",
-        "obp": ".371",
-        "slg": ".558",
-        "ops": ".929",
+        "g": 22,
+        "avg": ".284",
+        "obp": ".366",
+        "slg": ".543",
+        "ops": ".909",
         "hr": 5,
         "rbi": 12,
         "sb": 8,
         "hasStats": true,
-        "trend": "hot",
+        "trend": null,
         "level": "AAA"
       },
       {
@@ -7696,7 +7683,7 @@
         "ip": "42.2",
         "so": 47,
         "hasStats": true,
-        "trend": "cold",
+        "trend": null,
         "level": "High-A"
       },
       {
@@ -7855,14 +7842,14 @@
         "throws": "R",
         "orgRank": 16,
         "top100Rank": null,
-        "g": 16,
+        "g": 17,
         "w": 8,
-        "l": 4,
+        "l": 5,
         "sv": 0,
-        "era": "4.60",
-        "whip": "1.38",
-        "ip": "72.1",
-        "so": 54,
+        "era": "4.83",
+        "whip": "1.41",
+        "ip": "76.1",
+        "so": 61,
         "hasStats": true,
         "trend": "cold",
         "level": "AAA"
@@ -8669,22 +8656,6 @@
       "description": "Omaha Storm Chasers placed OF Gavin Cross on the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 937484,
-      "date": "2026-08-13",
-      "person": "Tony Gonsolin",
-      "description": "Kansas City Royals signed free agent RHP Tony Gonsolin. Right elbow surgery.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 937483,
-      "date": "2026-08-13",
-      "person": "Eli Morgan",
-      "description": "Kansas City Royals designated RHP Eli Morgan for assignment.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
     }
   ],
   "draftPicks": [
