@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T13:25:32.574Z",
+  "updatedAt": "2026-09-14T18:48:29.622Z",
   "season": 2026,
   "levels": [
     {
@@ -533,29 +533,6 @@
           "trend": "cold"
         },
         {
-          "id": 668834,
-          "name": "Easton McGee",
-          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
-          "pos": "P",
-          "jersey": "51",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 9,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "7.15",
-          "whip": "1.94",
-          "ip": "11.1",
-          "so": 9,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 621016,
           "name": "Jose Cuas",
           "profileUrl": "https://www.mlb.com/player/jose-cuas-621016",
@@ -575,6 +552,29 @@
           "whip": "1.89",
           "ip": "18.0",
           "so": 19,
+          "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 668674,
+          "name": "Lucas Erceg",
+          "profileUrl": "https://www.mlb.com/player/lucas-erceg-668674",
+          "pos": "P",
+          "jersey": "60",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "L",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 47,
+          "w": 4,
+          "l": 4,
+          "sv": 12,
+          "era": "6.23",
+          "whip": "1.89",
+          "ip": "43.1",
+          "so": 31,
           "hasStats": true,
           "trend": null
         },
@@ -1621,29 +1621,6 @@
           "trend": "cold"
         },
         {
-          "id": 668674,
-          "name": "Lucas Erceg",
-          "profileUrl": "https://www.mlb.com/player/lucas-erceg-668674",
-          "pos": "P",
-          "jersey": "25",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 9,
-          "w": 1,
-          "l": 1,
-          "sv": 0,
-          "era": "1.74",
-          "whip": "1.26",
-          "ip": "10.1",
-          "so": 13,
-          "hasStats": true,
-          "trend": "hot"
-        },
-        {
           "id": 681432,
           "name": "Luke Little",
           "profileUrl": "https://www.mlb.com/player/luke-little-681432",
@@ -1924,6 +1901,29 @@
           "trend": null
         },
         {
+          "id": 668834,
+          "name": "Easton McGee",
+          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
+          "pos": "P",
+          "jersey": "",
+          "status": "Not Yet Reported",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 35,
+          "w": 5,
+          "l": 3,
+          "sv": 1,
+          "era": "6.95",
+          "whip": "1.65",
+          "ip": "55.2",
+          "so": 60,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 687765,
           "name": "Mitch Spence",
           "profileUrl": "https://www.mlb.com/player/mitch-spence-687765",
@@ -2138,29 +2138,6 @@
           "hr": 0,
           "rbi": 0,
           "sb": 0,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 669002,
-          "name": "Connor Scott",
-          "profileUrl": "https://www.mlb.com/player/connor-scott-669002",
-          "pos": "LF",
-          "jersey": "19",
-          "status": "Active",
-          "team": "Northwest Arkansas Naturals",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 88,
-          "avg": ".231",
-          "obp": ".287",
-          "slg": ".393",
-          "ops": ".680",
-          "hr": 11,
-          "rbi": 50,
-          "sb": 9,
           "hasStats": true,
           "trend": null
         },
@@ -8000,12 +7977,28 @@
   },
   "transactions": [
     {
-      "id": 942201,
-      "date": "2026-09-12",
-      "person": "Spencer Bivens",
-      "description": "Kansas City Royals optioned RHP Spencer Bivens to Omaha Storm Chasers.",
+      "id": 942283,
+      "date": "2026-09-14",
+      "person": "Connor Scott",
+      "description": "Northwest Arkansas Naturals released LF Connor Scott.",
+      "fromTeam": null,
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 942306,
+      "date": "2026-09-14",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals optioned RHP Easton McGee to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942305,
+      "date": "2026-09-14",
+      "person": "Lucas Erceg",
+      "description": "Kansas City Royals recalled RHP Lucas Erceg from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 942200,
@@ -8014,6 +8007,14 @@
       "description": "Kansas City Royals claimed RHP Spencer Bivens off waivers from San Francisco Giants.",
       "fromTeam": "San Francisco Giants",
       "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 942201,
+      "date": "2026-09-12",
+      "person": "Spencer Bivens",
+      "description": "Kansas City Royals optioned RHP Spencer Bivens to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 941985,
@@ -8032,18 +8033,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 941968,
-      "date": "2026-09-10",
-      "person": "Connor Seabold",
-      "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 941967,
       "date": "2026-09-10",
       "person": "Maikel Garcia",
       "description": "Kansas City Royals sent 3B Maikel Garcia on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 941968,
+      "date": "2026-09-10",
+      "person": "Connor Seabold",
+      "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8056,18 +8057,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 941613,
-      "date": "2026-09-08",
-      "person": "Camden Johnson",
-      "description": "SS Camden Johnson assigned to Quad Cities River Bandits from Columbia Fireflies.",
-      "fromTeam": "Columbia Fireflies",
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
       "id": 941612,
       "date": "2026-09-08",
       "person": "Henry Ramos",
       "description": "OF Henry Ramos assigned to Quad Cities River Bandits from Columbia Fireflies.",
+      "fromTeam": "Columbia Fireflies",
+      "toTeam": "Quad Cities River Bandits"
+    },
+    {
+      "id": 941613,
+      "date": "2026-09-08",
+      "person": "Camden Johnson",
+      "description": "SS Camden Johnson assigned to Quad Cities River Bandits from Columbia Fireflies.",
       "fromTeam": "Columbia Fireflies",
       "toTeam": "Quad Cities River Bandits"
     },
@@ -8080,18 +8081,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 941697,
-      "date": "2026-09-08",
-      "person": "Ricson Gonzalez",
-      "description": "C Ricson Gonzalez assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
-      "fromTeam": "Columbia Fireflies",
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
       "id": 941698,
       "date": "2026-09-08",
       "person": "Connor Rasmussen",
       "description": "2B Connor Rasmussen assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
+      "fromTeam": "Columbia Fireflies",
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 941697,
+      "date": "2026-09-08",
+      "person": "Ricson Gonzalez",
+      "description": "C Ricson Gonzalez assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
       "fromTeam": "Columbia Fireflies",
       "toTeam": "Northwest Arkansas Naturals"
     },
@@ -8160,18 +8161,18 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 940894,
-      "date": "2026-09-02",
-      "person": "Brandon Herbold",
-      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
       "id": 940876,
       "date": "2026-09-02",
       "person": "Shane Van Dam",
       "description": "Columbia Fireflies transferred RHP Shane Van Dam to the Development List.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 940894,
+      "date": "2026-09-02",
+      "person": "Brandon Herbold",
+      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -8304,20 +8305,20 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 939667,
-      "date": "2026-08-27",
-      "person": "Anthony Gose",
-      "description": "Kansas City Royals selected the contract of LHP Anthony Gose from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 939666,
       "date": "2026-08-27",
       "person": "Mason Black",
       "description": "Kansas City Royals optioned RHP Mason Black to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 939667,
+      "date": "2026-08-27",
+      "person": "Anthony Gose",
+      "description": "Kansas City Royals selected the contract of LHP Anthony Gose from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 939665,
@@ -8424,6 +8425,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 938807,
+      "date": "2026-08-21",
+      "person": "Carlos Duran",
+      "description": "Kansas City Royals optioned RHP Carlos Duran to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 938805,
       "date": "2026-08-21",
       "person": "Jose Cuas",
@@ -8440,10 +8449,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 938807,
+      "id": 938802,
       "date": "2026-08-21",
-      "person": "Carlos Duran",
-      "description": "Kansas City Royals optioned RHP Carlos Duran to Omaha Storm Chasers.",
+      "person": "Beck Way",
+      "description": "Kansas City Royals sent RHP Beck Way on a rehab assignment to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8464,26 +8473,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 938802,
-      "date": "2026-08-21",
-      "person": "Beck Way",
-      "description": "Kansas City Royals sent RHP Beck Way on a rehab assignment to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
+      "id": 938697,
+      "date": "2026-08-20",
+      "person": "Brandon Herbold",
+      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
     },
     {
       "id": 938696,
       "date": "2026-08-20",
       "person": "Randy Ramnarace",
       "description": "Columbia Fireflies placed RHP Randy Ramnarace on the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
-      "id": 938697,
-      "date": "2026-08-20",
-      "person": "Brandon Herbold",
-      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -8528,20 +8529,20 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 938157,
-      "date": "2026-08-18",
-      "person": "Shane Panzini",
-      "description": "RHP Shane Panzini assigned to Northwest Arkansas Naturals from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
       "id": 938162,
       "date": "2026-08-18",
       "person": "Hunter Patteson",
       "description": "LHP Hunter Patteson assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
       "fromTeam": "Northwest Arkansas Naturals",
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 938157,
+      "date": "2026-08-18",
+      "person": "Shane Panzini",
+      "description": "RHP Shane Panzini assigned to Northwest Arkansas Naturals from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Northwest Arkansas Naturals"
     },
     {
       "id": 938161,
@@ -8552,20 +8553,20 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 938149,
-      "date": "2026-08-18",
-      "person": "Lucas Erceg",
-      "description": "Kansas City Royals optioned RHP Lucas Erceg to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 938148,
       "date": "2026-08-18",
       "person": "Carlos Duran",
       "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 938149,
+      "date": "2026-08-18",
+      "person": "Lucas Erceg",
+      "description": "Kansas City Royals optioned RHP Lucas Erceg to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 938212,
@@ -8592,14 +8593,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 937940,
-      "date": "2026-08-17",
-      "person": "Josh Rojas",
-      "description": "Kansas City Royals optioned 3B Josh Rojas to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 937939,
       "date": "2026-08-17",
       "person": "Connor Thomas",
@@ -8608,18 +8601,26 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 937936,
+      "id": 937940,
       "date": "2026-08-17",
-      "person": "Vinnie Pasquantino",
-      "description": "Kansas City Royals activated 1B Vinnie Pasquantino from the 10-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
+      "person": "Josh Rojas",
+      "description": "Kansas City Royals optioned 3B Josh Rojas to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 937942,
       "date": "2026-08-17",
       "person": "Starling Marte",
       "description": "Kansas City Royals designated RF Starling Marte for assignment.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 937936,
+      "date": "2026-08-17",
+      "person": "Vinnie Pasquantino",
+      "description": "Kansas City Royals activated 1B Vinnie Pasquantino from the 10-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
