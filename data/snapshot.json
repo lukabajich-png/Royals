@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T19:12:42.142Z",
+  "updatedAt": "2026-09-15T22:16:13.563Z",
   "season": 2026,
   "levels": [
     {
@@ -47,7 +47,7 @@
                 "date": "2026-09-15",
                 "opponent": "Houston Astros",
                 "isHome": false,
-                "status": "Scheduled",
+                "status": "Pre-Game",
                 "finalScore": null
               },
               {
@@ -95,7 +95,7 @@
           "name": "Bobby Witt Jr.",
           "profileUrl": "https://www.mlb.com/player/bobby-witt-jr-677951",
           "pos": "SS",
-          "jersey": "7",
+          "jersey": "21",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
@@ -275,25 +275,25 @@
           "trend": null
         },
         {
-          "id": 683090,
-          "name": "Matthew Lugo",
-          "profileUrl": "https://www.mlb.com/player/matthew-lugo-683090",
-          "pos": "LF",
-          "jersey": "24",
+          "id": 672580,
+          "name": "Maikel Garcia",
+          "profileUrl": "https://www.mlb.com/player/maikel-garcia-672580",
+          "pos": "3B",
+          "jersey": "11",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 9,
-          "avg": ".143",
-          "obp": ".200",
-          "slg": ".143",
-          "ops": ".343",
-          "hr": 0,
-          "rbi": 0,
-          "sb": 0,
+          "g": 73,
+          "avg": ".269",
+          "obp": ".324",
+          "slg": ".385",
+          "ops": ".709",
+          "hr": 3,
+          "rbi": 32,
+          "sb": 5,
           "hasStats": true,
           "trend": null
         },
@@ -348,7 +348,7 @@
           "name": "Salvador Perez",
           "profileUrl": "https://www.mlb.com/player/salvador-perez-521692",
           "pos": "DH",
-          "jersey": "13",
+          "jersey": "21",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
@@ -695,7 +695,7 @@
           "name": "Seth Lugo",
           "profileUrl": "https://www.mlb.com/player/seth-lugo-607625",
           "pos": "P",
-          "jersey": "67",
+          "jersey": "21",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
@@ -758,29 +758,6 @@
           "hr": 2,
           "rbi": 8,
           "sb": 0,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 672580,
-          "name": "Maikel Garcia",
-          "profileUrl": "https://www.mlb.com/player/maikel-garcia-672580",
-          "pos": "3B",
-          "jersey": "11",
-          "status": "Injured 10-Day",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 73,
-          "avg": ".269",
-          "obp": ".324",
-          "slg": ".385",
-          "ops": ".709",
-          "hr": 3,
-          "rbi": 32,
-          "sb": 5,
           "hasStats": true,
           "trend": null
         }
@@ -1063,8 +1040,11 @@
                 "date": "2026-09-15",
                 "opponent": "Iowa Cubs",
                 "isHome": true,
-                "status": "Scheduled",
-                "finalScore": null
+                "status": "Postponed",
+                "finalScore": {
+                  "us": null,
+                  "them": null
+                }
               },
               {
                 "date": "2026-09-16",
@@ -1314,29 +1294,6 @@
           "trend": null
         },
         {
-          "id": 595751,
-          "name": "Jorge Alfaro",
-          "profileUrl": "https://www.mlb.com/player/jorge-alfaro-595751",
-          "pos": "C",
-          "jersey": "19",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 6,
-          "avg": ".261",
-          "obp": ".320",
-          "slg": ".478",
-          "ops": ".798",
-          "hr": 1,
-          "rbi": 3,
-          "sb": 0,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 681123,
           "name": "Luca Tresh",
           "profileUrl": "https://www.mlb.com/player/luca-tresh-681123",
@@ -1360,25 +1317,25 @@
           "trend": "cold"
         },
         {
-          "id": 672580,
-          "name": "Maikel Garcia",
-          "profileUrl": "https://www.mlb.com/player/maikel-garcia-672580",
-          "pos": "3B",
-          "jersey": "4",
-          "status": "Rehab Assignment",
+          "id": 683090,
+          "name": "Matthew Lugo",
+          "profileUrl": "https://www.mlb.com/player/matthew-lugo-683090",
+          "pos": "LF",
+          "jersey": "25",
+          "status": "Active",
           "team": "Omaha Storm Chasers",
           "bats": "R",
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 3,
-          "avg": ".308",
-          "obp": ".308",
-          "slg": ".385",
-          "ops": ".693",
-          "hr": 0,
-          "rbi": 2,
-          "sb": 1,
+          "g": 61,
+          "avg": ".269",
+          "obp": ".329",
+          "slg": ".511",
+          "ops": ".840",
+          "hr": 11,
+          "rbi": 39,
+          "sb": 3,
           "hasStats": true,
           "trend": null
         },
@@ -1500,6 +1457,29 @@
           "trend": null
         },
         {
+          "id": 668834,
+          "name": "Easton McGee",
+          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
+          "pos": "P",
+          "jersey": "63",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 35,
+          "w": 5,
+          "l": 3,
+          "sv": 1,
+          "era": "6.95",
+          "whip": "1.65",
+          "ip": "55.2",
+          "so": 60,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 689275,
           "name": "Henry Williams",
           "profileUrl": "https://www.mlb.com/player/henry-williams-689275",
@@ -1567,6 +1547,29 @@
           "so": 13,
           "hasStats": true,
           "trend": "hot"
+        },
+        {
+          "id": 663704,
+          "name": "James McArthur",
+          "profileUrl": "https://www.mlb.com/player/james-mcarthur-663704",
+          "pos": "P",
+          "jersey": "48",
+          "status": "Rehab Assignment",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false,
+          "trend": null
         },
         {
           "id": 607644,
@@ -1730,6 +1733,29 @@
           "trend": null
         },
         {
+          "id": 702352,
+          "name": "Spencer Bivens",
+          "profileUrl": "https://www.mlb.com/player/spencer-bivens-702352",
+          "pos": "P",
+          "jersey": "34",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 35,
+          "w": 5,
+          "l": 3,
+          "sv": 1,
+          "era": "4.92",
+          "whip": "1.39",
+          "ip": "75.0",
+          "so": 72,
+          "hasStats": true,
+          "trend": "hot"
+        },
+        {
           "id": 664062,
           "name": "Tony Gonsolin",
           "profileUrl": "https://www.mlb.com/player/tony-gonsolin-664062",
@@ -1845,6 +1871,29 @@
           "sb": 2,
           "hasStats": true,
           "trend": null
+        },
+        {
+          "id": 595751,
+          "name": "Jorge Alfaro",
+          "profileUrl": "https://www.mlb.com/player/jorge-alfaro-595751",
+          "pos": "C",
+          "jersey": "19",
+          "status": "Development List",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 6,
+          "avg": ".261",
+          "obp": ".320",
+          "slg": ".478",
+          "ops": ".798",
+          "hr": 1,
+          "rbi": 3,
+          "sb": 0,
+          "hasStats": true,
+          "trend": null
         }
       ],
       "reservePitchers": [
@@ -1895,25 +1944,25 @@
           "trend": null
         },
         {
-          "id": 668834,
-          "name": "Easton McGee",
-          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
+          "id": 815073,
+          "name": "Ethan Bosacker",
+          "profileUrl": "https://www.mlb.com/player/ethan-bosacker-815073",
           "pos": "P",
           "jersey": "",
-          "status": "Not Yet Reported",
+          "status": "Development List",
           "team": "Omaha Storm Chasers",
           "bats": "R",
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 35,
-          "w": 5,
-          "l": 3,
-          "sv": 1,
-          "era": "6.95",
-          "whip": "1.65",
-          "ip": "55.2",
-          "so": 60,
+          "g": 26,
+          "w": 4,
+          "l": 1,
+          "sv": 0,
+          "era": "6.04",
+          "whip": "1.62",
+          "ip": "50.2",
+          "so": 40,
           "hasStats": true,
           "trend": null
         },
@@ -1962,29 +2011,6 @@
           "so": 10,
           "hasStats": true,
           "trend": null
-        },
-        {
-          "id": 702352,
-          "name": "Spencer Bivens",
-          "profileUrl": "https://www.mlb.com/player/spencer-bivens-702352",
-          "pos": "P",
-          "jersey": "",
-          "status": "Not Yet Reported",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 35,
-          "w": 5,
-          "l": 3,
-          "sv": 1,
-          "era": "4.92",
-          "whip": "1.39",
-          "ip": "75.0",
-          "so": 72,
-          "hasStats": true,
-          "trend": "hot"
         }
       ]
     },
@@ -2450,29 +2476,6 @@
           "trend": "hot"
         },
         {
-          "id": 815073,
-          "name": "Ethan Bosacker",
-          "profileUrl": "https://www.mlb.com/player/ethan-bosacker-815073",
-          "pos": "P",
-          "jersey": "55",
-          "status": "Active",
-          "team": "Northwest Arkansas Naturals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 3,
-          "w": 0,
-          "l": 1,
-          "sv": 0,
-          "era": "2.25",
-          "whip": "1.25",
-          "ip": "12.0",
-          "so": 8,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 702373,
           "name": "Felix Arronde",
           "profileUrl": "https://www.mlb.com/player/felix-arronde-702373",
@@ -2540,29 +2543,6 @@
           "so": 39,
           "hasStats": true,
           "trend": "cold"
-        },
-        {
-          "id": 663704,
-          "name": "James McArthur",
-          "profileUrl": "https://www.mlb.com/player/james-mcarthur-663704",
-          "pos": "P",
-          "jersey": "36",
-          "status": "Rehab Assignment",
-          "team": "Northwest Arkansas Naturals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 2,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "16.20",
-          "whip": "2.40",
-          "ip": "1.2",
-          "so": 2,
-          "hasStats": true,
-          "trend": null
         },
         {
           "id": 695556,
@@ -7961,6 +7941,62 @@
   },
   "transactions": [
     {
+      "id": 942648,
+      "date": "2026-09-15",
+      "person": "Ethan Bosacker",
+      "description": "RHP Ethan Bosacker assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
+      "fromTeam": "Northwest Arkansas Naturals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942645,
+      "date": "2026-09-15",
+      "person": "Spencer Bivens",
+      "description": "Omaha Storm Chasers activated RHP Spencer Bivens.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942646,
+      "date": "2026-09-15",
+      "person": "James McArthur",
+      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942647,
+      "date": "2026-09-15",
+      "person": "Jorge Alfaro",
+      "description": "Omaha Storm Chasers transferred C Jorge Alfaro to the Development List.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942633,
+      "date": "2026-09-15",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals optioned RHP Easton McGee to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942632,
+      "date": "2026-09-15",
+      "person": "Matthew Lugo",
+      "description": "Kansas City Royals optioned LF Matthew Lugo to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942636,
+      "date": "2026-09-15",
+      "person": "Maikel Garcia",
+      "description": "Kansas City Royals activated 3B Maikel Garcia from the 10-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 942283,
       "date": "2026-09-14",
       "person": "Connor Scott",
@@ -8017,18 +8053,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 941967,
-      "date": "2026-09-10",
-      "person": "Maikel Garcia",
-      "description": "Kansas City Royals sent 3B Maikel Garcia on a rehab assignment to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 941968,
       "date": "2026-09-10",
       "person": "Connor Seabold",
       "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 941967,
+      "date": "2026-09-10",
+      "person": "Maikel Garcia",
+      "description": "Kansas City Royals sent 3B Maikel Garcia on a rehab assignment to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8161,18 +8197,18 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 940866,
-      "date": "2026-09-02",
-      "person": "Drew Waters",
-      "description": "Kansas City Royals designated LF Drew Waters for assignment.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 940867,
       "date": "2026-09-02",
       "person": "Michael Massey",
       "description": "Kansas City Royals activated 2B Michael Massey from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 940866,
+      "date": "2026-09-02",
+      "person": "Drew Waters",
+      "description": "Kansas City Royals designated LF Drew Waters for assignment.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8209,14 +8245,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 940483,
-      "date": "2026-09-01",
-      "person": "Nolan Hoffman",
-      "description": "Kansas City Royals recalled RHP Nolan Hoffman from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 940484,
       "date": "2026-09-01",
       "person": "Easton McGee",
@@ -8229,6 +8257,14 @@
       "date": "2026-09-01",
       "person": "Drew Waters",
       "description": "Kansas City Royals selected the contract of LF Drew Waters from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 940483,
+      "date": "2026-09-01",
+      "person": "Nolan Hoffman",
+      "description": "Kansas City Royals recalled RHP Nolan Hoffman from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -8297,18 +8333,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 939665,
-      "date": "2026-08-27",
-      "person": "Josh Rojas",
-      "description": "Kansas City Royals recalled 3B Josh Rojas from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 939667,
       "date": "2026-08-27",
       "person": "Anthony Gose",
       "description": "Kansas City Royals selected the contract of LHP Anthony Gose from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 939665,
+      "date": "2026-08-27",
+      "person": "Josh Rojas",
+      "description": "Kansas City Royals recalled 3B Josh Rojas from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -8409,20 +8445,20 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 938805,
-      "date": "2026-08-21",
-      "person": "Jose Cuas",
-      "description": "Kansas City Royals recalled RHP Jose Cuas from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 938807,
       "date": "2026-08-21",
       "person": "Carlos Duran",
       "description": "Kansas City Royals optioned RHP Carlos Duran to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 938805,
+      "date": "2026-08-21",
+      "person": "Jose Cuas",
+      "description": "Kansas City Royals recalled RHP Jose Cuas from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 938806,
@@ -8433,7 +8469,7 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 938802,
+      "id": 939669,
       "date": "2026-08-21",
       "person": "Beck Way",
       "description": "Kansas City Royals sent RHP Beck Way on a rehab assignment to Omaha Storm Chasers.",
@@ -8441,7 +8477,7 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 939669,
+      "id": 938802,
       "date": "2026-08-21",
       "person": "Beck Way",
       "description": "Kansas City Royals sent RHP Beck Way on a rehab assignment to Omaha Storm Chasers.",
@@ -8513,6 +8549,14 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
+      "id": 938162,
+      "date": "2026-08-18",
+      "person": "Hunter Patteson",
+      "description": "LHP Hunter Patteson assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
+      "fromTeam": "Northwest Arkansas Naturals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 938161,
       "date": "2026-08-18",
       "person": "Carson Roccaforte",
@@ -8527,14 +8571,6 @@
       "description": "RHP Shane Panzini assigned to Northwest Arkansas Naturals from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 938162,
-      "date": "2026-08-18",
-      "person": "Hunter Patteson",
-      "description": "LHP Hunter Patteson assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
-      "fromTeam": "Northwest Arkansas Naturals",
-      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 938149,
@@ -8569,6 +8605,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 937941,
+      "date": "2026-08-17",
+      "person": "Jose Cuas",
+      "description": "Kansas City Royals optioned RHP Jose Cuas to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 937940,
       "date": "2026-08-17",
       "person": "Josh Rojas",
@@ -8585,12 +8629,12 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 937941,
+      "id": 937936,
       "date": "2026-08-17",
-      "person": "Jose Cuas",
-      "description": "Kansas City Royals optioned RHP Jose Cuas to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
+      "person": "Vinnie Pasquantino",
+      "description": "Kansas City Royals activated 1B Vinnie Pasquantino from the 10-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 937942,
@@ -8605,14 +8649,6 @@
       "date": "2026-08-17",
       "person": "Maikel Garcia",
       "description": "Kansas City Royals activated 3B Maikel Garcia from the 10-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 937936,
-      "date": "2026-08-17",
-      "person": "Vinnie Pasquantino",
-      "description": "Kansas City Royals activated 1B Vinnie Pasquantino from the 10-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -9937,7 +9973,7 @@
       "school": "Xavier",
       "signingBonus": "150000",
       "currentOrgRank": null,
-      "currentLevel": "AA",
+      "currentLevel": "AAA",
       "otherOrgName": null,
       "otherTeamName": null,
       "otherLevel": null,
