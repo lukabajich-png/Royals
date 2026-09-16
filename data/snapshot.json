@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T05:17:21.094Z",
+  "updatedAt": "2026-09-16T10:10:32.908Z",
   "season": 2026,
   "levels": [
     {
@@ -88,7 +88,7 @@
           "name": "Bobby Witt Jr.",
           "profileUrl": "https://www.mlb.com/player/bobby-witt-jr-677951",
           "pos": "SS",
-          "jersey": "21",
+          "jersey": "7",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
@@ -341,7 +341,7 @@
           "name": "Salvador Perez",
           "profileUrl": "https://www.mlb.com/player/salvador-perez-521692",
           "pos": "DH",
-          "jersey": "21",
+          "jersey": "13",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
@@ -688,7 +688,7 @@
           "name": "Seth Lugo",
           "profileUrl": "https://www.mlb.com/player/seth-lugo-607625",
           "pos": "P",
-          "jersey": "21",
+          "jersey": "67",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
@@ -7909,6 +7909,30 @@
   },
   "transactions": [
     {
+      "id": 942835,
+      "date": "2026-09-16",
+      "person": "Salvador Perez",
+      "description": "DH Salvador Perez changed number to 13.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 942834,
+      "date": "2026-09-16",
+      "person": "Seth Lugo",
+      "description": "RHP Seth Lugo changed number to 67.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 942823,
+      "date": "2026-09-16",
+      "person": "Bobby Witt Jr.",
+      "description": "SS Bobby Witt Jr. changed number to 7.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 942648,
       "date": "2026-09-15",
       "person": "Ethan Bosacker",
@@ -7933,6 +7957,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 942632,
+      "date": "2026-09-15",
+      "person": "Matthew Lugo",
+      "description": "Kansas City Royals optioned LF Matthew Lugo to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 942633,
       "date": "2026-09-15",
       "person": "Easton McGee",
@@ -7941,10 +7973,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942632,
+      "id": 942646,
       "date": "2026-09-15",
-      "person": "Matthew Lugo",
-      "description": "Kansas City Royals optioned LF Matthew Lugo to Omaha Storm Chasers.",
+      "person": "James McArthur",
+      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7971,14 +8003,6 @@
       "description": "SS Bobby Witt Jr. changed number to 21.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 942646,
-      "date": "2026-09-15",
-      "person": "James McArthur",
-      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 942744,
@@ -8013,20 +8037,20 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942200,
-      "date": "2026-09-12",
-      "person": "Spencer Bivens",
-      "description": "Kansas City Royals claimed RHP Spencer Bivens off waivers from San Francisco Giants.",
-      "fromTeam": "San Francisco Giants",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 942201,
       "date": "2026-09-12",
       "person": "Spencer Bivens",
       "description": "Kansas City Royals optioned RHP Spencer Bivens to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942200,
+      "date": "2026-09-12",
+      "person": "Spencer Bivens",
+      "description": "Kansas City Royals claimed RHP Spencer Bivens off waivers from San Francisco Giants.",
+      "fromTeam": "San Francisco Giants",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 941985,
@@ -8189,18 +8213,18 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 940866,
-      "date": "2026-09-02",
-      "person": "Drew Waters",
-      "description": "Kansas City Royals designated LF Drew Waters for assignment.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 940867,
       "date": "2026-09-02",
       "person": "Michael Massey",
       "description": "Kansas City Royals activated 2B Michael Massey from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 940866,
+      "date": "2026-09-02",
+      "person": "Drew Waters",
+      "description": "Kansas City Royals designated LF Drew Waters for assignment.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8237,10 +8261,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 940484,
+      "id": 940485,
       "date": "2026-09-01",
-      "person": "Easton McGee",
-      "description": "Kansas City Royals recalled RHP Easton McGee from Omaha Storm Chasers.",
+      "person": "Drew Waters",
+      "description": "Kansas City Royals selected the contract of LF Drew Waters from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -8253,10 +8277,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 940485,
+      "id": 940484,
       "date": "2026-09-01",
-      "person": "Drew Waters",
-      "description": "Kansas City Royals selected the contract of LF Drew Waters from Omaha Storm Chasers.",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals recalled RHP Easton McGee from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -8445,6 +8469,14 @@
       "toTeam": "Kansas City Royals"
     },
     {
+      "id": 938806,
+      "date": "2026-08-21",
+      "person": "Matthew Lugo",
+      "description": "Kansas City Royals recalled LF Matthew Lugo from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 938807,
       "date": "2026-08-21",
       "person": "Carlos Duran",
@@ -8453,11 +8485,11 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 938806,
+      "id": 938808,
       "date": "2026-08-21",
-      "person": "Matthew Lugo",
-      "description": "Kansas City Royals recalled LF Matthew Lugo from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
+      "person": "Maikel Garcia",
+      "description": "Kansas City Royals placed 3B Maikel Garcia on the 10-day injured list. Left hamstring strain.",
+      "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
     {
@@ -8475,14 +8507,6 @@
       "description": "Kansas City Royals sent RHP Beck Way on a rehab assignment to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 938808,
-      "date": "2026-08-21",
-      "person": "Maikel Garcia",
-      "description": "Kansas City Royals placed 3B Maikel Garcia on the 10-day injured list. Left hamstring strain.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
     },
     {
       "id": 938697,
@@ -8565,20 +8589,20 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 938148,
-      "date": "2026-08-18",
-      "person": "Carlos Duran",
-      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 938149,
       "date": "2026-08-18",
       "person": "Lucas Erceg",
       "description": "Kansas City Royals optioned RHP Lucas Erceg to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 938148,
+      "date": "2026-08-18",
+      "person": "Carlos Duran",
+      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 938212,
@@ -8597,6 +8621,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 937941,
+      "date": "2026-08-17",
+      "person": "Jose Cuas",
+      "description": "Kansas City Royals optioned RHP Jose Cuas to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 937939,
       "date": "2026-08-17",
       "person": "Connor Thomas",
@@ -8609,14 +8641,6 @@
       "date": "2026-08-17",
       "person": "Josh Rojas",
       "description": "Kansas City Royals optioned 3B Josh Rojas to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 937941,
-      "date": "2026-08-17",
-      "person": "Jose Cuas",
-      "description": "Kansas City Royals optioned RHP Jose Cuas to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
