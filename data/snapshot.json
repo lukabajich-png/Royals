@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T18:35:25.522Z",
+  "updatedAt": "2026-09-17T21:46:07.274Z",
   "season": 2026,
   "levels": [
     {
@@ -47,7 +47,7 @@
                 "date": "2026-09-17",
                 "opponent": "Houston Astros",
                 "isHome": false,
-                "status": "Scheduled",
+                "status": "Pre-Game",
                 "finalScore": null
               },
               {
@@ -2172,15 +2172,15 @@
           "orgRank": 28,
           "top100Rank": null,
           "g": 42,
-          "avg": ".335",
-          "obp": ".412",
-          "slg": ".402",
-          "ops": ".814",
+          "avg": ".337",
+          "obp": ".414",
+          "slg": ".405",
+          "ops": ".819",
           "hr": 0,
           "rbi": 10,
           "sb": 14,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 805692,
@@ -7512,15 +7512,15 @@
         "orgRank": 28,
         "top100Rank": null,
         "g": 42,
-        "avg": ".335",
-        "obp": ".412",
-        "slg": ".402",
-        "ops": ".814",
+        "avg": ".337",
+        "obp": ".414",
+        "slg": ".405",
+        "ops": ".819",
         "hr": 0,
         "rbi": 10,
         "sb": 14,
         "hasStats": true,
-        "trend": null,
+        "trend": "hot",
         "level": "AA"
       }
     ],
