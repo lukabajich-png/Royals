@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T21:53:43.868Z",
+  "updatedAt": "2026-09-17T00:07:27.308Z",
   "season": 2026,
   "levels": [
     {
@@ -22,16 +22,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-13",
-                "opponent": "Boston Red Sox",
-                "isHome": false,
-                "status": "Final",
-                "finalScore": {
-                  "us": 1,
-                  "them": 4
-                }
-              },
-              {
                 "date": "2026-09-15",
                 "opponent": "Houston Astros",
                 "isHome": false,
@@ -40,16 +30,16 @@
                   "us": 2,
                   "them": 4
                 }
-              }
-            ],
-            "upcoming": [
+              },
               {
                 "date": "2026-09-16",
                 "opponent": "Houston Astros",
                 "isHome": false,
-                "status": "Pre-Game",
+                "status": "Warmup",
                 "finalScore": null
-              },
+              }
+            ],
+            "upcoming": [
               {
                 "date": "2026-09-17",
                 "opponent": "Houston Astros",
@@ -75,6 +65,13 @@
                 "date": "2026-09-20",
                 "opponent": "Pittsburgh Pirates",
                 "isHome": false,
+                "status": "Scheduled",
+                "finalScore": null
+              },
+              {
+                "date": "2026-09-22",
+                "opponent": "Chicago White Sox",
+                "isHome": true,
                 "status": "Scheduled",
                 "finalScore": null
               }
@@ -681,7 +678,7 @@
           "ip": "69.1",
           "so": 47,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 607625,
@@ -1008,17 +1005,17 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-13",
-                "opponent": "Indianapolis Indians",
-                "isHome": false,
-                "status": "Final",
+                "date": "2026-09-15",
+                "opponent": "Iowa Cubs",
+                "isHome": true,
+                "status": "Postponed",
                 "finalScore": {
-                  "us": 5,
-                  "them": 6
+                  "us": null,
+                  "them": null
                 }
               },
               {
-                "date": "2026-09-15",
+                "date": "2026-09-16",
                 "opponent": "Iowa Cubs",
                 "isHome": true,
                 "status": "Postponed",
@@ -1029,13 +1026,6 @@
               }
             ],
             "upcoming": [
-              {
-                "date": "2026-09-16",
-                "opponent": "Iowa Cubs",
-                "isHome": true,
-                "status": "Scheduled",
-                "finalScore": null
-              },
               {
                 "date": "2026-09-17",
                 "opponent": "Iowa Cubs",
@@ -1391,7 +1381,7 @@
           "ip": "69.0",
           "so": 56,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 679922,
@@ -1621,7 +1611,7 @@
           "ip": "35.0",
           "so": 41,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 696131,
@@ -1736,7 +1726,7 @@
           "ip": "75.0",
           "so": 72,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 664062,
@@ -1759,7 +1749,7 @@
           "ip": "11.1",
           "so": 8,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 592826,
@@ -2015,18 +2005,7 @@
             "streak": "W1"
           },
           "schedule": {
-            "recent": [
-              {
-                "date": "2026-09-13",
-                "opponent": "Tulsa Drillers",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 5,
-                  "them": 4
-                }
-              }
-            ],
+            "recent": [],
             "upcoming": []
           }
         }
@@ -2308,7 +2287,7 @@
           "ip": "66.0",
           "so": 80,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 699489,
@@ -2584,7 +2563,7 @@
           "ip": "19.1",
           "so": 23,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 815045,
@@ -2771,16 +2750,6 @@
           },
           "schedule": {
             "recent": [
-              {
-                "date": "2026-09-13",
-                "opponent": "Dayton Dragons",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 4,
-                  "them": 0
-                }
-              },
               {
                 "date": "2026-09-15",
                 "opponent": "Dayton Dragons",
@@ -3025,7 +2994,7 @@
           "rbi": 54,
           "sb": 19,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 823073,
@@ -3048,7 +3017,7 @@
           "rbi": 36,
           "sb": 35,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 808675,
@@ -3117,7 +3086,7 @@
           "rbi": 55,
           "sb": 33,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 805799,
@@ -3188,7 +3157,7 @@
           "ip": "75.2",
           "so": 81,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 822836,
@@ -3326,7 +3295,7 @@
           "ip": "40.1",
           "so": 44,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 833403,
@@ -3862,7 +3831,7 @@
           "rbi": 45,
           "sb": 21,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 815819,
@@ -7855,7 +7824,7 @@
         "ip": "75.2",
         "so": 81,
         "hasStats": true,
-        "trend": "hot",
+        "trend": null,
         "level": "High-A"
       },
       {
@@ -8596,62 +8565,6 @@
       "description": "Kansas City Royals sent RHP Beck Way on a rehab assignment to Northwest Arkansas Naturals.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 938160,
-      "date": "2026-08-17",
-      "person": "Josh Rojas",
-      "description": "Omaha Storm Chasers activated 3B Josh Rojas.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 937939,
-      "date": "2026-08-17",
-      "person": "Connor Thomas",
-      "description": "Kansas City Royals recalled LHP Connor Thomas from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 937941,
-      "date": "2026-08-17",
-      "person": "Jose Cuas",
-      "description": "Kansas City Royals optioned RHP Jose Cuas to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 937940,
-      "date": "2026-08-17",
-      "person": "Josh Rojas",
-      "description": "Kansas City Royals optioned 3B Josh Rojas to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 937942,
-      "date": "2026-08-17",
-      "person": "Starling Marte",
-      "description": "Kansas City Royals designated RF Starling Marte for assignment.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 937938,
-      "date": "2026-08-17",
-      "person": "Maikel Garcia",
-      "description": "Kansas City Royals activated 3B Maikel Garcia from the 10-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 937936,
-      "date": "2026-08-17",
-      "person": "Vinnie Pasquantino",
-      "description": "Kansas City Royals activated 1B Vinnie Pasquantino from the 10-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
     }
   ],
   "draftPicks": [
