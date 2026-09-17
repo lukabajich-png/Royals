@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T14:42:21.557Z",
+  "updatedAt": "2026-09-17T18:35:25.522Z",
   "season": 2026,
   "levels": [
     {
@@ -1031,6 +1031,13 @@
             "upcoming": [
               {
                 "date": "2026-09-17",
+                "opponent": "Iowa Cubs",
+                "isHome": true,
+                "status": "Scheduled",
+                "finalScore": null
+              },
+              {
+                "date": "2026-09-18",
                 "opponent": "Iowa Cubs",
                 "isHome": true,
                 "status": "Scheduled",
