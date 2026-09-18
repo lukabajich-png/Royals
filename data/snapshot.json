@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T17:04:42.742Z",
+  "updatedAt": "2026-09-18T19:36:06.785Z",
   "season": 2026,
   "levels": [
     {
@@ -57,7 +57,7 @@
                 "date": "2026-09-18",
                 "opponent": "Pittsburgh Pirates",
                 "isHome": false,
-                "status": "Scheduled",
+                "status": "Pre-Game",
                 "finalScore": null
               },
               {
@@ -9994,8 +9994,8 @@
       "currentOrgRank": null,
       "currentLevel": null,
       "otherOrgName": "Athletics",
-      "otherTeamName": "Las Vegas Aviators",
-      "otherLevel": "AAA",
+      "otherTeamName": "Athletics",
+      "otherLevel": "MLB",
       "lastPlayedYear": null
     },
     {
