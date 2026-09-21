@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T00:31:39.179Z",
+  "updatedAt": "2026-09-21T05:30:25.125Z",
   "season": 2026,
   "levels": [
     {
@@ -1034,7 +1034,7 @@
             "wins": 65,
             "losses": 81,
             "winningPct": ".445",
-            "gamesBack": "16.5",
+            "gamesBack": "16.0",
             "divisionRank": "8",
             "streak": "W1"
           },
