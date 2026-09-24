@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T20:30:23.933Z",
+  "updatedAt": "2026-09-24T23:28:05.971Z",
   "season": 2026,
   "levels": [
     {
@@ -13,11 +13,11 @@
           "leagueId": 103,
           "standings": {
             "wins": 68,
-            "losses": 90,
-            "winningPct": ".430",
-            "gamesBack": "14.0",
+            "losses": 91,
+            "winningPct": ".428",
+            "gamesBack": "14.5",
             "divisionRank": "5",
-            "streak": "W1"
+            "streak": "L1"
           },
           "schedule": {
             "recent": [
@@ -47,8 +47,11 @@
                 "date": "2026-09-24",
                 "opponent": "Chicago White Sox",
                 "isHome": true,
-                "status": "In Progress",
-                "finalScore": null
+                "status": "Final",
+                "finalScore": {
+                  "us": 1,
+                  "them": 9
+                }
               },
               {
                 "date": "2026-09-25",
@@ -181,10 +184,10 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 50,
-          "avg": ".231",
-          "obp": ".313",
-          "slg": ".440",
-          "ops": ".753",
+          "avg": ".230",
+          "obp": ".311",
+          "slg": ".437",
+          "ops": ".748",
           "hr": 6,
           "rbi": 13,
           "sb": 7,
@@ -296,10 +299,10 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 129,
-          "avg": ".274",
+          "avg": ".273",
           "obp": ".305",
-          "slg": ".433",
-          "ops": ".738",
+          "slg": ".432",
+          "ops": ".737",
           "hr": 13,
           "rbi": 49,
           "sb": 3,
@@ -319,10 +322,10 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 118,
-          "avg": ".238",
-          "obp": ".321",
-          "slg": ".384",
-          "ops": ".705",
+          "avg": ".240",
+          "obp": ".322",
+          "slg": ".388",
+          "ops": ".710",
           "hr": 8,
           "rbi": 45,
           "sb": 4,
@@ -343,9 +346,9 @@
           "top100Rank": null,
           "g": 149,
           "avg": ".228",
-          "obp": ".271",
+          "obp": ".272",
           "slg": ".378",
-          "ops": ".649",
+          "ops": ".650",
           "hr": 20,
           "rbi": 75,
           "sb": 1,
@@ -388,10 +391,10 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 111,
-          "avg": ".247",
-          "obp": ".330",
-          "slg": ".416",
-          "ops": ".746",
+          "avg": ".246",
+          "obp": ".329",
+          "slg": ".415",
+          "ops": ".744",
           "hr": 15,
           "rbi": 60,
           "sb": 5,
@@ -623,12 +626,12 @@
           "w": 0,
           "l": 0,
           "sv": 0,
-          "era": "3.38",
-          "whip": "1.35",
-          "ip": "13.1",
-          "so": 10,
+          "era": "3.21",
+          "whip": "1.36",
+          "ip": "14.0",
+          "so": 11,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 677976,
@@ -644,7 +647,7 @@
           "top100Rank": null,
           "g": 15,
           "w": 3,
-          "l": 4,
+          "l": 5,
           "sv": 0,
           "era": "3.51",
           "whip": "1.40",
@@ -1422,29 +1425,6 @@
           "trend": null
         },
         {
-          "id": 657756,
-          "name": "Connor Seabold",
-          "profileUrl": "https://www.mlb.com/player/connor-seabold-657756",
-          "pos": "P",
-          "jersey": "32",
-          "status": "Rehab Assignment",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 5,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "0.00",
-          "whip": "1.40",
-          "ip": "5.0",
-          "so": 5,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 668834,
           "name": "Easton McGee",
           "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
@@ -1535,29 +1515,6 @@
           "so": 14,
           "hasStats": true,
           "trend": "hot"
-        },
-        {
-          "id": 663704,
-          "name": "James McArthur",
-          "profileUrl": "https://www.mlb.com/player/james-mcarthur-663704",
-          "pos": "P",
-          "jersey": "48",
-          "status": "Rehab Assignment",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 2,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "0.00",
-          "whip": "0.50",
-          "ip": "2.0",
-          "so": 0,
-          "hasStats": true,
-          "trend": null
         },
         {
           "id": 607644,
@@ -7769,10 +7726,10 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 943497,
+      "id": 943495,
       "date": "2026-09-21",
-      "person": "Jack Pineda",
-      "description": "Omaha Storm Chasers activated SS Jack Pineda from the 7-day injured list.",
+      "person": "Elih Marrero",
+      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7785,10 +7742,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 943495,
+      "id": 943497,
       "date": "2026-09-21",
-      "person": "Elih Marrero",
-      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
+      "person": "Jack Pineda",
+      "description": "Omaha Storm Chasers activated SS Jack Pineda from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7865,11 +7822,11 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942647,
+      "id": 943886,
       "date": "2026-09-15",
-      "person": "Jorge Alfaro",
-      "description": "Omaha Storm Chasers transferred C Jorge Alfaro to the Development List.",
-      "fromTeam": null,
+      "person": "James McArthur",
+      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
     {
@@ -7877,6 +7834,14 @@
       "date": "2026-09-15",
       "person": "Spencer Bivens",
       "description": "Omaha Storm Chasers activated RHP Spencer Bivens.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942647,
+      "date": "2026-09-15",
+      "person": "Jorge Alfaro",
+      "description": "Omaha Storm Chasers transferred C Jorge Alfaro to the Development List.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7991,6 +7956,14 @@
       "description": "RHP Ethan Bosacker assigned to Northwest Arkansas Naturals from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 943887,
+      "date": "2026-09-10",
+      "person": "Connor Seabold",
+      "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 941967,
@@ -8305,20 +8278,20 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 939495,
-      "date": "2026-08-26",
-      "person": "John Means",
-      "description": "Omaha Storm Chasers sent LHP John Means on a rehab assignment to Quad Cities River Bandits.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
       "id": 939475,
       "date": "2026-08-26",
       "person": "Gavin Cross",
       "description": "Omaha Storm Chasers activated OF Gavin Cross from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 939495,
+      "date": "2026-08-26",
+      "person": "John Means",
+      "description": "Omaha Storm Chasers sent LHP John Means on a rehab assignment to Quad Cities River Bandits.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Quad Cities River Bandits"
     },
     {
       "id": 939479,
