@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T23:11:03.594Z",
+  "updatedAt": "2026-09-24T01:24:49.176Z",
   "season": 2026,
   "levels": [
     {
@@ -22,16 +22,6 @@
           "schedule": {
             "recent": [
               {
-                "date": "2026-09-20",
-                "opponent": "Pittsburgh Pirates",
-                "isHome": false,
-                "status": "Final",
-                "finalScore": {
-                  "us": 3,
-                  "them": 4
-                }
-              },
-              {
                 "date": "2026-09-22",
                 "opponent": "Chicago White Sox",
                 "isHome": true,
@@ -40,16 +30,16 @@
                   "us": 11,
                   "them": 14
                 }
-              }
-            ],
-            "upcoming": [
+              },
               {
                 "date": "2026-09-23",
                 "opponent": "Chicago White Sox",
                 "isHome": true,
-                "status": "Pre-Game",
+                "status": "In Progress",
                 "finalScore": null
-              },
+              }
+            ],
+            "upcoming": [
               {
                 "date": "2026-09-24",
                 "opponent": "Chicago White Sox",
@@ -95,7 +85,7 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 138,
+          "g": 139,
           "avg": ".283",
           "obp": ".362",
           "slg": ".444",
@@ -118,11 +108,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 145,
-          "avg": ".233",
-          "obp": ".320",
-          "slg": ".452",
-          "ops": ".772",
+          "g": 146,
+          "avg": ".235",
+          "obp": ".321",
+          "slg": ".453",
+          "ops": ".774",
           "hr": 25,
           "rbi": 76,
           "sb": 2,
@@ -141,16 +131,16 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 141,
-          "avg": ".217",
-          "obp": ".323",
-          "slg": ".329",
+          "g": 142,
+          "avg": ".216",
+          "obp": ".324",
+          "slg": ".328",
           "ops": ".652",
           "hr": 6,
           "rbi": 40,
           "sb": 8,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 695506,
@@ -164,11 +154,11 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 139,
+          "g": 140,
           "avg": ".283",
           "obp": ".336",
-          "slg": ".487",
-          "ops": ".823",
+          "slg": ".486",
+          "ops": ".822",
           "hr": 23,
           "rbi": 71,
           "sb": 7,
@@ -187,11 +177,11 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 48,
-          "avg": ".228",
-          "obp": ".315",
-          "slg": ".441",
-          "ops": ".756",
+          "g": 49,
+          "avg": ".225",
+          "obp": ".310",
+          "slg": ".434",
+          "ops": ".744",
           "hr": 6,
           "rbi": 13,
           "sb": 7,
@@ -279,13 +269,13 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 79,
-          "avg": ".256",
-          "obp": ".317",
-          "slg": ".369",
-          "ops": ".686",
+          "g": 80,
+          "avg": ".261",
+          "obp": ".323",
+          "slg": ".373",
+          "ops": ".696",
           "hr": 3,
-          "rbi": 35,
+          "rbi": 37,
           "sb": 5,
           "hasStats": true,
           "trend": "cold"
@@ -302,8 +292,8 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 127,
-          "avg": ".273",
+          "g": 128,
+          "avg": ".275",
           "obp": ".306",
           "slg": ".436",
           "ops": ".742",
@@ -348,11 +338,11 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 147,
+          "g": 148,
           "avg": ".228",
           "obp": ".271",
-          "slg": ".374",
-          "ops": ".645",
+          "slg": ".373",
+          "ops": ".644",
           "hr": 19,
           "rbi": 74,
           "sb": 1,
@@ -394,13 +384,13 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 109,
+          "g": 110,
           "avg": ".249",
           "obp": ".333",
-          "slg": ".418",
-          "ops": ".751",
+          "slg": ".420",
+          "ops": ".753",
           "hr": 15,
-          "rbi": 59,
+          "rbi": 60,
           "sb": 5,
           "hasStats": true,
           "trend": "hot"
@@ -442,13 +432,13 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 11,
+          "g": 12,
           "w": 1,
           "l": 1,
           "sv": 0,
           "era": "0.00",
-          "whip": "0.93",
-          "ip": "9.2",
+          "whip": "0.88",
+          "ip": "11.1",
           "so": 4,
           "hasStats": true,
           "trend": null
@@ -465,13 +455,13 @@
           "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": 16,
+          "g": 17,
           "w": 1,
           "l": 1,
           "sv": 0,
-          "era": "8.85",
-          "whip": "1.92",
-          "ip": "20.1",
+          "era": "8.57",
+          "whip": "1.90",
+          "ip": "21.0",
           "so": 16,
           "hasStats": true,
           "trend": "hot"
@@ -672,16 +662,16 @@
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 31,
+          "g": 32,
           "w": 7,
           "l": 9,
           "sv": 0,
-          "era": "5.06",
-          "whip": "1.46",
-          "ip": "169.0",
-          "so": 131,
+          "era": "5.17",
+          "whip": "1.47",
+          "ip": "172.1",
+          "so": 134,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 674444,
@@ -1006,18 +996,7 @@
             "streak": "W1"
           },
           "schedule": {
-            "recent": [
-              {
-                "date": "2026-09-20",
-                "opponent": "Iowa Cubs",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 14,
-                  "them": 3
-                }
-              }
-            ],
+            "recent": [],
             "upcoming": []
           }
         }
@@ -1044,7 +1023,7 @@
           "rbi": 70,
           "sb": 2,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 664670,
@@ -1090,7 +1069,7 @@
           "rbi": 74,
           "sb": 15,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 811287,
@@ -1713,7 +1692,7 @@
           "ip": "115.2",
           "so": 110,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 518397,
@@ -1973,7 +1952,7 @@
           "rbi": 33,
           "sb": 12,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 811278,
@@ -2065,7 +2044,7 @@
           "rbi": 47,
           "sb": 11,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 804114,
@@ -2228,7 +2207,7 @@
           "ip": "66.0",
           "so": 80,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 699489,
