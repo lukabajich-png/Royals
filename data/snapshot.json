@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T12:08:16.370Z",
+  "updatedAt": "2026-09-24T17:10:49.263Z",
   "season": 2026,
   "levels": [
     {
@@ -47,7 +47,7 @@
                 "date": "2026-09-24",
                 "opponent": "Chicago White Sox",
                 "isHome": true,
-                "status": "Scheduled",
+                "status": "Pre-Game",
                 "finalScore": null
               },
               {
@@ -677,25 +677,25 @@
           "trend": "cold"
         },
         {
-          "id": 674444,
-          "name": "Steven Cruz",
-          "profileUrl": "https://www.mlb.com/player/steven-cruz-674444",
+          "id": 702352,
+          "name": "Spencer Bivens",
+          "profileUrl": "https://www.mlb.com/player/spencer-bivens-702352",
           "pos": "P",
-          "jersey": "64",
+          "jersey": "76",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
           "throws": "R",
           "orgRank": null,
           "top100Rank": null,
-          "g": 56,
-          "w": 2,
-          "l": 4,
-          "sv": 8,
-          "era": "4.30",
-          "whip": "1.26",
-          "ip": "58.2",
-          "so": 65,
+          "g": 4,
+          "w": 0,
+          "l": 0,
+          "sv": 0,
+          "era": "14.40",
+          "whip": "3.00",
+          "ip": "5.0",
+          "so": 8,
           "hasStats": true,
           "trend": null
         },
@@ -976,6 +976,29 @@
           "whip": "1.24",
           "ip": "54.0",
           "so": 34,
+          "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 674444,
+          "name": "Steven Cruz",
+          "profileUrl": "https://www.mlb.com/player/steven-cruz-674444",
+          "pos": "P",
+          "jersey": "64",
+          "status": "Paternity List",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 56,
+          "w": 2,
+          "l": 4,
+          "sv": 8,
+          "era": "4.30",
+          "whip": "1.26",
+          "ip": "58.2",
+          "so": 65,
           "hasStats": true,
           "trend": null
         }
@@ -5677,29 +5700,6 @@
           "trend": null
         },
         {
-          "id": 821777,
-          "name": "Jose Mejia",
-          "profileUrl": "https://www.mlb.com/player/jose-mejia-821777",
-          "pos": "P",
-          "jersey": "17",
-          "status": "Active",
-          "team": "DSL Royals Fortuna",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 11,
-          "w": 2,
-          "l": 1,
-          "sv": 1,
-          "era": "5.02",
-          "whip": "2.02",
-          "ip": "14.1",
-          "so": 8,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 821792,
           "name": "Juan Rivera",
           "profileUrl": "https://www.mlb.com/player/juan-rivera-821792",
@@ -5811,29 +5811,6 @@
           "whip": "1.32",
           "ip": "22.0",
           "so": 14,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 823013,
-          "name": "Nomar Jimenez",
-          "profileUrl": "https://www.mlb.com/player/nomar-jimenez-823013",
-          "pos": "P",
-          "jersey": "23",
-          "status": "Active",
-          "team": "DSL Royals Fortuna",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 1,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "0.00",
-          "whip": "0.00",
-          "ip": "1.0",
-          "so": 1,
           "hasStats": true,
           "trend": null
         },
@@ -6804,29 +6781,6 @@
           "trend": null
         },
         {
-          "id": 702352,
-          "name": "Spencer Bivens",
-          "profileUrl": "https://www.mlb.com/player/spencer-bivens-702352",
-          "pos": "P",
-          "jersey": "34",
-          "status": "Active",
-          "team": "ACL Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": null,
-          "w": null,
-          "l": null,
-          "sv": null,
-          "era": null,
-          "whip": null,
-          "ip": null,
-          "so": null,
-          "hasStats": false,
-          "trend": null
-        },
-        {
           "id": 815040,
           "name": "Taylor Rabe",
           "profileUrl": "https://www.mlb.com/player/taylor-rabe-815040",
@@ -7767,18 +7721,50 @@
   },
   "transactions": [
     {
-      "id": 943498,
-      "date": "2026-09-21",
-      "person": "Oscar Rayo",
-      "description": "Northwest Arkansas Naturals activated LHP Oscar Rayo from the 7-day injured list.",
+      "id": 943822,
+      "date": "2026-09-24",
+      "person": "Nomar Jimenez",
+      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
       "fromTeam": null,
-      "toTeam": "Northwest Arkansas Naturals"
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 943823,
+      "date": "2026-09-24",
+      "person": "Jose Mejia",
+      "description": "DSL Royals Fortuna released LHP Jose Mejia.",
+      "fromTeam": null,
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 943792,
+      "date": "2026-09-24",
+      "person": "Spencer Bivens",
+      "description": "Kansas City Royals recalled RHP Spencer Bivens from ACL Royals.",
+      "fromTeam": "ACL Royals",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 943791,
+      "date": "2026-09-24",
+      "person": "Steven Cruz",
+      "description": "Kansas City Royals placed RHP Steven Cruz on the paternity list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 943496,
       "date": "2026-09-21",
       "person": "Andrew Morones",
       "description": "Northwest Arkansas Naturals activated RHP Andrew Morones from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 943498,
+      "date": "2026-09-21",
+      "person": "Oscar Rayo",
+      "description": "Northwest Arkansas Naturals activated LHP Oscar Rayo from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Northwest Arkansas Naturals"
     },
@@ -7847,18 +7833,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942823,
-      "date": "2026-09-16",
-      "person": "Bobby Witt Jr.",
-      "description": "SS Bobby Witt Jr. changed number to 7.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 942835,
       "date": "2026-09-16",
       "person": "Salvador Perez",
       "description": "DH Salvador Perez changed number to 13.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 942823,
+      "date": "2026-09-16",
+      "person": "Bobby Witt Jr.",
+      "description": "SS Bobby Witt Jr. changed number to 7.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7895,14 +7881,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942633,
-      "date": "2026-09-15",
-      "person": "Easton McGee",
-      "description": "Kansas City Royals optioned RHP Easton McGee to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 942632,
       "date": "2026-09-15",
       "person": "Matthew Lugo",
@@ -7911,20 +7889,12 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942746,
+      "id": 942633,
       "date": "2026-09-15",
-      "person": "Bobby Witt Jr.",
-      "description": "SS Bobby Witt Jr. changed number to 21.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 942745,
-      "date": "2026-09-15",
-      "person": "Seth Lugo",
-      "description": "RHP Seth Lugo changed number to 21.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
+      "person": "Easton McGee",
+      "description": "Kansas City Royals optioned RHP Easton McGee to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 942646,
@@ -7939,6 +7909,22 @@
       "date": "2026-09-15",
       "person": "Salvador Perez",
       "description": "DH Salvador Perez changed number to 21.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 942745,
+      "date": "2026-09-15",
+      "person": "Seth Lugo",
+      "description": "RHP Seth Lugo changed number to 21.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 942746,
+      "date": "2026-09-15",
+      "person": "Bobby Witt Jr.",
+      "description": "SS Bobby Witt Jr. changed number to 21.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7975,20 +7961,20 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942200,
-      "date": "2026-09-12",
-      "person": "Spencer Bivens",
-      "description": "Kansas City Royals claimed RHP Spencer Bivens off waivers from San Francisco Giants.",
-      "fromTeam": "San Francisco Giants",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 942201,
       "date": "2026-09-12",
       "person": "Spencer Bivens",
       "description": "Kansas City Royals optioned RHP Spencer Bivens to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942200,
+      "date": "2026-09-12",
+      "person": "Spencer Bivens",
+      "description": "Kansas City Royals claimed RHP Spencer Bivens off waivers from San Francisco Giants.",
+      "fromTeam": "San Francisco Giants",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 941985,
@@ -8047,14 +8033,6 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 941697,
-      "date": "2026-09-08",
-      "person": "Ricson Gonzalez",
-      "description": "C Ricson Gonzalez assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
-      "fromTeam": "Columbia Fireflies",
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
       "id": 941696,
       "date": "2026-09-08",
       "person": "Coleman Picard",
@@ -8067,6 +8045,14 @@
       "date": "2026-09-08",
       "person": "Connor Rasmussen",
       "description": "2B Connor Rasmussen assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
+      "fromTeam": "Columbia Fireflies",
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 941697,
+      "date": "2026-09-08",
+      "person": "Ricson Gonzalez",
+      "description": "C Ricson Gonzalez assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
       "fromTeam": "Columbia Fireflies",
       "toTeam": "Northwest Arkansas Naturals"
     },
@@ -8127,6 +8113,14 @@
       "toTeam": "Columbia Fireflies"
     },
     {
+      "id": 940894,
+      "date": "2026-09-02",
+      "person": "Brandon Herbold",
+      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
       "id": 940877,
       "date": "2026-09-02",
       "person": "Brandon Herbold",
@@ -8139,14 +8133,6 @@
       "date": "2026-09-02",
       "person": "Shane Van Dam",
       "description": "Columbia Fireflies transferred RHP Shane Van Dam to the Development List.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
-      "id": 940894,
-      "date": "2026-09-02",
-      "person": "Brandon Herbold",
-      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -8239,7 +8225,7 @@
       "toTeam": "New York Yankees"
     },
     {
-      "id": 943678,
+      "id": 940317,
       "date": "2026-08-30",
       "person": "Trevor Werner",
       "description": "Quad Cities River Bandits placed 1B Trevor Werner on the full-season injured list.",
@@ -8247,7 +8233,7 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 940317,
+      "id": 943678,
       "date": "2026-08-30",
       "person": "Trevor Werner",
       "description": "Quad Cities River Bandits placed 1B Trevor Werner on the full-season injured list.",
@@ -8263,18 +8249,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 939867,
-      "date": "2026-08-28",
-      "person": "Luca Tresh",
-      "description": "Omaha Storm Chasers placed C Luca Tresh on the temporarily inactive list.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 939868,
       "date": "2026-08-28",
       "person": "Mason Black",
       "description": "Omaha Storm Chasers activated RHP Mason Black.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 939867,
+      "date": "2026-08-28",
+      "person": "Luca Tresh",
+      "description": "Omaha Storm Chasers placed C Luca Tresh on the temporarily inactive list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
