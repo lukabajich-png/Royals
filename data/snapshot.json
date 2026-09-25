@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T21:08:01.054Z",
+  "updatedAt": "2026-09-25T23:56:50.563Z",
   "season": 2026,
   "levels": [
     {
@@ -57,7 +57,7 @@
                 "date": "2026-09-25",
                 "opponent": "Cleveland Guardians",
                 "isHome": true,
-                "status": "Pre-Game",
+                "status": "Warmup",
                 "finalScore": null
               },
               {
@@ -1285,6 +1285,29 @@
           "trend": "hot"
         },
         {
+          "id": 595751,
+          "name": "Jorge Alfaro",
+          "profileUrl": "https://www.mlb.com/player/jorge-alfaro-595751",
+          "pos": "C",
+          "jersey": "19",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 6,
+          "avg": ".261",
+          "obp": ".320",
+          "slg": ".478",
+          "ops": ".798",
+          "hr": 1,
+          "rbi": 3,
+          "sb": 0,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 681123,
           "name": "Luca Tresh",
           "profileUrl": "https://www.mlb.com/player/luca-tresh-681123",
@@ -1745,29 +1768,6 @@
           "hr": 0,
           "rbi": 4,
           "sb": 1,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 595751,
-          "name": "Jorge Alfaro",
-          "profileUrl": "https://www.mlb.com/player/jorge-alfaro-595751",
-          "pos": "C",
-          "jersey": "19",
-          "status": "Development List",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 6,
-          "avg": ".261",
-          "obp": ".320",
-          "slg": ".478",
-          "ops": ".798",
-          "hr": 1,
-          "rbi": 3,
-          "sb": 0,
           "hasStats": true,
           "trend": null
         }
@@ -7710,6 +7710,14 @@
       "toTeam": "Kansas City Royals"
     },
     {
+      "id": 943971,
+      "date": "2026-09-22",
+      "person": "Jorge Alfaro",
+      "description": "Omaha Storm Chasers activated C Jorge Alfaro from the Development List.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 943498,
       "date": "2026-09-21",
       "person": "Oscar Rayo",
@@ -7726,14 +7734,6 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 943495,
-      "date": "2026-09-21",
-      "person": "Elih Marrero",
-      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 943499,
       "date": "2026-09-21",
       "person": "Mitch Spence",
@@ -7746,6 +7746,14 @@
       "date": "2026-09-21",
       "person": "Jack Pineda",
       "description": "Omaha Storm Chasers activated SS Jack Pineda from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 943495,
+      "date": "2026-09-21",
+      "person": "Elih Marrero",
+      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7822,11 +7830,11 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 943886,
+      "id": 942647,
       "date": "2026-09-15",
-      "person": "James McArthur",
-      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
+      "person": "Jorge Alfaro",
+      "description": "Omaha Storm Chasers transferred C Jorge Alfaro to the Development List.",
+      "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
     {
@@ -7838,11 +7846,11 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942647,
+      "id": 943886,
       "date": "2026-09-15",
-      "person": "Jorge Alfaro",
-      "description": "Omaha Storm Chasers transferred C Jorge Alfaro to the Development List.",
-      "fromTeam": null,
+      "person": "James McArthur",
+      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
     {
@@ -8030,18 +8038,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 941637,
-      "date": "2026-09-08",
-      "person": "Hunter Owen",
-      "description": "LHP Hunter Owen assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
-      "fromTeam": "Northwest Arkansas Naturals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 941639,
       "date": "2026-09-08",
       "person": "Javier Vaz",
       "description": "OF Javier Vaz assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
+      "fromTeam": "Northwest Arkansas Naturals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 941637,
+      "date": "2026-09-08",
+      "person": "Hunter Owen",
+      "description": "LHP Hunter Owen assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
       "fromTeam": "Northwest Arkansas Naturals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8222,18 +8230,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 939867,
-      "date": "2026-08-28",
-      "person": "Luca Tresh",
-      "description": "Omaha Storm Chasers placed C Luca Tresh on the temporarily inactive list.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 939868,
       "date": "2026-08-28",
       "person": "Mason Black",
       "description": "Omaha Storm Chasers activated RHP Mason Black.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 939867,
+      "date": "2026-08-28",
+      "person": "Luca Tresh",
+      "description": "Omaha Storm Chasers placed C Luca Tresh on the temporarily inactive list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8278,20 +8286,20 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 939475,
-      "date": "2026-08-26",
-      "person": "Gavin Cross",
-      "description": "Omaha Storm Chasers activated OF Gavin Cross from the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 939495,
       "date": "2026-08-26",
       "person": "John Means",
       "description": "Omaha Storm Chasers sent LHP John Means on a rehab assignment to Quad Cities River Bandits.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Quad Cities River Bandits"
+    },
+    {
+      "id": 939475,
+      "date": "2026-08-26",
+      "person": "Gavin Cross",
+      "description": "Omaha Storm Chasers activated OF Gavin Cross from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 939479,
