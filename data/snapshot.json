@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T17:46:40.806Z",
+  "updatedAt": "2026-09-25T21:08:01.054Z",
   "season": 2026,
   "levels": [
     {
@@ -57,7 +57,7 @@
                 "date": "2026-09-25",
                 "opponent": "Cleveland Guardians",
                 "isHome": true,
-                "status": "Scheduled",
+                "status": "Pre-Game",
                 "finalScore": null
               },
               {
