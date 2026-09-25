@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T23:28:05.971Z",
+  "updatedAt": "2026-09-25T01:48:40.830Z",
   "season": 2026,
   "levels": [
     {
@@ -15,7 +15,7 @@
             "wins": 68,
             "losses": 91,
             "winningPct": ".428",
-            "gamesBack": "14.5",
+            "gamesBack": "15.0",
             "divisionRank": "5",
             "streak": "L1"
           },
@@ -40,9 +40,7 @@
                   "us": 5,
                   "them": 4
                 }
-              }
-            ],
-            "upcoming": [
+              },
               {
                 "date": "2026-09-24",
                 "opponent": "Chicago White Sox",
@@ -52,7 +50,9 @@
                   "us": 1,
                   "them": 9
                 }
-              },
+              }
+            ],
+            "upcoming": [
               {
                 "date": "2026-09-25",
                 "opponent": "Cleveland Guardians",
@@ -123,7 +123,7 @@
           "rbi": 76,
           "sb": 2,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 686555,
@@ -585,7 +585,7 @@
           "ip": "44.2",
           "so": 41,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 702070,
@@ -1052,7 +1052,7 @@
           "rbi": 70,
           "sb": 2,
           "hasStats": true,
-          "trend": null
+          "trend": "cold"
         },
         {
           "id": 664670,
@@ -1282,7 +1282,7 @@
           "rbi": 1,
           "sb": 5,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 681123,
@@ -1468,7 +1468,7 @@
           "ip": "97.2",
           "so": 96,
           "hasStats": true,
-          "trend": "cold"
+          "trend": "hot"
         },
         {
           "id": 694818,
@@ -2027,7 +2027,7 @@
           "rbi": 47,
           "sb": 11,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 804114,
@@ -2561,7 +2561,7 @@
           "ip": "129.0",
           "so": 99,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 703610,
@@ -7575,7 +7575,7 @@
         "ip": "129.0",
         "so": 99,
         "hasStats": true,
-        "trend": "hot",
+        "trend": null,
         "level": "AA"
       },
       {
@@ -8299,62 +8299,6 @@
       "person": "Tony Gonsolin",
       "description": "Kansas City Royals sent RHP Tony Gonsolin on a rehab assignment to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 939262,
-      "date": "2026-08-25",
-      "person": "Grant Fontenot",
-      "description": "RHP Grant Fontenot assigned to Columbia Fireflies from ACL Royals.",
-      "fromTeam": "ACL Royals",
-      "toTeam": "Columbia Fireflies"
-    },
-    {
-      "id": 939263,
-      "date": "2026-08-25",
-      "person": "Brandon Herbold",
-      "description": "Columbia Fireflies transferred LHP Brandon Herbold to the Development List.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
-      "id": 939244,
-      "date": "2026-08-25",
-      "person": "Ramon Ramirez",
-      "description": "Quad Cities River Bandits activated C Ramon Ramirez from the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
-      "id": 939245,
-      "date": "2026-08-25",
-      "person": "Hyungchan Um",
-      "description": "C Hyungchan Um assigned to Northwest Arkansas Naturals from Quad Cities River Bandits.",
-      "fromTeam": "Quad Cities River Bandits",
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 939305,
-      "date": "2026-08-25",
-      "person": "Hyungchan Um",
-      "description": "Northwest Arkansas Naturals activated C Hyungchan Um.",
-      "fromTeam": null,
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 939306,
-      "date": "2026-08-25",
-      "person": "Omar Hernandez",
-      "description": "C Omar Hernandez assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
-      "fromTeam": "Northwest Arkansas Naturals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 939312,
-      "date": "2026-08-25",
-      "person": "Jack Pineda",
-      "description": "Omaha Storm Chasers placed SS Jack Pineda on the 7-day injured list retroactive to August 22, 2026.",
-      "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     }
   ],
