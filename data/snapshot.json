@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T13:49:12.498Z",
+  "updatedAt": "2026-09-26T17:37:14.561Z",
   "season": 2026,
   "levels": [
     {
@@ -3252,6 +3252,29 @@
           "trend": null
         },
         {
+          "id": 694921,
+          "name": "Nick Conte",
+          "profileUrl": "https://www.mlb.com/player/nick-conte-694921",
+          "pos": "P",
+          "jersey": "49",
+          "status": "Active",
+          "team": "Quad Cities River Bandits",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 36,
+          "w": 0,
+          "l": 2,
+          "sv": 1,
+          "era": "5.75",
+          "whip": "1.72",
+          "ip": "51.2",
+          "so": 48,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 802996,
           "name": "Rob Hensey",
           "profileUrl": "https://www.mlb.com/player/rob-hensey-802996",
@@ -3445,7 +3468,7 @@
           "profileUrl": "https://www.mlb.com/player/josh-hansell-700985",
           "pos": "P",
           "jersey": "",
-          "status": "Injured 7-Day",
+          "status": "Injured 60-Day",
           "team": "Quad Cities River Bandits",
           "bats": "R",
           "throws": "R",
@@ -3459,29 +3482,6 @@
           "whip": "1.40",
           "ip": "40.2",
           "so": 41,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 694921,
-          "name": "Nick Conte",
-          "profileUrl": "https://www.mlb.com/player/nick-conte-694921",
-          "pos": "P",
-          "jersey": "49",
-          "status": "Injured 7-Day",
-          "team": "Quad Cities River Bandits",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 36,
-          "w": 0,
-          "l": 2,
-          "sv": 1,
-          "era": "5.75",
-          "whip": "1.72",
-          "ip": "51.2",
-          "so": 48,
           "hasStats": true,
           "trend": null
         }
@@ -7783,6 +7783,14 @@
       "toTeam": "Kansas City Royals"
     },
     {
+      "id": 944088,
+      "date": "2026-09-17",
+      "person": "Nick Conte",
+      "description": "Quad Cities River Bandits activated RHP Nick Conte from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Quad Cities River Bandits"
+    },
+    {
       "id": 942834,
       "date": "2026-09-16",
       "person": "Seth Lugo",
@@ -7991,18 +7999,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 941612,
-      "date": "2026-09-08",
-      "person": "Henry Ramos",
-      "description": "OF Henry Ramos assigned to Quad Cities River Bandits from Columbia Fireflies.",
-      "fromTeam": "Columbia Fireflies",
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
       "id": 941613,
       "date": "2026-09-08",
       "person": "Camden Johnson",
       "description": "SS Camden Johnson assigned to Quad Cities River Bandits from Columbia Fireflies.",
+      "fromTeam": "Columbia Fireflies",
+      "toTeam": "Quad Cities River Bandits"
+    },
+    {
+      "id": 941612,
+      "date": "2026-09-08",
+      "person": "Henry Ramos",
+      "description": "OF Henry Ramos assigned to Quad Cities River Bandits from Columbia Fireflies.",
       "fromTeam": "Columbia Fireflies",
       "toTeam": "Quad Cities River Bandits"
     },
