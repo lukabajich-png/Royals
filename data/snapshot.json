@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T15:58:56.356Z",
+  "updatedAt": "2026-09-28T21:48:52.828Z",
   "season": 2026,
   "levels": [
     {
@@ -1449,6 +1449,29 @@
           "trend": null
         },
         {
+          "id": 815073,
+          "name": "Ethan Bosacker",
+          "profileUrl": "https://www.mlb.com/player/ethan-bosacker-815073",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 26,
+          "w": 4,
+          "l": 1,
+          "sv": 0,
+          "era": "6.04",
+          "whip": "1.62",
+          "ip": "50.2",
+          "so": 40,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 689275,
           "name": "Henry Williams",
           "profileUrl": "https://www.mlb.com/player/henry-williams-689275",
@@ -1771,29 +1794,6 @@
           "whip": "1.88",
           "ip": "10.2",
           "so": 14,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 815073,
-          "name": "Ethan Bosacker",
-          "profileUrl": "https://www.mlb.com/player/ethan-bosacker-815073",
-          "pos": "P",
-          "jersey": "",
-          "status": "Development List",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 26,
-          "w": 4,
-          "l": 1,
-          "sv": 0,
-          "era": "6.04",
-          "whip": "1.62",
-          "ip": "50.2",
-          "so": 40,
           "hasStats": true,
           "trend": null
         },
@@ -3702,6 +3702,29 @@
           "sb": 2,
           "hasStats": true,
           "trend": null
+        },
+        {
+          "id": 815902,
+          "name": "Yandel Ricardo",
+          "profileUrl": "https://www.mlb.com/player/yandel-ricardo-815902",
+          "pos": "SS",
+          "jersey": "11",
+          "status": "Active",
+          "team": "Columbia Fireflies",
+          "bats": "S",
+          "throws": "R",
+          "orgRank": 11,
+          "top100Rank": null,
+          "g": 109,
+          "avg": ".266",
+          "obp": ".351",
+          "slg": ".398",
+          "ops": ".749",
+          "hr": 7,
+          "rbi": 47,
+          "sb": 27,
+          "hasStats": true,
+          "trend": null
         }
       ],
       "pitchers": [
@@ -3794,6 +3817,29 @@
           "whip": "2.10",
           "ip": "30.0",
           "so": 38,
+          "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 692290,
+          "name": "Carter Holton",
+          "profileUrl": "https://www.mlb.com/player/carter-holton-692290",
+          "pos": "P",
+          "jersey": "36",
+          "status": "Active",
+          "team": "Columbia Fireflies",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 7,
+          "w": 2,
+          "l": 1,
+          "sv": 0,
+          "era": "5.08",
+          "whip": "1.37",
+          "ip": "33.2",
+          "so": 30,
           "hasStats": true,
           "trend": null
         },
@@ -3982,6 +4028,29 @@
           "trend": null
         },
         {
+          "id": 813533,
+          "name": "Michael Lombardi",
+          "profileUrl": "https://www.mlb.com/player/michael-lombardi-813533",
+          "pos": "P",
+          "jersey": "22",
+          "status": "Active",
+          "team": "Columbia Fireflies",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": 13,
+          "top100Rank": null,
+          "g": 23,
+          "w": 2,
+          "l": 4,
+          "sv": 0,
+          "era": "3.68",
+          "whip": "1.42",
+          "ip": "88.0",
+          "so": 124,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 808668,
           "name": "Moises Amezquita",
           "profileUrl": "https://www.mlb.com/player/moises-amezquita-808668",
@@ -4005,6 +4074,29 @@
           "trend": null
         },
         {
+          "id": 835609,
+          "name": "Randy Ramnarace",
+          "profileUrl": "https://www.mlb.com/player/randy-ramnarace-835609",
+          "pos": "P",
+          "jersey": "28",
+          "status": "Active",
+          "team": "Columbia Fireflies",
+          "bats": "L",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 30,
+          "w": 0,
+          "l": 6,
+          "sv": 1,
+          "era": "3.68",
+          "whip": "1.75",
+          "ip": "44.0",
+          "so": 41,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 816014,
           "name": "Ryan McDonagh",
           "profileUrl": "https://www.mlb.com/player/ryan-mcdonagh-816014",
@@ -4024,6 +4116,29 @@
           "whip": "1.22",
           "ip": "46.0",
           "so": 46,
+          "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 822461,
+          "name": "Shane Van Dam",
+          "profileUrl": "https://www.mlb.com/player/shane-van-dam-822461",
+          "pos": "P",
+          "jersey": "32",
+          "status": "Active",
+          "team": "Columbia Fireflies",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 23,
+          "w": 3,
+          "l": 6,
+          "sv": 0,
+          "era": "4.53",
+          "whip": "1.47",
+          "ip": "93.1",
+          "so": 83,
           "hasStats": true,
           "trend": null
         },
@@ -4074,55 +4189,9 @@
           "sb": 6,
           "hasStats": true,
           "trend": null
-        },
-        {
-          "id": 815902,
-          "name": "Yandel Ricardo",
-          "profileUrl": "https://www.mlb.com/player/yandel-ricardo-815902",
-          "pos": "SS",
-          "jersey": "11",
-          "status": "Injured 7-Day",
-          "team": "Columbia Fireflies",
-          "bats": "S",
-          "throws": "R",
-          "orgRank": 11,
-          "top100Rank": null,
-          "g": 109,
-          "avg": ".266",
-          "obp": ".351",
-          "slg": ".398",
-          "ops": ".749",
-          "hr": 7,
-          "rbi": 47,
-          "sb": 27,
-          "hasStats": true,
-          "trend": null
         }
       ],
       "reservePitchers": [
-        {
-          "id": 692290,
-          "name": "Carter Holton",
-          "profileUrl": "https://www.mlb.com/player/carter-holton-692290",
-          "pos": "P",
-          "jersey": "36",
-          "status": "Injured 7-Day",
-          "team": "Columbia Fireflies",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 7,
-          "w": 2,
-          "l": 1,
-          "sv": 0,
-          "era": "5.08",
-          "whip": "1.37",
-          "ip": "33.2",
-          "so": 30,
-          "hasStats": true,
-          "trend": null
-        },
         {
           "id": 702965,
           "name": "Hiro Wyatt",
@@ -4143,75 +4212,6 @@
           "whip": "1.46",
           "ip": "28.0",
           "so": 24,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 813533,
-          "name": "Michael Lombardi",
-          "profileUrl": "https://www.mlb.com/player/michael-lombardi-813533",
-          "pos": "P",
-          "jersey": "22",
-          "status": "Development List",
-          "team": "Columbia Fireflies",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": 13,
-          "top100Rank": null,
-          "g": 23,
-          "w": 2,
-          "l": 4,
-          "sv": 0,
-          "era": "3.68",
-          "whip": "1.42",
-          "ip": "88.0",
-          "so": 124,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 835609,
-          "name": "Randy Ramnarace",
-          "profileUrl": "https://www.mlb.com/player/randy-ramnarace-835609",
-          "pos": "P",
-          "jersey": "28",
-          "status": "Injured 7-Day",
-          "team": "Columbia Fireflies",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 30,
-          "w": 0,
-          "l": 6,
-          "sv": 1,
-          "era": "3.68",
-          "whip": "1.75",
-          "ip": "44.0",
-          "so": 41,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 822461,
-          "name": "Shane Van Dam",
-          "profileUrl": "https://www.mlb.com/player/shane-van-dam-822461",
-          "pos": "P",
-          "jersey": "32",
-          "status": "Development List",
-          "team": "Columbia Fireflies",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 23,
-          "w": 3,
-          "l": 6,
-          "sv": 0,
-          "era": "4.53",
-          "whip": "1.47",
-          "ip": "93.1",
-          "so": 83,
           "hasStats": true,
           "trend": null
         }
@@ -7081,7 +7081,7 @@
         "profileUrl": "https://www.mlb.com/player/yandel-ricardo-815902",
         "pos": "SS",
         "jersey": "11",
-        "status": "Injured 7-Day",
+        "status": "Active",
         "team": "Columbia Fireflies",
         "bats": "S",
         "throws": "R",
@@ -7419,7 +7419,7 @@
         "profileUrl": "https://www.mlb.com/player/michael-lombardi-813533",
         "pos": "P",
         "jersey": "22",
-        "status": "Development List",
+        "status": "Active",
         "team": "Columbia Fireflies",
         "bats": "R",
         "throws": "R",
@@ -7641,6 +7641,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 944264,
+      "date": "2026-09-28",
+      "person": "Ethan Bosacker",
+      "description": "Omaha Storm Chasers activated RHP Ethan Bosacker from the Development List.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 944174,
       "date": "2026-09-27",
       "person": "Steven Cruz",
@@ -7721,6 +7729,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 943498,
+      "date": "2026-09-21",
+      "person": "Oscar Rayo",
+      "description": "Northwest Arkansas Naturals activated LHP Oscar Rayo from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
       "id": 943496,
       "date": "2026-09-21",
       "person": "Andrew Morones",
@@ -7729,12 +7745,12 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 943498,
+      "id": 943495,
       "date": "2026-09-21",
-      "person": "Oscar Rayo",
-      "description": "Northwest Arkansas Naturals activated LHP Oscar Rayo from the 7-day injured list.",
+      "person": "Elih Marrero",
+      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
       "fromTeam": null,
-      "toTeam": "Northwest Arkansas Naturals"
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 943497,
@@ -7749,14 +7765,6 @@
       "date": "2026-09-21",
       "person": "Mitch Spence",
       "description": "Omaha Storm Chasers activated RHP Mitch Spence from the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 943495,
-      "date": "2026-09-21",
-      "person": "Elih Marrero",
-      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7793,20 +7801,52 @@
       "toTeam": "Kansas City Royals"
     },
     {
+      "id": 944203,
+      "date": "2026-09-17",
+      "person": "Yandel Ricardo",
+      "description": "Columbia Fireflies activated SS Yandel Ricardo from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 944205,
+      "date": "2026-09-17",
+      "person": "Shane Van Dam",
+      "description": "Columbia Fireflies activated RHP Shane Van Dam from the Development List.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 944202,
+      "date": "2026-09-17",
+      "person": "Randy Ramnarace",
+      "description": "Columbia Fireflies activated RHP Randy Ramnarace from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 944201,
+      "date": "2026-09-17",
+      "person": "Carter Holton",
+      "description": "Columbia Fireflies activated LHP Carter Holton from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 944204,
+      "date": "2026-09-17",
+      "person": "Michael Lombardi",
+      "description": "Columbia Fireflies activated RHP Michael Lombardi from the Development List.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
       "id": 944088,
       "date": "2026-09-17",
       "person": "Nick Conte",
       "description": "Quad Cities River Bandits activated RHP Nick Conte from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Quad Cities River Bandits"
-    },
-    {
-      "id": 942823,
-      "date": "2026-09-16",
-      "person": "Bobby Witt Jr.",
-      "description": "SS Bobby Witt Jr. changed number to 7.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
     },
     {
       "id": 942834,
@@ -7821,6 +7861,14 @@
       "date": "2026-09-16",
       "person": "Salvador Perez",
       "description": "DH Salvador Perez changed number to 13.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 942823,
+      "date": "2026-09-16",
+      "person": "Bobby Witt Jr.",
+      "description": "SS Bobby Witt Jr. changed number to 7.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7857,14 +7905,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942633,
-      "date": "2026-09-15",
-      "person": "Easton McGee",
-      "description": "Kansas City Royals optioned RHP Easton McGee to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 942632,
       "date": "2026-09-15",
       "person": "Matthew Lugo",
@@ -7873,7 +7913,15 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942646,
+      "id": 942633,
+      "date": "2026-09-15",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals optioned RHP Easton McGee to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 943886,
       "date": "2026-09-15",
       "person": "James McArthur",
       "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
@@ -7881,18 +7929,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942746,
+      "id": 942636,
       "date": "2026-09-15",
-      "person": "Bobby Witt Jr.",
-      "description": "SS Bobby Witt Jr. changed number to 21.",
+      "person": "Maikel Garcia",
+      "description": "Kansas City Royals activated 3B Maikel Garcia from the 10-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942744,
+      "id": 942746,
       "date": "2026-09-15",
-      "person": "Salvador Perez",
-      "description": "DH Salvador Perez changed number to 21.",
+      "person": "Bobby Witt Jr.",
+      "description": "SS Bobby Witt Jr. changed number to 21.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7905,20 +7953,20 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942636,
-      "date": "2026-09-15",
-      "person": "Maikel Garcia",
-      "description": "Kansas City Royals activated 3B Maikel Garcia from the 10-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 943886,
+      "id": 942646,
       "date": "2026-09-15",
       "person": "James McArthur",
       "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942744,
+      "date": "2026-09-15",
+      "person": "Salvador Perez",
+      "description": "DH Salvador Perez changed number to 21.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 942283,
@@ -7945,20 +7993,20 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942201,
-      "date": "2026-09-12",
-      "person": "Spencer Bivens",
-      "description": "Kansas City Royals optioned RHP Spencer Bivens to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 942200,
       "date": "2026-09-12",
       "person": "Spencer Bivens",
       "description": "Kansas City Royals claimed RHP Spencer Bivens off waivers from San Francisco Giants.",
       "fromTeam": "San Francisco Giants",
       "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 942201,
+      "date": "2026-09-12",
+      "person": "Spencer Bivens",
+      "description": "Kansas City Royals optioned RHP Spencer Bivens to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 941985,
@@ -7985,7 +8033,7 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 943887,
+      "id": 941968,
       "date": "2026-09-10",
       "person": "Connor Seabold",
       "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
@@ -7993,7 +8041,7 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 941968,
+      "id": 943887,
       "date": "2026-09-10",
       "person": "Connor Seabold",
       "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
@@ -8025,6 +8073,14 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
+      "id": 941697,
+      "date": "2026-09-08",
+      "person": "Ricson Gonzalez",
+      "description": "C Ricson Gonzalez assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
+      "fromTeam": "Columbia Fireflies",
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
       "id": 941696,
       "date": "2026-09-08",
       "person": "Coleman Picard",
@@ -8037,14 +8093,6 @@
       "date": "2026-09-08",
       "person": "Connor Rasmussen",
       "description": "2B Connor Rasmussen assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
-      "fromTeam": "Columbia Fireflies",
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 941697,
-      "date": "2026-09-08",
-      "person": "Ricson Gonzalez",
-      "description": "C Ricson Gonzalez assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
       "fromTeam": "Columbia Fireflies",
       "toTeam": "Northwest Arkansas Naturals"
     },
@@ -8113,14 +8161,6 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 940877,
-      "date": "2026-09-02",
-      "person": "Brandon Herbold",
-      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
       "id": 940876,
       "date": "2026-09-02",
       "person": "Shane Van Dam",
@@ -8129,18 +8169,26 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 940867,
+      "id": 940877,
       "date": "2026-09-02",
-      "person": "Michael Massey",
-      "description": "Kansas City Royals activated 2B Michael Massey from the 7-day injured list.",
+      "person": "Brandon Herbold",
+      "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
       "fromTeam": null,
-      "toTeam": "Kansas City Royals"
+      "toTeam": "Columbia Fireflies"
     },
     {
       "id": 940866,
       "date": "2026-09-02",
       "person": "Drew Waters",
       "description": "Kansas City Royals designated LF Drew Waters for assignment.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 940867,
+      "date": "2026-09-02",
+      "person": "Michael Massey",
+      "description": "Kansas City Royals activated 2B Michael Massey from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8177,10 +8225,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 940485,
+      "id": 940483,
       "date": "2026-09-01",
-      "person": "Drew Waters",
-      "description": "Kansas City Royals selected the contract of LF Drew Waters from Omaha Storm Chasers.",
+      "person": "Nolan Hoffman",
+      "description": "Kansas City Royals recalled RHP Nolan Hoffman from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -8193,10 +8241,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 940483,
+      "id": 940485,
       "date": "2026-09-01",
-      "person": "Nolan Hoffman",
-      "description": "Kansas City Royals recalled RHP Nolan Hoffman from Omaha Storm Chasers.",
+      "person": "Drew Waters",
+      "description": "Kansas City Royals selected the contract of LF Drew Waters from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
