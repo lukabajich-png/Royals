@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T14:15:07.882Z",
+  "updatedAt": "2026-09-29T19:27:45.438Z",
   "season": 2026,
   "levels": [
     {
@@ -301,6 +301,29 @@
           "trend": "cold"
         },
         {
+          "id": 679845,
+          "name": "Nick Loftin",
+          "profileUrl": "https://www.mlb.com/player/nick-loftin-679845",
+          "pos": "3B",
+          "jersey": "12",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 118,
+          "avg": ".240",
+          "obp": ".322",
+          "slg": ".388",
+          "ops": ".710",
+          "hr": 8,
+          "rbi": 45,
+          "sb": 4,
+          "hasStats": true,
+          "trend": "hot"
+        },
+        {
           "id": 521692,
           "name": "Salvador Perez",
           "profileUrl": "https://www.mlb.com/player/salvador-perez-521692",
@@ -418,6 +441,75 @@
           "trend": null
         },
         {
+          "id": 694360,
+          "name": "Beck Way",
+          "profileUrl": "https://www.mlb.com/player/beck-way-694360",
+          "pos": "P",
+          "jersey": "44",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 19,
+          "w": 1,
+          "l": 1,
+          "sv": 0,
+          "era": "3.86",
+          "whip": "1.59",
+          "ip": "23.1",
+          "so": 21,
+          "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 695667,
+          "name": "Ben Kudrna",
+          "profileUrl": "https://www.mlb.com/player/ben-kudrna-695667",
+          "pos": "P",
+          "jersey": "59",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": 19,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false,
+          "trend": null
+        },
+        {
+          "id": 679922,
+          "name": "Carlos Duran",
+          "profileUrl": "https://www.mlb.com/player/carlos-duran-679922",
+          "pos": "P",
+          "jersey": "45",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 2,
+          "w": 1,
+          "l": 0,
+          "sv": 0,
+          "era": "13.50",
+          "whip": "3.75",
+          "ip": "1.1",
+          "so": 1,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 671162,
           "name": "Connor Thomas",
           "profileUrl": "https://www.mlb.com/player/connor-thomas-671162",
@@ -441,6 +533,29 @@
           "trend": "hot"
         },
         {
+          "id": 518886,
+          "name": "Craig Kimbrel",
+          "profileUrl": "https://www.mlb.com/player/craig-kimbrel-518886",
+          "pos": "P",
+          "jersey": "26",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 46,
+          "w": 1,
+          "l": 5,
+          "sv": 1,
+          "era": "4.50",
+          "whip": "1.35",
+          "ip": "46.0",
+          "so": 40,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 663738,
           "name": "Daniel Lynch IV",
           "profileUrl": "https://www.mlb.com/player/daniel-lynch-iv-663738",
@@ -462,6 +577,29 @@
           "so": 56,
           "hasStats": true,
           "trend": "cold"
+        },
+        {
+          "id": 668834,
+          "name": "Easton McGee",
+          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
+          "pos": "P",
+          "jersey": "51",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 9,
+          "w": 0,
+          "l": 0,
+          "sv": 0,
+          "era": "7.15",
+          "whip": "1.94",
+          "ip": "11.1",
+          "so": 9,
+          "hasStats": true,
+          "trend": null
         },
         {
           "id": 663704,
@@ -533,6 +671,29 @@
           "trend": "hot"
         },
         {
+          "id": 696131,
+          "name": "Mason Black",
+          "profileUrl": "https://www.mlb.com/player/mason-black-696131",
+          "pos": "P",
+          "jersey": "47",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 17,
+          "w": 0,
+          "l": 0,
+          "sv": 0,
+          "era": "4.31",
+          "whip": "1.60",
+          "ip": "31.1",
+          "so": 19,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 608379,
           "name": "Michael Wacha",
           "profileUrl": "https://www.mlb.com/player/michael-wacha-608379",
@@ -552,6 +713,29 @@
           "whip": "1.11",
           "ip": "200.2",
           "so": 158,
+          "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 687765,
+          "name": "Mitch Spence",
+          "profileUrl": "https://www.mlb.com/player/mitch-spence-687765",
+          "pos": "P",
+          "jersey": "54",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 3,
+          "w": 0,
+          "l": 2,
+          "sv": 0,
+          "era": "21.21",
+          "whip": "3.00",
+          "ip": "9.1",
+          "so": 6,
           "hasStats": true,
           "trend": null
         },
@@ -648,6 +832,29 @@
           "trend": "cold"
         },
         {
+          "id": 686701,
+          "name": "Ryan Bergert",
+          "profileUrl": "https://www.mlb.com/player/ryan-bergert-686701",
+          "pos": "P",
+          "jersey": "38",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false,
+          "trend": null
+        },
+        {
           "id": 607625,
           "name": "Seth Lugo",
           "profileUrl": "https://www.mlb.com/player/seth-lugo-607625",
@@ -692,6 +899,52 @@
           "so": 12,
           "hasStats": true,
           "trend": null
+        },
+        {
+          "id": 686632,
+          "name": "Steven Zobac",
+          "profileUrl": "https://www.mlb.com/player/steven-zobac-686632",
+          "pos": "P",
+          "jersey": "63",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "L",
+          "throws": "R",
+          "orgRank": 14,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false,
+          "trend": null
+        },
+        {
+          "id": 664062,
+          "name": "Tony Gonsolin",
+          "profileUrl": "https://www.mlb.com/player/tony-gonsolin-664062",
+          "pos": "P",
+          "jersey": "36",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 1,
+          "w": 0,
+          "l": 0,
+          "sv": 0,
+          "era": "16.88",
+          "whip": "2.63",
+          "ip": "2.2",
+          "so": 5,
+          "hasStats": true,
+          "trend": null
         }
       ],
       "reserveHitters": [
@@ -717,29 +970,6 @@
           "sb": 0,
           "hasStats": true,
           "trend": null
-        },
-        {
-          "id": 679845,
-          "name": "Nick Loftin",
-          "profileUrl": "https://www.mlb.com/player/nick-loftin-679845",
-          "pos": "3B",
-          "jersey": "12",
-          "status": "Paternity List",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 118,
-          "avg": ".240",
-          "obp": ".322",
-          "slg": ".388",
-          "ops": ".710",
-          "hr": 8,
-          "rbi": 45,
-          "sb": 4,
-          "hasStats": true,
-          "trend": "hot"
         }
       ],
       "reservePitchers": [
@@ -764,29 +994,6 @@
           "ip": null,
           "so": null,
           "hasStats": false,
-          "trend": null
-        },
-        {
-          "id": 694360,
-          "name": "Beck Way",
-          "profileUrl": "https://www.mlb.com/player/beck-way-694360",
-          "pos": "P",
-          "jersey": "44",
-          "status": "Injured 15-Day",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 19,
-          "w": 1,
-          "l": 1,
-          "sv": 0,
-          "era": "3.86",
-          "whip": "1.59",
-          "ip": "23.1",
-          "so": 21,
-          "hasStats": true,
           "trend": null
         },
         {
@@ -859,29 +1066,6 @@
           "trend": null
         },
         {
-          "id": 518886,
-          "name": "Craig Kimbrel",
-          "profileUrl": "https://www.mlb.com/player/craig-kimbrel-518886",
-          "pos": "P",
-          "jersey": "26",
-          "status": "Bereavement List",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 46,
-          "w": 1,
-          "l": 5,
-          "sv": 1,
-          "era": "4.50",
-          "whip": "1.35",
-          "ip": "46.0",
-          "so": 40,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 679883,
           "name": "Luinder Avila",
           "profileUrl": "https://www.mlb.com/player/luinder-avila-679883",
@@ -947,29 +1131,6 @@
           "whip": "1.24",
           "ip": "54.0",
           "so": 34,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 664062,
-          "name": "Tony Gonsolin",
-          "profileUrl": "https://www.mlb.com/player/tony-gonsolin-664062",
-          "pos": "P",
-          "jersey": "36",
-          "status": "Injured 15-Day",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 1,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "16.88",
-          "whip": "2.63",
-          "ip": "2.2",
-          "so": 5,
           "hasStats": true,
           "trend": null
         }
@@ -1347,29 +1508,6 @@
       ],
       "pitchers": [
         {
-          "id": 695667,
-          "name": "Ben Kudrna",
-          "profileUrl": "https://www.mlb.com/player/ben-kudrna-695667",
-          "pos": "P",
-          "jersey": "",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": 19,
-          "top100Rank": null,
-          "g": 1,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "9.00",
-          "whip": "3.00",
-          "ip": "2.0",
-          "so": 2,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 700786,
           "name": "Ben Sears",
           "profileUrl": "https://www.mlb.com/player/ben-sears-700786",
@@ -1389,52 +1527,6 @@
           "whip": "1.38",
           "ip": "69.0",
           "so": 56,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 679922,
-          "name": "Carlos Duran",
-          "profileUrl": "https://www.mlb.com/player/carlos-duran-679922",
-          "pos": "P",
-          "jersey": "50",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 49,
-          "w": 3,
-          "l": 2,
-          "sv": 2,
-          "era": "2.98",
-          "whip": "1.40",
-          "ip": "54.1",
-          "so": 78,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 668834,
-          "name": "Easton McGee",
-          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
-          "pos": "P",
-          "jersey": "63",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 36,
-          "w": 5,
-          "l": 3,
-          "sv": 1,
-          "era": "6.83",
-          "whip": "1.62",
-          "ip": "56.2",
-          "so": 60,
           "hasStats": true,
           "trend": null
         },
@@ -1577,52 +1669,6 @@
           "trend": null
         },
         {
-          "id": 681432,
-          "name": "Luke Little",
-          "profileUrl": "https://www.mlb.com/player/luke-little-681432",
-          "pos": "P",
-          "jersey": "38",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 30,
-          "w": 5,
-          "l": 1,
-          "sv": 1,
-          "era": "8.74",
-          "whip": "2.03",
-          "ip": "35.0",
-          "so": 41,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 696131,
-          "name": "Mason Black",
-          "profileUrl": "https://www.mlb.com/player/mason-black-696131",
-          "pos": "P",
-          "jersey": "37",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 26,
-          "w": 0,
-          "l": 3,
-          "sv": 3,
-          "era": "5.95",
-          "whip": "1.48",
-          "ip": "62.0",
-          "so": 50,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 519043,
           "name": "Matt Moore",
           "profileUrl": "https://www.mlb.com/player/matt-moore-519043",
@@ -1642,29 +1688,6 @@
           "whip": "1.56",
           "ip": "18.0",
           "so": 21,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 687765,
-          "name": "Mitch Spence",
-          "profileUrl": "https://www.mlb.com/player/mitch-spence-687765",
-          "pos": "P",
-          "jersey": "45",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 16,
-          "w": 2,
-          "l": 4,
-          "sv": 0,
-          "era": "5.35",
-          "whip": "1.41",
-          "ip": "74.0",
-          "so": 64,
           "hasStats": true,
           "trend": null
         },
@@ -1784,29 +1807,6 @@
           "whip": "1.88",
           "ip": "10.2",
           "so": 14,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 686701,
-          "name": "Ryan Bergert",
-          "profileUrl": "https://www.mlb.com/player/ryan-bergert-686701",
-          "pos": "P",
-          "jersey": "",
-          "status": "Injured - Full Season",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 3,
-          "w": 0,
-          "l": 1,
-          "sv": 0,
-          "era": "2.79",
-          "whip": "1.45",
-          "ip": "9.2",
-          "so": 10,
           "hasStats": true,
           "trend": null
         }
@@ -2253,6 +2253,29 @@
           "trend": null
         },
         {
+          "id": 701795,
+          "name": "Drew Beam",
+          "profileUrl": "https://www.mlb.com/player/drew-beam-701795",
+          "pos": "P",
+          "jersey": "11",
+          "status": "Active",
+          "team": "Northwest Arkansas Naturals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": 20,
+          "top100Rank": null,
+          "g": 26,
+          "w": 9,
+          "l": 11,
+          "sv": 0,
+          "era": "6.49",
+          "whip": "1.45",
+          "ip": "129.0",
+          "so": 99,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 702373,
           "name": "Felix Arronde",
           "profileUrl": "https://www.mlb.com/player/felix-arronde-702373",
@@ -2322,6 +2345,29 @@
           "trend": null
         },
         {
+          "id": 703610,
+          "name": "Justin Lamkin",
+          "profileUrl": "https://www.mlb.com/player/justin-lamkin-703610",
+          "pos": "P",
+          "jersey": "25",
+          "status": "Active",
+          "team": "Northwest Arkansas Naturals",
+          "bats": "R",
+          "throws": "L",
+          "orgRank": 8,
+          "top100Rank": null,
+          "g": 2,
+          "w": 1,
+          "l": 1,
+          "sv": 0,
+          "era": "3.97",
+          "whip": "0.97",
+          "ip": "11.1",
+          "so": 15,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 699325,
           "name": "Oscar Rayo",
           "profileUrl": "https://www.mlb.com/player/oscar-rayo-699325",
@@ -2364,29 +2410,6 @@
           "whip": "2.54",
           "ip": "8.2",
           "so": 13,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 686632,
-          "name": "Steven Zobac",
-          "profileUrl": "https://www.mlb.com/player/steven-zobac-686632",
-          "pos": "P",
-          "jersey": "29",
-          "status": "Active",
-          "team": "Northwest Arkansas Naturals",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": 14,
-          "top100Rank": null,
-          "g": 13,
-          "w": 1,
-          "l": 6,
-          "sv": 0,
-          "era": "4.85",
-          "whip": "1.24",
-          "ip": "42.2",
-          "so": 41,
           "hasStats": true,
           "trend": null
         },
@@ -2482,52 +2505,6 @@
           "whip": "2.21",
           "ip": "6.1",
           "so": 4,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 701795,
-          "name": "Drew Beam",
-          "profileUrl": "https://www.mlb.com/player/drew-beam-701795",
-          "pos": "P",
-          "jersey": "11",
-          "status": "Development List",
-          "team": "Northwest Arkansas Naturals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": 20,
-          "top100Rank": null,
-          "g": 26,
-          "w": 9,
-          "l": 11,
-          "sv": 0,
-          "era": "6.49",
-          "whip": "1.45",
-          "ip": "129.0",
-          "so": 99,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 703610,
-          "name": "Justin Lamkin",
-          "profileUrl": "https://www.mlb.com/player/justin-lamkin-703610",
-          "pos": "P",
-          "jersey": "25",
-          "status": "Injured 60-Day",
-          "team": "Northwest Arkansas Naturals",
-          "bats": "R",
-          "throws": "L",
-          "orgRank": 8,
-          "top100Rank": null,
-          "g": 2,
-          "w": 1,
-          "l": 1,
-          "sv": 0,
-          "era": "3.97",
-          "whip": "0.97",
-          "ip": "11.1",
-          "so": 15,
           "hasStats": true,
           "trend": null
         },
@@ -3112,6 +3089,29 @@
           "trend": null
         },
         {
+          "id": 700985,
+          "name": "Josh Hansell",
+          "profileUrl": "https://www.mlb.com/player/josh-hansell-700985",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Quad Cities River Bandits",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 16,
+          "w": 2,
+          "l": 6,
+          "sv": 1,
+          "era": "4.87",
+          "whip": "1.40",
+          "ip": "40.2",
+          "so": 41,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 833403,
           "name": "Kamden Edge",
           "profileUrl": "https://www.mlb.com/player/kamden-edge-833403",
@@ -3413,29 +3413,6 @@
           "so": null,
           "hasStats": false,
           "trend": null
-        },
-        {
-          "id": 700985,
-          "name": "Josh Hansell",
-          "profileUrl": "https://www.mlb.com/player/josh-hansell-700985",
-          "pos": "P",
-          "jersey": "",
-          "status": "Injured 60-Day",
-          "team": "Quad Cities River Bandits",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 16,
-          "w": 2,
-          "l": 6,
-          "sv": 1,
-          "era": "4.87",
-          "whip": "1.40",
-          "ip": "40.2",
-          "so": 41,
-          "hasStats": true,
-          "trend": null
         }
       ]
     },
@@ -3463,6 +3440,29 @@
         }
       ],
       "hitters": [
+        {
+          "id": 804871,
+          "name": "Brooks Bryan",
+          "profileUrl": "https://www.mlb.com/player/brooks-bryan-804871",
+          "pos": "C",
+          "jersey": "9",
+          "status": "Active",
+          "team": "Columbia Fireflies",
+          "bats": "L",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 33,
+          "avg": ".319",
+          "obp": ".406",
+          "slg": ".496",
+          "ops": ".902",
+          "hr": 3,
+          "rbi": 24,
+          "sb": 6,
+          "hasStats": true,
+          "trend": null
+        },
         {
           "id": 808693,
           "name": "Daniel Lopez",
@@ -3903,6 +3903,29 @@
           "trend": null
         },
         {
+          "id": 702965,
+          "name": "Hiro Wyatt",
+          "profileUrl": "https://www.mlb.com/player/hiro-wyatt-702965",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Columbia Fireflies",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 7,
+          "w": 1,
+          "l": 2,
+          "sv": 0,
+          "era": "3.21",
+          "whip": "1.46",
+          "ip": "28.0",
+          "so": 24,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 815777,
           "name": "Jesus Oliveira",
           "profileUrl": "https://www.mlb.com/player/jesus-oliveira-815777",
@@ -4156,56 +4179,8 @@
           "trend": null
         }
       ],
-      "reserveHitters": [
-        {
-          "id": 804871,
-          "name": "Brooks Bryan",
-          "profileUrl": "https://www.mlb.com/player/brooks-bryan-804871",
-          "pos": "C",
-          "jersey": "9",
-          "status": "Injured 60-Day",
-          "team": "Columbia Fireflies",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 33,
-          "avg": ".319",
-          "obp": ".406",
-          "slg": ".496",
-          "ops": ".902",
-          "hr": 3,
-          "rbi": 24,
-          "sb": 6,
-          "hasStats": true,
-          "trend": null
-        }
-      ],
-      "reservePitchers": [
-        {
-          "id": 702965,
-          "name": "Hiro Wyatt",
-          "profileUrl": "https://www.mlb.com/player/hiro-wyatt-702965",
-          "pos": "P",
-          "jersey": "",
-          "status": "Injured 60-Day",
-          "team": "Columbia Fireflies",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 7,
-          "w": 1,
-          "l": 2,
-          "sv": 0,
-          "era": "3.21",
-          "whip": "1.46",
-          "ip": "28.0",
-          "so": 24,
-          "hasStats": true,
-          "trend": null
-        }
-      ]
+      "reserveHitters": [],
+      "reservePitchers": []
     },
     {
       "sportId": 16,
@@ -7337,7 +7312,7 @@
         "profileUrl": "https://www.mlb.com/player/justin-lamkin-703610",
         "pos": "P",
         "jersey": "25",
-        "status": "Injured 60-Day",
+        "status": "Active",
         "team": "Northwest Arkansas Naturals",
         "bats": "R",
         "throws": "L",
@@ -7432,24 +7407,24 @@
         "name": "Steven Zobac",
         "profileUrl": "https://www.mlb.com/player/steven-zobac-686632",
         "pos": "P",
-        "jersey": "29",
+        "jersey": "63",
         "status": "Active",
-        "team": "Northwest Arkansas Naturals",
+        "team": "Kansas City Royals",
         "bats": "L",
         "throws": "R",
         "orgRank": 14,
         "top100Rank": null,
-        "g": 13,
-        "w": 1,
-        "l": 6,
-        "sv": 0,
-        "era": "4.85",
-        "whip": "1.24",
-        "ip": "42.2",
-        "so": 41,
-        "hasStats": true,
+        "g": null,
+        "w": null,
+        "l": null,
+        "sv": null,
+        "era": null,
+        "whip": null,
+        "ip": null,
+        "so": null,
+        "hasStats": false,
         "trend": null,
-        "level": "AA"
+        "level": "MLB"
       },
       {
         "id": 814351,
@@ -7480,24 +7455,24 @@
         "name": "Ben Kudrna",
         "profileUrl": "https://www.mlb.com/player/ben-kudrna-695667",
         "pos": "P",
-        "jersey": "",
+        "jersey": "59",
         "status": "Active",
-        "team": "Omaha Storm Chasers",
+        "team": "Kansas City Royals",
         "bats": "R",
         "throws": "R",
         "orgRank": 19,
         "top100Rank": null,
-        "g": 1,
-        "w": 0,
-        "l": 0,
-        "sv": 0,
-        "era": "9.00",
-        "whip": "3.00",
-        "ip": "2.0",
-        "so": 2,
-        "hasStats": true,
+        "g": null,
+        "w": null,
+        "l": null,
+        "sv": null,
+        "era": null,
+        "whip": null,
+        "ip": null,
+        "so": null,
+        "hasStats": false,
         "trend": null,
-        "level": "AAA"
+        "level": "MLB"
       },
       {
         "id": 701795,
@@ -7505,7 +7480,7 @@
         "profileUrl": "https://www.mlb.com/player/drew-beam-701795",
         "pos": "P",
         "jersey": "11",
-        "status": "Development List",
+        "status": "Active",
         "team": "Northwest Arkansas Naturals",
         "bats": "R",
         "throws": "R",
@@ -7623,6 +7598,54 @@
   },
   "transactions": [
     {
+      "id": 944483,
+      "date": "2026-09-29",
+      "person": "Craig Kimbrel",
+      "description": "Kansas City Royals activated RHP Craig Kimbrel from the bereavement list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944635,
+      "date": "2026-09-28",
+      "person": "Hiro Wyatt",
+      "description": "Columbia Fireflies activated RHP Hiro Wyatt.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 944643,
+      "date": "2026-09-28",
+      "person": "Brooks Bryan",
+      "description": "Columbia Fireflies activated C Brooks Bryan.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
+      "id": 944638,
+      "date": "2026-09-28",
+      "person": "Josh Hansell",
+      "description": "Quad Cities River Bandits activated RHP Josh Hansell.",
+      "fromTeam": null,
+      "toTeam": "Quad Cities River Bandits"
+    },
+    {
+      "id": 944645,
+      "date": "2026-09-28",
+      "person": "Drew Beam",
+      "description": "Northwest Arkansas Naturals activated RHP Drew Beam from the Development List.",
+      "fromTeam": null,
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 944641,
+      "date": "2026-09-28",
+      "person": "Justin Lamkin",
+      "description": "Northwest Arkansas Naturals activated LHP Justin Lamkin.",
+      "fromTeam": null,
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
       "id": 944177,
       "date": "2026-09-28",
       "person": "Ben Kudrna",
@@ -7637,6 +7660,94 @@
       "description": "Omaha Storm Chasers activated RHP Ethan Bosacker from the Development List.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 944487,
+      "date": "2026-09-28",
+      "person": "Ben Kudrna",
+      "description": "Kansas City Royals recalled RHP Ben Kudrna from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944504,
+      "date": "2026-09-28",
+      "person": "Steven Zobac",
+      "description": "Kansas City Royals recalled RHP Steven Zobac from Northwest Arkansas Naturals.",
+      "fromTeam": "Northwest Arkansas Naturals",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944505,
+      "date": "2026-09-28",
+      "person": "Mitch Spence",
+      "description": "Kansas City Royals recalled RHP Mitch Spence from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944506,
+      "date": "2026-09-28",
+      "person": "Mason Black",
+      "description": "Kansas City Royals recalled RHP Mason Black from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944503,
+      "date": "2026-09-28",
+      "person": "Carlos Duran",
+      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944507,
+      "date": "2026-09-28",
+      "person": "Ryan Bergert",
+      "description": "Kansas City Royals recalled RHP Ryan Bergert from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944492,
+      "date": "2026-09-28",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals recalled RHP Easton McGee from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944480,
+      "date": "2026-09-28",
+      "person": "Tony Gonsolin",
+      "description": "Kansas City Royals activated RHP Tony Gonsolin from the 15-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944478,
+      "date": "2026-09-28",
+      "person": "Beck Way",
+      "description": "Kansas City Royals activated RHP Beck Way from the 15-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944485,
+      "date": "2026-09-28",
+      "person": "Luke Little",
+      "description": "Kansas City Royals designated LHP Luke Little for assignment.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944477,
+      "date": "2026-09-28",
+      "person": "Nick Loftin",
+      "description": "Kansas City Royals activated 3B Nick Loftin from the paternity list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 944174,
@@ -7735,18 +7846,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 943495,
-      "date": "2026-09-21",
-      "person": "Elih Marrero",
-      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 943497,
       "date": "2026-09-21",
       "person": "Jack Pineda",
       "description": "Omaha Storm Chasers activated SS Jack Pineda from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 943495,
+      "date": "2026-09-21",
+      "person": "Elih Marrero",
+      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7791,18 +7902,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944203,
+      "id": 944204,
       "date": "2026-09-17",
-      "person": "Yandel Ricardo",
-      "description": "Columbia Fireflies activated SS Yandel Ricardo from the 7-day injured list.",
+      "person": "Michael Lombardi",
+      "description": "Columbia Fireflies activated RHP Michael Lombardi from the Development List.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 944205,
+      "id": 944203,
       "date": "2026-09-17",
-      "person": "Shane Van Dam",
-      "description": "Columbia Fireflies activated RHP Shane Van Dam from the Development List.",
+      "person": "Yandel Ricardo",
+      "description": "Columbia Fireflies activated SS Yandel Ricardo from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -7823,10 +7934,10 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 944204,
+      "id": 944205,
       "date": "2026-09-17",
-      "person": "Michael Lombardi",
-      "description": "Columbia Fireflies activated RHP Michael Lombardi from the Development List.",
+      "person": "Shane Van Dam",
+      "description": "Columbia Fireflies activated RHP Shane Van Dam from the Development List.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -7839,10 +7950,10 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 942834,
+      "id": 942823,
       "date": "2026-09-16",
-      "person": "Seth Lugo",
-      "description": "RHP Seth Lugo changed number to 67.",
+      "person": "Bobby Witt Jr.",
+      "description": "SS Bobby Witt Jr. changed number to 7.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7855,10 +7966,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942823,
+      "id": 942834,
       "date": "2026-09-16",
-      "person": "Bobby Witt Jr.",
-      "description": "SS Bobby Witt Jr. changed number to 7.",
+      "person": "Seth Lugo",
+      "description": "RHP Seth Lugo changed number to 67.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7879,18 +7990,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942645,
-      "date": "2026-09-15",
-      "person": "Spencer Bivens",
-      "description": "Omaha Storm Chasers activated RHP Spencer Bivens.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 942647,
       "date": "2026-09-15",
       "person": "Jorge Alfaro",
       "description": "Omaha Storm Chasers transferred C Jorge Alfaro to the Development List.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942645,
+      "date": "2026-09-15",
+      "person": "Spencer Bivens",
+      "description": "Omaha Storm Chasers activated RHP Spencer Bivens.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7911,6 +8022,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 942646,
+      "date": "2026-09-15",
+      "person": "James McArthur",
+      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 943886,
       "date": "2026-09-15",
       "person": "James McArthur",
@@ -7919,18 +8038,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942636,
+      "id": 942744,
       "date": "2026-09-15",
-      "person": "Maikel Garcia",
-      "description": "Kansas City Royals activated 3B Maikel Garcia from the 10-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 942746,
-      "date": "2026-09-15",
-      "person": "Bobby Witt Jr.",
-      "description": "SS Bobby Witt Jr. changed number to 21.",
+      "person": "Salvador Perez",
+      "description": "DH Salvador Perez changed number to 21.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7943,18 +8054,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942646,
+      "id": 942746,
       "date": "2026-09-15",
-      "person": "James McArthur",
-      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
+      "person": "Bobby Witt Jr.",
+      "description": "SS Bobby Witt Jr. changed number to 21.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942744,
+      "id": 942636,
       "date": "2026-09-15",
-      "person": "Salvador Perez",
-      "description": "DH Salvador Perez changed number to 21.",
+      "person": "Maikel Garcia",
+      "description": "Kansas City Royals activated 3B Maikel Garcia from the 10-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8015,6 +8126,14 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
+      "id": 943887,
+      "date": "2026-09-10",
+      "person": "Connor Seabold",
+      "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 941967,
       "date": "2026-09-10",
       "person": "Maikel Garcia",
@@ -8031,28 +8150,12 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 943887,
-      "date": "2026-09-10",
-      "person": "Connor Seabold",
-      "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 941863,
       "date": "2026-09-09",
       "person": "James McArthur",
       "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Northwest Arkansas Naturals.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 941613,
-      "date": "2026-09-08",
-      "person": "Camden Johnson",
-      "description": "SS Camden Johnson assigned to Quad Cities River Bandits from Columbia Fireflies.",
-      "fromTeam": "Columbia Fireflies",
-      "toTeam": "Quad Cities River Bandits"
     },
     {
       "id": 941612,
@@ -8063,18 +8166,26 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 941698,
+      "id": 941613,
       "date": "2026-09-08",
-      "person": "Connor Rasmussen",
-      "description": "2B Connor Rasmussen assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
+      "person": "Camden Johnson",
+      "description": "SS Camden Johnson assigned to Quad Cities River Bandits from Columbia Fireflies.",
       "fromTeam": "Columbia Fireflies",
-      "toTeam": "Northwest Arkansas Naturals"
+      "toTeam": "Quad Cities River Bandits"
     },
     {
       "id": 941697,
       "date": "2026-09-08",
       "person": "Ricson Gonzalez",
       "description": "C Ricson Gonzalez assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
+      "fromTeam": "Columbia Fireflies",
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 941698,
+      "date": "2026-09-08",
+      "person": "Connor Rasmussen",
+      "description": "2B Connor Rasmussen assigned to Northwest Arkansas Naturals from Columbia Fireflies.",
       "fromTeam": "Columbia Fireflies",
       "toTeam": "Northwest Arkansas Naturals"
     },
@@ -8087,18 +8198,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 941639,
-      "date": "2026-09-08",
-      "person": "Javier Vaz",
-      "description": "OF Javier Vaz assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
-      "fromTeam": "Northwest Arkansas Naturals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 941637,
       "date": "2026-09-08",
       "person": "Hunter Owen",
       "description": "LHP Hunter Owen assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
+      "fromTeam": "Northwest Arkansas Naturals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 941639,
+      "date": "2026-09-08",
+      "person": "Javier Vaz",
+      "description": "OF Javier Vaz assigned to Omaha Storm Chasers from Northwest Arkansas Naturals.",
       "fromTeam": "Northwest Arkansas Naturals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8143,7 +8254,7 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 940894,
+      "id": 940877,
       "date": "2026-09-02",
       "person": "Brandon Herbold",
       "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
@@ -8159,7 +8270,7 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 940877,
+      "id": 940894,
       "date": "2026-09-02",
       "person": "Brandon Herbold",
       "description": "Columbia Fireflies activated LHP Brandon Herbold from the Development List.",
@@ -8167,18 +8278,18 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 940866,
-      "date": "2026-09-02",
-      "person": "Drew Waters",
-      "description": "Kansas City Royals designated LF Drew Waters for assignment.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 940867,
       "date": "2026-09-02",
       "person": "Michael Massey",
       "description": "Kansas City Royals activated 2B Michael Massey from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 940866,
+      "date": "2026-09-02",
+      "person": "Drew Waters",
+      "description": "Kansas City Royals designated LF Drew Waters for assignment.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8215,14 +8326,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 940483,
-      "date": "2026-09-01",
-      "person": "Nolan Hoffman",
-      "description": "Kansas City Royals recalled RHP Nolan Hoffman from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 940484,
       "date": "2026-09-01",
       "person": "Easton McGee",
@@ -8235,6 +8338,14 @@
       "date": "2026-09-01",
       "person": "Drew Waters",
       "description": "Kansas City Royals selected the contract of LF Drew Waters from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 940483,
+      "date": "2026-09-01",
+      "person": "Nolan Hoffman",
+      "description": "Kansas City Royals recalled RHP Nolan Hoffman from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -8255,7 +8366,7 @@
       "toTeam": "New York Yankees"
     },
     {
-      "id": 940317,
+      "id": 943678,
       "date": "2026-08-30",
       "person": "Trevor Werner",
       "description": "Quad Cities River Bandits placed 1B Trevor Werner on the full-season injured list.",
@@ -8263,7 +8374,7 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 943678,
+      "id": 940317,
       "date": "2026-08-30",
       "person": "Trevor Werner",
       "description": "Quad Cities River Bandits placed 1B Trevor Werner on the full-season injured list.",
@@ -9770,7 +9881,7 @@
       "school": "California",
       "signingBonus": "500000",
       "currentOrgRank": 14,
-      "currentLevel": "AA",
+      "currentLevel": "MLB",
       "otherOrgName": null,
       "otherTeamName": null,
       "otherLevel": null,
