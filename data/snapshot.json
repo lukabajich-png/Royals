@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T21:48:52.828Z",
+  "updatedAt": "2026-09-29T01:29:33.008Z",
   "season": 2026,
   "levels": [
     {
@@ -21,16 +21,6 @@
           },
           "schedule": {
             "recent": [
-              {
-                "date": "2026-09-25",
-                "opponent": "Cleveland Guardians",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 9,
-                  "them": 12
-                }
-              },
               {
                 "date": "2026-09-26",
                 "opponent": "Cleveland Guardians",
@@ -147,7 +137,7 @@
           "rbi": 75,
           "sb": 7,
           "hasStats": true,
-          "trend": null
+          "trend": "hot"
         },
         {
           "id": 670231,
@@ -586,7 +576,7 @@
           "ip": "46.0",
           "so": 41,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 702070,
@@ -1191,7 +1181,7 @@
           "rbi": 54,
           "sb": 25,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 801442,
