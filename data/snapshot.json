@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T23:07:46.244Z",
+  "updatedAt": "2026-09-30T02:07:38.252Z",
   "season": 2026,
   "levels": [
     {
@@ -21,16 +21,6 @@
           },
           "schedule": {
             "recent": [
-              {
-                "date": "2026-09-26",
-                "opponent": "Cleveland Guardians",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 5,
-                  "them": 11
-                }
-              },
               {
                 "date": "2026-09-27",
                 "opponent": "Cleveland Guardians",
@@ -8364,30 +8354,6 @@
       "description": "New York Yankees claimed RHP John Schreiber off waivers from Kansas City Royals.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "New York Yankees"
-    },
-    {
-      "id": 943678,
-      "date": "2026-08-30",
-      "person": "Trevor Werner",
-      "description": "Quad Cities River Bandits placed 1B Trevor Werner on the full-season injured list.",
-      "fromTeam": null,
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
-      "id": 940317,
-      "date": "2026-08-30",
-      "person": "Trevor Werner",
-      "description": "Quad Cities River Bandits placed 1B Trevor Werner on the full-season injured list.",
-      "fromTeam": null,
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
-      "id": 940316,
-      "date": "2026-08-30",
-      "person": "Elih Marrero",
-      "description": "Omaha Storm Chasers placed C Elih Marrero on the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
     }
   ],
   "draftPicks": [
