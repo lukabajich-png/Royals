@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T23:53:03.454Z",
+  "updatedAt": "2026-10-01T04:23:05.333Z",
   "season": 2026,
   "levels": [
     {
@@ -20,18 +20,7 @@
             "streak": "W1"
           },
           "schedule": {
-            "recent": [
-              {
-                "date": "2026-09-27",
-                "opponent": "Cleveland Guardians",
-                "isHome": true,
-                "status": "Final",
-                "finalScore": {
-                  "us": 3,
-                  "them": 2
-                }
-              }
-            ],
+            "recent": [],
             "upcoming": []
           }
         }
@@ -280,15 +269,15 @@
           "orgRank": null,
           "top100Rank": null,
           "g": 131,
-          "avg": ".272",
-          "obp": ".303",
-          "slg": ".428",
-          "ops": ".731",
+          "avg": ".274",
+          "obp": ".305",
+          "slg": ".430",
+          "ops": ".735",
           "hr": 13,
           "rbi": 50,
           "sb": 3,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 679845,
@@ -658,7 +647,7 @@
           "ip": "48.1",
           "so": 34,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 696131,
@@ -7780,18 +7769,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 943822,
-      "date": "2026-09-24",
-      "person": "Nomar Jimenez",
-      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
-      "fromTeam": null,
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 943823,
       "date": "2026-09-24",
       "person": "Jose Mejia",
       "description": "DSL Royals Fortuna released LHP Jose Mejia.",
+      "fromTeam": null,
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 943822,
+      "date": "2026-09-24",
+      "person": "Nomar Jimenez",
+      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
       "fromTeam": null,
       "toTeam": "DSL Royals Fortuna"
     },
@@ -8338,22 +8327,6 @@
       "description": "Kansas City Royals recalled RHP Nolan Hoffman from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 940671,
-      "date": "2026-08-31",
-      "person": "Yandel Ricardo",
-      "description": "Columbia Fireflies placed SS Yandel Ricardo on the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
-      "id": 940244,
-      "date": "2026-08-31",
-      "person": "John Schreiber",
-      "description": "New York Yankees claimed RHP John Schreiber off waivers from Kansas City Royals.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "New York Yankees"
     }
   ],
   "draftPicks": [
