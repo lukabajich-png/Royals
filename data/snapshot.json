@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T23:03:48.124Z",
+  "updatedAt": "2026-10-04T02:39:14.113Z",
   "season": 2026,
   "levels": [
     {
@@ -808,7 +808,7 @@
           "ip": "74.1",
           "so": 49,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 686701,
@@ -1206,7 +1206,7 @@
           "rbi": 74,
           "sb": 15,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 811287,
@@ -1229,7 +1229,7 @@
           "rbi": 16,
           "sb": 11,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 813851,
@@ -1530,7 +1530,7 @@
           "ip": "97.2",
           "so": 96,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 694818,
@@ -7088,7 +7088,7 @@
         "rbi": 16,
         "sb": 11,
         "hasStats": true,
-        "trend": "cold",
+        "trend": null,
         "level": "AAA"
       },
       {
@@ -8231,22 +8231,6 @@
       "description": "Kansas City Royals sent LF Drew Waters outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 941107,
-      "date": "2026-09-03",
-      "person": "Alberto Toribio",
-      "description": "RHP Alberto Toribio assigned to Columbia Fireflies from ACL Royals.",
-      "fromTeam": "ACL Royals",
-      "toTeam": "Columbia Fireflies"
-    },
-    {
-      "id": 941106,
-      "date": "2026-09-03",
-      "person": "Michael Lombardi",
-      "description": "Columbia Fireflies transferred RHP Michael Lombardi to the Development List.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
     }
   ],
   "draftPicks": [
