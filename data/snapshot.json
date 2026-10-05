@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T21:45:37.450Z",
+  "updatedAt": "2026-10-05T00:27:17.863Z",
   "season": 2026,
   "levels": [
     {
@@ -300,7 +300,7 @@
           "rbi": 45,
           "sb": 4,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 521692,
@@ -1737,7 +1737,7 @@
           "ip": "86.0",
           "so": 85,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         }
       ],
       "reserveHitters": [
@@ -8223,14 +8223,6 @@
       "description": "Quad Cities River Bandits placed RHP Nick Conte on the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Quad Cities River Bandits"
-    },
-    {
-      "id": 941314,
-      "date": "2026-09-04",
-      "person": "Drew Waters",
-      "description": "Kansas City Royals sent LF Drew Waters outright to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
     }
   ],
   "draftPicks": [
