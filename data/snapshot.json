@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T21:38:42.988Z",
+  "updatedAt": "2026-10-06T01:54:35.433Z",
   "season": 2026,
   "levels": [
     {
@@ -277,7 +277,7 @@
           "rbi": 50,
           "sb": 3,
           "hasStats": true,
-          "trend": "cold"
+          "trend": null
         },
         {
           "id": 679845,
