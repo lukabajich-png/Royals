@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T20:29:34.263Z",
+  "updatedAt": "2026-10-07T00:01:57.358Z",
   "season": 2026,
   "levels": [
     {
@@ -8215,14 +8215,6 @@
       "description": "Omaha Storm Chasers released 3B Brandon Drury.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 941614,
-      "date": "2026-09-06",
-      "person": "Nick Conte",
-      "description": "Quad Cities River Bandits placed RHP Nick Conte on the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Quad Cities River Bandits"
     }
   ],
   "draftPicks": [
