@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T13:09:44.329Z",
+  "updatedAt": "2026-10-07T19:20:08.094Z",
   "season": 2026,
   "levels": [
     {
@@ -7785,18 +7785,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 943823,
-      "date": "2026-09-24",
-      "person": "Jose Mejia",
-      "description": "DSL Royals Fortuna released LHP Jose Mejia.",
-      "fromTeam": null,
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 943822,
       "date": "2026-09-24",
       "person": "Nomar Jimenez",
       "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
+      "fromTeam": null,
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 943823,
+      "date": "2026-09-24",
+      "person": "Jose Mejia",
+      "description": "DSL Royals Fortuna released LHP Jose Mejia.",
       "fromTeam": null,
       "toTeam": "DSL Royals Fortuna"
     },
