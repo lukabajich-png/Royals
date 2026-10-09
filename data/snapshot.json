@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T16:28:04.375Z",
+  "updatedAt": "2026-10-09T21:09:16.532Z",
   "season": 2026,
   "levels": [
     {
@@ -7641,14 +7641,6 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 944264,
-      "date": "2026-09-28",
-      "person": "Ethan Bosacker",
-      "description": "Omaha Storm Chasers activated RHP Ethan Bosacker from the Development List.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 944177,
       "date": "2026-09-28",
       "person": "Ben Kudrna",
@@ -7657,50 +7649,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 944503,
+      "id": 944264,
       "date": "2026-09-28",
-      "person": "Carlos Duran",
-      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
+      "person": "Ethan Bosacker",
+      "description": "Omaha Storm Chasers activated RHP Ethan Bosacker from the Development List.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 944505,
       "date": "2026-09-28",
       "person": "Mitch Spence",
       "description": "Kansas City Royals recalled RHP Mitch Spence from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944504,
-      "date": "2026-09-28",
-      "person": "Steven Zobac",
-      "description": "Kansas City Royals recalled RHP Steven Zobac from Northwest Arkansas Naturals.",
-      "fromTeam": "Northwest Arkansas Naturals",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944507,
-      "date": "2026-09-28",
-      "person": "Ryan Bergert",
-      "description": "Kansas City Royals recalled RHP Ryan Bergert from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944506,
-      "date": "2026-09-28",
-      "person": "Mason Black",
-      "description": "Kansas City Royals recalled RHP Mason Black from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944487,
-      "date": "2026-09-28",
-      "person": "Ben Kudrna",
-      "description": "Kansas City Royals recalled RHP Ben Kudrna from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -7713,11 +7673,43 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944478,
+      "id": 944503,
       "date": "2026-09-28",
-      "person": "Beck Way",
-      "description": "Kansas City Royals activated RHP Beck Way from the 15-day injured list.",
-      "fromTeam": null,
+      "person": "Carlos Duran",
+      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944507,
+      "date": "2026-09-28",
+      "person": "Ryan Bergert",
+      "description": "Kansas City Royals recalled RHP Ryan Bergert from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944487,
+      "date": "2026-09-28",
+      "person": "Ben Kudrna",
+      "description": "Kansas City Royals recalled RHP Ben Kudrna from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944506,
+      "date": "2026-09-28",
+      "person": "Mason Black",
+      "description": "Kansas City Royals recalled RHP Mason Black from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944504,
+      "date": "2026-09-28",
+      "person": "Steven Zobac",
+      "description": "Kansas City Royals recalled RHP Steven Zobac from Northwest Arkansas Naturals.",
+      "fromTeam": "Northwest Arkansas Naturals",
       "toTeam": "Kansas City Royals"
     },
     {
@@ -7725,6 +7717,14 @@
       "date": "2026-09-28",
       "person": "Luke Little",
       "description": "Kansas City Royals designated LHP Luke Little for assignment.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944478,
+      "date": "2026-09-28",
+      "person": "Beck Way",
+      "description": "Kansas City Royals activated RHP Beck Way from the 15-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7745,14 +7745,6 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944174,
-      "date": "2026-09-27",
-      "person": "Steven Cruz",
-      "description": "Kansas City Royals placed RHP Steven Cruz on the restricted list.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 944162,
       "date": "2026-09-27",
       "person": "James McArthur",
@@ -7766,6 +7758,14 @@
       "person": "Tony Gonsolin",
       "description": "Kansas City Royals placed RHP Tony Gonsolin on the 15-day injured list. Allergic reaction.",
       "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944174,
+      "date": "2026-09-27",
+      "person": "Steven Cruz",
+      "description": "Kansas City Royals placed RHP Steven Cruz on the restricted list.",
+      "fromTeam": "Kansas City Royals",
       "toTeam": "Kansas City Royals"
     },
     {
@@ -7785,18 +7785,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 943822,
-      "date": "2026-09-24",
-      "person": "Nomar Jimenez",
-      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
-      "fromTeam": null,
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 943823,
       "date": "2026-09-24",
       "person": "Jose Mejia",
       "description": "DSL Royals Fortuna released LHP Jose Mejia.",
+      "fromTeam": null,
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 943822,
+      "date": "2026-09-24",
+      "person": "Nomar Jimenez",
+      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
       "fromTeam": null,
       "toTeam": "DSL Royals Fortuna"
     },
@@ -7825,14 +7825,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 943498,
-      "date": "2026-09-21",
-      "person": "Oscar Rayo",
-      "description": "Northwest Arkansas Naturals activated LHP Oscar Rayo from the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
       "id": 943496,
       "date": "2026-09-21",
       "person": "Andrew Morones",
@@ -7841,10 +7833,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 943495,
+      "id": 943498,
       "date": "2026-09-21",
-      "person": "Elih Marrero",
-      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
+      "person": "Oscar Rayo",
+      "description": "Northwest Arkansas Naturals activated LHP Oscar Rayo from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
+      "id": 943497,
+      "date": "2026-09-21",
+      "person": "Jack Pineda",
+      "description": "Omaha Storm Chasers activated SS Jack Pineda from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7857,10 +7857,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 943497,
+      "id": 943495,
       "date": "2026-09-21",
-      "person": "Jack Pineda",
-      "description": "Omaha Storm Chasers activated SS Jack Pineda from the 7-day injured list.",
+      "person": "Elih Marrero",
+      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7897,6 +7897,14 @@
       "toTeam": "Kansas City Royals"
     },
     {
+      "id": 944203,
+      "date": "2026-09-17",
+      "person": "Yandel Ricardo",
+      "description": "Columbia Fireflies activated SS Yandel Ricardo from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
       "id": 944204,
       "date": "2026-09-17",
       "person": "Michael Lombardi",
@@ -7913,14 +7921,6 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 944201,
-      "date": "2026-09-17",
-      "person": "Carter Holton",
-      "description": "Columbia Fireflies activated LHP Carter Holton from the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
       "id": 944202,
       "date": "2026-09-17",
       "person": "Randy Ramnarace",
@@ -7929,10 +7929,10 @@
       "toTeam": "Columbia Fireflies"
     },
     {
-      "id": 944203,
+      "id": 944201,
       "date": "2026-09-17",
-      "person": "Yandel Ricardo",
-      "description": "Columbia Fireflies activated SS Yandel Ricardo from the 7-day injured list.",
+      "person": "Carter Holton",
+      "description": "Columbia Fireflies activated LHP Carter Holton from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -7943,6 +7943,14 @@
       "description": "Quad Cities River Bandits activated RHP Nick Conte from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Quad Cities River Bandits"
+    },
+    {
+      "id": 942823,
+      "date": "2026-09-16",
+      "person": "Bobby Witt Jr.",
+      "description": "SS Bobby Witt Jr. changed number to 7.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 942834,
@@ -7957,14 +7965,6 @@
       "date": "2026-09-16",
       "person": "Salvador Perez",
       "description": "DH Salvador Perez changed number to 13.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 942823,
-      "date": "2026-09-16",
-      "person": "Bobby Witt Jr.",
-      "description": "SS Bobby Witt Jr. changed number to 7.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7985,18 +7985,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 942645,
-      "date": "2026-09-15",
-      "person": "Spencer Bivens",
-      "description": "Omaha Storm Chasers activated RHP Spencer Bivens.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 942647,
       "date": "2026-09-15",
       "person": "Jorge Alfaro",
       "description": "Omaha Storm Chasers transferred C Jorge Alfaro to the Development List.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942645,
+      "date": "2026-09-15",
+      "person": "Spencer Bivens",
+      "description": "Omaha Storm Chasers activated RHP Spencer Bivens.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8017,6 +8017,22 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 942636,
+      "date": "2026-09-15",
+      "person": "Maikel Garcia",
+      "description": "Kansas City Royals activated 3B Maikel Garcia from the 10-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 942646,
+      "date": "2026-09-15",
+      "person": "James McArthur",
+      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 942745,
       "date": "2026-09-15",
       "person": "Seth Lugo",
@@ -8025,7 +8041,7 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942646,
+      "id": 943886,
       "date": "2026-09-15",
       "person": "James McArthur",
       "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
@@ -8045,22 +8061,6 @@
       "date": "2026-09-15",
       "person": "Bobby Witt Jr.",
       "description": "SS Bobby Witt Jr. changed number to 21.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 943886,
-      "date": "2026-09-15",
-      "person": "James McArthur",
-      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 942636,
-      "date": "2026-09-15",
-      "person": "Maikel Garcia",
-      "description": "Kansas City Royals activated 3B Maikel Garcia from the 10-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -8089,20 +8089,20 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942200,
-      "date": "2026-09-12",
-      "person": "Spencer Bivens",
-      "description": "Kansas City Royals claimed RHP Spencer Bivens off waivers from San Francisco Giants.",
-      "fromTeam": "San Francisco Giants",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 942201,
       "date": "2026-09-12",
       "person": "Spencer Bivens",
       "description": "Kansas City Royals optioned RHP Spencer Bivens to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 942200,
+      "date": "2026-09-12",
+      "person": "Spencer Bivens",
+      "description": "Kansas City Royals claimed RHP Spencer Bivens off waivers from San Francisco Giants.",
+      "fromTeam": "San Francisco Giants",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 941985,
@@ -8121,10 +8121,10 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 943887,
+      "id": 941967,
       "date": "2026-09-10",
-      "person": "Connor Seabold",
-      "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
+      "person": "Maikel Garcia",
+      "description": "Kansas City Royals sent 3B Maikel Garcia on a rehab assignment to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8137,10 +8137,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 941967,
+      "id": 943887,
       "date": "2026-09-10",
-      "person": "Maikel Garcia",
-      "description": "Kansas City Royals sent 3B Maikel Garcia on a rehab assignment to Omaha Storm Chasers.",
+      "person": "Connor Seabold",
+      "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
