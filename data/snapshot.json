@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T21:09:16.532Z",
+  "updatedAt": "2026-10-10T00:50:41.613Z",
   "season": 2026,
   "levels": [
     {
@@ -323,7 +323,7 @@
           "rbi": 78,
           "sb": 1,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         },
         {
           "id": 686475,
@@ -369,7 +369,7 @@
           "rbi": 63,
           "sb": 5,
           "hasStats": true,
-          "trend": "hot"
+          "trend": null
         }
       ],
       "pitchers": [
@@ -8143,14 +8143,6 @@
       "description": "Kansas City Royals sent RHP Connor Seabold on a rehab assignment to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 941863,
-      "date": "2026-09-09",
-      "person": "James McArthur",
-      "description": "Kansas City Royals sent RHP James McArthur on a rehab assignment to Northwest Arkansas Naturals.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Northwest Arkansas Naturals"
     }
   ],
   "draftPicks": [
