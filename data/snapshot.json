@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T15:26:31.927Z",
+  "updatedAt": "2026-10-16T18:55:33.173Z",
   "season": 2026,
   "levels": [
     {
@@ -7681,11 +7681,19 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 944504,
+      "id": 944505,
       "date": "2026-09-28",
-      "person": "Steven Zobac",
-      "description": "Kansas City Royals recalled RHP Steven Zobac from Northwest Arkansas Naturals.",
-      "fromTeam": "Northwest Arkansas Naturals",
+      "person": "Mitch Spence",
+      "description": "Kansas City Royals recalled RHP Mitch Spence from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944503,
+      "date": "2026-09-28",
+      "person": "Carlos Duran",
+      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
     {
@@ -7705,22 +7713,6 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944506,
-      "date": "2026-09-28",
-      "person": "Mason Black",
-      "description": "Kansas City Royals recalled RHP Mason Black from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944503,
-      "date": "2026-09-28",
-      "person": "Carlos Duran",
-      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 944492,
       "date": "2026-09-28",
       "person": "Easton McGee",
@@ -7729,19 +7721,19 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944505,
+      "id": 944504,
       "date": "2026-09-28",
-      "person": "Mitch Spence",
-      "description": "Kansas City Royals recalled RHP Mitch Spence from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
+      "person": "Steven Zobac",
+      "description": "Kansas City Royals recalled RHP Steven Zobac from Northwest Arkansas Naturals.",
+      "fromTeam": "Northwest Arkansas Naturals",
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944478,
+      "id": 944506,
       "date": "2026-09-28",
-      "person": "Beck Way",
-      "description": "Kansas City Royals activated RHP Beck Way from the 15-day injured list.",
-      "fromTeam": null,
+      "person": "Mason Black",
+      "description": "Kansas City Royals recalled RHP Mason Black from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
     {
@@ -7749,14 +7741,6 @@
       "date": "2026-09-28",
       "person": "Tony Gonsolin",
       "description": "Kansas City Royals activated RHP Tony Gonsolin from the 15-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944485,
-      "date": "2026-09-28",
-      "person": "Luke Little",
-      "description": "Kansas City Royals designated LHP Luke Little for assignment.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7769,10 +7753,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944161,
-      "date": "2026-09-27",
-      "person": "Tony Gonsolin",
-      "description": "Kansas City Royals placed RHP Tony Gonsolin on the 15-day injured list. Allergic reaction.",
+      "id": 944485,
+      "date": "2026-09-28",
+      "person": "Luke Little",
+      "description": "Kansas City Royals designated LHP Luke Little for assignment.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944478,
+      "date": "2026-09-28",
+      "person": "Beck Way",
+      "description": "Kansas City Royals activated RHP Beck Way from the 15-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7793,6 +7785,14 @@
       "toTeam": "Kansas City Royals"
     },
     {
+      "id": 944161,
+      "date": "2026-09-27",
+      "person": "Tony Gonsolin",
+      "description": "Kansas City Royals placed RHP Tony Gonsolin on the 15-day injured list. Allergic reaction.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 944129,
       "date": "2026-09-26",
       "person": "Matthew Lugo",
@@ -7809,18 +7809,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 943822,
-      "date": "2026-09-24",
-      "person": "Nomar Jimenez",
-      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
-      "fromTeam": null,
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 943823,
       "date": "2026-09-24",
       "person": "Jose Mejia",
       "description": "DSL Royals Fortuna released LHP Jose Mejia.",
+      "fromTeam": null,
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 943822,
+      "date": "2026-09-24",
+      "person": "Nomar Jimenez",
+      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
       "fromTeam": null,
       "toTeam": "DSL Royals Fortuna"
     },
@@ -7929,6 +7929,14 @@
       "toTeam": "Columbia Fireflies"
     },
     {
+      "id": 944203,
+      "date": "2026-09-17",
+      "person": "Yandel Ricardo",
+      "description": "Columbia Fireflies activated SS Yandel Ricardo from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Columbia Fireflies"
+    },
+    {
       "id": 944202,
       "date": "2026-09-17",
       "person": "Randy Ramnarace",
@@ -7941,14 +7949,6 @@
       "date": "2026-09-17",
       "person": "Carter Holton",
       "description": "Columbia Fireflies activated LHP Carter Holton from the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Columbia Fireflies"
-    },
-    {
-      "id": 944203,
-      "date": "2026-09-17",
-      "person": "Yandel Ricardo",
-      "description": "Columbia Fireflies activated SS Yandel Ricardo from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Columbia Fireflies"
     },
@@ -7977,18 +7977,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 942823,
-      "date": "2026-09-16",
-      "person": "Bobby Witt Jr.",
-      "description": "SS Bobby Witt Jr. changed number to 7.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 942835,
       "date": "2026-09-16",
       "person": "Salvador Perez",
       "description": "DH Salvador Perez changed number to 13.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 942823,
+      "date": "2026-09-16",
+      "person": "Bobby Witt Jr.",
+      "description": "SS Bobby Witt Jr. changed number to 7.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     }
