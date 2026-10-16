@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T01:23:59.818Z",
+  "updatedAt": "2026-10-16T06:08:45.583Z",
   "season": 2026,
   "levels": [
     {
@@ -7665,18 +7665,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 944264,
-      "date": "2026-09-28",
-      "person": "Ethan Bosacker",
-      "description": "Omaha Storm Chasers activated RHP Ethan Bosacker from the Development List.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 944177,
       "date": "2026-09-28",
       "person": "Ben Kudrna",
       "description": "Omaha Storm Chasers activated RHP Ben Kudrna from the 60-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 944264,
+      "date": "2026-09-28",
+      "person": "Ethan Bosacker",
+      "description": "Omaha Storm Chasers activated RHP Ethan Bosacker from the Development List.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7865,14 +7865,6 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 943495,
-      "date": "2026-09-21",
-      "person": "Elih Marrero",
-      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 943499,
       "date": "2026-09-21",
       "person": "Mitch Spence",
@@ -7885,6 +7877,14 @@
       "date": "2026-09-21",
       "person": "Jack Pineda",
       "description": "Omaha Storm Chasers activated SS Jack Pineda from the 7-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 943495,
+      "date": "2026-09-21",
+      "person": "Elih Marrero",
+      "description": "Omaha Storm Chasers activated C Elih Marrero from the 7-day injured list.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
