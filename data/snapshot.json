@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T19:45:35.382Z",
+  "updatedAt": "2026-10-22T22:58:31.216Z",
   "season": 2026,
   "levels": [
     {
@@ -374,29 +374,6 @@
       ],
       "pitchers": [
         {
-          "id": 656638,
-          "name": "Alex Lange",
-          "profileUrl": "https://www.mlb.com/player/alex-lange-656638",
-          "pos": "P",
-          "jersey": "56",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 59,
-          "w": 2,
-          "l": 7,
-          "sv": 10,
-          "era": "6.75",
-          "whip": "1.63",
-          "ip": "60.0",
-          "so": 60,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 543238,
           "name": "Anthony Gose",
           "profileUrl": "https://www.mlb.com/player/anthony-gose-543238",
@@ -558,29 +535,6 @@
           "trend": null
         },
         {
-          "id": 668834,
-          "name": "Easton McGee",
-          "profileUrl": "https://www.mlb.com/player/easton-mcgee-668834",
-          "pos": "P",
-          "jersey": "51",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 9,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "7.15",
-          "whip": "1.94",
-          "ip": "11.1",
-          "so": 9,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 663704,
           "name": "James McArthur",
           "profileUrl": "https://www.mlb.com/player/james-mcarthur-663704",
@@ -646,29 +600,6 @@
           "whip": "1.80",
           "ip": "48.1",
           "so": 34,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 696131,
-          "name": "Mason Black",
-          "profileUrl": "https://www.mlb.com/player/mason-black-696131",
-          "pos": "P",
-          "jersey": "47",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 17,
-          "w": 0,
-          "l": 0,
-          "sv": 0,
-          "era": "4.31",
-          "whip": "1.60",
-          "ip": "31.1",
-          "so": 19,
           "hasStats": true,
           "trend": null
         },
@@ -953,29 +884,6 @@
       ],
       "reservePitchers": [
         {
-          "id": 679525,
-          "name": "Alec Marsh",
-          "profileUrl": "https://www.mlb.com/player/alec-marsh-679525",
-          "pos": "P",
-          "jersey": "48",
-          "status": "Injured 60-Day",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": null,
-          "w": null,
-          "l": null,
-          "sv": null,
-          "era": null,
-          "whip": null,
-          "ip": null,
-          "so": null,
-          "hasStats": false,
-          "trend": null
-        },
-        {
           "id": 608032,
           "name": "Carlos Estévez",
           "profileUrl": "https://www.mlb.com/player/carlos-estevez-608032",
@@ -1018,29 +926,6 @@
           "whip": "1.42",
           "ip": "35.1",
           "so": 45,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 657756,
-          "name": "Connor Seabold",
-          "profileUrl": "https://www.mlb.com/player/connor-seabold-657756",
-          "pos": "P",
-          "jersey": "43",
-          "status": "Injured 60-Day",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 21,
-          "w": 1,
-          "l": 0,
-          "sv": 0,
-          "era": "5.25",
-          "whip": "1.71",
-          "ip": "24.0",
-          "so": 20,
           "hasStats": true,
           "trend": null
         },
@@ -1464,6 +1349,52 @@
       ],
       "pitchers": [
         {
+          "id": 679525,
+          "name": "Alec Marsh",
+          "profileUrl": "https://www.mlb.com/player/alec-marsh-679525",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false,
+          "trend": null
+        },
+        {
+          "id": 656638,
+          "name": "Alex Lange",
+          "profileUrl": "https://www.mlb.com/player/alex-lange-656638",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false,
+          "trend": null
+        },
+        {
           "id": 700786,
           "name": "Ben Sears",
           "profileUrl": "https://www.mlb.com/player/ben-sears-700786",
@@ -1644,6 +1575,29 @@
           "whip": "2.03",
           "ip": "35.0",
           "so": 41,
+          "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 696131,
+          "name": "Mason Black",
+          "profileUrl": "https://www.mlb.com/player/mason-black-696131",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Omaha Storm Chasers",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 26,
+          "w": 0,
+          "l": 3,
+          "sv": 3,
+          "era": "5.95",
+          "whip": "1.48",
+          "ip": "62.0",
+          "so": 50,
           "hasStats": true,
           "trend": null
         },
@@ -7577,18 +7531,74 @@
   },
   "transactions": [
     {
-      "id": 945541,
-      "date": "2026-10-09",
-      "person": "Yambert Guerra",
-      "description": "Kansas City Royals signed free agent OF Yambert Guerra to a minor league contract.",
+      "id": 946846,
+      "date": "2026-10-22",
+      "person": "Easton McGee",
+      "description": "RHP Easton McGee elected free agency.",
       "fromTeam": null,
-      "toTeam": "Kansas City Royals"
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946847,
+      "date": "2026-10-22",
+      "person": "Connor Seabold",
+      "description": "RHP Connor Seabold elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946845,
+      "date": "2026-10-22",
+      "person": "Alec Marsh",
+      "description": "Kansas City Royals sent RHP Alec Marsh outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946841,
+      "date": "2026-10-22",
+      "person": "Alex Lange",
+      "description": "Kansas City Royals sent RHP Alex Lange outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946844,
+      "date": "2026-10-22",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals sent RHP Easton McGee outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946842,
+      "date": "2026-10-22",
+      "person": "Mason Black",
+      "description": "Kansas City Royals sent RHP Mason Black outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946843,
+      "date": "2026-10-22",
+      "person": "Connor Seabold",
+      "description": "Kansas City Royals sent RHP Connor Seabold outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
     },
     {
       "id": 945540,
       "date": "2026-10-09",
       "person": "Francisco Garcia",
       "description": "Kansas City Royals signed free agent LHP Francisco Garcia to a minor league contract.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 945541,
+      "date": "2026-10-09",
+      "person": "Yambert Guerra",
+      "description": "Kansas City Royals signed free agent OF Yambert Guerra to a minor league contract.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7681,34 +7691,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 944506,
-      "date": "2026-09-28",
-      "person": "Mason Black",
-      "description": "Kansas City Royals recalled RHP Mason Black from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944504,
-      "date": "2026-09-28",
-      "person": "Steven Zobac",
-      "description": "Kansas City Royals recalled RHP Steven Zobac from Northwest Arkansas Naturals.",
-      "fromTeam": "Northwest Arkansas Naturals",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 944505,
       "date": "2026-09-28",
       "person": "Mitch Spence",
       "description": "Kansas City Royals recalled RHP Mitch Spence from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944503,
-      "date": "2026-09-28",
-      "person": "Carlos Duran",
-      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -7721,10 +7707,26 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944487,
+      "id": 944504,
       "date": "2026-09-28",
-      "person": "Ben Kudrna",
-      "description": "Kansas City Royals recalled RHP Ben Kudrna from Omaha Storm Chasers.",
+      "person": "Steven Zobac",
+      "description": "Kansas City Royals recalled RHP Steven Zobac from Northwest Arkansas Naturals.",
+      "fromTeam": "Northwest Arkansas Naturals",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944506,
+      "date": "2026-09-28",
+      "person": "Mason Black",
+      "description": "Kansas City Royals recalled RHP Mason Black from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944503,
+      "date": "2026-09-28",
+      "person": "Carlos Duran",
+      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -7737,11 +7739,11 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944485,
+      "id": 944487,
       "date": "2026-09-28",
-      "person": "Luke Little",
-      "description": "Kansas City Royals designated LHP Luke Little for assignment.",
-      "fromTeam": null,
+      "person": "Ben Kudrna",
+      "description": "Kansas City Royals recalled RHP Ben Kudrna from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
     {
@@ -7753,10 +7755,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944477,
+      "id": 944485,
       "date": "2026-09-28",
-      "person": "Nick Loftin",
-      "description": "Kansas City Royals activated 3B Nick Loftin from the paternity list.",
+      "person": "Luke Little",
+      "description": "Kansas City Royals designated LHP Luke Little for assignment.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7765,6 +7767,14 @@
       "date": "2026-09-28",
       "person": "Tony Gonsolin",
       "description": "Kansas City Royals activated RHP Tony Gonsolin from the 15-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944477,
+      "date": "2026-09-28",
+      "person": "Nick Loftin",
+      "description": "Kansas City Royals activated 3B Nick Loftin from the paternity list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7809,18 +7819,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 943822,
-      "date": "2026-09-24",
-      "person": "Nomar Jimenez",
-      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
-      "fromTeam": null,
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 943823,
       "date": "2026-09-24",
       "person": "Jose Mejia",
       "description": "DSL Royals Fortuna released LHP Jose Mejia.",
+      "fromTeam": null,
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 943822,
+      "date": "2026-09-24",
+      "person": "Nomar Jimenez",
+      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
       "fromTeam": null,
       "toTeam": "DSL Royals Fortuna"
     },
