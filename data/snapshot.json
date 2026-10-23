@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T16:33:01.435Z",
+  "updatedAt": "2026-10-23T20:05:22.871Z",
   "season": 2026,
   "levels": [
     {
@@ -7547,14 +7547,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946844,
-      "date": "2026-10-22",
-      "person": "Easton McGee",
-      "description": "Kansas City Royals sent RHP Easton McGee outright to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 946845,
       "date": "2026-10-22",
       "person": "Alec Marsh",
@@ -7575,6 +7567,14 @@
       "date": "2026-10-22",
       "person": "Mason Black",
       "description": "Kansas City Royals sent RHP Mason Black outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946844,
+      "date": "2026-10-22",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals sent RHP Easton McGee outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7603,18 +7603,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 945540,
-      "date": "2026-10-09",
-      "person": "Francisco Garcia",
-      "description": "Kansas City Royals signed free agent LHP Francisco Garcia to a minor league contract.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 945541,
       "date": "2026-10-09",
       "person": "Yambert Guerra",
       "description": "Kansas City Royals signed free agent OF Yambert Guerra to a minor league contract.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 945540,
+      "date": "2026-10-09",
+      "person": "Francisco Garcia",
+      "description": "Kansas City Royals signed free agent LHP Francisco Garcia to a minor league contract.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7707,50 +7707,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 944506,
-      "date": "2026-09-28",
-      "person": "Mason Black",
-      "description": "Kansas City Royals recalled RHP Mason Black from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944487,
-      "date": "2026-09-28",
-      "person": "Ben Kudrna",
-      "description": "Kansas City Royals recalled RHP Ben Kudrna from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944503,
-      "date": "2026-09-28",
-      "person": "Carlos Duran",
-      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 944505,
       "date": "2026-09-28",
       "person": "Mitch Spence",
       "description": "Kansas City Royals recalled RHP Mitch Spence from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944492,
-      "date": "2026-09-28",
-      "person": "Easton McGee",
-      "description": "Kansas City Royals recalled RHP Easton McGee from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944507,
-      "date": "2026-09-28",
-      "person": "Ryan Bergert",
-      "description": "Kansas City Royals recalled RHP Ryan Bergert from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -7763,11 +7723,43 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944477,
+      "id": 944507,
       "date": "2026-09-28",
-      "person": "Nick Loftin",
-      "description": "Kansas City Royals activated 3B Nick Loftin from the paternity list.",
-      "fromTeam": null,
+      "person": "Ryan Bergert",
+      "description": "Kansas City Royals recalled RHP Ryan Bergert from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944503,
+      "date": "2026-09-28",
+      "person": "Carlos Duran",
+      "description": "Kansas City Royals recalled RHP Carlos Duran from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944506,
+      "date": "2026-09-28",
+      "person": "Mason Black",
+      "description": "Kansas City Royals recalled RHP Mason Black from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944492,
+      "date": "2026-09-28",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals recalled RHP Easton McGee from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944487,
+      "date": "2026-09-28",
+      "person": "Ben Kudrna",
+      "description": "Kansas City Royals recalled RHP Ben Kudrna from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
     {
@@ -7779,10 +7771,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944478,
+      "id": 944477,
       "date": "2026-09-28",
-      "person": "Beck Way",
-      "description": "Kansas City Royals activated RHP Beck Way from the 15-day injured list.",
+      "person": "Nick Loftin",
+      "description": "Kansas City Royals activated 3B Nick Loftin from the paternity list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7795,11 +7787,19 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944174,
+      "id": 944478,
+      "date": "2026-09-28",
+      "person": "Beck Way",
+      "description": "Kansas City Royals activated RHP Beck Way from the 15-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 944161,
       "date": "2026-09-27",
-      "person": "Steven Cruz",
-      "description": "Kansas City Royals placed RHP Steven Cruz on the restricted list.",
-      "fromTeam": "Kansas City Royals",
+      "person": "Tony Gonsolin",
+      "description": "Kansas City Royals placed RHP Tony Gonsolin on the 15-day injured list. Allergic reaction.",
+      "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
     {
@@ -7811,11 +7811,11 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 944161,
+      "id": 944174,
       "date": "2026-09-27",
-      "person": "Tony Gonsolin",
-      "description": "Kansas City Royals placed RHP Tony Gonsolin on the 15-day injured list. Allergic reaction.",
-      "fromTeam": null,
+      "person": "Steven Cruz",
+      "description": "Kansas City Royals placed RHP Steven Cruz on the restricted list.",
+      "fromTeam": "Kansas City Royals",
       "toTeam": "Kansas City Royals"
     },
     {
@@ -7835,18 +7835,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 943822,
-      "date": "2026-09-24",
-      "person": "Nomar Jimenez",
-      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
-      "fromTeam": null,
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
       "id": 943823,
       "date": "2026-09-24",
       "person": "Jose Mejia",
       "description": "DSL Royals Fortuna released LHP Jose Mejia.",
+      "fromTeam": null,
+      "toTeam": "DSL Royals Fortuna"
+    },
+    {
+      "id": 943822,
+      "date": "2026-09-24",
+      "person": "Nomar Jimenez",
+      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
       "fromTeam": null,
       "toTeam": "DSL Royals Fortuna"
     },
