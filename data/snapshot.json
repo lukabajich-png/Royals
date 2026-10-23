@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T22:58:31.216Z",
+  "updatedAt": "2026-10-23T01:22:59.611Z",
   "season": 2026,
   "levels": [
     {
@@ -7849,14 +7849,6 @@
       "description": "Kansas City Royals placed RHP Steven Cruz on the paternity list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 943971,
-      "date": "2026-09-22",
-      "person": "Jorge Alfaro",
-      "description": "Omaha Storm Chasers activated C Jorge Alfaro from the Development List.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
     }
   ],
   "draftPicks": [
