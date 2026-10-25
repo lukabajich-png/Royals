@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T22:38:46.469Z",
+  "updatedAt": "2026-10-25T00:32:07.801Z",
   "season": 2026,
   "levels": [
     {
@@ -7816,38 +7816,6 @@
       "date": "2026-09-26",
       "person": "Nick Loftin",
       "description": "Kansas City Royals placed 3B Nick Loftin on the paternity list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 943822,
-      "date": "2026-09-24",
-      "person": "Nomar Jimenez",
-      "description": "DSL Royals Fortuna released LHP Nomar Jimenez.",
-      "fromTeam": null,
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
-      "id": 943823,
-      "date": "2026-09-24",
-      "person": "Jose Mejia",
-      "description": "DSL Royals Fortuna released LHP Jose Mejia.",
-      "fromTeam": null,
-      "toTeam": "DSL Royals Fortuna"
-    },
-    {
-      "id": 943792,
-      "date": "2026-09-24",
-      "person": "Spencer Bivens",
-      "description": "Kansas City Royals recalled RHP Spencer Bivens from ACL Royals.",
-      "fromTeam": "ACL Royals",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 943791,
-      "date": "2026-09-24",
-      "person": "Steven Cruz",
-      "description": "Kansas City Royals placed RHP Steven Cruz on the paternity list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     }
