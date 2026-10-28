@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T22:29:28.601Z",
+  "updatedAt": "2026-10-28T01:36:10.530Z",
   "season": 2026,
   "levels": [
     {
@@ -7761,30 +7761,6 @@
       "date": "2026-09-28",
       "person": "Tony Gonsolin",
       "description": "Kansas City Royals activated RHP Tony Gonsolin from the 15-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944174,
-      "date": "2026-09-27",
-      "person": "Steven Cruz",
-      "description": "Kansas City Royals placed RHP Steven Cruz on the restricted list.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944162,
-      "date": "2026-09-27",
-      "person": "James McArthur",
-      "description": "Kansas City Royals activated RHP James McArthur from the 60-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944161,
-      "date": "2026-09-27",
-      "person": "Tony Gonsolin",
-      "description": "Kansas City Royals placed RHP Tony Gonsolin on the 15-day injured list. Allergic reaction.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     }
