@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T16:20:31.603Z",
+  "updatedAt": "2026-10-29T21:18:55.849Z",
   "season": 2026,
   "levels": [
     {
@@ -142,29 +142,6 @@
           "trend": null
         },
         {
-          "id": 668942,
-          "name": "Josh Rojas",
-          "profileUrl": "https://www.mlb.com/player/josh-rojas-668942",
-          "pos": "3B",
-          "jersey": "40",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 44,
-          "avg": ".226",
-          "obp": ".265",
-          "slg": ".321",
-          "ops": ".586",
-          "hr": 2,
-          "rbi": 14,
-          "sb": 1,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 664728,
           "name": "Kyle Isbel",
           "profileUrl": "https://www.mlb.com/player/kyle-isbel-664728",
@@ -184,29 +161,6 @@
           "hr": 6,
           "rbi": 24,
           "sb": 6,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 571912,
-          "name": "Luke Maile",
-          "profileUrl": "https://www.mlb.com/player/luke-maile-571912",
-          "pos": "C",
-          "jersey": "18",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 19,
-          "avg": ".159",
-          "obp": ".229",
-          "slg": ".273",
-          "ops": ".502",
-          "hr": 1,
-          "rbi": 5,
-          "sb": 0,
           "hasStats": true,
           "trend": null
         },
@@ -485,29 +439,6 @@
           "whip": "1.60",
           "ip": "25.2",
           "so": 18,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 518886,
-          "name": "Craig Kimbrel",
-          "profileUrl": "https://www.mlb.com/player/craig-kimbrel-518886",
-          "pos": "P",
-          "jersey": "26",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 46,
-          "w": 1,
-          "l": 5,
-          "sv": 1,
-          "era": "4.50",
-          "whip": "1.35",
-          "ip": "46.0",
-          "so": 40,
           "hasStats": true,
           "trend": null
         },
@@ -857,31 +788,7 @@
           "trend": null
         }
       ],
-      "reserveHitters": [
-        {
-          "id": 663697,
-          "name": "Jonathan India",
-          "profileUrl": "https://www.mlb.com/player/jonathan-india-663697",
-          "pos": "2B",
-          "jersey": "6",
-          "status": "Injured 60-Day",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 17,
-          "avg": ".167",
-          "obp": ".310",
-          "slg": ".313",
-          "ops": ".623",
-          "hr": 2,
-          "rbi": 8,
-          "sb": 0,
-          "hasStats": true,
-          "trend": null
-        }
-      ],
+      "reserveHitters": [],
       "reservePitchers": [
         {
           "id": 608032,
@@ -7485,6 +7392,38 @@
   },
   "transactions": [
     {
+      "id": 947299,
+      "date": "2026-10-29",
+      "person": "Jonathan India",
+      "description": "2B Jonathan India elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 947350,
+      "date": "2026-10-29",
+      "person": "Josh Rojas",
+      "description": "3B Josh Rojas elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 947382,
+      "date": "2026-10-29",
+      "person": "Craig Kimbrel",
+      "description": "RHP Craig Kimbrel elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 947374,
+      "date": "2026-10-29",
+      "person": "Luke Maile",
+      "description": "C Luke Maile elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 946902,
       "date": "2026-10-23",
       "person": "Alec Marsh",
@@ -7501,14 +7440,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946846,
-      "date": "2026-10-22",
-      "person": "Easton McGee",
-      "description": "RHP Easton McGee elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 946847,
       "date": "2026-10-22",
       "person": "Connor Seabold",
@@ -7517,18 +7448,26 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946845,
+      "id": 946846,
       "date": "2026-10-22",
-      "person": "Alec Marsh",
-      "description": "Kansas City Royals sent RHP Alec Marsh outright to Omaha Storm Chasers.",
+      "person": "Easton McGee",
+      "description": "RHP Easton McGee elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946844,
+      "date": "2026-10-22",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals sent RHP Easton McGee outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946843,
+      "id": 946845,
       "date": "2026-10-22",
-      "person": "Connor Seabold",
-      "description": "Kansas City Royals sent RHP Connor Seabold outright to Omaha Storm Chasers.",
+      "person": "Alec Marsh",
+      "description": "Kansas City Royals sent RHP Alec Marsh outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7541,14 +7480,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946844,
-      "date": "2026-10-22",
-      "person": "Easton McGee",
-      "description": "Kansas City Royals sent RHP Easton McGee outright to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 946841,
       "date": "2026-10-22",
       "person": "Alex Lange",
@@ -7557,7 +7488,15 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946895,
+      "id": 946843,
+      "date": "2026-10-22",
+      "person": "Connor Seabold",
+      "description": "Kansas City Royals sent RHP Connor Seabold outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946896,
       "date": "2026-10-22",
       "person": "Tomas Rivas",
       "description": "Kansas City Royals signed free agent IF Tomas Rivas to a minor league contract.",
@@ -7565,7 +7504,7 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 946896,
+      "id": 946895,
       "date": "2026-10-22",
       "person": "Tomas Rivas",
       "description": "Kansas City Royals signed free agent IF Tomas Rivas to a minor league contract.",
