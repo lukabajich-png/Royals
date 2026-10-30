@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T21:18:55.849Z",
+  "updatedAt": "2026-10-30T01:15:22.873Z",
   "season": 2026,
   "levels": [
     {
@@ -7400,10 +7400,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947350,
+      "id": 947374,
       "date": "2026-10-29",
-      "person": "Josh Rojas",
-      "description": "3B Josh Rojas elected free agency.",
+      "person": "Luke Maile",
+      "description": "C Luke Maile elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7416,10 +7416,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947374,
+      "id": 947350,
       "date": "2026-10-29",
-      "person": "Luke Maile",
-      "description": "C Luke Maile elected free agency.",
+      "person": "Josh Rojas",
+      "description": "3B Josh Rojas elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7440,14 +7440,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946847,
-      "date": "2026-10-22",
-      "person": "Connor Seabold",
-      "description": "RHP Connor Seabold elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 946846,
       "date": "2026-10-22",
       "person": "Easton McGee",
@@ -7456,10 +7448,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946844,
+      "id": 946847,
       "date": "2026-10-22",
-      "person": "Easton McGee",
-      "description": "Kansas City Royals sent RHP Easton McGee outright to Omaha Storm Chasers.",
+      "person": "Connor Seabold",
+      "description": "RHP Connor Seabold elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946843,
+      "date": "2026-10-22",
+      "person": "Connor Seabold",
+      "description": "Kansas City Royals sent RHP Connor Seabold outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7472,10 +7472,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946842,
+      "id": 946844,
       "date": "2026-10-22",
-      "person": "Mason Black",
-      "description": "Kansas City Royals sent RHP Mason Black outright to Omaha Storm Chasers.",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals sent RHP Easton McGee outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7488,20 +7488,12 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946843,
+      "id": 946842,
       "date": "2026-10-22",
-      "person": "Connor Seabold",
-      "description": "Kansas City Royals sent RHP Connor Seabold outright to Omaha Storm Chasers.",
+      "person": "Mason Black",
+      "description": "Kansas City Royals sent RHP Mason Black outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 946896,
-      "date": "2026-10-22",
-      "person": "Tomas Rivas",
-      "description": "Kansas City Royals signed free agent IF Tomas Rivas to a minor league contract.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
     },
     {
       "id": 946895,
@@ -7512,10 +7504,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 945541,
-      "date": "2026-10-09",
-      "person": "Yambert Guerra",
-      "description": "Kansas City Royals signed free agent OF Yambert Guerra to a minor league contract.",
+      "id": 946896,
+      "date": "2026-10-22",
+      "person": "Tomas Rivas",
+      "description": "Kansas City Royals signed free agent IF Tomas Rivas to a minor league contract.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7524,6 +7516,14 @@
       "date": "2026-10-09",
       "person": "Francisco Garcia",
       "description": "Kansas City Royals signed free agent LHP Francisco Garcia to a minor league contract.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 945541,
+      "date": "2026-10-09",
+      "person": "Yambert Guerra",
+      "description": "Kansas City Royals signed free agent OF Yambert Guerra to a minor league contract.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7550,14 +7550,6 @@
       "description": "Kansas City Royals sent LHP Luke Little outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 944483,
-      "date": "2026-09-29",
-      "person": "Craig Kimbrel",
-      "description": "Kansas City Royals activated RHP Craig Kimbrel from the bereavement list.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
     }
   ],
   "draftPicks": [
