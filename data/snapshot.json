@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T22:41:15.853Z",
+  "updatedAt": "2026-11-01T01:29:08.401Z",
   "season": 2026,
   "levels": [
     {
@@ -7519,22 +7519,6 @@
       "description": "Kansas City Royals signed free agent RHP Xabiel Vasquez to a minor league contract.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 944954,
-      "date": "2026-10-01",
-      "person": "Drew Waters",
-      "description": "LF Drew Waters elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 944914,
-      "date": "2026-10-01",
-      "person": "Luke Little",
-      "description": "Kansas City Royals sent LHP Luke Little outright to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
     }
   ],
   "draftPicks": [
