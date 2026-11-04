@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T17:46:45.856Z",
+  "updatedAt": "2026-11-04T23:15:05.022Z",
   "season": 2026,
   "levels": [
     {
@@ -7154,10 +7154,10 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 948750,
+      "id": 949511,
       "date": "2026-11-02",
-      "person": "Nate Ackenhausen",
-      "description": "Northwest Arkansas Naturals released LHP Nate Ackenhausen.",
+      "person": "Christian Chamberlain",
+      "description": "LHP Christian Chamberlain elected free agency.",
       "fromTeam": null,
       "toTeam": "Northwest Arkansas Naturals"
     },
@@ -7186,18 +7186,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
+      "id": 948750,
+      "date": "2026-11-02",
+      "person": "Nate Ackenhausen",
+      "description": "Northwest Arkansas Naturals released LHP Nate Ackenhausen.",
+      "fromTeam": null,
+      "toTeam": "Northwest Arkansas Naturals"
+    },
+    {
       "id": 949120,
       "date": "2026-11-02",
       "person": "Abraham Toro",
       "description": "1B Abraham Toro elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 949086,
-      "date": "2026-11-02",
-      "person": "Elih Marrero",
-      "description": "C Elih Marrero elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7210,10 +7210,26 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949078,
+      "id": 949176,
       "date": "2026-11-02",
-      "person": "Alejo Lopez",
-      "description": "2B Alejo Lopez elected free agency.",
+      "person": "Scott Alexander",
+      "description": "LHP Scott Alexander elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949170,
+      "date": "2026-11-02",
+      "person": "Vince Velasquez",
+      "description": "RHP Vince Velasquez elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 948952,
+      "date": "2026-11-02",
+      "person": "Luke Little",
+      "description": "LHP Luke Little elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7242,26 +7258,26 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949176,
+      "id": 949086,
       "date": "2026-11-02",
-      "person": "Scott Alexander",
-      "description": "LHP Scott Alexander elected free agency.",
+      "person": "Elih Marrero",
+      "description": "C Elih Marrero elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949170,
+      "id": 949541,
       "date": "2026-11-02",
-      "person": "Vince Velasquez",
-      "description": "RHP Vince Velasquez elected free agency.",
+      "person": "Connor Kaiser",
+      "description": "SS Connor Kaiser elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 948952,
+      "id": 949078,
       "date": "2026-11-02",
-      "person": "Luke Little",
-      "description": "LHP Luke Little elected free agency.",
+      "person": "Alejo Lopez",
+      "description": "2B Alejo Lopez elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7306,14 +7322,6 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947040,
-      "date": "2026-10-23",
-      "person": "Jorge Alfaro",
-      "description": "Omaha Storm Chasers released C Jorge Alfaro.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 946902,
       "date": "2026-10-23",
       "person": "Alec Marsh",
@@ -7322,10 +7330,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946846,
-      "date": "2026-10-22",
-      "person": "Easton McGee",
-      "description": "RHP Easton McGee elected free agency.",
+      "id": 947040,
+      "date": "2026-10-23",
+      "person": "Jorge Alfaro",
+      "description": "Omaha Storm Chasers released C Jorge Alfaro.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7334,6 +7342,14 @@
       "date": "2026-10-22",
       "person": "Connor Seabold",
       "description": "RHP Connor Seabold elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946846,
+      "date": "2026-10-22",
+      "person": "Easton McGee",
+      "description": "RHP Easton McGee elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
