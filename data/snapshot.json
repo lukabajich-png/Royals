@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T21:50:15.646Z",
+  "updatedAt": "2026-11-08T01:06:28.841Z",
   "season": 2026,
   "levels": [
     {
@@ -7422,14 +7422,6 @@
       "date": "2026-10-09",
       "person": "Francisco Garcia",
       "description": "Kansas City Royals signed free agent LHP Francisco Garcia to a minor league contract.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 945542,
-      "date": "2026-10-08",
-      "person": "Xabiel Vasquez",
-      "description": "Kansas City Royals signed free agent RHP Xabiel Vasquez to a minor league contract.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     }
