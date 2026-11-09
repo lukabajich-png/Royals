@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T22:43:10.651Z",
+  "updatedAt": "2026-11-09T02:01:19.823Z",
   "season": 2026,
   "levels": [
     {
@@ -7406,22 +7406,6 @@
       "date": "2026-10-22",
       "person": "Tomas Rivas",
       "description": "Kansas City Royals signed free agent IF Tomas Rivas to a minor league contract.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 945541,
-      "date": "2026-10-09",
-      "person": "Yambert Guerra",
-      "description": "Kansas City Royals signed free agent OF Yambert Guerra to a minor league contract.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 945540,
-      "date": "2026-10-09",
-      "person": "Francisco Garcia",
-      "description": "Kansas City Royals signed free agent LHP Francisco Garcia to a minor league contract.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     }
