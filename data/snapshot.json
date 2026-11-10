@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T10:47:30.803Z",
+  "updatedAt": "2026-11-10T18:28:42.911Z",
   "season": 2026,
   "levels": [
     {
@@ -7042,38 +7042,6 @@
   },
   "transactions": [
     {
-      "id": 948181,
-      "date": "2026-11-02",
-      "person": "Isaiah Jackson",
-      "description": "ACL Royals activated RHP Isaiah Jackson from the 60-day injured list.",
-      "fromTeam": null,
-      "toTeam": "ACL Royals"
-    },
-    {
-      "id": 948536,
-      "date": "2026-11-02",
-      "person": "David Rodriguez",
-      "description": "ACL Royals activated LHP David Rodriguez from the 60-day injured list.",
-      "fromTeam": null,
-      "toTeam": "ACL Royals"
-    },
-    {
-      "id": 948537,
-      "date": "2026-11-02",
-      "person": "Gijs Van Den Brink",
-      "description": "ACL Royals activated LHP Gijs Van Den Brink from the 60-day injured list.",
-      "fromTeam": null,
-      "toTeam": "ACL Royals"
-    },
-    {
-      "id": 948182,
-      "date": "2026-11-02",
-      "person": "Isaiah Jackson",
-      "description": "RHP Isaiah Jackson elected free agency.",
-      "fromTeam": null,
-      "toTeam": "ACL Royals"
-    },
-    {
       "id": 948539,
       "date": "2026-11-02",
       "person": "Lance Hartley",
@@ -7086,6 +7054,38 @@
       "date": "2026-11-02",
       "person": "Raimel Medina",
       "description": "ACL Royals activated OF Raimel Medina from the 60-day injured list.",
+      "fromTeam": null,
+      "toTeam": "ACL Royals"
+    },
+    {
+      "id": 948536,
+      "date": "2026-11-02",
+      "person": "David Rodriguez",
+      "description": "ACL Royals activated LHP David Rodriguez from the 60-day injured list.",
+      "fromTeam": null,
+      "toTeam": "ACL Royals"
+    },
+    {
+      "id": 948181,
+      "date": "2026-11-02",
+      "person": "Isaiah Jackson",
+      "description": "ACL Royals activated RHP Isaiah Jackson from the 60-day injured list.",
+      "fromTeam": null,
+      "toTeam": "ACL Royals"
+    },
+    {
+      "id": 948182,
+      "date": "2026-11-02",
+      "person": "Isaiah Jackson",
+      "description": "RHP Isaiah Jackson elected free agency.",
+      "fromTeam": null,
+      "toTeam": "ACL Royals"
+    },
+    {
+      "id": 948537,
+      "date": "2026-11-02",
+      "person": "Gijs Van Den Brink",
+      "description": "ACL Royals activated LHP Gijs Van Den Brink from the 60-day injured list.",
       "fromTeam": null,
       "toTeam": "ACL Royals"
     },
