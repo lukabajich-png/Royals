@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T10:56:43.528Z",
+  "updatedAt": "2026-11-11T18:28:18.510Z",
   "season": 2026,
   "levels": [
     {
@@ -7114,18 +7114,10 @@
       "toTeam": "DSL Royals Ventura"
     },
     {
-      "id": 948259,
+      "id": 948257,
       "date": "2026-11-02",
-      "person": "Trevor Werner",
-      "description": "Quad Cities River Bandits activated 1B Trevor Werner from the full-season injured list.",
-      "fromTeam": null,
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
-      "id": 948256,
-      "date": "2026-11-02",
-      "person": "Carter Frederick",
-      "description": "Quad Cities River Bandits activated OF Carter Frederick from the 60-day injured list.",
+      "person": "Bryson Dudley",
+      "description": "Quad Cities River Bandits activated RHP Bryson Dudley from the full-season injured list.",
       "fromTeam": null,
       "toTeam": "Quad Cities River Bandits"
     },
@@ -7138,6 +7130,14 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
+      "id": 948256,
+      "date": "2026-11-02",
+      "person": "Carter Frederick",
+      "description": "Quad Cities River Bandits activated OF Carter Frederick from the 60-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Quad Cities River Bandits"
+    },
+    {
       "id": 948258,
       "date": "2026-11-02",
       "person": "Chase Isbell",
@@ -7146,34 +7146,18 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 948257,
+      "id": 948259,
       "date": "2026-11-02",
-      "person": "Bryson Dudley",
-      "description": "Quad Cities River Bandits activated RHP Bryson Dudley from the full-season injured list.",
+      "person": "Trevor Werner",
+      "description": "Quad Cities River Bandits activated 1B Trevor Werner from the full-season injured list.",
       "fromTeam": null,
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 949511,
-      "date": "2026-11-02",
-      "person": "Christian Chamberlain",
-      "description": "LHP Christian Chamberlain elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 948105,
+      "id": 948750,
       "date": "2026-11-02",
       "person": "Nate Ackenhausen",
-      "description": "Northwest Arkansas Naturals activated LHP Nate Ackenhausen from the 60-day injured list.",
-      "fromTeam": null,
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 948106,
-      "date": "2026-11-02",
-      "person": "Christian Chamberlain",
-      "description": "Northwest Arkansas Naturals activated LHP Christian Chamberlain from the 60-day injured list.",
+      "description": "Northwest Arkansas Naturals released LHP Nate Ackenhausen.",
       "fromTeam": null,
       "toTeam": "Northwest Arkansas Naturals"
     },
@@ -7186,50 +7170,34 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 948750,
+      "id": 949511,
       "date": "2026-11-02",
-      "person": "Nate Ackenhausen",
-      "description": "Northwest Arkansas Naturals released LHP Nate Ackenhausen.",
+      "person": "Christian Chamberlain",
+      "description": "LHP Christian Chamberlain elected free agency.",
       "fromTeam": null,
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 949120,
+      "id": 948106,
       "date": "2026-11-02",
-      "person": "Abraham Toro",
-      "description": "1B Abraham Toro elected free agency.",
+      "person": "Christian Chamberlain",
+      "description": "Northwest Arkansas Naturals activated LHP Christian Chamberlain from the 60-day injured list.",
       "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
+      "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 949106,
+      "id": 948105,
       "date": "2026-11-02",
-      "person": "Alex Lange",
-      "description": "RHP Alex Lange elected free agency.",
+      "person": "Nate Ackenhausen",
+      "description": "Northwest Arkansas Naturals activated LHP Nate Ackenhausen from the 60-day injured list.",
       "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
+      "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 949176,
+      "id": 949078,
       "date": "2026-11-02",
-      "person": "Scott Alexander",
-      "description": "LHP Scott Alexander elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 949170,
-      "date": "2026-11-02",
-      "person": "Vince Velasquez",
-      "description": "RHP Vince Velasquez elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 948952,
-      "date": "2026-11-02",
-      "person": "Luke Little",
-      "description": "LHP Luke Little elected free agency.",
+      "person": "Alejo Lopez",
+      "description": "2B Alejo Lopez elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7250,22 +7218,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949172,
-      "date": "2026-11-02",
-      "person": "Matt Moore",
-      "description": "LHP Matt Moore elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 949086,
-      "date": "2026-11-02",
-      "person": "Elih Marrero",
-      "description": "C Elih Marrero elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 949541,
       "date": "2026-11-02",
       "person": "Connor Kaiser",
@@ -7274,10 +7226,58 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949078,
+      "id": 949176,
       "date": "2026-11-02",
-      "person": "Alejo Lopez",
-      "description": "2B Alejo Lopez elected free agency.",
+      "person": "Scott Alexander",
+      "description": "LHP Scott Alexander elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949172,
+      "date": "2026-11-02",
+      "person": "Matt Moore",
+      "description": "LHP Matt Moore elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949170,
+      "date": "2026-11-02",
+      "person": "Vince Velasquez",
+      "description": "RHP Vince Velasquez elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 948952,
+      "date": "2026-11-02",
+      "person": "Luke Little",
+      "description": "LHP Luke Little elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949120,
+      "date": "2026-11-02",
+      "person": "Abraham Toro",
+      "description": "1B Abraham Toro elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949106,
+      "date": "2026-11-02",
+      "person": "Alex Lange",
+      "description": "RHP Alex Lange elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949086,
+      "date": "2026-11-02",
+      "person": "Elih Marrero",
+      "description": "C Elih Marrero elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
