@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T17:54:03.235Z",
+  "updatedAt": "2026-11-18T00:34:57.019Z",
   "season": 2026,
   "levels": [
     {
@@ -47,6 +47,29 @@
           "rbi": 54,
           "sb": 45,
           "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 811287,
+          "name": "Carson Roccaforte",
+          "profileUrl": "https://www.mlb.com/player/carson-roccaforte-811287",
+          "pos": "CF",
+          "jersey": "",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": 17,
+          "top100Rank": null,
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false,
           "trend": null
         },
         {
@@ -328,6 +351,29 @@
       ],
       "pitchers": [
         {
+          "id": 682785,
+          "name": "Angel Bastardo",
+          "profileUrl": "https://www.mlb.com/player/angel-bastardo-682785",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false,
+          "trend": null
+        },
+        {
           "id": 543238,
           "name": "Anthony Gose",
           "profileUrl": "https://www.mlb.com/player/anthony-gose-543238",
@@ -509,6 +555,29 @@
           "ip": "23.1",
           "so": 25,
           "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 814351,
+          "name": "Lucas Braun",
+          "profileUrl": "https://www.mlb.com/player/lucas-braun-814351",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": 16,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false,
           "trend": null
         },
         {
@@ -837,29 +906,6 @@
           "trend": null
         },
         {
-          "id": 683232,
-          "name": "Nick Mears",
-          "profileUrl": "https://www.mlb.com/player/nick-mears-683232",
-          "pos": "P",
-          "jersey": "31",
-          "status": "Injured 60-Day",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 21,
-          "w": 2,
-          "l": 3,
-          "sv": 0,
-          "era": "5.12",
-          "whip": "1.50",
-          "ip": "19.1",
-          "so": 15,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 663568,
           "name": "Stephen Kolek",
           "profileUrl": "https://www.mlb.com/player/stephen-kolek-663568",
@@ -932,29 +978,6 @@
           "trend": null
         },
         {
-          "id": 811287,
-          "name": "Carson Roccaforte",
-          "profileUrl": "https://www.mlb.com/player/carson-roccaforte-811287",
-          "pos": "CF",
-          "jersey": "6",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": 17,
-          "top100Rank": null,
-          "g": 28,
-          "avg": ".284",
-          "obp": ".362",
-          "slg": ".500",
-          "ops": ".862",
-          "hr": 5,
-          "rbi": 16,
-          "sb": 11,
-          "hasStats": true,
-          "trend": null
-        },
-        {
           "id": 813851,
           "name": "Colton Becker",
           "profileUrl": "https://www.mlb.com/player/colton-becker-813851",
@@ -997,29 +1020,6 @@
           "hr": 17,
           "rbi": 54,
           "sb": 25,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 801442,
-          "name": "Jack Pineda",
-          "profileUrl": "https://www.mlb.com/player/jack-pineda-801442",
-          "pos": "SS",
-          "jersey": "3",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 22,
-          "avg": ".302",
-          "obp": ".337",
-          "slg": ".488",
-          "ops": ".825",
-          "hr": 2,
-          "rbi": 15,
-          "sb": 2,
           "hasStats": true,
           "trend": null
         },
@@ -1321,29 +1321,6 @@
           "whip": "0.97",
           "ip": "11.1",
           "so": 10,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 814351,
-          "name": "Lucas Braun",
-          "profileUrl": "https://www.mlb.com/player/lucas-braun-814351",
-          "pos": "P",
-          "jersey": "28",
-          "status": "Active",
-          "team": "Omaha Storm Chasers",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": 16,
-          "top100Rank": null,
-          "g": 18,
-          "w": 9,
-          "l": 5,
-          "sv": 0,
-          "era": "4.76",
-          "whip": "1.39",
-          "ip": "81.1",
-          "so": 69,
           "hasStats": true,
           "trend": null
         },
@@ -6560,24 +6537,24 @@
         "name": "Carson Roccaforte",
         "profileUrl": "https://www.mlb.com/player/carson-roccaforte-811287",
         "pos": "CF",
-        "jersey": "6",
+        "jersey": "",
         "status": "Active",
-        "team": "Omaha Storm Chasers",
+        "team": "Kansas City Royals",
         "bats": "L",
         "throws": "L",
         "orgRank": 17,
         "top100Rank": null,
-        "g": 28,
-        "avg": ".284",
-        "obp": ".362",
-        "slg": ".500",
-        "ops": ".862",
-        "hr": 5,
-        "rbi": 16,
-        "sb": 11,
-        "hasStats": true,
+        "g": null,
+        "avg": null,
+        "obp": null,
+        "slg": null,
+        "ops": null,
+        "hr": null,
+        "rbi": null,
+        "sb": null,
+        "hasStats": false,
         "trend": null,
-        "level": "AAA"
+        "level": "MLB"
       },
       {
         "id": 836598,
@@ -6898,24 +6875,24 @@
         "name": "Lucas Braun",
         "profileUrl": "https://www.mlb.com/player/lucas-braun-814351",
         "pos": "P",
-        "jersey": "28",
+        "jersey": "",
         "status": "Active",
-        "team": "Omaha Storm Chasers",
+        "team": "Kansas City Royals",
         "bats": "R",
         "throws": "R",
         "orgRank": 16,
         "top100Rank": null,
-        "g": 18,
-        "w": 9,
-        "l": 5,
-        "sv": 0,
-        "era": "4.76",
-        "whip": "1.39",
-        "ip": "81.1",
-        "so": 69,
-        "hasStats": true,
+        "g": null,
+        "w": null,
+        "l": null,
+        "sv": null,
+        "era": null,
+        "whip": null,
+        "ip": null,
+        "so": null,
+        "hasStats": false,
         "trend": null,
-        "level": "AAA"
+        "level": "MLB"
       },
       {
         "id": 695667,
@@ -7065,6 +7042,38 @@
   },
   "transactions": [
     {
+      "id": 950379,
+      "date": "2026-11-17",
+      "person": "Lucas Braun",
+      "description": "Kansas City Royals selected the contract of RHP Lucas Braun from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 950378,
+      "date": "2026-11-17",
+      "person": "Carson Roccaforte",
+      "description": "Kansas City Royals selected the contract of CF Carson Roccaforte from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 950357,
+      "date": "2026-11-17",
+      "person": "Jack Pineda",
+      "description": "Boston Red Sox traded RHP Angel Bastardo to Kansas City Royals for SS Jack Pineda.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Boston Red Sox"
+    },
+    {
+      "id": 950377,
+      "date": "2026-11-17",
+      "person": "Nick Mears",
+      "description": "Kansas City Royals designated RHP Nick Mears for assignment.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 950101,
       "date": "2026-11-07",
       "person": "Hobie Harris",
@@ -7153,14 +7162,6 @@
       "toTeam": "DSL Royals Ventura"
     },
     {
-      "id": 948257,
-      "date": "2026-11-02",
-      "person": "Bryson Dudley",
-      "description": "Quad Cities River Bandits activated RHP Bryson Dudley from the full-season injured list.",
-      "fromTeam": null,
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
       "id": 948751,
       "date": "2026-11-02",
       "person": "Chase Isbell",
@@ -7177,6 +7178,14 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
+      "id": 948259,
+      "date": "2026-11-02",
+      "person": "Trevor Werner",
+      "description": "Quad Cities River Bandits activated 1B Trevor Werner from the full-season injured list.",
+      "fromTeam": null,
+      "toTeam": "Quad Cities River Bandits"
+    },
+    {
       "id": 948258,
       "date": "2026-11-02",
       "person": "Chase Isbell",
@@ -7185,10 +7194,10 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 948259,
+      "id": 948257,
       "date": "2026-11-02",
-      "person": "Trevor Werner",
-      "description": "Quad Cities River Bandits activated 1B Trevor Werner from the full-season injured list.",
+      "person": "Bryson Dudley",
+      "description": "Quad Cities River Bandits activated RHP Bryson Dudley from the full-season injured list.",
       "fromTeam": null,
       "toTeam": "Quad Cities River Bandits"
     },
@@ -7233,14 +7242,6 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 949120,
-      "date": "2026-11-02",
-      "person": "Abraham Toro",
-      "description": "1B Abraham Toro elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 949086,
       "date": "2026-11-02",
       "person": "Elih Marrero",
@@ -7257,26 +7258,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949541,
+      "id": 949176,
       "date": "2026-11-02",
-      "person": "Connor Kaiser",
-      "description": "SS Connor Kaiser elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 949106,
-      "date": "2026-11-02",
-      "person": "Alex Lange",
-      "description": "RHP Alex Lange elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 949170,
-      "date": "2026-11-02",
-      "person": "Vince Velasquez",
-      "description": "RHP Vince Velasquez elected free agency.",
+      "person": "Scott Alexander",
+      "description": "LHP Scott Alexander elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7289,18 +7274,34 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949176,
-      "date": "2026-11-02",
-      "person": "Scott Alexander",
-      "description": "LHP Scott Alexander elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 948952,
       "date": "2026-11-02",
       "person": "Luke Little",
       "description": "LHP Luke Little elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949170,
+      "date": "2026-11-02",
+      "person": "Vince Velasquez",
+      "description": "RHP Vince Velasquez elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 948018,
+      "date": "2026-11-02",
+      "person": "Connor Kaiser",
+      "description": "Omaha Storm Chasers activated SS Connor Kaiser from the 60-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949541,
+      "date": "2026-11-02",
+      "person": "Connor Kaiser",
+      "description": "SS Connor Kaiser elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7313,10 +7314,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 948018,
+      "id": 949106,
       "date": "2026-11-02",
-      "person": "Connor Kaiser",
-      "description": "Omaha Storm Chasers activated SS Connor Kaiser from the 60-day injured list.",
+      "person": "Alex Lange",
+      "description": "RHP Alex Lange elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949120,
+      "date": "2026-11-02",
+      "person": "Abraham Toro",
+      "description": "1B Abraham Toro elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7345,18 +7354,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947350,
-      "date": "2026-10-29",
-      "person": "Josh Rojas",
-      "description": "3B Josh Rojas elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 947382,
       "date": "2026-10-29",
       "person": "Craig Kimbrel",
       "description": "RHP Craig Kimbrel elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 947350,
+      "date": "2026-10-29",
+      "person": "Josh Rojas",
+      "description": "3B Josh Rojas elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7393,10 +7402,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946845,
+      "id": 946842,
       "date": "2026-10-22",
-      "person": "Alec Marsh",
-      "description": "Kansas City Royals sent RHP Alec Marsh outright to Omaha Storm Chasers.",
+      "person": "Mason Black",
+      "description": "Kansas City Royals sent RHP Mason Black outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7409,22 +7418,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946841,
-      "date": "2026-10-22",
-      "person": "Alex Lange",
-      "description": "Kansas City Royals sent RHP Alex Lange outright to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 946842,
-      "date": "2026-10-22",
-      "person": "Mason Black",
-      "description": "Kansas City Royals sent RHP Mason Black outright to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 946843,
       "date": "2026-10-22",
       "person": "Connor Seabold",
@@ -7433,7 +7426,23 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946896,
+      "id": 946841,
+      "date": "2026-10-22",
+      "person": "Alex Lange",
+      "description": "Kansas City Royals sent RHP Alex Lange outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946845,
+      "date": "2026-10-22",
+      "person": "Alec Marsh",
+      "description": "Kansas City Royals sent RHP Alec Marsh outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946895,
       "date": "2026-10-22",
       "person": "Tomas Rivas",
       "description": "Kansas City Royals signed free agent IF Tomas Rivas to a minor league contract.",
@@ -7441,7 +7450,7 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 946895,
+      "id": 946896,
       "date": "2026-10-22",
       "person": "Tomas Rivas",
       "description": "Kansas City Royals signed free agent IF Tomas Rivas to a minor league contract.",
@@ -8566,7 +8575,7 @@
       "school": "University of Louisiana at Lafayette",
       "signingBonus": "897500",
       "currentOrgRank": 17,
-      "currentLevel": "AAA",
+      "currentLevel": "MLB",
       "otherOrgName": null,
       "otherTeamName": null,
       "otherLevel": null,
@@ -9076,10 +9085,10 @@
       "school": "Baylor",
       "signingBonus": "147500",
       "currentOrgRank": null,
-      "currentLevel": "AAA",
-      "otherOrgName": null,
-      "otherTeamName": null,
-      "otherLevel": null,
+      "currentLevel": null,
+      "otherOrgName": "Boston Red Sox",
+      "otherTeamName": "Worcester Red Sox",
+      "otherLevel": "AAA",
       "lastPlayedYear": null
     },
     {
