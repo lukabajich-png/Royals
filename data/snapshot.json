@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T17:05:24.105Z",
+  "updatedAt": "2026-11-18T23:23:52.011Z",
   "season": 2026,
   "levels": [
     {
@@ -161,52 +161,6 @@
           "hr": 6,
           "rbi": 13,
           "sb": 8,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 664728,
-          "name": "Kyle Isbel",
-          "profileUrl": "https://www.mlb.com/player/kyle-isbel-664728",
-          "pos": "CF",
-          "jersey": "28",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 100,
-          "avg": ".224",
-          "obp": ".268",
-          "slg": ".323",
-          "ops": ".591",
-          "hr": 6,
-          "rbi": 24,
-          "sb": 6,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 672580,
-          "name": "Maikel Garcia",
-          "profileUrl": "https://www.mlb.com/player/maikel-garcia-672580",
-          "pos": "3B",
-          "jersey": "11",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 82,
-          "avg": ".268",
-          "obp": ".334",
-          "slg": ".381",
-          "ops": ".715",
-          "hr": 3,
-          "rbi": 38,
-          "sb": 5,
           "hasStats": true,
           "trend": null
         },
@@ -443,6 +397,29 @@
           "trend": null
         },
         {
+          "id": 682243,
+          "name": "Bryce Miller",
+          "profileUrl": "https://www.mlb.com/player/bryce-miller-682243",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 22,
+          "w": 4,
+          "l": 10,
+          "sv": 0,
+          "era": "4.17",
+          "whip": "1.16",
+          "ip": "118.2",
+          "so": 119,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 679922,
           "name": "Carlos Duran",
           "profileUrl": "https://www.mlb.com/player/carlos-duran-679922",
@@ -512,26 +489,26 @@
           "trend": null
         },
         {
-          "id": 663704,
-          "name": "James McArthur",
-          "profileUrl": "https://www.mlb.com/player/james-mcarthur-663704",
+          "id": 678606,
+          "name": "José A. Ferrer",
+          "profileUrl": "https://www.mlb.com/player/jose-a-ferrer-678606",
           "pos": "P",
-          "jersey": "66",
+          "jersey": "",
           "status": "Active",
           "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
+          "bats": "L",
+          "throws": "L",
           "orgRank": null,
           "top100Rank": null,
-          "g": null,
-          "w": null,
-          "l": null,
-          "sv": null,
-          "era": null,
-          "whip": null,
-          "ip": null,
-          "so": null,
-          "hasStats": false,
+          "g": 73,
+          "w": 4,
+          "l": 4,
+          "sv": 3,
+          "era": "4.18",
+          "whip": "1.47",
+          "ip": "64.2",
+          "so": 54,
+          "hasStats": true,
           "trend": null
         },
         {
@@ -555,6 +532,29 @@
           "ip": "23.1",
           "so": 25,
           "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 688138,
+          "name": "Logan Evans",
+          "profileUrl": "https://www.mlb.com/player/logan-evans-688138",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "w": null,
+          "l": null,
+          "sv": null,
+          "era": null,
+          "whip": null,
+          "ip": null,
+          "so": null,
+          "hasStats": false,
           "trend": null
         },
         {
@@ -2738,29 +2738,6 @@
           "whip": "0.87",
           "ip": "42.2",
           "so": 47,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 692137,
-          "name": "L.P. Langevin",
-          "profileUrl": "https://www.mlb.com/player/l-p-langevin-692137",
-          "pos": "P",
-          "jersey": "57",
-          "status": "Active",
-          "team": "Quad Cities River Bandits",
-          "bats": "L",
-          "throws": "R",
-          "orgRank": 30,
-          "top100Rank": null,
-          "g": 40,
-          "w": 5,
-          "l": 3,
-          "sv": 3,
-          "era": "3.42",
-          "whip": "1.19",
-          "ip": "55.1",
-          "so": 106,
           "hasStats": true,
           "trend": null
         },
@@ -7036,42 +7013,10 @@
         "hasStats": true,
         "trend": null,
         "level": "High-A"
-      },
-      {
-        "id": 692137,
-        "name": "L.P. Langevin",
-        "profileUrl": "https://www.mlb.com/player/l-p-langevin-692137",
-        "pos": "P",
-        "jersey": "57",
-        "status": "Active",
-        "team": "Quad Cities River Bandits",
-        "bats": "L",
-        "throws": "R",
-        "orgRank": 30,
-        "top100Rank": null,
-        "g": 40,
-        "w": 5,
-        "l": 3,
-        "sv": 3,
-        "era": "3.42",
-        "whip": "1.19",
-        "ip": "55.1",
-        "so": 106,
-        "hasStats": true,
-        "trend": null,
-        "level": "High-A"
       }
     ]
   },
   "transactions": [
-    {
-      "id": 950581,
-      "date": "2026-11-18",
-      "person": "Vince Velasquez",
-      "description": "RHP Vince Velasquez assigned to Omaha Storm Chasers.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
     {
       "id": 950580,
       "date": "2026-11-18",
@@ -7081,11 +7026,19 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 950379,
-      "date": "2026-11-17",
-      "person": "Lucas Braun",
-      "description": "Kansas City Royals selected the contract of RHP Lucas Braun from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
+      "id": 950608,
+      "date": "2026-11-18",
+      "person": "Logan Evans",
+      "description": "Seattle Mariners traded RHP Bryce Miller, RHP Logan Evans and LHP José A. Ferrer to Kansas City Royals for 3B Maikel Garcia, RHP L.P. Langevin and RHP James McArthur.",
+      "fromTeam": "Seattle Mariners",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 950622,
+      "date": "2026-11-18",
+      "person": "Kyle Isbel",
+      "description": "Kansas City Royals designated CF Kyle Isbel for assignment.",
+      "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
     {
@@ -7093,6 +7046,14 @@
       "date": "2026-11-17",
       "person": "Carson Roccaforte",
       "description": "Kansas City Royals selected the contract of CF Carson Roccaforte from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 950379,
+      "date": "2026-11-17",
+      "person": "Lucas Braun",
+      "description": "Kansas City Royals selected the contract of RHP Lucas Braun from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -7209,14 +7170,6 @@
       "toTeam": "DSL Royals Ventura"
     },
     {
-      "id": 948751,
-      "date": "2026-11-02",
-      "person": "Chase Isbell",
-      "description": "Quad Cities River Bandits released RHP Chase Isbell.",
-      "fromTeam": null,
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
       "id": 948256,
       "date": "2026-11-02",
       "person": "Carter Frederick",
@@ -7225,10 +7178,18 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 948259,
+      "id": 948751,
       "date": "2026-11-02",
-      "person": "Trevor Werner",
-      "description": "Quad Cities River Bandits activated 1B Trevor Werner from the full-season injured list.",
+      "person": "Chase Isbell",
+      "description": "Quad Cities River Bandits released RHP Chase Isbell.",
+      "fromTeam": null,
+      "toTeam": "Quad Cities River Bandits"
+    },
+    {
+      "id": 948257,
+      "date": "2026-11-02",
+      "person": "Bryson Dudley",
+      "description": "Quad Cities River Bandits activated RHP Bryson Dudley from the full-season injured list.",
       "fromTeam": null,
       "toTeam": "Quad Cities River Bandits"
     },
@@ -7241,10 +7202,10 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 948257,
+      "id": 948259,
       "date": "2026-11-02",
-      "person": "Bryson Dudley",
-      "description": "Quad Cities River Bandits activated RHP Bryson Dudley from the full-season injured list.",
+      "person": "Trevor Werner",
+      "description": "Quad Cities River Bandits activated 1B Trevor Werner from the full-season injured list.",
       "fromTeam": null,
       "toTeam": "Quad Cities River Bandits"
     },
@@ -7289,22 +7250,6 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 949176,
-      "date": "2026-11-02",
-      "person": "Scott Alexander",
-      "description": "LHP Scott Alexander elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 949172,
-      "date": "2026-11-02",
-      "person": "Matt Moore",
-      "description": "LHP Matt Moore elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 949170,
       "date": "2026-11-02",
       "person": "Vince Velasquez",
@@ -7321,10 +7266,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949086,
+      "id": 949172,
       "date": "2026-11-02",
-      "person": "Elih Marrero",
-      "description": "C Elih Marrero elected free agency.",
+      "person": "Matt Moore",
+      "description": "LHP Matt Moore elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949176,
+      "date": "2026-11-02",
+      "person": "Scott Alexander",
+      "description": "LHP Scott Alexander elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7345,18 +7298,26 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949078,
-      "date": "2026-11-02",
-      "person": "Alejo Lopez",
-      "description": "2B Alejo Lopez elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 949541,
       "date": "2026-11-02",
       "person": "Connor Kaiser",
       "description": "SS Connor Kaiser elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949086,
+      "date": "2026-11-02",
+      "person": "Elih Marrero",
+      "description": "C Elih Marrero elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949078,
+      "date": "2026-11-02",
+      "person": "Alejo Lopez",
+      "description": "2B Alejo Lopez elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7385,10 +7346,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947350,
+      "id": 947299,
       "date": "2026-10-29",
-      "person": "Josh Rojas",
-      "description": "3B Josh Rojas elected free agency.",
+      "person": "Jonathan India",
+      "description": "2B Jonathan India elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7401,18 +7362,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947299,
-      "date": "2026-10-29",
-      "person": "Jonathan India",
-      "description": "2B Jonathan India elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 947374,
       "date": "2026-10-29",
       "person": "Luke Maile",
       "description": "C Luke Maile elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 947350,
+      "date": "2026-10-29",
+      "person": "Josh Rojas",
+      "description": "3B Josh Rojas elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7433,14 +7394,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946847,
-      "date": "2026-10-22",
-      "person": "Connor Seabold",
-      "description": "RHP Connor Seabold elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 946846,
       "date": "2026-10-22",
       "person": "Easton McGee",
@@ -7449,18 +7402,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946844,
+      "id": 946847,
       "date": "2026-10-22",
-      "person": "Easton McGee",
-      "description": "Kansas City Royals sent RHP Easton McGee outright to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
+      "person": "Connor Seabold",
+      "description": "RHP Connor Seabold elected free agency.",
+      "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946841,
+      "id": 946843,
       "date": "2026-10-22",
-      "person": "Alex Lange",
-      "description": "Kansas City Royals sent RHP Alex Lange outright to Omaha Storm Chasers.",
+      "person": "Connor Seabold",
+      "description": "Kansas City Royals sent RHP Connor Seabold outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7473,6 +7426,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 946844,
+      "date": "2026-10-22",
+      "person": "Easton McGee",
+      "description": "Kansas City Royals sent RHP Easton McGee outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 946842,
       "date": "2026-10-22",
       "person": "Mason Black",
@@ -7481,10 +7442,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946843,
+      "id": 946841,
       "date": "2026-10-22",
-      "person": "Connor Seabold",
-      "description": "Kansas City Royals sent RHP Connor Seabold outright to Omaha Storm Chasers.",
+      "person": "Alex Lange",
+      "description": "Kansas City Royals sent RHP Alex Lange outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -8299,10 +8260,10 @@
       "school": "University of Louisiana at Lafayette",
       "signingBonus": "597500",
       "currentOrgRank": 30,
-      "currentLevel": "High-A",
-      "otherOrgName": null,
-      "otherTeamName": null,
-      "otherLevel": null,
+      "currentLevel": null,
+      "otherOrgName": "Seattle Mariners",
+      "otherTeamName": "Everett AquaSox",
+      "otherLevel": "High-A",
       "lastPlayedYear": null
     },
     {
