@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T00:45:10.172Z",
+  "updatedAt": "2026-11-21T07:45:04.946Z",
   "season": 2026,
   "levels": [
     {
@@ -325,29 +325,6 @@
           "ip": null,
           "so": null,
           "hasStats": false,
-          "trend": null
-        },
-        {
-          "id": 543238,
-          "name": "Anthony Gose",
-          "profileUrl": "https://www.mlb.com/player/anthony-gose-543238",
-          "pos": "P",
-          "jersey": "34",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 14,
-          "w": 1,
-          "l": 1,
-          "sv": 0,
-          "era": "0.66",
-          "whip": "0.95",
-          "ip": "13.2",
-          "so": 7,
-          "hasStats": true,
           "trend": null
         },
         {
@@ -7018,6 +6995,30 @@
   },
   "transactions": [
     {
+      "id": 950836,
+      "date": "2026-11-20",
+      "person": "Kyle Isbel",
+      "description": "CF Kyle Isbel elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 950834,
+      "date": "2026-11-20",
+      "person": "Anthony Gose",
+      "description": "LHP Anthony Gose elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 950835,
+      "date": "2026-11-20",
+      "person": "Nick Mears",
+      "description": "RHP Nick Mears elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 950580,
       "date": "2026-11-18",
       "person": "Vince Velasquez",
@@ -7028,10 +7029,10 @@
     {
       "id": 950608,
       "date": "2026-11-18",
-      "person": "Logan Evans",
+      "person": "James McArthur",
       "description": "Seattle Mariners traded RHP Bryce Miller, RHP Logan Evans and LHP José A. Ferrer to Kansas City Royals for 3B Maikel Garcia, RHP L.P. Langevin and RHP James McArthur.",
-      "fromTeam": "Seattle Mariners",
-      "toTeam": "Kansas City Royals"
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Seattle Mariners"
     },
     {
       "id": 950622,
@@ -7346,10 +7347,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947299,
+      "id": 947350,
       "date": "2026-10-29",
-      "person": "Jonathan India",
-      "description": "2B Jonathan India elected free agency.",
+      "person": "Josh Rojas",
+      "description": "3B Josh Rojas elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7370,10 +7371,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947350,
+      "id": 947299,
       "date": "2026-10-29",
-      "person": "Josh Rojas",
-      "description": "3B Josh Rojas elected free agency.",
+      "person": "Jonathan India",
+      "description": "2B Jonathan India elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7410,18 +7411,18 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946843,
+      "id": 946842,
       "date": "2026-10-22",
-      "person": "Connor Seabold",
-      "description": "Kansas City Royals sent RHP Connor Seabold outright to Omaha Storm Chasers.",
+      "person": "Mason Black",
+      "description": "Kansas City Royals sent RHP Mason Black outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946845,
+      "id": 946843,
       "date": "2026-10-22",
-      "person": "Alec Marsh",
-      "description": "Kansas City Royals sent RHP Alec Marsh outright to Omaha Storm Chasers.",
+      "person": "Connor Seabold",
+      "description": "Kansas City Royals sent RHP Connor Seabold outright to Omaha Storm Chasers.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7434,14 +7435,6 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946842,
-      "date": "2026-10-22",
-      "person": "Mason Black",
-      "description": "Kansas City Royals sent RHP Mason Black outright to Omaha Storm Chasers.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
       "id": 946841,
       "date": "2026-10-22",
       "person": "Alex Lange",
@@ -7450,7 +7443,15 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 946896,
+      "id": 946845,
+      "date": "2026-10-22",
+      "person": "Alec Marsh",
+      "description": "Kansas City Royals sent RHP Alec Marsh outright to Omaha Storm Chasers.",
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 946895,
       "date": "2026-10-22",
       "person": "Tomas Rivas",
       "description": "Kansas City Royals signed free agent IF Tomas Rivas to a minor league contract.",
@@ -7458,7 +7459,7 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 946895,
+      "id": 946896,
       "date": "2026-10-22",
       "person": "Tomas Rivas",
       "description": "Kansas City Royals signed free agent IF Tomas Rivas to a minor league contract.",
