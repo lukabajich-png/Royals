@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T22:05:10.011Z",
+  "updatedAt": "2026-11-23T02:44:58.370Z",
   "season": 2026,
   "levels": [
     {
@@ -7377,22 +7377,6 @@
       "description": "2B Jonathan India elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 946902,
-      "date": "2026-10-23",
-      "person": "Alec Marsh",
-      "description": "RHP Alec Marsh elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 947040,
-      "date": "2026-10-23",
-      "person": "Jorge Alfaro",
-      "description": "Omaha Storm Chasers released C Jorge Alfaro.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
     }
   ],
   "draftPicks": [
