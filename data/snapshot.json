@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T11:20:28.831Z",
+  "updatedAt": "2026-11-23T22:50:06.905Z",
   "season": 2026,
   "levels": [
     {
@@ -378,7 +378,7 @@
           "name": "Bryce Miller",
           "profileUrl": "https://www.mlb.com/player/bryce-miller-682243",
           "pos": "P",
-          "jersey": "",
+          "jersey": "50",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
@@ -516,7 +516,7 @@
           "name": "Logan Evans",
           "profileUrl": "https://www.mlb.com/player/logan-evans-688138",
           "pos": "P",
-          "jersey": "",
+          "jersey": "26",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
@@ -6995,10 +6995,10 @@
   },
   "transactions": [
     {
-      "id": 950836,
+      "id": 950835,
       "date": "2026-11-20",
-      "person": "Kyle Isbel",
-      "description": "CF Kyle Isbel elected free agency.",
+      "person": "Nick Mears",
+      "description": "RHP Nick Mears elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7011,10 +7011,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 950835,
+      "id": 950836,
       "date": "2026-11-20",
-      "person": "Nick Mears",
-      "description": "RHP Nick Mears elected free agency.",
+      "person": "Kyle Isbel",
+      "description": "CF Kyle Isbel elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7029,7 +7029,7 @@
     {
       "id": 950608,
       "date": "2026-11-18",
-      "person": "James McArthur",
+      "person": "Maikel Garcia",
       "description": "Seattle Mariners traded RHP Bryce Miller, RHP Logan Evans and LHP José A. Ferrer to Kansas City Royals for 3B Maikel Garcia, RHP L.P. Langevin and RHP James McArthur.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Seattle Mariners"
@@ -7051,20 +7051,20 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 950379,
-      "date": "2026-11-17",
-      "person": "Lucas Braun",
-      "description": "Kansas City Royals selected the contract of RHP Lucas Braun from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 950357,
       "date": "2026-11-17",
       "person": "Jack Pineda",
       "description": "Boston Red Sox traded RHP Angel Bastardo to Kansas City Royals for SS Jack Pineda.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Boston Red Sox"
+    },
+    {
+      "id": 950379,
+      "date": "2026-11-17",
+      "person": "Lucas Braun",
+      "description": "Kansas City Royals selected the contract of RHP Lucas Braun from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 950579,
@@ -7155,18 +7155,18 @@
       "toTeam": "ACL Royals"
     },
     {
-      "id": 948634,
-      "date": "2026-11-02",
-      "person": "Andy Sanchez",
-      "description": "DSL Royals Ventura activated RHP Andy Sanchez from the 60-day injured list.",
-      "fromTeam": null,
-      "toTeam": "DSL Royals Ventura"
-    },
-    {
       "id": 948633,
       "date": "2026-11-02",
       "person": "Diony Brujan",
       "description": "DSL Royals Ventura activated LHP Diony Brujan from the 60-day injured list.",
+      "fromTeam": null,
+      "toTeam": "DSL Royals Ventura"
+    },
+    {
+      "id": 948634,
+      "date": "2026-11-02",
+      "person": "Andy Sanchez",
+      "description": "DSL Royals Ventura activated RHP Andy Sanchez from the 60-day injured list.",
       "fromTeam": null,
       "toTeam": "DSL Royals Ventura"
     },
@@ -7347,10 +7347,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947350,
+      "id": 947374,
       "date": "2026-10-29",
-      "person": "Josh Rojas",
-      "description": "3B Josh Rojas elected free agency.",
+      "person": "Luke Maile",
+      "description": "C Luke Maile elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7363,10 +7363,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947374,
+      "id": 947350,
       "date": "2026-10-29",
-      "person": "Luke Maile",
-      "description": "C Luke Maile elected free agency.",
+      "person": "Josh Rojas",
+      "description": "3B Josh Rojas elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
