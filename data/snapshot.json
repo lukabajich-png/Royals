@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T22:50:06.905Z",
+  "updatedAt": "2026-11-24T06:46:32.022Z",
   "season": 2026,
   "levels": [
     {
@@ -393,6 +393,29 @@
           "whip": "1.16",
           "ip": "118.2",
           "so": 119,
+          "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 573204,
+          "name": "Caleb Thielbar",
+          "profileUrl": "https://www.mlb.com/player/caleb-thielbar-573204",
+          "pos": "P",
+          "jersey": "",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "L",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 58,
+          "w": 3,
+          "l": 4,
+          "sv": 3,
+          "era": "4.86",
+          "whip": "1.30",
+          "ip": "50.0",
+          "so": 60,
           "hasStats": true,
           "trend": null
         },
@@ -6995,10 +7018,10 @@
   },
   "transactions": [
     {
-      "id": 950835,
-      "date": "2026-11-20",
-      "person": "Nick Mears",
-      "description": "RHP Nick Mears elected free agency.",
+      "id": 950954,
+      "date": "2026-11-23",
+      "person": "Caleb Thielbar",
+      "description": "Kansas City Royals signed free agent LHP Caleb Thielbar.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7007,6 +7030,14 @@
       "date": "2026-11-20",
       "person": "Anthony Gose",
       "description": "LHP Anthony Gose elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 950835,
+      "date": "2026-11-20",
+      "person": "Nick Mears",
+      "description": "RHP Nick Mears elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7029,10 +7060,10 @@
     {
       "id": 950608,
       "date": "2026-11-18",
-      "person": "Maikel Garcia",
+      "person": "Logan Evans",
       "description": "Seattle Mariners traded RHP Bryce Miller, RHP Logan Evans and LHP José A. Ferrer to Kansas City Royals for 3B Maikel Garcia, RHP L.P. Langevin and RHP James McArthur.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Seattle Mariners"
+      "fromTeam": "Seattle Mariners",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 950622,
@@ -7040,6 +7071,14 @@
       "person": "Kyle Isbel",
       "description": "Kansas City Royals designated CF Kyle Isbel for assignment.",
       "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 950379,
+      "date": "2026-11-17",
+      "person": "Lucas Braun",
+      "description": "Kansas City Royals selected the contract of RHP Lucas Braun from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
     {
@@ -7057,14 +7096,6 @@
       "description": "Boston Red Sox traded RHP Angel Bastardo to Kansas City Royals for SS Jack Pineda.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Boston Red Sox"
-    },
-    {
-      "id": 950379,
-      "date": "2026-11-17",
-      "person": "Lucas Braun",
-      "description": "Kansas City Royals selected the contract of RHP Lucas Braun from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
     },
     {
       "id": 950579,
@@ -7099,10 +7130,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 948538,
+      "id": 948181,
       "date": "2026-11-02",
-      "person": "Sthiven Benitez",
-      "description": "ACL Royals activated RHP Sthiven Benitez from the full-season injured list.",
+      "person": "Isaiah Jackson",
+      "description": "ACL Royals activated RHP Isaiah Jackson from the 60-day injured list.",
       "fromTeam": null,
       "toTeam": "ACL Royals"
     },
@@ -7119,14 +7150,6 @@
       "date": "2026-11-02",
       "person": "David Rodriguez",
       "description": "ACL Royals activated LHP David Rodriguez from the 60-day injured list.",
-      "fromTeam": null,
-      "toTeam": "ACL Royals"
-    },
-    {
-      "id": 948181,
-      "date": "2026-11-02",
-      "person": "Isaiah Jackson",
-      "description": "ACL Royals activated RHP Isaiah Jackson from the 60-day injured list.",
       "fromTeam": null,
       "toTeam": "ACL Royals"
     },
@@ -7151,6 +7174,14 @@
       "date": "2026-11-02",
       "person": "Raimel Medina",
       "description": "ACL Royals activated OF Raimel Medina from the 60-day injured list.",
+      "fromTeam": null,
+      "toTeam": "ACL Royals"
+    },
+    {
+      "id": 948538,
+      "date": "2026-11-02",
+      "person": "Sthiven Benitez",
+      "description": "ACL Royals activated RHP Sthiven Benitez from the full-season injured list.",
       "fromTeam": null,
       "toTeam": "ACL Royals"
     },
@@ -7347,18 +7378,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947374,
+      "id": 947299,
       "date": "2026-10-29",
-      "person": "Luke Maile",
-      "description": "C Luke Maile elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 947382,
-      "date": "2026-10-29",
-      "person": "Craig Kimbrel",
-      "description": "RHP Craig Kimbrel elected free agency.",
+      "person": "Jonathan India",
+      "description": "2B Jonathan India elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7371,10 +7394,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947299,
+      "id": 947382,
       "date": "2026-10-29",
-      "person": "Jonathan India",
-      "description": "2B Jonathan India elected free agency.",
+      "person": "Craig Kimbrel",
+      "description": "RHP Craig Kimbrel elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 947374,
+      "date": "2026-10-29",
+      "person": "Luke Maile",
+      "description": "C Luke Maile elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     }
