@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T02:48:00.299Z",
+  "updatedAt": "2026-11-25T12:10:29.258Z",
   "season": 2026,
   "levels": [
     {
@@ -4422,6 +4422,29 @@
           "trend": null
         },
         {
+          "id": 838136,
+          "name": "Tomas Rivas",
+          "profileUrl": "https://www.mlb.com/player/tomas-rivas-838136",
+          "pos": "IF",
+          "jersey": "",
+          "status": "Active",
+          "team": "DSL Royals Ventura",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": null,
+          "avg": null,
+          "obp": null,
+          "slg": null,
+          "ops": null,
+          "hr": null,
+          "rbi": null,
+          "sb": null,
+          "hasStats": false,
+          "trend": null
+        },
+        {
           "id": 829071,
           "name": "Warren Calcaño",
           "profileUrl": "https://www.mlb.com/player/warren-calcano-829071",
@@ -7018,6 +7041,14 @@
   },
   "transactions": [
     {
+      "id": 951097,
+      "date": "2026-11-25",
+      "person": "Tomas Rivas",
+      "description": "IF Tomas Rivas assigned to DSL Royals Ventura.",
+      "fromTeam": null,
+      "toTeam": "DSL Royals Ventura"
+    },
+    {
       "id": 950954,
       "date": "2026-11-23",
       "person": "Caleb Thielbar",
@@ -7282,34 +7313,18 @@
       "toTeam": "Northwest Arkansas Naturals"
     },
     {
-      "id": 949170,
+      "id": 949120,
       "date": "2026-11-02",
-      "person": "Vince Velasquez",
-      "description": "RHP Vince Velasquez elected free agency.",
+      "person": "Abraham Toro",
+      "description": "1B Abraham Toro elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 948952,
+      "id": 949106,
       "date": "2026-11-02",
-      "person": "Luke Little",
-      "description": "LHP Luke Little elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 949172,
-      "date": "2026-11-02",
-      "person": "Matt Moore",
-      "description": "LHP Matt Moore elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 949176,
-      "date": "2026-11-02",
-      "person": "Scott Alexander",
-      "description": "LHP Scott Alexander elected free agency.",
+      "person": "Alex Lange",
+      "description": "RHP Alex Lange elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7330,6 +7345,14 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
+      "id": 949172,
+      "date": "2026-11-02",
+      "person": "Matt Moore",
+      "description": "LHP Matt Moore elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
       "id": 949541,
       "date": "2026-11-02",
       "person": "Connor Kaiser",
@@ -7338,10 +7361,26 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949086,
+      "id": 949176,
       "date": "2026-11-02",
-      "person": "Elih Marrero",
-      "description": "C Elih Marrero elected free agency.",
+      "person": "Scott Alexander",
+      "description": "LHP Scott Alexander elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 949170,
+      "date": "2026-11-02",
+      "person": "Vince Velasquez",
+      "description": "RHP Vince Velasquez elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Omaha Storm Chasers"
+    },
+    {
+      "id": 948952,
+      "date": "2026-11-02",
+      "person": "Luke Little",
+      "description": "LHP Luke Little elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
@@ -7354,18 +7393,10 @@
       "toTeam": "Omaha Storm Chasers"
     },
     {
-      "id": 949120,
+      "id": 949086,
       "date": "2026-11-02",
-      "person": "Abraham Toro",
-      "description": "1B Abraham Toro elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Omaha Storm Chasers"
-    },
-    {
-      "id": 949106,
-      "date": "2026-11-02",
-      "person": "Alex Lange",
-      "description": "RHP Alex Lange elected free agency.",
+      "person": "Elih Marrero",
+      "description": "C Elih Marrero elected free agency.",
       "fromTeam": null,
       "toTeam": "Omaha Storm Chasers"
     },
