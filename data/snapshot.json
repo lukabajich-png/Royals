@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T18:39:48.191Z",
+  "updatedAt": "2026-11-25T02:48:00.299Z",
   "season": 2026,
   "levels": [
     {
@@ -401,7 +401,7 @@
           "name": "Caleb Thielbar",
           "profileUrl": "https://www.mlb.com/player/caleb-thielbar-573204",
           "pos": "P",
-          "jersey": "",
+          "jersey": "56",
           "status": "Active",
           "team": "Kansas City Royals",
           "bats": "R",
@@ -7026,10 +7026,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 950834,
+      "id": 950836,
       "date": "2026-11-20",
-      "person": "Anthony Gose",
-      "description": "LHP Anthony Gose elected free agency.",
+      "person": "Kyle Isbel",
+      "description": "CF Kyle Isbel elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7042,10 +7042,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 950836,
+      "id": 950834,
       "date": "2026-11-20",
-      "person": "Kyle Isbel",
-      "description": "CF Kyle Isbel elected free agency.",
+      "person": "Anthony Gose",
+      "description": "LHP Anthony Gose elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7060,10 +7060,10 @@
     {
       "id": 950608,
       "date": "2026-11-18",
-      "person": "Logan Evans",
+      "person": "James McArthur",
       "description": "Seattle Mariners traded RHP Bryce Miller, RHP Logan Evans and LHP José A. Ferrer to Kansas City Royals for 3B Maikel Garcia, RHP L.P. Langevin and RHP James McArthur.",
-      "fromTeam": "Seattle Mariners",
-      "toTeam": "Kansas City Royals"
+      "fromTeam": "Kansas City Royals",
+      "toTeam": "Seattle Mariners"
     },
     {
       "id": 950622,
@@ -7074,18 +7074,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 950379,
-      "date": "2026-11-17",
-      "person": "Lucas Braun",
-      "description": "Kansas City Royals selected the contract of RHP Lucas Braun from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 950378,
       "date": "2026-11-17",
       "person": "Carson Roccaforte",
       "description": "Kansas City Royals selected the contract of CF Carson Roccaforte from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 950379,
+      "date": "2026-11-17",
+      "person": "Lucas Braun",
+      "description": "Kansas City Royals selected the contract of RHP Lucas Braun from Omaha Storm Chasers.",
       "fromTeam": "Omaha Storm Chasers",
       "toTeam": "Kansas City Royals"
     },
@@ -7210,6 +7210,22 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
+      "id": 948258,
+      "date": "2026-11-02",
+      "person": "Chase Isbell",
+      "description": "Quad Cities River Bandits activated RHP Chase Isbell from the full-season injured list.",
+      "fromTeam": null,
+      "toTeam": "Quad Cities River Bandits"
+    },
+    {
+      "id": 948259,
+      "date": "2026-11-02",
+      "person": "Trevor Werner",
+      "description": "Quad Cities River Bandits activated 1B Trevor Werner from the full-season injured list.",
+      "fromTeam": null,
+      "toTeam": "Quad Cities River Bandits"
+    },
+    {
       "id": 948751,
       "date": "2026-11-02",
       "person": "Chase Isbell",
@@ -7226,20 +7242,12 @@
       "toTeam": "Quad Cities River Bandits"
     },
     {
-      "id": 948258,
+      "id": 948750,
       "date": "2026-11-02",
-      "person": "Chase Isbell",
-      "description": "Quad Cities River Bandits activated RHP Chase Isbell from the full-season injured list.",
+      "person": "Nate Ackenhausen",
+      "description": "Northwest Arkansas Naturals released LHP Nate Ackenhausen.",
       "fromTeam": null,
-      "toTeam": "Quad Cities River Bandits"
-    },
-    {
-      "id": 948259,
-      "date": "2026-11-02",
-      "person": "Trevor Werner",
-      "description": "Quad Cities River Bandits activated 1B Trevor Werner from the full-season injured list.",
-      "fromTeam": null,
-      "toTeam": "Quad Cities River Bandits"
+      "toTeam": "Northwest Arkansas Naturals"
     },
     {
       "id": 948106,
@@ -7270,14 +7278,6 @@
       "date": "2026-11-02",
       "person": "Grant Gambrell",
       "description": "RHP Grant Gambrell elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Northwest Arkansas Naturals"
-    },
-    {
-      "id": 948750,
-      "date": "2026-11-02",
-      "person": "Nate Ackenhausen",
-      "description": "Northwest Arkansas Naturals released LHP Nate Ackenhausen.",
       "fromTeam": null,
       "toTeam": "Northwest Arkansas Naturals"
     },
@@ -7378,10 +7378,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947299,
+      "id": 947382,
       "date": "2026-10-29",
-      "person": "Jonathan India",
-      "description": "2B Jonathan India elected free agency.",
+      "person": "Craig Kimbrel",
+      "description": "RHP Craig Kimbrel elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7394,18 +7394,18 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947382,
-      "date": "2026-10-29",
-      "person": "Craig Kimbrel",
-      "description": "RHP Craig Kimbrel elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 947374,
       "date": "2026-10-29",
       "person": "Luke Maile",
       "description": "C Luke Maile elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 947299,
+      "date": "2026-10-29",
+      "person": "Jonathan India",
+      "description": "2B Jonathan India elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     }
