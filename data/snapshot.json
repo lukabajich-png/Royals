@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T14:22:50.859Z",
+  "updatedAt": "2026-11-27T22:51:09.647Z",
   "season": 2026,
   "levels": [
     {
@@ -26,6 +26,29 @@
         }
       ],
       "hitters": [
+        {
+          "id": 664761,
+          "name": "Alec Bohm",
+          "profileUrl": "https://www.mlb.com/player/alec-bohm-664761",
+          "pos": "3B",
+          "jersey": "",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 155,
+          "avg": ".249",
+          "obp": ".315",
+          "slg": ".383",
+          "ops": ".698",
+          "hr": 15,
+          "rbi": 88,
+          "sb": 2,
+          "hasStats": true,
+          "trend": null
+        },
         {
           "id": 677951,
           "name": "Bobby Witt Jr.",
@@ -443,6 +466,29 @@
           "trend": null
         },
         {
+          "id": 666142,
+          "name": "Cole Ragans",
+          "profileUrl": "https://www.mlb.com/player/cole-ragans-666142",
+          "pos": "P",
+          "jersey": "55",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "L",
+          "throws": "L",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 8,
+          "w": 1,
+          "l": 4,
+          "sv": 0,
+          "era": "4.84",
+          "whip": "1.42",
+          "ip": "35.1",
+          "so": 45,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 671162,
           "name": "Connor Thomas",
           "profileUrl": "https://www.mlb.com/player/connor-thomas-671162",
@@ -604,6 +650,29 @@
           "trend": null
         },
         {
+          "id": 679883,
+          "name": "Luinder Avila",
+          "profileUrl": "https://www.mlb.com/player/luinder-avila-679883",
+          "pos": "P",
+          "jersey": "58",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 21,
+          "w": 5,
+          "l": 4,
+          "sv": 0,
+          "era": "5.53",
+          "whip": "1.61",
+          "ip": "70.0",
+          "so": 61,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 608379,
           "name": "Michael Wacha",
           "profileUrl": "https://www.mlb.com/player/michael-wacha-608379",
@@ -623,29 +692,6 @@
           "whip": "1.11",
           "ip": "200.2",
           "so": 158,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 687765,
-          "name": "Mitch Spence",
-          "profileUrl": "https://www.mlb.com/player/mitch-spence-687765",
-          "pos": "P",
-          "jersey": "54",
-          "status": "Active",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 3,
-          "w": 0,
-          "l": 2,
-          "sv": 0,
-          "era": "21.21",
-          "whip": "3.00",
-          "ip": "9.1",
-          "so": 6,
           "hasStats": true,
           "trend": null
         },
@@ -811,6 +857,52 @@
           "trend": null
         },
         {
+          "id": 663568,
+          "name": "Stephen Kolek",
+          "profileUrl": "https://www.mlb.com/player/stephen-kolek-663568",
+          "pos": "P",
+          "jersey": "32",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 10,
+          "w": 4,
+          "l": 3,
+          "sv": 0,
+          "era": "4.50",
+          "whip": "1.24",
+          "ip": "54.0",
+          "so": 34,
+          "hasStats": true,
+          "trend": null
+        },
+        {
+          "id": 674444,
+          "name": "Steven Cruz",
+          "profileUrl": "https://www.mlb.com/player/steven-cruz-674444",
+          "pos": "P",
+          "jersey": "64",
+          "status": "Active",
+          "team": "Kansas City Royals",
+          "bats": "R",
+          "throws": "R",
+          "orgRank": null,
+          "top100Rank": null,
+          "g": 56,
+          "w": 2,
+          "l": 4,
+          "sv": 8,
+          "era": "4.30",
+          "whip": "1.26",
+          "ip": "58.2",
+          "so": 65,
+          "hasStats": true,
+          "trend": null
+        },
+        {
           "id": 686632,
           "name": "Steven Zobac",
           "profileUrl": "https://www.mlb.com/player/steven-zobac-686632",
@@ -858,77 +950,7 @@
         }
       ],
       "reserveHitters": [],
-      "reservePitchers": [
-        {
-          "id": 666142,
-          "name": "Cole Ragans",
-          "profileUrl": "https://www.mlb.com/player/cole-ragans-666142",
-          "pos": "P",
-          "jersey": "55",
-          "status": "Injured 60-Day",
-          "team": "Kansas City Royals",
-          "bats": "L",
-          "throws": "L",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 8,
-          "w": 1,
-          "l": 4,
-          "sv": 0,
-          "era": "4.84",
-          "whip": "1.42",
-          "ip": "35.1",
-          "so": 45,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 679883,
-          "name": "Luinder Avila",
-          "profileUrl": "https://www.mlb.com/player/luinder-avila-679883",
-          "pos": "P",
-          "jersey": "58",
-          "status": "Injured 60-Day",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 21,
-          "w": 5,
-          "l": 4,
-          "sv": 0,
-          "era": "5.53",
-          "whip": "1.61",
-          "ip": "70.0",
-          "so": 61,
-          "hasStats": true,
-          "trend": null
-        },
-        {
-          "id": 663568,
-          "name": "Stephen Kolek",
-          "profileUrl": "https://www.mlb.com/player/stephen-kolek-663568",
-          "pos": "P",
-          "jersey": "32",
-          "status": "Injured 60-Day",
-          "team": "Kansas City Royals",
-          "bats": "R",
-          "throws": "R",
-          "orgRank": null,
-          "top100Rank": null,
-          "g": 10,
-          "w": 4,
-          "l": 3,
-          "sv": 0,
-          "era": "4.50",
-          "whip": "1.24",
-          "ip": "54.0",
-          "so": 34,
-          "hasStats": true,
-          "trend": null
-        }
-      ]
+      "reservePitchers": []
     },
     {
       "sportId": 11,
@@ -7041,6 +7063,22 @@
   },
   "transactions": [
     {
+      "id": 951258,
+      "date": "2026-11-27",
+      "person": "Mitch Spence",
+      "description": "Kansas City Royals designated RHP Mitch Spence for assignment.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 951257,
+      "date": "2026-11-27",
+      "person": "Alec Bohm",
+      "description": "Kansas City Royals signed free agent 3B Alec Bohm.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 951097,
       "date": "2026-11-25",
       "person": "Tomas Rivas",
@@ -7053,14 +7091,6 @@
       "date": "2026-11-23",
       "person": "Caleb Thielbar",
       "description": "Kansas City Royals signed free agent LHP Caleb Thielbar.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 950836,
-      "date": "2026-11-20",
-      "person": "Kyle Isbel",
-      "description": "CF Kyle Isbel elected free agency.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7081,6 +7111,14 @@
       "toTeam": "Kansas City Royals"
     },
     {
+      "id": 950836,
+      "date": "2026-11-20",
+      "person": "Kyle Isbel",
+      "description": "CF Kyle Isbel elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 950580,
       "date": "2026-11-18",
       "person": "Vince Velasquez",
@@ -7091,7 +7129,7 @@
     {
       "id": 950608,
       "date": "2026-11-18",
-      "person": "James McArthur",
+      "person": "Maikel Garcia",
       "description": "Seattle Mariners traded RHP Bryce Miller, RHP Logan Evans and LHP José A. Ferrer to Kansas City Royals for 3B Maikel Garcia, RHP L.P. Langevin and RHP James McArthur.",
       "fromTeam": "Kansas City Royals",
       "toTeam": "Seattle Mariners"
@@ -7105,14 +7143,6 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 950378,
-      "date": "2026-11-17",
-      "person": "Carson Roccaforte",
-      "description": "Kansas City Royals selected the contract of CF Carson Roccaforte from Omaha Storm Chasers.",
-      "fromTeam": "Omaha Storm Chasers",
-      "toTeam": "Kansas City Royals"
-    },
-    {
       "id": 950379,
       "date": "2026-11-17",
       "person": "Lucas Braun",
@@ -7121,12 +7151,20 @@
       "toTeam": "Kansas City Royals"
     },
     {
+      "id": 950378,
+      "date": "2026-11-17",
+      "person": "Carson Roccaforte",
+      "description": "Kansas City Royals selected the contract of CF Carson Roccaforte from Omaha Storm Chasers.",
+      "fromTeam": "Omaha Storm Chasers",
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 950357,
       "date": "2026-11-17",
-      "person": "Jack Pineda",
+      "person": "Angel Bastardo",
       "description": "Boston Red Sox traded RHP Angel Bastardo to Kansas City Royals for SS Jack Pineda.",
-      "fromTeam": "Kansas City Royals",
-      "toTeam": "Boston Red Sox"
+      "fromTeam": "Boston Red Sox",
+      "toTeam": "Kansas City Royals"
     },
     {
       "id": 950579,
@@ -7409,18 +7447,10 @@
       "toTeam": "Kansas City Royals"
     },
     {
-      "id": 947382,
+      "id": 951265,
       "date": "2026-10-29",
-      "person": "Craig Kimbrel",
-      "description": "RHP Craig Kimbrel elected free agency.",
-      "fromTeam": null,
-      "toTeam": "Kansas City Royals"
-    },
-    {
-      "id": 947350,
-      "date": "2026-10-29",
-      "person": "Josh Rojas",
-      "description": "3B Josh Rojas elected free agency.",
+      "person": "Luinder Avila",
+      "description": "Kansas City Royals activated RHP Luinder Avila from the 60-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     },
@@ -7433,10 +7463,42 @@
       "toTeam": "Kansas City Royals"
     },
     {
+      "id": 947350,
+      "date": "2026-10-29",
+      "person": "Josh Rojas",
+      "description": "3B Josh Rojas elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 947382,
+      "date": "2026-10-29",
+      "person": "Craig Kimbrel",
+      "description": "RHP Craig Kimbrel elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
       "id": 947299,
       "date": "2026-10-29",
       "person": "Jonathan India",
       "description": "2B Jonathan India elected free agency.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 951266,
+      "date": "2026-10-29",
+      "person": "Stephen Kolek",
+      "description": "Kansas City Royals activated RHP Stephen Kolek from the 60-day injured list.",
+      "fromTeam": null,
+      "toTeam": "Kansas City Royals"
+    },
+    {
+      "id": 951264,
+      "date": "2026-10-29",
+      "person": "Cole Ragans",
+      "description": "Kansas City Royals activated LHP Cole Ragans from the 60-day injured list.",
       "fromTeam": null,
       "toTeam": "Kansas City Royals"
     }
